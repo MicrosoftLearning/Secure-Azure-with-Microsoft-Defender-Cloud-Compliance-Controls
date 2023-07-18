@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Lab: Deploying Azure Resource Manager templates'
+    title: 'Lab: Filter network traffic with a network security group using the Azure portal'
     type: 'Answer Key'
     module: 'Module 1: Exploring Azure Resource Manager'
 ---
