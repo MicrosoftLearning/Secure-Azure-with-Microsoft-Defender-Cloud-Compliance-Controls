@@ -15,11 +15,17 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lobortis, era
 
 After you complete this lab, you will be able to:
 
-- Cras tincidunt massa et nunc vulputate, eget vestibulum massa tincidunt. 
-
-- Maecenas suscipit at nisl vitae malesuada. 
-
-- Suspendisse eu arcu id velit consequat venenatis.
+- Cras tincidunt massa et nunc vulputate, eget vestibulum massa tincidunt.
+  
+- Create a network security group and security rules
+  
+- Create application security groups
+  
+- Create a virtual network and associate a network security group to a subnet
+  
+- Deploy virtual machines and associate their network interfaces to the application security groups
+  
+- Test traffic filters
 
 ## Lab Setup
 
