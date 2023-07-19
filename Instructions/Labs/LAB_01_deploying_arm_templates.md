@@ -37,13 +37,13 @@ After you complete this lab, you will be able to:
 
 1. Sed diam risus, convallis quis condimentum at, egestas malesuada libero. 
 
-### Exercise 0: 
+### Exercise 1: Create a virtual network.
 
-#### Task 0: 
+#### Task 1: Use the Azure portal to create a virtual network
 
-1. Quisque dictum convallis metus, vitae vestibulum turpis dapibus non.
+1. In this task, you will create a virtual network.
 
-    1. Suspendisse commodo tempor convallis. 
+    1. Start a browser session and sign-in to the Azure portal https://portal.azure.com/.
 
     1. Nunc eget quam facilisis, imperdiet felis ut, blandit nibh. 
 
