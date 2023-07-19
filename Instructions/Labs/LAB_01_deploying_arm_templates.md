@@ -108,6 +108,79 @@ In this task, you will create application security group (ASGs) that enable you 
 
 8. Select **Create.**
 
+### Exercise 3: Create a network security group.
+
+#### Task 3: Use the Azure portal to create a network security group (NSG).
+
+In this task, you will create a network security group (NSG) secures network traffic in your virtual network.
+
+1. From the Azure portal menu, select + **Create a resource** > **Networking** > **Network security group,** or use the portal search box to search for **Network security group** (not Network security group (classic).
+   
+2. Select **Create.**
+
+3. On the **Basics** tab of **Create network security group,** enter or select this information:
+   
+   |Setting|Value|
+   |---|---|
+   |**Project details**|
+   |Subscription|Select your subscription.|
+   |Resource group|Select **myResourceGroup.**|
+   |**Instance details**|
+   |Name|Enter myNSG.|
+   |Region|Select **(US) East US.**|  
+    
+4. Select the **Review + create** tab, or select the blue **Review + create** button at the bottom of the page.
+
+5. Select **Create.**
+
+### Exercise 4: Associate network security group to subnet.
+
+#### Task 4: Use the Azure portal to create a network security group (NSG).
+
+In this task, you'll associate the network security group with the subnet of the virtual network you created earlier.
+
+1. From the Azure portal menu, search for myNsg in the portal search box.
+   
+2. Select **Subnets** from the **Settings** section of **myNSG.**
+
+3. In the **Subnets** page, select + **Associate:**
+
+4. Under **Associate subnet,** select **myVNet** for **Virtual network.**
+
+5. Select **default*** for **Subnet,** and then select **OK.**
+
+### Exercise 5: Create security rules.
+
+#### Task 5: Use the Azure portal to create security rules
+
+In this task, you'll create security rules for the network security group with the subnet of the virtual network you created earlier.
+
+1. Select **Inbound security rules** from the **Settings** section of **myNSG.**
+   
+2. In **Inbound security rules** page, select + **Add:**
+
+3. Create a security rule that allows ports 80 and 443 to the **myAsgWebServers** application security group. In **Add inbound security rule page,** enter or select this information:
+
+   |Setting|Value|
+   |---|---|
+   |Source|Leave the default of **Any.**|
+   |Source port ranges|Leave the default of **(*).**|
+   |Destination|Enter myNSG.|
+   |Destination application security groups|Select **Application security group.**|
+   |Service|Leave the default of **Custom.**|
+   |Destination port ranges|Enter 80,443.|
+   |Protocol|Select **TCP.**|
+   |Action|Leave the default of **Allow.**|
+   |Priority|Leave the default of **100.**|
+   |Name|Enter Allow-Web-All.|
+
+5. Select **Add.**
+
+6. Complete steps 3-4 again using this information:
+
+
+   
+
     > **Note**: Ut feugiat est id ultrices gravida.
 
 1. Phasellus urna lacus, luctus at suscipit vitae, maximus ac nisl. 
