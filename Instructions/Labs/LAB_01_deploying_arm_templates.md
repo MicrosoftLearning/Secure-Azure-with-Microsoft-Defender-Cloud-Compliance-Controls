@@ -4,7 +4,7 @@ lab:
     module: 'Module 1: Filter network traffic with a network security group using the Azure portal'
 ---
 
-# Lab: Create a virtual network
+# Lab: Create a virtual network infrastructure
 # Student lab manual
 
 ## Lab scenario
