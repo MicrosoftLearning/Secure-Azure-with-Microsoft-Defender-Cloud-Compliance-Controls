@@ -57,13 +57,13 @@ After you complete this lab, you will be able to:
 
 1. Select **Create.**
 
-1. On the Basics tab of Create virtual network, enter or select this information:
+1. On the **Basics** tab of **Create virtual network,** enter or select this information:
    
    |Setting|Value|
    |---|---|
    |**Project details**|
    |Subscription|**Select your subscription**|
-   |Resource group|Select **Create new** Enter myResourceGroup. Select **OK**|
+   |Resource group|Select **Create new.** Enter myResourceGroup. Select **OK**|
    |**Instance details**|
    |Virtual network name|Enter myVNet.|
    |Region|Select **(US) East US.**|  
