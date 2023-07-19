@@ -78,9 +78,7 @@ In this task, you will create application security group (ASGs) that enable you 
    
 2. Select **Create.**
 
-3. Select **Create.**
-
-4. On the **Basics** tab of **Create an application security group,** enter or select this information:
+3. On the **Basics** tab of **Create an application security group,** enter or select this information:
    
    |Setting|Value|
    |---|---|
@@ -91,9 +89,24 @@ In this task, you will create application security group (ASGs) that enable you 
    |Name|Enter myAsgWebServers.|
    |Region|Select **(US) East US.**|  
     
-5. Select the **Review + create** tab, or select the blue **Review + create** button at the bottom of the page.
+4. Select the **Review + create** tab, or select the blue **Review + create** button at the bottom of the page.
 
-6. Select **Create.**
+5. Select **Create.**
+
+6. Repeat the previous steps, specifying the following values:
+    
+   |Setting|Value|
+   |---|---|
+   |**Project details**|
+   |Subscription|Select your subscription.|
+   |Resource group|Select **myResourceGroup.**|
+   |**Instance details**|
+   |Name|Enter myAsgMgmtServers.|
+   |Region|Select **(US) East US.**|
+
+7. Select the **Review + create** tab, or select the blue **Review + create** button at the bottom of the page.
+
+8. Select **Create.**
 
     > **Note**: Ut feugiat est id ultrices gravida.
 
