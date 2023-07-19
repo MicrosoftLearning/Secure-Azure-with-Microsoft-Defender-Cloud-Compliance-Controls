@@ -174,13 +174,25 @@ In this task, you'll create security rules for the network security group with t
    |Priority|Leave the default of **100.**|
    |Name|Enter Allow-Web-All.|
 
-5. Select **Add.**
+4. Select **Add.**
 
-6. Complete steps 3-4 again using this information:
+5. Complete steps 3-4 again using this information:
 
-
+   |Setting|Value|
+   |---|---|
+   |Source|Leave the default of **Any.**|
+   |Source port ranges|Leave the default of **(*).**|
+   |Destination|Select **Application security group.**|
+   |Destination application security group|Select **myAsgMgmtServers.**|
+   |Service|Leave the default of **Custom.**|
+   |Destination port ranges|Enter 3389.|
+   |Protocol|Select **Any.**|
+   |Action|Leave the default of **Allow.**|
+   |Priority|Leave the default of **110.**|
+   |Name|Enter Allow-RDP-All.|
    
-
+6. Select **Add.**
+   
     > **Note**: Ut feugiat est id ultrices gravida.
 
 1. Phasellus urna lacus, luctus at suscipit vitae, maximus ac nisl. 
