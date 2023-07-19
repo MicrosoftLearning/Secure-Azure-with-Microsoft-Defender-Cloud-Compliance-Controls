@@ -236,12 +236,12 @@ In this task, you'll create two virtual machines (VMs) in the virtual network yo
 5. Select the **Review + create** tab, or select the blue **Review + create** button at the bottom of the page.
 
 6. Select **Create.** The VM may take a few minutes to deploy.
+  
+   Create the second virtual machine
 
-Create the second virtual machine
+   Complete steps 1-6 again, but in step 2, enter myVMMgmt for Virtual machine name.
 
-Complete steps 1-6 again, but in step 2, enter myVMMgmt for Virtual machine name.
-
-Wait for the VMs to complete deployment before advancing to the next section.
+   Wait for the VMs to complete deployment before advancing to the next section.
 
 ### Exercise 7: Associate network interfaces to an ASG.
 
