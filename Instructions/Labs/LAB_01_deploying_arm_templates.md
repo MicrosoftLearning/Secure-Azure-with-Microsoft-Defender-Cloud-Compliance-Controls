@@ -294,9 +294,7 @@ In this task, you'll test traffic filters for the previuosly created myVMWeb web
 
 8. To install Microsoft IIS on the **myVMWeb** virtual machine, enter the following command from a PowerShell session on the **myVMWeb** virtual machine:
 
-        ```powershell
-    Install-WindowsFeature -name Web-Server -IncludeManagementTools 
-    ```
+  
 
 9. After the IIS installation is complete, disconnect from the **myVMWeb** virtual machine, which leaves you in the **myVMMgmt** virtual machine remote desktop connection.
 
