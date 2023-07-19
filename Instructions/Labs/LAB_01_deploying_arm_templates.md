@@ -287,100 +287,32 @@ In this task, you'll test traffic filters for the previuosly created myVMWeb web
     mstsc /v:myVmWeb
     ```
     
+   The RDP connection from **myVMMgmt** to **myVMWeb** succeeds because virtual machines in the same network can communicate with each other over any port by default.
+
+   You can't create an RDP connection to the **myVMWeb** virtual machine from the internet. The security rule for the **myAsgWebServers** prevents connections to port 3389 inbound from the internet.
+   Inbound traffic from the Internet is denied to all resources by default.
+
+8. To install Microsoft IIS on the **myVMWeb** virtual machine, enter the following command from a PowerShell session on the **myVMWeb** virtual machine:
+
+        ```powershell
+    Install-WindowsFeature -name Web-Server -IncludeManagementTools
+    ```
+
+9. After the IIS installation is complete, disconnect from the **myVMWeb** virtual machine, which leaves you in the **myVMMgmt** virtual machine remote desktop connection.
+
+10. Disconnect from the **myVMMgmt** VM.
+
+11. Search for *myVMWeb* in the portal search box.
+
+12. On the **Overview** page of **myVMWeb,** note the **Public IP address** for your VM.
+
+13. To confirm that you can access the **myVMWeb** web server from the internet, open an internet browser on your computer and browse to http://<public-ip-address-from-previous-step>.
+
+    You see the IIS default page, because inbound traffic from the internet to the **myAsgWebServers** application security group is allowed through port 80.
+
+    The network interface attached for **myVMWeb** is associated with the **myAsgWebServers** application security group and allows the connection.
+
    
-
-   |Setting|Value|
-   |---|---|
-   |**Project details**|
-   |Resource group|Select **myResourceGroup.**|
-   |**Instance details**|
-   |Virtual machine name|Enter myVMWeb.|
-   |Region|Select **(US) East US.**|
-   |Availability options|Leave the default of **No infrastructure redundancy required.**|
-   |Security type|Leave the default of **Standard.**|
-   |Image|Select **Windows Server 2019 Datacenter - Gen2.**|
-   |Image|Select **Standard_DS2_V3.**|
-   |**Administrator account**|
-   |Username|Enter a username.|
-   |Username|Enter a password.|
-   |Confirm password|Reenter password.|
-   |**Inbound port rules**|
-   |Select inbound ports|Select **None.**|
-
-8. Select the **Networking** tab.
-
-9. In the **Networking** tab, enter or select the following information:
-
-   |Setting|Value|
-   |---|---|
-   |**Network interface**|
-   |Virtual network|Select **myVNet.**|
-   |Subnet|Select **default (10.0.0.0/24).**|
-   |Public IP|Leave the default of a new public IP.|
-   |NIC network security group|Select **None.**|
-   
-10. Select the **Review + create** tab, or select the blue **Review + create** button at the bottom of the page.
-
-11. Select **Create.** The VM may take a few minutes to deploy.
-
-Create the second virtual machine
-
-Complete steps 1-6 again, but in step 2, enter myVMMgmt for Virtual machine name.
-
-Wait for the VMs to complete deployment before advancing to the next section.
-
-### Exercise 7: Associate network interfaces to an ASG.
-
-#### Task 7: Use the Azure portal to create virtual machines
-
-In this task, you'll add the network interface of each VM to one of the application security groups you created previously:
-
-1. Search for myVMWeb in the portal search box.
-   
-2. Select **Networking** from the **Settings** section of **myVMWeb** VM.
-
-3. Select the **Application security groups** tab, then select **Configure the application security groups.**
-
-4. In **Configure the application security groups,** select **myAsgWebServers.** Select **Save.**
-
-5. Complete steps 1 and 2 again, searching for the myVMMgmt virtual machine and selecting the **myAsgMgmtServers** ASG.
-
-
-
-
-   |Setting|Value|
-   |---|---|
-   |**Project details**|
-   |Resource group|Select **myResourceGroup.**|
-   |**Instance details**|
-   |Virtual machine name|Enter myVMWeb.|
-   |Region|Select **(US) East US.**|
-   |Availability options|Leave the default of **No infrastructure redundancy required.**|
-   |Security type|Leave the default of **Standard.**|
-   |Image|Select **Windows Server 2019 Datacenter - Gen2.**|
-   |Image|Select **Standard_DS2_V3.**|
-   |**Administrator account**|
-   |Username|Enter a username.|
-   |Username|Enter a password.|
-   |Confirm password|Reenter password.|
-   |**Inbound port rules**|
-   |Select inbound ports|Select **None.**|
-
-7. Select the **Networking** tab.
-
-8. In the **Networking** tab, enter or select the following information:
-
-   |Setting|Value|
-   |---|---|
-   |**Network interface**|
-   |Virtual network|Select **myVNet.**|
-   |Subnet|Select **default (10.0.0.0/24).**|
-   |Public IP|Leave the default of a new public IP.|
-   |NIC network security group|Select **None.**|
-   
-9. Select the **Review + create** tab, or select the blue **Review + create** button at the bottom of the page.
-
-10. Select **Create.** The VM may take a few minutes to deploy.
    
     > **Note**: Ut feugiat est id ultrices gravida.
 
