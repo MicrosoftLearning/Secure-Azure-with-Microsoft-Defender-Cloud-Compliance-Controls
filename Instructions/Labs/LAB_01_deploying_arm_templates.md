@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Lab: Create a virtual networkDeploying Azzure Resource Manager'
+    title: 'Lab: Create a virtual network'
     module: 'Module 1: Exploring Azure Resource Manager'
 ---
 
