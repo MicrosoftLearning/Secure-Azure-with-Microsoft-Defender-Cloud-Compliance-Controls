@@ -15,8 +15,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lobortis, era
 
 After you complete this lab, you will be able to:
 
-- Cras tincidunt massa et nunc vulputate, eget vestibulum massa tincidunt.
-  
 - Create a network security group and security rules
   
 - Create application security groups
