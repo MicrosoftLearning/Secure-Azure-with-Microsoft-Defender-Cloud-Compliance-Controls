@@ -286,6 +286,7 @@ In this task, you'll test traffic filters for the previuosly created myVMWeb web
     ```powershell
     mstsc /v:myVmWeb
     ```
+    
    
 
    |Setting|Value|
