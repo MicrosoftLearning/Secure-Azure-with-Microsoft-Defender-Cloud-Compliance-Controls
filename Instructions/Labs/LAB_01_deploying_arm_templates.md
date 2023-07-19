@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Lab: Create a virtual network'
-    module: 'Module 1: Exploring Azure Resource Manager'
+    module: 'Module 1: Filter network traffic with a network security group using the Azure portal'
 ---
 
 # Lab: Deploying Azure Resource Manager templates
