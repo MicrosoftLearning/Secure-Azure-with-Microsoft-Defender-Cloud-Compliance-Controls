@@ -61,11 +61,12 @@ After you complete this lab, you will be able to:
    
    |Setting|Value|
    |---|---|
+   |**Project details**|
    |Subscription|**Select your subscription**|
    |Resource group|Select **Create new** Enter myResourceGroup. Select **OK**|
-   |Instance details|Value|
-   |Name|Enter myVNet.|
-   |Region|Select **East US.**|  
+   |**Instance details**|
+   |Virtual network name|Enter myVNet.|
+   |Region|Select **US East US.**|  
     
     ```
     Sed at malesuada orci, eu volutpat ex
