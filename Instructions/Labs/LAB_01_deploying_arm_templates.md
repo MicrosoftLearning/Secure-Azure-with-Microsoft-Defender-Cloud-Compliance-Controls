@@ -45,19 +45,15 @@ After you complete this lab, you will be able to:
 
 #### Task 1: Use the Azure portal to create a resource group and virtual network
 
-1. In this task, you will create a resource group and virtual network
+In this task, you will create a resource group and virtual network
 
-    1. Start a browser session and sign-in to the Azure portal https://portal.azure.com/.
+1. Start a browser session and sign-in to the Azure portal https://portal.azure.com/.
+   
+2. From the Azure portal menu, select + **Create a resource** > **Networking** > **Virtual network,** or search for Virtual Network in the portal search box.
 
-    1. Nunc eget quam facilisis, imperdiet felis ut, blandit nibh. 
+3. Select **Create.**
 
-    1. Phasellus pulvinar ornare sem, ut imperdiet justo volutpat et.
-
-1. From the Azure portal menu, select + **Create a resource** > **Networking** > **Virtual network,** or search for Virtual Network in the portal search box.
-
-1. Select **Create.**
-
-1. On the **Basics** tab of **Create virtual network,** enter or select this information:
+4. On the **Basics** tab of **Create virtual network,** enter or select this information:
    
    |Setting|Value|
    |---|---|
@@ -68,9 +64,9 @@ After you complete this lab, you will be able to:
    |Virtual network name|Enter myVNet.|
    |Region|Select **(US) East US.**|  
     
-1. Select the **Review + create** tab, or select the blue Review + create button at the bottom of the page.
+5. Select the **Review + create** tab, or select the blue Review + create button at the bottom of the page.
 
-1. Select **Create.**
+6. Select **Create.**
 
     > **Note**: Ut feugiat est id ultrices gravida.
 
