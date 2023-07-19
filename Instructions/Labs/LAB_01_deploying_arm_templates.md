@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Lab: Create a virtual network'
+    title: 'Lab: Create a virtual network infrastructure'
     module: 'Module 1: Filter network traffic with a network security group using the Azure portal'
 ---
 
