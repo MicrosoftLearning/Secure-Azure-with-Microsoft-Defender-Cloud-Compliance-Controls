@@ -68,6 +68,33 @@ In this task, you will create a resource group and virtual network
 
 6. Select **Create.**
 
+### Exercise 2: Create application security groups.
+
+#### Task 2: Use the Azure portal to create a resource group and virtual network
+
+In this task, you will create application security group (ASGs) that enable you to group together servers with similar functions, such as web servers.
+
+1. From the Azure portal menu, select + **Create a resource** > **Networking** > **Application security group,** or search for Application security group in the portal search box.
+   
+2. Select **Create.**
+
+3. Select **Create.**
+
+4. On the **Basics** tab of **Create an application security group,** enter or select this information:
+   
+   |Setting|Value|
+   |---|---|
+   |**Project details**|
+   |Subscription|Select your subscription.|
+   |Resource group|Select **myResourceGroup.**|
+   |**Instance details**|
+   |Name|Enter myAsgWebServers.|
+   |Region|Select **(US) East US.**|  
+    
+5. Select the **Review + create** tab, or select the blue **Review + create** button at the bottom of the page.
+
+6. Select **Create.**
+
     > **Note**: Ut feugiat est id ultrices gravida.
 
 1. Phasellus urna lacus, luctus at suscipit vitae, maximus ac nisl. 
