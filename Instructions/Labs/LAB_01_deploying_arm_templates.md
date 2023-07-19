@@ -59,9 +59,9 @@ In this task, you will create a resource group and virtual network
    |---|---|
    |**Project details**|
    |Subscription|Select your subscription.|
-   |Resource group|Select **Create new.** Enter myResourceGroup. Select **OK**|
+   |Resource group|Select **Create new.** Enter *myResourceGroup.* Select **OK**|
    |**Instance details**|
-   |Virtual network name|Enter myVNet.|
+   |Virtual network name|Enter *myVNet.*|
    |Region|Select **(US) East US.**|  
     
 5. Select the **Review + create** tab, or select the blue Review + create button at the bottom of the page.
@@ -86,7 +86,7 @@ In this task, you will create application security group (ASGs) that enable you 
    |Subscription|Select your subscription.|
    |Resource group|Select **myResourceGroup.**|
    |**Instance details**|
-   |Name|Enter myAsgWebServers.|
+   |Name|Enter *myAsgWebServers.*|
    |Region|Select **(US) East US.**|  
     
 4. Select the **Review + create** tab, or select the blue **Review + create** button at the bottom of the page.
@@ -101,7 +101,7 @@ In this task, you will create application security group (ASGs) that enable you 
    |Subscription|Select your subscription.|
    |Resource group|Select **myResourceGroup.**|
    |**Instance details**|
-   |Name|Enter myAsgMgmtServers.|
+   |Name|Enter *myAsgMgmtServers.*|
    |Region|Select **(US) East US.**|
 
 7. Select the **Review + create** tab, or select the blue **Review + create** button at the bottom of the page.
@@ -126,7 +126,7 @@ In this task, you will create a network security group (NSG) secures network tra
    |Subscription|Select your subscription.|
    |Resource group|Select **myResourceGroup.**|
    |**Instance details**|
-   |Name|Enter myNSG.|
+   |Name|Enter *myNSG.*|
    |Region|Select **(US) East US.**|  
     
 4. Select the **Review + create** tab, or select the blue **Review + create** button at the bottom of the page.
@@ -139,7 +139,7 @@ In this task, you will create a network security group (NSG) secures network tra
 
 In this task, you'll associate the network security group with the subnet of the virtual network you created earlier.
 
-1. From the Azure portal menu, search for myNsg in the portal search box.
+1. From the Azure portal menu, search for *myNsg* in the portal search box.
    
 2. Select **Subnets** from the **Settings** section of **myNSG.**
 
@@ -168,11 +168,11 @@ In this task, you'll create security rules for the network security group with t
    |Destination|Enter myNSG.|
    |Destination application security groups|Select **Application security group.**|
    |Service|Leave the default of **Custom.**|
-   |Destination port ranges|Enter 80,443.|
+   |Destination port ranges|Enter *80,443.*|
    |Protocol|Select **TCP.**|
    |Action|Leave the default of **Allow.**|
    |Priority|Leave the default of **100.**|
-   |Name|Enter Allow-Web-All.|
+   |Name|Enter *Allow-Web-All.*|
 
 4. Select **Add.**
 
@@ -189,7 +189,7 @@ In this task, you'll create security rules for the network security group with t
    |Protocol|Select **Any.**|
    |Action|Leave the default of **Allow.**|
    |Priority|Leave the default of **110.**|
-   |Name|Enter Allow-RDP-All.|
+   |Name|Enter *Allow-RDP-All.*|
    
 6. Select **Add.**
 
@@ -208,7 +208,7 @@ In this task, you'll create two virtual machines (VMs) in the virtual network yo
    |**Project details**|
    |Resource group|Select **myResourceGroup.**|
    |**Instance details**|
-   |Virtual machine name|Enter myVMWeb.|
+   |Virtual machine name|Enter *myVMWeb.*|
    |Region|Select **(US) East US.**|
    |Availability options|Leave the default of **No infrastructure redundancy required.**|
    |Security type|Leave the default of **Standard.**|
@@ -265,7 +265,7 @@ In this task, you'll add the network interface of each VM to one of the applicat
 
 In this task, you'll test traffic filters for the previuosly created myVMWeb web server. 
 
-1. Search for myVMMgmt in the portal search box.
+1. Search for *myVMMgmt* in the portal search box.
    
 2. On the **Overview** page, select the **Connect** button and then select **RDP.**
 
@@ -312,7 +312,11 @@ In this task, you'll test traffic filters for the previuosly created myVMWeb web
 
     The network interface attached for **myVMWeb** is associated with the **myAsgWebServers** application security group and allows the connection.
 
-   
+
+
+
+
+
    
     > **Note**: Ut feugiat est id ultrices gravida.
 
