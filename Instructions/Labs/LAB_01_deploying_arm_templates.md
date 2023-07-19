@@ -49,11 +49,11 @@ After you complete this lab, you will be able to:
 
     1. Phasellus pulvinar ornare sem, ut imperdiet justo volutpat et.
 
-1. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
+1. From the Azure portal menu, select + Create a resource > Networking > Virtual network, or search for Virtual Network in the portal search box.
 
-1. Vestibulum hendrerit orci urna, non aliquet eros eleifend vitae. 
+1. Select Create.
 
-1. Curabitur nibh dui, vestibulum cursus neque commodo, aliquet accumsan risus. 
+1. On the Basics tab of Create virtual network, enter or select this information:
 
     ```
     Sed at malesuada orci, eu volutpat ex
