@@ -62,7 +62,7 @@ After you complete this lab, you will be able to:
    |Setting|Value|
    |---|---|
    |**Project details**|
-   |Subscription|**Select your subscription**|
+   |Subscription|Select your subscription.|
    |Resource group|Select **Create new.** Enter myResourceGroup. Select **OK**|
    |**Instance details**|
    |Virtual network name|Enter myVNet.|
