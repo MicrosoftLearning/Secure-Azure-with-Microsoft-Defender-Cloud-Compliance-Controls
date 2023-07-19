@@ -66,7 +66,7 @@ After you complete this lab, you will be able to:
    |Resource group|Select **Create new** Enter myResourceGroup. Select **OK**|
    |**Instance details**|
    |Virtual network name|Enter myVNet.|
-   |Region|Select **US East US.**|  
+   |Region|Select **(US) East US.**|  
     
     ```
     Sed at malesuada orci, eu volutpat ex
