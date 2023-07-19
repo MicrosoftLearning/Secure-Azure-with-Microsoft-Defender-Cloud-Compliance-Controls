@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Lab: Deploying Azure Resource Manager templates'
+    title: 'Lab: Deploying Azzure Resource Manager templates'
     module: 'Module 1: Exploring Azure Resource Manager'
 ---
 
