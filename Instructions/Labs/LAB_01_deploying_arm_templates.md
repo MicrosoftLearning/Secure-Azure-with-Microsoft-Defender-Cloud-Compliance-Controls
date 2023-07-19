@@ -53,9 +53,9 @@ After you complete this lab, you will be able to:
 
     1. Phasellus pulvinar ornare sem, ut imperdiet justo volutpat et.
 
-1. From the Azure portal menu, select + Create a resource > Networking > Virtual network, or search for Virtual Network in the portal search box.
+1. From the Azure portal menu, select + **Create a resource** > **Networking** > **Virtual network,** or search for Virtual Network in the portal search box.
 
-1. Select Create.
+1. Select **Create.**
 
 1. On the Basics tab of Create virtual network, enter or select this information:
    
@@ -68,13 +68,9 @@ After you complete this lab, you will be able to:
    |Virtual network name|Enter myVNet.|
    |Region|Select **(US) East US.**|  
     
-    ```
-    Sed at malesuada orci, eu volutpat ex
-    ```
+1. Select the **Review + create** tab, or select the blue Review + create button at the bottom of the page.
 
-1. In ac odio vulputate, faucibus lorem at, sagittis felis.
-
-1. Fusce tincidunt sapien nec dolor congue facilisis lacinia quis urna.
+1. Select **Create.**
 
     > **Note**: Ut feugiat est id ultrices gravida.
 
