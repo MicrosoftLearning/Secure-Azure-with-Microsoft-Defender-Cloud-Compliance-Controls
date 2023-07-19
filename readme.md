@@ -1,4 +1,4 @@
-# INF99X: Sample Course
+# APL-5002: Secure Azure services and workloads with Microsoft Cloud Security Benchmark controls in Microsoft Defender for Cloud
 
 **Are you an MCT?** - Have a look at our [GitHub User Guide for MCTs](https://microsoftlearning.github.io/MCT-User-Guide/)
 
