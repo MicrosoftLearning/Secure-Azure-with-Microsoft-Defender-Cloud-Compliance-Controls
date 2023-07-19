@@ -64,7 +64,6 @@ After you complete this lab, you will be able to:
    |Subscription|**Select your subscription**|
    |Resource group|Select **Create new** Enter myResourceGroup. Select **OK**|
    |Instance details|Value|
-   |Instance details|
    |Name|Enter myVNet.|
    |Region|Select **East US.**|  
     
