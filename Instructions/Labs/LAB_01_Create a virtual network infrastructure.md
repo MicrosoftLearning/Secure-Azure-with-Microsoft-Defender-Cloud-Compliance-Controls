@@ -107,11 +107,7 @@ Network security groups contain security rules that filter network traffic by IP
 
 5. Select **Create.**
 
-### Exercise 4: Associate network security group to subnet.
-
-#### Task 4: Use the Azure portal to create a network security group (NSG).
-
-In this task, you'll associate the network security group with the subnet of the virtual network you created earlier.
+### Associate network security group to the network security group with the subnet of the virtual network you created earlier.
 
 1. From the Azure portal menu, search for *myNsg* in the portal search box.
    
