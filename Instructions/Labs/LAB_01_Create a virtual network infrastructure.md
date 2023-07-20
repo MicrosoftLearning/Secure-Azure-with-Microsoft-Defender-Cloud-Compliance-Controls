@@ -205,11 +205,7 @@ Network security groups contain security rules that filter network traffic by IP
 
    Wait for the VMs to complete deployment before advancing to the next section.
 
-### Exercise 7: Associate network interfaces to an ASG.
-
-#### Task 7: Use the Azure portal to create virtual machines
-
-In this task, you'll add the network interface of each VM to one of the application security groups you created previously:
+### Associate network interfaces of each VM to one of the application security groups you created previously:
 
 1. Search for myVMWeb in the portal search box.
    
