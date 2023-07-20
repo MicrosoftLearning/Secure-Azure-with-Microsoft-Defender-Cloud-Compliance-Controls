@@ -107,7 +107,7 @@ Network security groups contain security rules that filter network traffic by IP
 
 5. Select **Create.**
 
-### Associate network security group to the network security group with the subnet of the virtual network you created earlier.
+### Associate the network security group to the network security group with the subnet of the virtual network you created earlier.
 
 1. From the Azure portal menu, search for *myNsg* in the portal search box.
    
@@ -119,11 +119,7 @@ Network security groups contain security rules that filter network traffic by IP
 
 5. Select **default*** for **Subnet,** and then select **OK.**
 
-### Exercise 5: Create security rules.
-
-#### Task 5: Use the Azure portal to create security rules
-
-In this task, you'll create security rules for the network security group with the subnet of the virtual network you created earlier.
+### Create security rules for the network security group with the subnet of the virtual network you created earlier.
 
 1. Select **Inbound security rules** from the **Settings** section of **myNSG.**
    
