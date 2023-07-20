@@ -52,9 +52,7 @@ Network security groups contain security rules that filter network traffic by IP
 
 ### Create application security groups.
 
-#### Task 2: Use the Azure portal to create a resource group and virtual network
-
-In this task, you will create application security group (ASGs) that enable you to group together servers with similar functions, such as web servers.
+#### Task 2: Use the Azure portal to create application security group (ASGs) that enable you to group together servers with similar functions, such as web servers.
 
 1. From the Azure portal menu, select + **Create a resource** > **Networking** > **Application security group,** or search for Application security group in the portal search box.
    
