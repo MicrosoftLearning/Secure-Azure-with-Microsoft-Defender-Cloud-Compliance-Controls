@@ -27,11 +27,7 @@ Network security groups contain security rules that filter network traffic by IP
 
 ## Exercise instructions 
 
-### Exercise 1: Create a resource group and virtual network.
-
-#### Task 1: Use the Azure portal to create a resource group and virtual network
-
-In this task, you will create a resource group and virtual network
+Create a resource group and virtual network.
 
 1. Start a browser session and sign-in to the Azure portal https://portal.azure.com/.
    
