@@ -205,7 +205,7 @@ Network security groups contain security rules that filter network traffic by IP
 
    Wait for the VMs to complete deployment before advancing to the next section.
 
-### Associate network interfaces of each VM to one of the application security groups you created previously:
+### Associate the network interfaces of each VM to one of the application security groups you created previously:
 
 1. Search for myVMWeb in the portal search box.
    
