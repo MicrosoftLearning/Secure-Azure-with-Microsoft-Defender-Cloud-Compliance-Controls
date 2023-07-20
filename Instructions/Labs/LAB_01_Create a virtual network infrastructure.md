@@ -13,9 +13,7 @@ You can use a network security group to filter inbound and outbound network traf
 
 Network security groups contain security rules that filter network traffic by IP address, port, and protocol. When a network security group is associated with a subnet, security rules are applied to resources deployed in that subnet.
 
-## Objectives
-
-After you complete this lab, you will be able to:
+## Skilling tasks
 
 - Create a network security group and security rules
   
