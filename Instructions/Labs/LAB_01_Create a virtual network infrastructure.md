@@ -265,25 +265,3 @@ Network security groups contain security rules that filter network traffic by IP
     You see the IIS default page, because inbound traffic from the internet to the **myAsgWebServers** application security group is allowed through port 80.
 
     The network interface attached for **myVMWeb** is associated with the **myAsgWebServers** application security group and allows the connection.
-
-
-
-
-
-
-   
-    > **Note**: Ut feugiat est id ultrices gravida.
-
-1. Phasellus urna lacus, luctus at suscipit vitae, maximus ac nisl. 
-
-    - Morbi in tortor finibus, tempus dolor a, cursus lorem. 
-
-    - Maecenas id risus pharetra, viverra elit quis, lacinia odio. 
-
-    - Etiam rutrum pretium enim. 
-
-1. Curabitur in pretium urna, nec ullamcorper diam. 
-
-#### Review
-
-Maecenas fringilla ac purus non tincidunt. Aenean pellentesque velit id suscipit tempus. Cras at ullamcorper odio.
