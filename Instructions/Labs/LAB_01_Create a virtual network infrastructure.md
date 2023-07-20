@@ -217,11 +217,7 @@ Network security groups contain security rules that filter network traffic by IP
 
 5. Complete steps 1 and 2 again, searching for the myVMMgmt virtual machine and selecting the **myAsgMgmtServers** ASG.
 
-### Exercise Test traffic filters.
-
-#### Task 7: Use the Azure portal to Test traffic filters
-
-In this task, you'll test traffic filters for the previuosly created myVMWeb web server. 
+### Test the test traffic filters for the previuosly created myVMWeb web server. 
 
 1. Search for *myVMMgmt* in the portal search box.
    
