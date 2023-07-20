@@ -159,11 +159,7 @@ Network security groups contain security rules that filter network traffic by IP
    
 6. Select **Add.**
 
-### Exercise 6: Create virtual machines.
-
-#### Task 6: Use the Azure portal to create virtual machines
-
-In this task, you'll create two virtual machines (VMs) in the virtual network you created earlier.
+### Create two virtual machines (VMs) in the virtual network you created earlier.
 
 1. From the Azure portal menu, select + **Create a resource** > **Compute** > **Virtual machine,** or search for Virtual machine in the portal search box.
    
