@@ -29,7 +29,7 @@ Network security groups contain security rules that filter network traffic by IP
 
   - **Estimated Time**: 00 minutes
 
-## Instructions
+## Exercise instructions
 
 ### Before you start
 
