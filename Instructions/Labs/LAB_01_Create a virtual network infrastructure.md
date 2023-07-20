@@ -25,10 +25,6 @@ Network security groups contain security rules that filter network traffic by IP
   
 - Test traffic filters
 
-## Lab Setup
-
-  - **Estimated Time**: 00 minutes
-
 ## Exercise instructions
 
 ### Before you start
