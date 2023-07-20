@@ -50,7 +50,7 @@ Network security groups contain security rules that filter network traffic by IP
 
 6. Select **Create.**
 
-### Exercise 2: Create application security groups.
+### Create application security groups.
 
 #### Task 2: Use the Azure portal to create a resource group and virtual network
 
