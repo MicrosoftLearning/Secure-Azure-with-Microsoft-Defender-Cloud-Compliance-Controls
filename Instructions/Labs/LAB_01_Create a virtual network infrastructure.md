@@ -25,17 +25,7 @@ Network security groups contain security rules that filter network traffic by IP
   
 - Test traffic filters
 
-## Exercise instructions
-
-### Before you start
-
-#### Setup Task
-
-1. Integer dolor purus, gravida eu sem id, efficitur aliquet neque. 
-
-1. Suspendisse viverra mauris in metus laoreet consectetur. 
-
-1. Sed diam risus, convallis quis condimentum at, egestas malesuada libero. 
+## Exercise instructions 
 
 ### Exercise 1: Create a resource group and virtual network.
 
