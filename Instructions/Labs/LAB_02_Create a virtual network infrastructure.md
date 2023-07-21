@@ -86,7 +86,7 @@ Network security groups contain security rules that filter network traffic by IP
 
 8. Select **Create.**
 
-### Create a network security groug to secure network traffic in your virtual network.
+### Create a network security group to secure network traffic in your virtual network.
 
 1. From the Azure portal menu, select + **Create a resource** > **Networking** > **Network security group,** or use the portal search box to search for **Network security group** (not Network security group (classic).
    
