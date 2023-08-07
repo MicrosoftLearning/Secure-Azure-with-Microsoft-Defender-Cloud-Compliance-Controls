@@ -1,7 +1,7 @@
 ---
 lab:
     title: '02 - Set up Microsoft Defender for Cloud'
-    module: 'Module 1: Set up Microsoft Defender for Cloud'
+    module: 'Module 2: Set up Microsoft Defender for Cloud'
 ---
 
 # Lab 01: Create a virtual network infrastructure
