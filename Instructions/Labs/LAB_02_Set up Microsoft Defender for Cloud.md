@@ -50,4 +50,4 @@ Task 2: Configure Microsoft Defender for Cloud
 
 5. On the Microsoft Defender for Cloud | Getting started blade, in the Install agents tab, scroll down and **check** the box that is associated with the subscription on which agents will be installed and click **Install agents.**
 
-> Results: You have on-boarded Microsoft Defender for Cloud.
+> Results: You have enabled Defender for Cloud on your Azure subscription.
