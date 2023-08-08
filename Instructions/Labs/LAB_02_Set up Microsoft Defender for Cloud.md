@@ -9,21 +9,13 @@ lab:
 
 ## Lab scenario
 
-You can use a network security group to filter inbound and outbound network traffic to and from Azure resources in an Azure virtual network. 
-
-Network security groups contain security rules that filter network traffic by IP address, port, and protocol. When a network security group is associated with a subnet, security rules are applied to resources deployed in that subnet.
+The main goal of this lab is to provide hands-on experience in configuring and enabling Microsoft Defender for Cloud within an Azure subscription. This will allow you to monitor and protect your cloud resources against security threats. 
 
 ## Skilling tasks
 
-- Create a network security group and security rules
+- Upgrade your subscription for Microsoft Defender for Cloud.
   
-- Create application security groups
-  
-- Create a virtual network and associate a network security group to a subnet
-  
-- Deploy virtual machines and associate their network interfaces to the application security groups
-  
-- Test traffic filters
+- Deploy the Microsoft Monitoring Agent to necessary machines for comprehensive coverage.
 
 ## Exercise instructions 
 
