@@ -17,10 +17,6 @@ The main goal of this lab is to provide hands-on experience in configuring and e
   
 - Deploy the Microsoft Monitoring Agent to necessary machines for comprehensive coverage.
 
-## Exercise instructions 
-
-### Create a resource group and virtual network.
-
 ## Exercise instructions
 
 ### Implement Microsoft Defender for Cloud
