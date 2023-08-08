@@ -21,11 +21,6 @@ The main goal of this lab is to provide hands-on experience in configuring and e
 
 ### Implement Microsoft Defender for Cloud
 
-In this exercise, you will complete the following tasks:
-
-Task 1: Configure Microsoft Defender for Cloud
-Task 2: Configure Microsoft Defender for Cloud
-
 1. Sign-in to the Azure portal https://portal.azure.com/.
 
    >**Note**: Sign in to the Azure portal using an account that has the Owner or Contributor role in the Azure subscription you are using for this lab.
