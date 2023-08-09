@@ -5,7 +5,7 @@ lab:
 ---
 
 # Lab 04: Configure the Log Analytics agent and workspace
-# Student lab answer key
+# Student lab manual
 
 ## Instructions
 
