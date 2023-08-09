@@ -47,6 +47,7 @@ Network security groups contain security rules that filter network traffic by IP
 
 8. Select **Review + Create** to review the settings. Then select **Create** to create the workspace. A default pricing tier of pay-as-you-go is applied. 
 
+> Results: You have created a Log Analytics workspace, to collect data from Azure reources, and diagnostics or log data from Azure Storage.
 
 #### Setup Task
 
