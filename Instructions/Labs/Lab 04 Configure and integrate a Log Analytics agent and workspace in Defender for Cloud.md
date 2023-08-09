@@ -47,6 +47,7 @@ You can use a network security group to filter inbound and outbound network traf
    	- Under Security events storage, click the dropdown menu and, select **All Events.**
    	- At the bottom of the Auto-provisioning template, click **Apply.**
    
+![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Cloud-Security-Benchmark/assets/91347931/30e84cba-9cb5-4d0a-8a88-6a48b8a5820f)
 
 
 
