@@ -1,11 +1,11 @@
 ---
 lab:
-    title: 'Lab: Deploying Azure Resource Manager templates'
+    title: 'Lab: Configure the Log Analytics agent and workspace'
     type: 'Answer Key'
     module: 'Module 1: Configure and integrate a Log Analytics agent and workspace in Defender for Cloud'
 ---
 
-# Lab: Deploying Azure Resource Manager templates
+# Lab: Configure the Log Analytics agent and workspace
 # Student lab answer key
 
 ## Instructions
