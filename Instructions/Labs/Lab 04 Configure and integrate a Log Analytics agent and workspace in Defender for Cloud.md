@@ -49,4 +49,5 @@ You can use a network security group to filter inbound and outbound network traf
    
 ![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Cloud-Security-Benchmark/assets/91347931/30e84cba-9cb5-4d0a-8a88-6a48b8a5820f)
 
+
 > Results: You have enabled Defender for Cloud on your Azure subscription.
