@@ -10,6 +10,8 @@ You can use the Azue portal to configure the Azure Key Vault networking settings
 
 ## Skilling tasks
 
+- Create a key vault using the Azure portal.
+
 - Add an exsiting virtual network to a firewall and virtual network rules.
 
 - Configure a virtual network and subnet to allow access to a key vault.
@@ -35,7 +37,7 @@ You can use the Azue portal to configure the Azure Key Vault networking settings
    |Resource group|Enter *myResourceGroup.* Select **OK**|
    |**Instance details**|
    |Key vault name|Enter *myAPLKeyVault.*|
-   |Region|Select **East US.**|
+   |Region|Select **East US**|
    |Pricing tier|System default **Standard**|
    |Days to retain deleted vaults|System default **90**|
 
