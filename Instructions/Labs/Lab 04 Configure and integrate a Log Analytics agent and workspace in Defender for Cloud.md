@@ -10,7 +10,7 @@ Defender for Cloud collects data from your Azure virtual machines (VMs), Virtual
 
 ## Skilling tasks
 
-- Use auto-provisioning configuration defaults for your agent type.
+- Use Log Analytics Agent defaults for your agent type.
 
 - Select your workspace.
   
