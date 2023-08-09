@@ -40,7 +40,7 @@ You can use a network security group to filter inbound and outbound network traf
 
 7. From the Configuration options pane, click **Edit configuration.**
 
-8. In the Auto-provisioning configuration template complete the following:
+8. In the Auto-provisioning configuration template complete the following actions:
    
    	- Under Workspace selection, click **Custom workspace.**
    	- Click the dropdown menu and select your previously created workspace.
