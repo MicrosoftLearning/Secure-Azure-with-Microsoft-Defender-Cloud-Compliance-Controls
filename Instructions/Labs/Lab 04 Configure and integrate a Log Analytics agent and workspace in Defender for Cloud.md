@@ -28,15 +28,19 @@ You can use a network security group to filter inbound and outbound network traf
 
 ## Exercise instructions 
 
-### Use the Log Analytics workspaces menu to create a workspace.
+### Configure integration with the Log Analytics agent.
 
 1. Start a browser session and sign-in to the Azure portal https://portal.azure.com/.
    
-2. From the Azure portal menu, enter **Log Analytics** in the search box. As you begin typing, the list filters based on your input. Select **Log Analytics workspaces.**
+2. From Defender for Cloud's menu, open **Environment settings.**
 
-4. Select **Add.**
+4. Select the your subscription.
 
-5. On the **Basics** tab of **Create Log Analytics workspace,** enter or select this information:
+5. In the Monitoring Coverage column of the Defender plans, select **Settings.**
+
+6. From the configuration options pane, define the workspace to use.
+
+7. On the **Basics** tab of **Create Log Analytics workspace,** enter or select this information:
    
    |Setting|Value|
    |---|---|
@@ -47,9 +51,9 @@ You can use a network security group to filter inbound and outbound network traf
    |Name|Enter *myWorkspace.*|
    |Region|Select **(US) East US.**|
 
-6. Select the **Review + create tab,** or select the blue Review + create button at the bottom of the page.
+8. Select the **Review + create tab,** or select the blue Review + create button at the bottom of the page.
   
-8. Select **Create.**
+9. Select **Create.**
 
 > **Results:** You have created a Log Analytics workspace, to collect data from Azure reources, and diagnostics or log data from Azure Storage.
 
