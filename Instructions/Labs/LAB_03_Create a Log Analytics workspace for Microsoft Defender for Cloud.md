@@ -33,7 +33,7 @@ Network security groups contain security rules that filter network traffic by IP
    
 2. From the Azure portal menu, enter **Log Analytics** in the search box. As you begin typing, the list filters based on your input. Select **Log Analytics workspaces.**
 
-4. Select **Add.**
+4. Select **Create.**
 
 5. On the **Basics** tab of **Create Log Analytics workspace,** enter or select this information:
    
