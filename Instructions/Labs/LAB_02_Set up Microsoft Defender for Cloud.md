@@ -4,7 +4,7 @@ lab:
     module: 'Module 2: Set up Microsoft Defender for Cloud'
 ---
 
-# Lab 02: Set up Microsoft Defender for Cloud
+# Lab 02: Enable Defender for Cloud on your Azure subscription
 # Student lab manual
 
 ## Lab scenario
