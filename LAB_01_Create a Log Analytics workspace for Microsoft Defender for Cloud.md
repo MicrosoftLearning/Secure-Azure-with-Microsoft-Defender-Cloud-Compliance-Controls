@@ -41,7 +41,7 @@ Network security groups contain security rules that filter network traffic by IP
    |---|---|
    |**Project details**|
    |Subscription|Select your subscription.|
-   |Resource group|Select **Create new.** Enter *myResourceGroup.* Select **OK**|
+   |Resource group|Enter *myResourceGroup.* Select **OK**|
    |**Instance details**|
    |Name|Enter *myWorkspace.*|
    |Region|Select **(US) East US.**|
