@@ -8,19 +8,11 @@ lab:
 # Student lab manual
 
 ---
-lab:
-    title: '01 - Create a workspace'
-    module: 'Module 1: Create a Log Analytics workspace for Microsoft Defender for Cloud'
----
-
-# Lab 03: Create a workspace
-# Student lab manual
-
 ## Lab scenario
 
-You can use a network security group to filter inbound and outbound network traffic to and from Azure resources in an Azure virtual network. 
+You can use a network security group to filter inbound and outbound network traffic to and from Azure resources in an Azure virtual network. Network security groups contain security rules that filter network traffic by IP address, port, and protocol. When a network security group is associated with a subnet, security rules are applied to resources deployed in that subnet.
 
-Network security groups contain security rules that filter network traffic by IP address, port, and protocol. When a network security group is associated with a subnet, security rules are applied to resources deployed in that subnet.
+---
 
 ## Skilling tasks
 
