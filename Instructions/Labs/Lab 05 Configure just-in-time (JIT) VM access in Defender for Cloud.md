@@ -26,10 +26,10 @@ You can use Microsoft Defender for Cloud's just-in-time (JIT) access to protect 
 
 5. In the Not configured virtual machines, mark the VMs to protect with JIT and select **Enable JIT on VMs.**
 
-   - SS - SSH
-   - 3389 - RDP
-   - 5989 - WinRM
-   - 5986 - WinRM
+   - SS - SSH (Secure Shell)
+   - 3389 - RDP (Remote Desktop Protocol)
+   - 5989 - WinRM (Windows Remote Management)
+   - 5986 - WinRM (Windows Remote Management)
 
     To customize the JIT access:
 
