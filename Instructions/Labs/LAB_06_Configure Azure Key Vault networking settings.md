@@ -57,7 +57,7 @@ You can use the Azue portal to configure the Azure Key Vault networking settings
 
 5. Under the Virtual networks section, select + **Add existing virtual networks,** then select + **Add existing virtual networks.**
 
-6. In the Add networks template, select your previuosly created virtual network from the **Virtual networks** dropdown list, and **Subnets** dropdown list.
+6. In the Add networks template, select your previously created virtual network from the **Virtual networks** dropdown list, and **Subnets** dropdown list.
 
 7. At the bottom of the Add networks template, click **Add.**
 
