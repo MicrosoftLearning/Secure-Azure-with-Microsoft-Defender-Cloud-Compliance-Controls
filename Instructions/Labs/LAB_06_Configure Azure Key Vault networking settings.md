@@ -16,6 +16,42 @@ You can use the Azue portal to configure the Azure Key Vault networking settings
 
 ## Exercise instructions 
 
+### Use the Azure portal to create a key vault.
+
+1. Start a browser session and sign-in to the Azure portal https://portal.azure.com/.
+   
+2. In the Azure portal Search box, enter **Key Vault.**
+
+3. From the results list, choose **Key Vault.**
+
+4. On the Key vaults section, choose **Create.**
+
+5. On the **Basics** tab of **Create a key vault,** enter or select this information:
+   
+   |Setting|Value|
+   |---|---|
+   |**Project details**|
+   |Subscription|Select your subscription.|
+   |Resource group|Enter *myResourceGroup.* Select **OK**|
+   |**Instance details**|
+   |Key vault name|Enter *myAPLKeyVault.*|
+   |Region|Select **East US.**|
+   |Pricing tier|System default **Standard**|
+   |Days to retain deleted vaults|System default **90**|
+
+7. Select the **Review + create tab,** or select the blue Review + create button at the bottom of the page.
+  
+8. Select **Create.**
+
+
+
+
+
+
+
+
+
+
 ### Enable JIT on your VMs from Microsoft Defender for Cloud.
 
 1. Start a browser session and sign-in to the Azure portal https://portal.azure.com/.
