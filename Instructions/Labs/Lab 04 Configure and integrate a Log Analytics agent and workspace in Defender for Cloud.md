@@ -45,6 +45,10 @@ You can use a network security group to filter inbound and outbound network traf
    b. Click the dropdown menu and select your previously created workspace.
    c. Under Security events storage, click the dropdown menu and, select **All Events.**
    d. At the bottom of the Auto-provisioning template, click **Apply.**
+   
+![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Cloud-Security-Benchmark/assets/91347931/a3c06df7-c708-4928-a14d-55a5a04c5037)
+
+
      
 11. Settings & monitoring Coverage column of the Defender plans, select **Settings & monitoring.**
 
