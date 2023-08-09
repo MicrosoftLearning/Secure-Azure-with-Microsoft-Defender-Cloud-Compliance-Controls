@@ -56,7 +56,7 @@ You can use Microsoft Defender for Cloud's just-in-time (JIT) access to protect 
 
 6. When you finish editing the ports, select **Save.**
 
-### Edit the JIT configuration on a JIT-enabled VM using Defender for Cloud.
+### Request access to a JIT-enabled VM from Microsoft Defender for Cloud
 
 1. Start a browser session and sign-in to the Azure portal https://portal.azure.com/.
    
