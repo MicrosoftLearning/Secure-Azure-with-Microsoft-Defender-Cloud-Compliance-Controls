@@ -10,15 +10,11 @@ Defender for Cloud collects data from your Azure virtual machines (VMs), Virtual
 
 ## Skilling tasks
 
+- Use Auto-provisioning configuration defaults for your Agent type
+
 - Select your workspace.
   
 - Define the level of security event data to store at the workspace level.
-  
-- Create a virtual network and associate a network security group to a subnet
-  
-- Deploy virtual machines and associate their network interfaces to the application security groups
-  
-- Test traffic filters
 
 ## Exercise instructions 
 
