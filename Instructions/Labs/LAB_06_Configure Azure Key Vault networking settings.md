@@ -49,7 +49,7 @@ You can use the Azue portal to configure the Azure Key Vault networking settings
 
 1. In the Azure portal Search box, enter **Key Vault.**
 
-2. Browse to the key vault you previously created and need to secure.
+2. Browse to the key vault you previously created.
 
 3. Select **Networking,** and then select the **Firewalls and virtual networks** tab.
 
