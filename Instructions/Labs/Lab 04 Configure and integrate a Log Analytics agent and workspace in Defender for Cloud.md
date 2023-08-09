@@ -41,10 +41,10 @@ You can use a network security group to filter inbound and outbound network traf
 7. From the Configuration options pane, click **Edit configuration.**
 
 8. In the Auto-provisioning configuration template complete the following:
-   a. Under Workspace selection, click **Custom workspace.**
-   b. Click the dropdown menu and select your previously created workspace.
-   c. Under Security events storage, click the dropdown menu and, select **All Events.**
-   d. At the bottom of the Auto-provisioning template, click **Apply.**
+       a. Under Workspace selection, click **Custom workspace.**
+       b. Click the dropdown menu and select your previously created workspace.
+       c. Under Security events storage, click the dropdown menu and, select **All Events.**
+       d. At the bottom of the Auto-provisioning template, click **Apply.**
    
 ![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Cloud-Security-Benchmark/assets/91347931/fd83a74e-adf5-479f-8036-a554eb1f1c3e)
 
