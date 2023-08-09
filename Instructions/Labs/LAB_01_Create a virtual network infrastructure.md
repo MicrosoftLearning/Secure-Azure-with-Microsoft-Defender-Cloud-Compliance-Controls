@@ -262,3 +262,5 @@ Network security groups contain security rules that filter network traffic by IP
     You see the IIS default page, because inbound traffic from the internet to the **myAsgWebServers** application security group is allowed through port 80.
 
     The network interface attached for **myVMWeb** is associated with the **myAsgWebServers** application security group and allows the connection.
+
+     > Results: You have created a created a virtual network infrastructure and filtered network traffic with a network security group using the Azure portal.
