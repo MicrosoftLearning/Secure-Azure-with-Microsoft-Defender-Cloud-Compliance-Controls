@@ -1,7 +1,7 @@
 ---
 lab:
-    title: '01 - Create a workspace'
-    module: 'Module 1: Create a Log Analytics workspace for Microsoft Defender for Cloud'
+    title: '03 - Create a workspace'
+    module: 'Module 03: Create a Log Analytics workspace for Microsoft Defender for Cloud'
 ---
 
 # Lab 03: Create a workspace
