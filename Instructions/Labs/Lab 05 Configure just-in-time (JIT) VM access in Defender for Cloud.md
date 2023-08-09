@@ -42,7 +42,7 @@ You can use Microsoft Defender for Cloud's just-in-time (JIT) access to protect 
   
    - Select **OK.**
   
-7. To save the port configuration, select **Save.**     
+6. To save the port configuration, select **Save.**     
      
 ### Edit the JIT configuration on a JIT-enabled VM using Defender for Cloud.
 
@@ -62,21 +62,21 @@ You can use Microsoft Defender for Cloud's just-in-time (JIT) access to protect 
    
 2. From Defender for Cloud's menu, open **Workload protections.**
 
-4. Select **Just-in-time VM access.**
+3. Select **Just-in-time VM access.**
 
-5. From the **Just-in-time VM access** page, select the **Configured** tab.
+4. From the **Just-in-time VM access** page, select the **Configured** tab.
 
-6. Select the VMs you want to access.
+5. Select the VMs you want to access.
 
     - The icon in the **Connection Details** column indicates whether JIT is enabled on the network security group or firewall. If it's enabled on both, only the firewall icon appears.
 
     - The **Connection Details** column shows the user and ports that can access the VM.
 
-7. Select **Request access.** The **Request access** window opens.
+6. Select **Request access.** The **Request access** window opens.
 
-8. Under **Request access,** select the ports that you want to open for each VM, the source IP addresses that you want the port opened on, and the time window to open the ports.
+7. Under **Request access,** select the ports that you want to open for each VM, the source IP addresses that you want the port opened on, and the time window to open the ports.
 
-9. Select **Open ports.**
+8. Select **Open ports.**
 
 ### Request access to a JIT-enabled VM from the Azure virtual machine's connect page.
 
