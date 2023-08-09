@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Lab: Configure the Log Analytics agent and workspace'    
+    title: '04: Configure the Log Analytics agent and workspace'    
     module: 'Module 1: Configure and integrate a Log Analytics agent and workspace in Defender for Cloud'
 ---
 
