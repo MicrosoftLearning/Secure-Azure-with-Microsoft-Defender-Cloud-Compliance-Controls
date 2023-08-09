@@ -36,11 +36,19 @@ You can use a network security group to filter inbound and outbound network traf
 
 4. Select the your subscription.
 
-5. In the Monitoring Coverage column of the Defender plans, select **Settings.**
+5. In the Settings & monitoring Coverage column of the Defender plans, select **Settings & monitoring.**
 
-6. From the configuration options pane, define the workspace to use.
+7. From the Configuration options pane, click **Edit configuration.**
 
-7. On the **Basics** tab of **Create Log Analytics workspace,** enter or select this information:
+8. In the Auto-provisioning configuration template complete the following:
+   a. Under Workspace selection, click **Custom workspace.**
+   b. Click the dropdown menu and select your previously created workspace.
+   c. Under Security events storage, click the dropdown menu and, select **All Events.**
+   d. At the bottom of the Auto-provisioning template, click **Apply.**
+     
+11. Settings & monitoring Coverage column of the Defender plans, select **Settings & monitoring.**
+
+12. On the **Basics** tab of **Create Log Analytics workspace,** enter or select this information:
    
    |Setting|Value|
    |---|---|
@@ -51,9 +59,9 @@ You can use a network security group to filter inbound and outbound network traf
    |Name|Enter *myWorkspace.*|
    |Region|Select **(US) East US.**|
 
-8. Select the **Review + create tab,** or select the blue Review + create button at the bottom of the page.
+11. Select the **Review + create tab,** or select the blue Review + create button at the bottom of the page.
   
-9. Select **Create.**
+12. Select **Create.**
 
 > **Results:** You have created a Log Analytics workspace, to collect data from Azure reources, and diagnostics or log data from Azure Storage.
 
