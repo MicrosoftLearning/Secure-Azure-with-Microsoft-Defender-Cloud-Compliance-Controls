@@ -10,11 +10,9 @@ You can use Microsoft Defender for Cloud's just-in-time (JIT) access to protect 
 
 ## Skilling tasks
 
-- Use Log Analytics Agent defaults for your agent type.
+- Enable JIT on your VMs from the Azure portal.
 
-- Select your workspace.
-  
-- Define the level of security event data to store at the workspace level.
+- Request access to a VM that has JIT enabled from the Azure portal.
 
 ## Exercise instructions 
 
