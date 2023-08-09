@@ -199,11 +199,11 @@ Network security groups contain security rules that filter network traffic by IP
 
 6. Select **Create.** The VM may take a few minutes to deploy.
   
-   Create the second virtual machine
+   - Create the second virtual machine
 
-   Complete steps 1-6 again, but in step 2, enter myVMMgmt for Virtual machine name.
+   - Complete steps 1-6 again, but in step 2, enter myVMMgmt for Virtual machine name.
 
-   Wait for the VMs to complete deployment before advancing to the next section.
+   - Wait for the VMs to complete deployment before advancing to the next section.
 
 ### Associate the network interfaces of each VM to one of the application security groups you created previously:
 
