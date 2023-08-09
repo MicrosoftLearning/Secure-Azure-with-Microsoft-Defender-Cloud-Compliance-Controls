@@ -51,5 +51,3 @@ Network security groups contain security rules that filter network traffic by IP
 8. Select **Create.**
 
 > Results: You have created a Log Analytics workspace, to collect data from Azure reources, and diagnostics or log data from Azure Storage.
-
-Maecenas fringilla ac purus non tincidunt. Aenean pellentesque velit id suscipit tempus. Cras at ullamcorper odio.
