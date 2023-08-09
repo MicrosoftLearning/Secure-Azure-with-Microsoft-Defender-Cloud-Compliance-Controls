@@ -1,16 +1,10 @@
 ---
 lab:
-    title: '04 - Collect data from your workloads with the Log Analytics agent'    
+    title: 'Exercise 04 - Collect data from your workloads with the Log Analytics agent'    
     module: 'Module 04 - Configure and integrate a Log Analytics agent and workspace in Defender for Cloud'
 ---
 
-# Lab 04: Collect data from your workloads with the Log Analytics agent
-# Student lab manual
-
----
-## Lab scenario
-
-You can use a network security group to filter inbound and outbound network traffic to and from Azure resources in an Azure virtual network. Network security groups contain security rules that filter network traffic by IP address, port, and protocol. When a network security group is associated with a subnet, security rules are applied to resources deployed in that subnet.
+Defender for Cloud collects data from your Azure virtual machines (VMs), Virtual Machine Scale Sets, IaaS containers, and non-Azure (including on-premises) machines to monitor for security vulnerabilities and threats. Some Defender plans require monitoring components to collect data from your workloads. When the Log Analytics agent is on, Defender for Cloud deploys the agent on all supported Azure VMs and any new ones created. 
 
 ---
 
