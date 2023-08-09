@@ -10,9 +10,9 @@ Defender for Cloud collects data from your Azure virtual machines (VMs), Virtual
 
 ## Skilling tasks
 
-- Create a network security group and security rules
+- Select your workspace.
   
-- Create application security groups
+- Define the level of security event data to store at the workspace level.
   
 - Create a virtual network and associate a network security group to a subnet
   
