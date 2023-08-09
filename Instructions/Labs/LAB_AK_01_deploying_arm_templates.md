@@ -33,19 +33,22 @@ Network security groups contain security rules that filter network traffic by IP
    
 2. From the Azure portal menu, enter **Log Analytics** in the search box. As you begin typing, the list filters based on your input. Select **Log Analytics workspaces.**
 
-   ![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Cloud-Security-Benchmark/assets/91347931/13b591bb-cba4-4370-baf0-1fb4882435a8)
-
 4. Select **Add.**
 
-5. Select your **Subscription** from the dropdown.
+5. On the **Basics** tab of **Create Log Analytics workspace,** enter or select this information:
+   
+   |Setting|Value|
+   |---|---|
+   |**Project details**|
+   |Subscription|Select your subscription.|
+   |Resource group|Select **Create new.** Enter *myResourceGroup.* Select **OK**|
+   |**Instance details**|
+   |Name|Enter *myWorkspace.*|
+   |Region|Select **(US) East US.**|
 
-6. Provide a name for the new **Log Analytics workspace,** such as *DefaultLAWorkspace.* This name must be unique per resource group.
-
-7. Select an available **Region.** For more information, see which regions Log Analytics is available in. Search for Azure Monitor in the **Search for a product** box.
-
-   ![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Cloud-Security-Benchmark/assets/91347931/1ed55236-ca3b-4239-b247-aa713fefc683)
-
-8. Select **Review + Create** to review the settings. Then select **Create** to create the workspace. A default pricing tier of pay-as-you-go is applied. 
+6. Select the **Review + create tab,** or select the blue Review + create button at the bottom of the page.
+  
+8. Select **Create.**
 
 > Results: You have created a Log Analytics workspace, to collect data from Azure reources, and diagnostics or log data from Azure Storage.
 
