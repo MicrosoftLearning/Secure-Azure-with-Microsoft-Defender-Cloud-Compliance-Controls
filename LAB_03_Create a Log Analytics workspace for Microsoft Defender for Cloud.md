@@ -4,7 +4,7 @@ lab:
     module: 'Module 1: Create a Log Analytics workspace for Microsoft Defender for Cloud'
 ---
 
-# Lab 01: Create a workspace
+# Lab 03: Create a workspace
 # Student lab manual
 
 ## Lab scenario
