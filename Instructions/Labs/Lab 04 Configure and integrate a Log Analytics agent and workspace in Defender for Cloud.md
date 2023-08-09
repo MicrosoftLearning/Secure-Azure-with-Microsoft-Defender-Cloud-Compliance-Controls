@@ -1,10 +1,10 @@
 ---
 lab:
-    title: '04 - Configure the Log Analytics agent and workspace'    
+    title: '04 - CCollect data from your workloads with the Log Analytics agent'    
     module: 'Module 04 - Configure and integrate a Log Analytics agent and workspace in Defender for Cloud'
 ---
 
-# Lab 04: Configure the Log Analytics agent and workspace
+# Lab 04: Collect data from your workloads with the Log Analytics agent
 # Student lab manual
 
 ---
