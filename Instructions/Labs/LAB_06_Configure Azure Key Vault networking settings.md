@@ -10,9 +10,9 @@ You can use the Azue portal to configure the Azure Key Vault networking settings
 
 ## Skilling tasks
 
-- Enable JIT on your VMs from the Azure portal.
+- Add an exsiting virtual network to a firewall and virtual network rules.
 
-- Request access to a VM that has JIT enabled from the Azure portal.
+- Configure a virtual network and subnet to allow access to a key vault.
 
 ## Exercise instructions 
 
