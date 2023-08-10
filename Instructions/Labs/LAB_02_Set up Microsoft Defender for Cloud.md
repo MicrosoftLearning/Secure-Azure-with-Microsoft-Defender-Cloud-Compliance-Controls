@@ -1,15 +1,12 @@
 ---
 lab:
-    title: '02 - Enable Defender for Cloud on your Azure subscription'
-    module: 'Module 2: Set up Microsoft Defender for Cloud'
+    title: 'Exercise 02 - Enable Defender for Cloud on your Azure subscription'
+    module: 'Module 02 - Set up Microsoft Defender for Cloud'
 ---
 
-# Lab 02: Enable Defender for Cloud on your Azure subscription
-# Student lab manual
+The main goal of this exercise is to provide hands-on experience in configuring and enabling Microsoft Defender for Cloud within an Azure subscription. This will allow you to monitor and protect your cloud resources against security threats. 
 
-## Lab scenario
-
-The main goal of this lab is to provide hands-on experience in configuring and enabling Microsoft Defender for Cloud within an Azure subscription. This will allow you to monitor and protect your cloud resources against security threats. 
+---
 
 ## Skilling tasks
 
@@ -22,8 +19,6 @@ The main goal of this lab is to provide hands-on experience in configuring and e
 ### Implement Microsoft Defender for Cloud
 
 1. Sign-in to the Azure portal https://portal.azure.com/.
-
-   >**Note**: Sign in to the Azure portal using an account that has the Owner or Contributor role in the Azure subscription you are using for this lab.
 
 2. In the Azure portal, in the Search resources, services, and docs text box at the top of the Azure portal page, type Microsoft Defender for Cloud and press the Enter key.
 
