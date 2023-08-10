@@ -4,17 +4,19 @@ lab:
     module: 'Module 07 - Perform soft-delete and purge protection key vault recovery'
 ---
 
-You can use the Azue portal to configure the Azure Key Vault networking settings to work with other applications and Azure services. 
+You can use purge protection to prevent the deletion of your key vault, keys, secrets, and certificates by a malicious insider. Think of this as a recycle bin with a time based lock. You can recover items at any point during the configurable retention period. You will not be able to permanently delete or purge a key vault until the retention period elapses. Once the retention period elapses the key vault or key vault object will be purged automatically.use the Azue portal to configure the Azure Key Vault networking settings to work with other applications and Azure services. 
 
 ---
 
 ## Skilling tasks
 
-- Create a key vault using the Azure portal.
+- Verify if soft delete is enabled on a key vault and enable soft delete.
 
-- Add an exsiting virtual network to a firewall and virtual network rules.
+- Grant access to a service principal to purge and recover deleted secrets.
 
-- Configure a virtual network and subnet to allow access to a key vault.
+- List, recover, or purge a soft-deleted key vault.
+
+- List, recover or purge soft deleted secrets, keys, and certificates.
 
 ## Exercise instructions 
 
