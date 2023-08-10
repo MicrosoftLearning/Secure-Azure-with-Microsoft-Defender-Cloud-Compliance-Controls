@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Exercise 03 - Create a workspace'
-    module: 'Module 03: Create a Log Analytics workspace for Microsoft Defender for Cloud'
+    module: 'Module 03 - Create a Log Analytics workspace for Microsoft Defender for Cloud'
 ---
 
 You can use a network security group to filter inbound and outbound network traffic to and from Azure resources in an Azure virtual network. 
