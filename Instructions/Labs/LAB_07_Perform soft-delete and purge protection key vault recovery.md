@@ -24,13 +24,15 @@ You can use purge protection to prevent the deletion of your key vault, keys, se
 
 1. Start a browser session and sign-in to the Azure portal https://portal.azure.com/.
    
-2. In the Azure portal Search box, enter **Key Vault.**
+2. Select your key vault.
 
-3. From the results list, choose **Key Vault.**
+3. Click on the **Properties** blade.
 
-4. On the Key vaults section, choose **Create.**
+4. Verify if the radio button next to soft-delete is set to **Enable Recovery.**
 
-5. On the **Basics** tab of **Create a key vault,** enter or select this information:
+5. If soft-delete is not enabled on the key vault, click the radio button to enable soft delete and click **Save.**
+
+7. On the **Basics** tab of **Create a key vault,** enter or select this information:
    
    |Setting|Value|
    |---|---|
@@ -43,9 +45,9 @@ You can use purge protection to prevent the deletion of your key vault, keys, se
    |Pricing tier|System default **Standard**|
    |Days to retain deleted vaults|System default **90**|
 
-7. Select the **Review + create tab,** or select the blue Review + create button at the bottom of the page.
+8. Select the **Review + create tab,** or select the blue Review + create button at the bottom of the page.
   
-8. Select **Create.**
+9. Select **Create.**
 
 ### Configure Key Vault firewall and virtual network settings.
 
