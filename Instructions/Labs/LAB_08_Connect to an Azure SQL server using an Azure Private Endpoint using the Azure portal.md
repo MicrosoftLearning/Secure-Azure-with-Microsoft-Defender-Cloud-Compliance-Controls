@@ -34,9 +34,9 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |---|---|
    |**Project details**|
    |Subscription|Select your subscription.|
-   |Resource group|Select **Create new.** Enter *myResourceGroup.* Select **OK**|
+   |Resource group|Select **Create new.** Enter *CreateSQLEndpointTutoria.* Select **OK**|
    |**Instance details**|
-   |Virtual network name|Enter *myVNet.*|
+   |Virtual network name|Enter *myVNet1a.*|
    |Region|Select **(US) East US.**|  
     
 5. Select the **Review + create** tab, or select the blue Review + create button at the bottom of the page.
