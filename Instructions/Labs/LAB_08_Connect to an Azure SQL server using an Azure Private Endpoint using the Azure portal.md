@@ -69,9 +69,9 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
  
 ### Create a virtual machine.
 
-1. From the Azure portal menu, select + **Create a resource** > **Networking** > **Application security group,** or search for Application security group in the portal search box.
+1. From the Azure portal menu, select + **Create a resource** > **Compute** > **Virtual machine** or search **Virtual Machine** in the portal search box.
    
-2. Select **Create.**
+2. In **Create a virtual machine,** enter or select the values in the **Basics** tab:
 
 3. On the **Basics** tab of **Create an application security group,** enter or select this information:
    
