@@ -22,6 +22,8 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
 
 ### Create a resource group and virtual network.
 
+    **Note:** The bastion host will be used to connect securely to the virtual machine for testing the private endpoint.
+
 1. Start a browser session and sign-in to the Azure portal https://portal.azure.com/.
    
 2. From the Azure portal menu, select + **Create a resource** > **Networking** > **Virtual network,** or search for Virtual Network in the portal search box.
@@ -180,6 +182,8 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
  11. Select **Create.**
 
 ### Disable public access to Azure SQL logical server
+
+    **Note:** For this task, assume you would like to disable all public access to your Azure SQL server, and only allow connections from your virtual network.
 
 1. In the Azure portal search box, enter **mysqlserver** or the server name you entered in the previous steps.
 
