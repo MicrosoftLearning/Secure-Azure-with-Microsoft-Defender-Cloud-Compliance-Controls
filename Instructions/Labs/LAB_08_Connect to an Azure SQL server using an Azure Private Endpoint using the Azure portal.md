@@ -61,12 +61,11 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
 10. Select the **Security** tab.
 
 11. Under **Bastion host,** select **Enable.** Enter this information:
-
-   |Setting|Value|
-   |---|---|
-   |Bastion name|Enter **myBastionHost.**|
-   |AzureBstionSubnet address space|Enter **10.1.1.0/24.**|
-   |Public IP Address|Select **Create new.** For **Name,** enter **My BastionIP.** Select **OK.**|
+    |Setting|Value|
+    |---|---|
+    |Bastion name|Enter **myBastionHost.**|
+    |AzureBstionSubnet address space|Enter **10.1.1.0/24.**|
+    |Public IP Address|Select **Create new.** For **Name,** enter **My BastionIP.** Select **OK.**|
   
    
  
