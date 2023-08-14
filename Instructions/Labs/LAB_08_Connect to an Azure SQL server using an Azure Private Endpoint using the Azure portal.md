@@ -193,6 +193,8 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
 
 ### Test connectivity to private endpoint
 
+    **Note:** In this task, you'll use the virtual machine you created in the previous steps to connect to the SQL server across the private endpoint.
+
 1. Select **Resource groups** in the left-hand navigation pane.
 
 2. Select **CreateSQLEndpointTutorial.**
