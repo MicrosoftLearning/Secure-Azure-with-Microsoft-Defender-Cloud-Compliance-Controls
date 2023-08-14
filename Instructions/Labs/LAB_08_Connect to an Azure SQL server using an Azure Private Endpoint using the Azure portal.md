@@ -146,6 +146,44 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |**Backup storage redundancy**|
    |Backup storage redundancy|Select **Locally-redundant backup storage.**|
    
+5. Select the **Networking** tab or select the **Next: Networking** button.
+
+6. In the **Networking** tab, enter or select this information:
+
+   |Setting|Value|
+   |---|---|
+   |**Network connnectivity**|
+   |Connectivity method|Select **Private endpoint.**|
+
+7. Select + **Add private endpoint** in **Private endpoints.**
+
+8. In **Create private endpoint,** enter or select this information:
+
+   |Setting|Value|
+   |---|---|
+   |Subscription|Select your subscription.|
+   |Resource group|Select **CreateSQLEndpointTutorial.**|
+   |Location|Select **East US.**|
+   |Name|Enter **myPrivateSQLendpoint.**|
+   |Target sub-resource|Select **SqlServer.**|
+   |**Networking**|
+   |Virtual network|Select **myVNet.**|
+   |Subnet|Select **mySubnet.**|
+   |**Private DNS integration**|
+   |Intergrate with private DNS zone|Leave the default **Yes.**|
+   |Private DNS Zone|Leave the default **(New) privatelink.database.windows.net.**|
+
+ 9. Select **OK.**
+
+ 10. Select **Review + create.**
+
+ 11. Select **Create.**
+
+
+   |**Database details**|
+   |Database name|Enter **mysqldatabase.**|
+   |Server|Select **Create new.**|
+
    |Location|Select **(US) East US.**|
    |**Authentication**|
    |Authentication method|Select **Use SQL authentication.**|
@@ -153,7 +191,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |Password|Enter an administrator name of your choosing. The password must be at least eight characters long and meet the defined requirements.|
    |Confirm passowrd|Reenter password.|
 
-6. In the **Basics** tab, enter or select this information after creating the SQL database server:
+10. In the **Basics** tab, enter or select this information after creating the SQL database server:
 
    |Public IP|Select **None.**|
    |NIC network security group|Select **Basic.**|
