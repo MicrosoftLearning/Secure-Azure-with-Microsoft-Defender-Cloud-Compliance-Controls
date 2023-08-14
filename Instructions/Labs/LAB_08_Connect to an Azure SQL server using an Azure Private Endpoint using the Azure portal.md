@@ -240,4 +240,4 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
 
 15. Close the remote desktop connection to myVM.
   
-     > Results: You have created a created a virtual network infrastructure and filtered network traffic with a network security group using the Azure portal.
+     > Results: You have connected to an Azure SQL server using an Azure Private Endpoint using the Azure portal.
