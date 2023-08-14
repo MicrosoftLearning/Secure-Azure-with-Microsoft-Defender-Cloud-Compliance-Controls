@@ -4,23 +4,19 @@ lab:
     module: 'Module 08 - Connect to an Azure SQL server using an Azure Private Endpoint using the Azure portal'
 ---
 
-You can use a network security group to filter inbound and outbound network traffic to and from Azure resources in an Azure virtual network. 
-
-Network security groups contain security rules that filter network traffic by IP address, port, and protocol. When a network security group is associated with a subnet, security rules are applied to resources deployed in that subnet.
+Azure Private endpoint is the fundamental building block for Private Link in Azure. It enables Azure resources, like virtual machines (VMs), to privately and securely communicate with Private Link resources such as Azure SQL server.
 
 ---
 
 ## Skilling tasks
 
-- Create a network security group and security rules
+- Create a virtual network and bastion host.
   
-- Create application security groups
+- Create a virtual machine.
   
-- Create a virtual network and associate a network security group to a subnet
+- Create an Azure SQL server and private endpoint.
   
-- Deploy virtual machines and associate their network interfaces to the application security groups
-  
-- Test traffic filters
+- Test connectivity to the SQL server private endpoint.
 
 ## Exercise instructions 
 
