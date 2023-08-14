@@ -34,7 +34,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |---|---|
    |**Project details**|
    |Subscription|Select your subscription.|
-   |Resource group|Select **Create new.** Enter *CreateSQLEndpointTutoria.* Select **OK**|
+   |Resource group|Select **Create new.** Enter **CreateSQLEndpointTutorial.** Select **OK**|
    |**Instance details**|
    |Virtual network name|Enter *myVNet1a.*|
    |Region|Select **(US) East US.**|  
@@ -66,13 +66,10 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |---|---|
    |Bastion name|Enter **myBastionHost.**|
    |AzureBstionSubnet address space|Enter **10.1.1.0/24.**|
-   |Public IP Address|Select **Create new.** For **Name,** enter **My BastionIP.**|
+   |Public IP Address|Select **Create new.** For **Name,** enter **My BastionIP.** Select **OK.**|
   
    
-   |Resource group|Select **Create new.** Enter *CreateSQLEndpointTutoria.* Select **OK**|
-   |**Instance details**|
-   |Virtual network name|Enter *myVNet1a.*|
-   |Region|Select **(US) East US.**|  
+ 
 
 ### Create application security groups to enable you to group together servers with similar functions, such as web servers.
 
