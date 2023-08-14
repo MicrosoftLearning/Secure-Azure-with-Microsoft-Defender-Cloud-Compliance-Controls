@@ -215,7 +215,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |Address|10.1.0.5|
    |Alias|mysqlserver.database.windows.net|
  
-    A  private IP address of 10.1.0.5 is returned for the SQL server name. This address is in **mySubnet** subnet of **myVNet** virtual network you created previously.
+    **Note:** A  private IP address of 10.1.0.5 is returned for the SQL server name. This address is in **mySubnet** subnet of **myVNet** virtual network you created previously.
 
 9. Install *SQL Server Management Studio* on **myVM.**
 
