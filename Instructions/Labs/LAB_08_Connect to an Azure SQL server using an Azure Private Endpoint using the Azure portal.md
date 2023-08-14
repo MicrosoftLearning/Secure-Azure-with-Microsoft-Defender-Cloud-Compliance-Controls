@@ -71,6 +71,8 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
  
 ### Create a virtual machine.
 
+    **Note:** In this task, you'll create a virtual machine that will be used to test the private endpoint.
+
 1. From the Azure portal menu, select + **Create a resource** > **Compute** > **Virtual machine** or search **Virtual Machine** in the portal search box.
    
 2. In **Create a virtual machine,** enter or select the values in the **Basics** tab:
