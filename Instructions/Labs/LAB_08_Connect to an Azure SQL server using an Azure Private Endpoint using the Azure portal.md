@@ -207,22 +207,21 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
 
    |Setting|Value|
    |---|---|
+   |**PowerShell**|
    |Server|UnKnown|
    |Address|168.63.129.16|
-   |Non-authoritative|answer:|
+   |**Non-authoritative answer:**|
    |Name:|mysqlserver.privatelink.database.windows.net|
    |Address|10.1.0.5|
    |Alias|mysqlserver.database.windows.net|
-   |Password|Enter the password you entered during server creation.|
-   |Remeber password|Select **Yes.**|
-
+ 
     A  private IP address of 10.1.0.5 is returned for the SQL server name. This address is in **mySubnet** subnet of **myVNet** virtual network you created previously.
 
-10. Install *SQL Server Management Studio* on **myVM.**
+9. Install *SQL Server Management Studio* on **myVM.**
 
-11. Open **SQL Server Management Studio.**
+10. Open **SQL Server Management Studio.**
 
-12. In **Connect to server,** enter or select this information:
+11. In **Connect to server,** enter or select this information:
   
    |Setting|Value|
    |---|---|
