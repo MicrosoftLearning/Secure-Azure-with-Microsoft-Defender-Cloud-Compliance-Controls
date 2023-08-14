@@ -91,9 +91,9 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |Password|Enter a Enter password.|
    |Confirm password|Reenter a password.|
 
-4. Select the **Networking** tab, or select **Next: Disks,** then **Next: Networking.**
+3. Select the **Networking** tab, or select **Next: Disks,** then **Next: Networking.**
   
-5. In the **Networking** tab, enter or select this information:
+4. In the **Networking** tab, enter or select this information:
 
    |Setting|Value|
    |---|---|
@@ -104,9 +104,9 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |NIC network security group|Select **Basic.**|
    |Public inbound ports|Select **None.**|
   
-7. Select **Review + create.**
+5. Select **Review + create.**
 
-8. Review the settings, and then select **Create.**
+6. Review the settings, and then select **Create.**
 
 ### Create an Azure SQL server and private endpoint
 
@@ -123,16 +123,38 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |Database name|Enter **mysqldatabase.**|
    |Server|Select **Create new.**|  
 
-
-4. Select the **Networking** tab, or select **Next: Disks,** then **Next: Networking.**
+3. In **Create SQL Database Server,** enter or select this information:
   
-5. In the **Networking** tab, enter or select this information:
-
    |Setting|Value|
    |---|---|
-   |**Network interface**|
-   |Virtual network|Select **myVnet.**|
-   |Subnet|Select **mySubnet.**|
+   |**Server details**|
+   |Server name|Enter **mysqlserver.** If this name is taken, create a unique name.|
+   |Location|Select **(US) East US.**|
+   |**Authentication**|
+   |Authentication method|Select **Use SQL authentication.**|
+   |Server admin login|Enter an administrator name of your choosing.|
+   |Password|Enter an administrator name of your choosing. The password must be at least eight characters long and meet the defined requirements.|
+   |Confirm passowrd|Reenter password.|
+
+4. Select **OK.**
+   
+   |Setting|Value|
+   |---|---|
+   |**Database details**|
+   |Want to use SQL elastic pool|Select **No.**|
+   |Compute + Storage|Take default settings or select **Configure database** to configure compute and storage settings.|
+   |**Backup storage redundancy**|
+   |Backup storage redundancy|Select **Locally-redundant backup storage.**|
+   
+   |Location|Select **(US) East US.**|
+   |**Authentication**|
+   |Authentication method|Select **Use SQL authentication.**|
+   |Server admin login|Enter an administrator name of your choosing.|
+   |Password|Enter an administrator name of your choosing. The password must be at least eight characters long and meet the defined requirements.|
+   |Confirm passowrd|Reenter password.|
+
+6. In the **Basics** tab, enter or select this information after creating the SQL database server:
+
    |Public IP|Select **None.**|
    |NIC network security group|Select **Basic.**|
    |Public inbound ports|Select **None.**|
