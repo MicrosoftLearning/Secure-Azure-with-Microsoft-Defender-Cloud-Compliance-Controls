@@ -48,43 +48,18 @@ You can use purge protection to prevent the deletion of your key vault, keys, se
 
 ![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Cloud-Security-Benchmark/assets/91347931/2c0cc3b3-f746-4390-aa13-eed95250f0e5)
 
+### List, recover, or purge soft-deleted secrets, keys, and certificates.
 
-
-
-
-
-
-7. On the **Basics** tab of **Create a key vault,** enter or select this information:
+1. Start a browser session and sign-in to the Azure portal https://portal.azure.com/.
    
-   |Setting|Value|
-   |---|---|
-   |**Project details**|
-   |Subscription|Select your subscription.|
-   |Resource group|Enter *myResourceGroup.* Select **OK**|
-   |**Instance details**|
-   |Key vault name|Enter *myAPLKeyVault.*|
-   |Region|Select **East US**|
-   |Pricing tier|System default **Standard**|
-   |Days to retain deleted vaults|System default **90**|
+2. Select your key vault.
 
-8. Select the **Review + create tab,** or select the blue Review + create button at the bottom of the page.
-  
-9. Select **Create.**
+3. Click on the **Properties** blade.
 
-### Configure Key Vault firewall and virtual network settings.
+4. Verify if the radio button next to soft-delete is set to **Enable purge protection.**
 
-1. In the Azure portal Search box, enter **Key Vault.**
+5. If soft-delete is not enabled on the key vault, click the radio button to enable soft delete and click **Save.**
 
-2. Browse to the key vault you previously created.
-
-3. Select **Networking,** and then select the **Firewalls and virtual networks** tab.
-
-4. Under Allow access from, select **Allow public access from specific virtual networks and IP addresses.**
-
-5. Under the Virtual networks section, select + **Add existing virtual networks,** then select + **Add existing virtual networks.**
-
-6. In the Add networks template, select your previously created virtual network from the **Virtual networks** dropdown list, and **Subnets** dropdown list.
-
-7. At the bottom of the Add networks template, click **Add.**
+![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Cloud-Security-Benchmark/assets/91347931/816c599f-070b-4842-9ea9-8f8dccb37cd6)
 
   > Results: You have created a key vault and configured key vault firewall and virtual network settings in the Azure portal.
