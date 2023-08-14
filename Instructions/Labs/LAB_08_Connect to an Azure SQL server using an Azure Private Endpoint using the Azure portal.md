@@ -73,7 +73,39 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    
 2. In **Create a virtual machine,** enter or select the values in the **Basics** tab:
 
-3. On the **Basics** tab of **Create an application security group,** enter or select this information:
+   |Setting|Value|
+   |---|---|
+   |**Project details**|
+   |Subscription|Select your subscription.|
+   |Resource group|Select **CreateSQLEndpointTutorial.**|
+   |**Instance details**|
+   |Virtual network name|Enter *myVM.*|
+   |Region|Select **(US) East US.**|  
+   |Availability Options|Select **No infrastructure redundancy required.**|
+   |Security type|Select **Standard.**|
+   |Image|Select **Windows Server 2019 Datacenter - Gen2.Standard.**|
+   |Azure Spot instance|Select **No.**|
+   |Size|Choose VM size or take default setting.|
+   |**Administrator account**|
+   |Username|Enter a username.|
+   |Password|Enter a Enter password.|
+   |Confirm password|Reenter a password.|
+
+4. Select the **Networking** tab, or select **Next: Disks,** then **Next: Networking.**
+  
+5. In the **Networking** tab, enter or select this information:
+
+   |Setting|Value|
+   |---|---|
+   |**Network interface**|
+   |Virtual network|Select **myVnet.**|
+   |Resource group|Select **CreateSQLEndpointTutorial.**|
+   |**Instance details**|
+   |Virtual network name|Enter *myVM.*|
+   |Region|Select **(US) East US.**|  
+   |Availability Options|Select **No infrastructure redundancy required.**|
+
+
    
    |Setting|Value|
    |---|---|
@@ -84,11 +116,11 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |Name|Enter *myAsgWebServers.*|
    |Region|Select **(US) East US.**|  
     
-4. Select the **Review + create** tab, or select the blue **Review + create** button at the bottom of the page.
+7. Select the **Review + create** tab, or select the blue **Review + create** button at the bottom of the page.
 
-5. Select **Create.**
+8. Select **Create.**
 
-6. Repeat the previous steps, specifying the following values:
+9. Repeat the previous steps, specifying the following values:
     
    |Setting|Value|
    |---|---|
@@ -99,9 +131,9 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |Name|Enter *myAsgMgmtServers.*|
    |Region|Select **(US) East US.**|
 
-7. Select the **Review + create** tab, or select the blue **Review + create** button at the bottom of the page.
+10. Select the **Review + create** tab, or select the blue **Review + create** button at the bottom of the page.
 
-8. Select **Create.**
+11. Select **Create.**
 
 ### Create a network security groug to secure network traffic in your virtual network.
 
