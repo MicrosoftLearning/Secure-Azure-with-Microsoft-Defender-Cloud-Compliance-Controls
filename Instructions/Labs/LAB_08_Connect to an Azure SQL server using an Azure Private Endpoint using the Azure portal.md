@@ -209,7 +209,6 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |---|---|
    |Server|UnKnown|
    |Address|168.63.129.16|
-
    |Non-authoritative|answer:|
    |Name:|mysqlserver.privatelink.database.windows.net|
    |Address|10.1.0.5|
