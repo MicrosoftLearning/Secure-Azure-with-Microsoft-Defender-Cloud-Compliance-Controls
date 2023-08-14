@@ -222,7 +222,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
 10. Open **SQL Server Management Studio.**
 
 11. In **Connect to server,** enter or select this information:
-  
+
     |Setting|Value|
     |---|---|
     |Server type|Select **Database Engine.**|
@@ -231,13 +231,13 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
     |User name|Enter the username you entered during server creation.|
     |Password|Enter the password you entered during server creation.|
     |Remember password|Select **Yes.**|
-  
-13. Select **Connect.**
+   
+12. Select **Connect.**
 
-14. Browse databases from left menu.
+13. Browse databases from left menu.
 
-15. (Optionally) Create or query information from mysqldatabase.
+14. (Optionally) Create or query information from mysqldatabase.
 
-16. Close the remote desktop connection to myVM.
+15. Close the remote desktop connection to myVM.
   
      > Results: You have created a created a virtual network infrastructure and filtered network traffic with a network security group using the Azure portal.
