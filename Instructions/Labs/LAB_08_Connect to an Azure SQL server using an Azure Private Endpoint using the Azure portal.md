@@ -65,12 +65,9 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
     |---|---|
     |Bastion name|Enter **myBastionHost.**|
     |AzureBstionSubnet address space|Enter **10.1.1.0/24.**|
-    |Public IP Address|Select **Create new.** For **Name,** enter **My BastionIP.** Select **OK.**|
-  
-   
+    |Public IP Address|Select **Create new.** For **Name,** enter **My BastionIP.** Select **OK.**| 
  
-
-### Create application security groups to enable you to group together servers with similar functions, such as web servers.
+### Create a virtual machine.
 
 1. From the Azure portal menu, select + **Create a resource** > **Networking** > **Application security group,** or search for Application security group in the portal search box.
    
