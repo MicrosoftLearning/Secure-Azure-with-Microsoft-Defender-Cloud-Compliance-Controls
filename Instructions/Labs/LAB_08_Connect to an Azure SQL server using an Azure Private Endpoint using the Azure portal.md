@@ -1,7 +1,7 @@
 ---
 lab:
-    title: 'Exercise 01 - Create a virtual network infrastructure'
-    module: 'Module 01 - Filter network traffic with a network security group using the Azure portal'
+    title: 'Exercise 08 - Deploy a virtual machine to test connectivity privately and securely to the SQL server across the private endpoint.Create a virtual network infrastructure'
+    module: 'Module 08 - Connect to an Azure SQL server using an Azure Private Endpoint using the Azure portal'
 ---
 
 You can use a network security group to filter inbound and outbound network traffic to and from Azure resources in an Azure virtual network. 
