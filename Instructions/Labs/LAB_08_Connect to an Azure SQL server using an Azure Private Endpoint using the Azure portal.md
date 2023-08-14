@@ -39,9 +39,40 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |Virtual network name|Enter *myVNet1a.*|
    |Region|Select **(US) East US.**|  
     
-5. Select the **Review + create** tab, or select the blue Review + create button at the bottom of the page.
+5. Select the **IP Addresses** tab or select the **Next: IP Addresses** button at the bottom of the page.
 
-6. Select **Create.**
+6. In the **IP Addresses** tab, enter this information:
+
+   |Setting|Value|
+   |---|---|
+   |IPv4 address space|Enter **10.1.0.0/16.**|
+
+7. Under **Subnet name,** select the word **default.**
+
+8. In **Edit subnet,** enter this information:
+
+   |Setting|Value|
+   |---|---|
+   |Subnet name|Enter **mySubnet1a.**|
+   |Subnet address range|Enter **10.1.0.0/24.**|
+
+9. Select **Save.**
+
+10. Select the **Security** tab.
+
+11. Under **Bastion host,** select **Enable.** Enter this information:
+
+   |Setting|Value|
+   |---|---|
+   |Bastion name|Enter **myBastionHost.**|
+   |AzureBstionSubnet address space|Enter **10.1.1.0/24.**|
+   |Public IP Address|Select **Create new.** For **Name,** enter **My BastionIP.**|
+  
+   
+   |Resource group|Select **Create new.** Enter *CreateSQLEndpointTutoria.* Select **OK**|
+   |**Instance details**|
+   |Virtual network name|Enter *myVNet1a.*|
+   |Region|Select **(US) East US.**|  
 
 ### Create application security groups to enable you to group together servers with similar functions, such as web servers.
 
