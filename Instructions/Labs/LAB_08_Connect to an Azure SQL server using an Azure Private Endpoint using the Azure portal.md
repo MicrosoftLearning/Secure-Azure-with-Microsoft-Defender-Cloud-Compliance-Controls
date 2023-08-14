@@ -179,223 +179,67 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
 
  11. Select **Create.**
 
+### Disable public access to Azure SQL logical server
 
-   |**Database details**|
-   |Database name|Enter **mysqldatabase.**|
-   |Server|Select **Create new.**|
+1. In the Azure portal search box, enter **mysqlserver** or the server name you entered in the previous steps.
 
-   |Location|Select **(US) East US.**|
-   |**Authentication**|
-   |Authentication method|Select **Use SQL authentication.**|
-   |Server admin login|Enter an administrator name of your choosing.|
-   |Password|Enter an administrator name of your choosing. The password must be at least eight characters long and meet the defined requirements.|
-   |Confirm passowrd|Reenter password.|
+2. On the **Networking** page, select **Public access** tab, then select **Disable** for **Public network access.**
 
-10. In the **Basics** tab, enter or select this information after creating the SQL database server:
+3. Select **Save.**
 
-   |Public IP|Select **None.**|
-   |NIC network security group|Select **Basic.**|
-   |Public inbound ports|Select **None.**|
+### Test connectivity to private endpoint
+
+1. Select **Resource groups** in the left-hand navigation pane.
+
+2. Select **CreateSQLEndpointTutorial.**
+
+3. Select **myVM.**
+
+4. On the overview page for **myVM,** select Connect then **Bastion.**
+
+5. Enter the username and password that you entered during the virtual machine creation.
+
+6. Select **Connect** button.
+
+7. Open Windows PowerShell on the server after you connect.
+
+8. Enter nslookup <sqlserver-name>.database.windows.net. Replace <sqlserver-name> with the name of the SQL server you created in the previous steps. You'll receive a message similar to what is displayed below:
+
+   |Setting|Value|
+   |---|---|
+   |Server|UnKnown|
+   |Address|168.63.129.16|
+
+   |Non-authoritative|answer:|
+   |Name:|mysqlserver.privatelink.database.windows.net|
+   |Address|10.1.0.5|
+   |Alias|mysqlserver.database.windows.net|
+   |Password|Enter the password you entered during server creation.|
+   |Remeber password|Select **Yes.**|
+
+    A  private IP address of 10.1.0.5 is returned for the SQL server name. This address is in **mySubnet** subnet of **myVNet** virtual network you created previously.
+
+10. Install *SQL Server Management Studio* on **myVM.**
+
+11. Open **SQL Server Management Studio.**
+
+12. In **Connect to server,** enter or select this information:
   
-7. Select **Review + create.**
-
-8. Review the settings, and then select **Create.**
-
-   
-
-10. Repeat the previous steps, specifying the following values:
-    
    |Setting|Value|
    |---|---|
-   |**Project details**|
-   |Subscription|Select your subscription.|
-   |Resource group|Select **myResourceGroup.**|
-   |**Instance details**|
-   |Name|Enter *myAsgMgmtServers.*|
-   |Region|Select **(US) East US.**|
-
-11. Select the **Review + create** tab, or select the blue **Review + create** button at the bottom of the page.
-
-12. Select **Create.**
-
-### Create a network security groug to secure network traffic in your virtual network.
-
-1. From the Azure portal menu, select + **Create a resource** > **Networking** > **Network security group,** or use the portal search box to search for **Network security group** (not Network security group (classic).
-   
-2. Select **Create.**
-
-3. On the **Basics** tab of **Create network security group,** enter or select this information:
-   
-   |Setting|Value|
-   |---|---|
-   |**Project details**|
-   |Subscription|Select your subscription.|
-   |Resource group|Select **myResourceGroup.**|
-   |**Instance details**|
-   |Name|Enter *myNSG.*|
-   |Region|Select **(US) East US.**|  
-    
-4. Select the **Review + create** tab, or select the blue **Review + create** button at the bottom of the page.
-
-5. Select **Create.**
-
-### Associate the network security group to the network security group with the subnet of the virtual network you created earlier.
-
-1. From the Azure portal menu, search for *myNsg* in the portal search box.
-   
-2. Select **Subnets** from the **Settings** section of **myNSG.**
-
-3. In the **Subnets** page, select + **Associate:**
-
-4. Under **Associate subnet,** select **myVNet** for **Virtual network.**
-
-5. Select **default*** for **Subnet,** and then select **OK.**
-
-### Create security rules for the network security group with the subnet of the virtual network you created earlier.
-
-1. Select **Inbound security rules** from the **Settings** section of **myNSG.**
-   
-2. In **Inbound security rules** page, select + **Add:**
-
-3. Create a security rule that allows ports 80 and 443 to the **myAsgWebServers** application security group. In **Add inbound security rule page,** enter or select this information:
-
-   |Setting|Value|
-   |---|---|
-   |Source|Leave the default of **Any.**|
-   |Source port ranges|Leave the default of **(*).**|
-   |Destination|Enter myNSG.|
-   |Destination application security groups|Select **Application security group.**|
-   |Service|Leave the default of **Custom.**|
-   |Destination port ranges|Enter *80,443.*|
-   |Protocol|Select **TCP.**|
-   |Action|Leave the default of **Allow.**|
-   |Priority|Leave the default of **100.**|
-   |Name|Enter *Allow-Web-All.*|
-
-4. Select **Add.**
-
-5. Complete steps 3-4 again using this information:
-
-   |Setting|Value|
-   |---|---|
-   |Source|Leave the default of **Any.**|
-   |Source port ranges|Leave the default of **(*).**|
-   |Destination|Select **Application security group.**|
-   |Destination application security group|Select **myAsgMgmtServers.**|
-   |Service|Leave the default of **Custom.**|
-   |Destination port ranges|Enter 3389.|
-   |Protocol|Select **Any.**|
-   |Action|Leave the default of **Allow.**|
-   |Priority|Leave the default of **110.**|
-   |Name|Enter *Allow-RDP-All.*|
-   
-6. Select **Add.**
-
-### Create two virtual machines (VMs) in the virtual network you created earlier.
-
-1. From the Azure portal menu, select + **Create a resource** > **Compute** > **Virtual machine,** or search for Virtual machine in the portal search box.
-   
-2. In **Create a virtual machine,** enter or select this information in the **Basics** tab:
-
-   |Setting|Value|
-   |---|---|
-   |**Project details**|
-   |Resource group|Select **myResourceGroup.**|
-   |**Instance details**|
-   |Virtual machine name|Enter *myVMWeb.*|
-   |Region|Select **(US) East US.**|
-   |Availability options|Leave the default of **No infrastructure redundancy required.**|
-   |Security type|Leave the default of **Standard.**|
-   |Image|Select **Windows Server 2019 Datacenter - Gen2.**|
-   |Image|Select **Standard_DS2_V3.**|
-   |**Administrator account**|
-   |Username|Enter a username.|
-   |Username|Enter a password.|
-   |Confirm password|Reenter password.|
-   |**Inbound port rules**|
-   |Select inbound ports|Select **None.**|
-
-3. Select the **Networking** tab.
-
-4. In the **Networking** tab, enter or select the following information:
-
-   |Setting|Value|
-   |---|---|
-   |**Network interface**|
-   |Virtual network|Select **myVNet.**|
-   |Subnet|Select **default (10.0.0.0/24).**|
-   |Public IP|Leave the default of a new public IP.|
-   |NIC network security group|Select **None.**|
-   
-5. Select the **Review + create** tab, or select the blue **Review + create** button at the bottom of the page.
-
-6. Select **Create.** The VM may take a few minutes to deploy.
+   |Server type|Select **Database Engine.**|
+   |Server name|Enter **<sqlserver-name>.database.windows.net.**|
+   |Authentication|Select **SQL Server Authentication.**|
+   |User name|Enter the username you entered during server creation.|
+   |Password|Enter the password you entered during server creation.|
+   |Remeber password|Select **Yes.**|
   
-   - Create the second virtual machine
+12. Select **Connect.**
 
-   - Complete steps 1-6 again, but in step 2, enter myVMMgmt for Virtual machine name.
+13. Browse databases from left menu.
 
-   - Wait for the VMs to complete deployment before advancing to the next section.
+14. (Optionally) Create or query information from mysqldatabase.
 
-### Associate the network interfaces of each VM to one of the application security groups you created previously:
-
-1. Search for myVMWeb in the portal search box.
-   
-2. Select **Networking** from the **Settings** section of **myVMWeb** VM.
-
-3. Select the **Application security groups** tab, then select **Configure the application security groups.**
-
-4. In **Configure the application security groups,** select **myAsgWebServers.** Select **Save.**
-
-5. Complete steps 1 and 2 again, searching for the myVMMgmt virtual machine and selecting the **myAsgMgmtServers** ASG.
-
-### Test the test traffic filters for the previuosly created myVMWeb web server. 
-
-1. Search for *myVMMgmt* in the portal search box.
-   
-2. On the **Overview** page, select the **Connect** button and then select **RDP.**
-
-3. Select **Download RDP file.**
-
-4. Open the downloaded rdp file and select **Connect.** Enter the username and password you specified when creating the VM.
-
-5. Select **OK.**
-
-6. You may receive a certificate warning during the connection process. If you receive the warning, select **Yes** or **Continue,** to continue with the connection.
-
-   The connection succeeds, because inbound traffic from the internet to the **myAsgMgmtServers** application security group is allowed through port 3389.
-
-   The network interface for **myVMMgmt** is associated with the **myAsgMgmtServers** application security group and allows the connection.
-
-7. Open a PowerShell session on **myVMMgmt.** Connect to **myVMWeb** using the following:
-
-    ```powershell
-    mstsc /v:myVmWeb
-    ```
-    
-   The RDP connection from **myVMMgmt** to **myVMWeb** succeeds because virtual machines in the same network can communicate with each other over any port by default.
-
-   You can't create an RDP connection to the **myVMWeb** virtual machine from the internet. The security rule for the **myAsgWebServers** prevents connections to port 3389 inbound from the internet.
-   Inbound traffic from the Internet is denied to all resources by default.
-
-8. To install Microsoft IIS on the **myVMWeb** virtual machine, enter the following command from a PowerShell session on the **myVMWeb** virtual machine:
-
-      ```powershell
-    Install-WindowsFeature -name Web-Server -IncludeManagementTools
-    ```
-
-9. After the IIS installation is complete, disconnect from the **myVMWeb** virtual machine, which leaves you in the **myVMMgmt** virtual machine remote desktop connection.
-
-10. Disconnect from the **myVMMgmt** VM.
-
-11. Search for *myVMWeb* in the portal search box.
-
-12. On the **Overview** page of **myVMWeb,** note the **Public IP address** for your VM.
-
-13. To confirm that you can access the **myVMWeb** web server from the internet, open an internet browser on your computer and browse to http://<public-ip-address-from-previous-step>.
-
-    You see the IIS default page, because inbound traffic from the internet to the **myAsgWebServers** application security group is allowed through port 80.
-
-    The network interface attached for **myVMWeb** is associated with the **myAsgWebServers** application security group and allows the connection.
-
+15. Close the remote desktop connection to myVM.
+  
      > Results: You have created a created a virtual network infrastructure and filtered network traffic with a network security group using the Azure portal.
