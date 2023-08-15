@@ -41,8 +41,8 @@ You can use Microsoft Defender for Cloud's just-in-time (JIT) access to protect 
      - **Allowed source IPs** - The IP ranges that are allowed on this port when a request is approved
      - **Maximum request time** - The maximum time window during which a specific port can be opened
   
-   - Select **OK.**
-  
+    - Selet **OK.**
+
 6. To save the port configuration, select **Save.**     
      
 ### Edit the JIT configuration on a JIT-enabled VM using Defender for Cloud.
