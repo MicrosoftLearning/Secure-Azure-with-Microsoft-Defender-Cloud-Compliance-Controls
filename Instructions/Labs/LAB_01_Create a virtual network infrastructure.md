@@ -12,15 +12,15 @@ Network security groups contain security rules that filter network traffic by IP
 
 ## Skilling tasks
 
-- Create a network security group and security rules
+- Create a network security group and security rules.
   
-- Create application security groups
+- Create application security groups.
   
-- Create a virtual network and associate a network security group to a subnet
+- Create a virtual network and associate a network security group to a subnet.
   
-- Deploy virtual machines and associate their network interfaces to the application security groups
+- Deploy virtual machines and associate their network interfaces to the application security groups.
   
-- Test traffic filters
+- Test traffic filters.
 
 ## Exercise instructions 
 
