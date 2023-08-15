@@ -46,7 +46,7 @@ You can use Microsoft Defender for Cloud's just-in-time (JIT) access to protect 
      
 ### Edit the JIT configuration on a JIT-enabled VM using Defender for Cloud.
 
-    Note: You can modify a VM's just-in-time configuration by adding and configuring a new port to protect for that VM, or by changing any other setting related to an already protected port.
+    >**Note**: You can modify a VM's just-in-time configuration by adding and configuring a new port to protect for that VM, or by changing any other setting related to an already protected port.
 
 1. Start a browser session and sign-in to the Azure portal https://portal.azure.com/.
    
@@ -60,7 +60,7 @@ You can use Microsoft Defender for Cloud's just-in-time (JIT) access to protect 
 
 ### Request access to a JIT-enabled VM from Microsoft Defender for Cloud
 
-    Note: When a VM has a JIT enabled, you have to request access to connect to it. You can request access in any of the supported ways, regardless of how you enabled JIT.
+    >**Note**: When a VM has a JIT enabled, you have to request access to connect to it. You can request access in any of the supported ways, regardless of how you enabled JIT.
 
 1. Start a browser session and sign-in to the Azure portal https://portal.azure.com/.
    
@@ -84,7 +84,7 @@ You can use Microsoft Defender for Cloud's just-in-time (JIT) access to protect 
 
 ### Enable JIT on your VMs from Azure virtual machines
 
-    Note: You can enable JIT on a VM from the Azure virtual machines pages of the Azure portal.
+    >**Note**: You can enable JIT on a VM from the Azure virtual machines pages of the Azure portal.
 
 1. From the Azure portal, search for and select **Virtual machines.**
    
@@ -119,7 +119,7 @@ You can use Microsoft Defender for Cloud's just-in-time (JIT) access to protect 
 
 ### Request access to a JIT-enabled VM from the Azure virtual machine's connect page.
 
-    Note: When a VM has a JIT enabled, you have to request access to connect to it. You can request access in any of the supported ways, regardless of how you enabled JIT.
+    >**Note**: When a VM has a JIT enabled, you have to request access to connect to it. You can request access in any of the supported ways, regardless of how you enabled JIT.
 
 1. Start a browser session and sign-in to the Azure portal https://portal.azure.com/.
    
@@ -136,4 +136,4 @@ You can use Microsoft Defender for Cloud's just-in-time (JIT) access to protect 
 ![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Cloud-Security-Benchmark/assets/91347931/005a4a49-69ae-416e-abb8-3f2433823c03)
 
 
-> Results: You have explored various methods on how to enable JIT on your VMs and how to request access to VMs that have JIT enabled in Microsoft Defender for Cloud.
+    > Results: You have explored various methods on how to enable JIT on your VMs and how to request access to VMs that have JIT enabled in Microsoft Defender for Cloud.
