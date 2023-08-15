@@ -12,8 +12,6 @@ You can use purge protection to prevent the deletion of your key vault, keys, se
 
 - Verify if soft delete is enabled on a key vault and enable soft delete.
 
-- Grant access to a service principal to purge and recover deleted secrets.
-
 - List, recover, or purge a soft-deleted key vault.
 
 - List, recover or purge soft deleted secrets, keys, and certificates.
