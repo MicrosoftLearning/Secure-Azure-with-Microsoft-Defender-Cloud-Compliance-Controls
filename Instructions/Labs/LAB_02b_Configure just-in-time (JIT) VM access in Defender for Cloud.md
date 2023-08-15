@@ -113,7 +113,8 @@ You can use Microsoft Defender for Cloud's just-in-time (JIT) access to protect 
    - From Defender for Cloud's menu, select **Just-in-time VM access.**
    - From the **Configured** tab, right-click on the VM to which you want to add a port, and select edit.
   
-     ![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Cloud-Security-Benchmark/assets/91347931/5e962514-fa63-4d96-9a0a-b9b003731a83)
+ ![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Cloud-Security-Benchmark/assets/91347931/9034dc74-b865-4743-bcd6-8f0ae71a6d43)
+
 
 
    - Under **JIT VM access configuration,** you can either edit the existing settings of an already protected port or add a new custom port.
@@ -135,7 +136,8 @@ You can use Microsoft Defender for Cloud's just-in-time (JIT) access to protect 
     
         - If JIT is enabled, select **Request access** to pass an access request with the requesting IP, time range, and ports that were configured for that VM.
 
-![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Cloud-Security-Benchmark/assets/91347931/005a4a49-69ae-416e-abb8-3f2433823c03)
+![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Cloud-Security-Benchmark/assets/91347931/948811f6-64d9-4454-ae84-d951ca01cbbf)
+
 
 
 > **Results**: You have explored various methods on how to enable JIT on your VMs and how to request access to VMs that have JIT enabled in Microsoft Defender for Cloud.
