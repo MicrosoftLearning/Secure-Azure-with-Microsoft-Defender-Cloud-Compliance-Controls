@@ -4,9 +4,7 @@ lab:
     module: 'Module 03 - Create a Log Analytics workspace for Microsoft Defender for Cloud'
 ---
 
-You can use a network security group to filter inbound and outbound network traffic to and from Azure resources in an Azure virtual network. 
-
-Network security groups contain security rules that filter network traffic by IP address, port, and protocol. When a network security group is associated with a subnet, security rules are applied to resources deployed in that subnet.
+When you collect logs and data, the information is stored in a workspace. A workspace has a unique workspace ID and resource ID. The workspace name must be unique for a given resource group. After you've created a workspace, configure data sources and solutions to store their data there. 
 
 ---
 
