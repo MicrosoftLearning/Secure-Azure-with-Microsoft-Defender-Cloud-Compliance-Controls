@@ -41,4 +41,4 @@ Defender for Cloud collects data from your Azure virtual machines (VMs), Virtual
    
 ![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Cloud-Security-Benchmark/assets/91347931/1c83ea35-8e31-4764-afad-82326588ab9a)
 
-> Results: You have configured the Log Analytics agent and workspace in Microsoft Defender for Cloud.
+> **Results**: You have configured the Log Analytics agent and workspace in Microsoft Defender for Cloud.
