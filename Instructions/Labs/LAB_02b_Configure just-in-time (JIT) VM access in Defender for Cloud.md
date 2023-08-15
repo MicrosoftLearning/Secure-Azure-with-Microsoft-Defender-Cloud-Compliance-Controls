@@ -115,6 +115,7 @@ You can use Microsoft Defender for Cloud's just-in-time (JIT) access to protect 
      ![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Cloud-Security-Benchmark/assets/91347931/5e962514-fa63-4d96-9a0a-b9b003731a83)
      
 
+
    - Under **JIT VM access configuration,** you can either edit the existing settings of an already protected port or add a new custom port.
    - When you've finished editing the ports, select **Save.**   
 
