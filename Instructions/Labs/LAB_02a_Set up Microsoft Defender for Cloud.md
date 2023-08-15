@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Exercise 02 - Enable Defender for Cloud on your Azure subscription'
+    title: 'Exercise 02a - Enable Defender for Cloud on your Azure subscription'
     module: 'Module 02 - Set up Microsoft Defender for Cloud'
 ---
 
