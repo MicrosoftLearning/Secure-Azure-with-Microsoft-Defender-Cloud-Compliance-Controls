@@ -22,7 +22,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
 
 ### Create a resource group and virtual network.
 
-    **Note:** The bastion host will be used to connect securely to the virtual machine for testing the private endpoint.
+    >**Note**: The bastion host will be used to connect securely to the virtual machine for testing the private endpoint.
 
 1. Start a browser session and sign-in to the Azure portal https://portal.azure.com/.
    
@@ -71,7 +71,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
  
 ### Create a virtual machine.
 
-    **Note:** In this task, you'll create a virtual machine that will be used to test the private endpoint.
+    >**Note**: In this task, you'll create a virtual machine that will be used to test the private endpoint.
 
 1. From the Azure portal menu, select + **Create a resource** > **Compute** > **Virtual machine** or search **Virtual Machine** in the portal search box.
    
@@ -114,7 +114,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
 
 ### Create an Azure SQL server and private endpoint
 
-    **Note:** In this task, you'll create a SQL server in Azure.
+    >**Note**: In this task, you'll create a SQL server in Azure.
 
 1. From the Azure portal menu, select + **Create a resource** > **Databases** > **SQL database.**
    
@@ -187,7 +187,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
 
 ### Disable public access to Azure SQL logical server
 
-    **Note:** For this task, assume you would like to disable all public access to your Azure SQL server, and only allow connections from your virtual network.
+   >**Note**: For this task, assume you would like to disable all public access to your Azure SQL server, and only allow connections from your virtual network.
 
 1. In the Azure portal search box, enter **mysqlserver** or the server name you entered in the previous steps.
 
@@ -197,7 +197,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
 
 ### Test connectivity to private endpoint
 
-    **Note:** In this task, you'll use the virtual machine you created in the previous steps to connect to the SQL server across the private endpoint.
+    >**Note**: In this task, you'll use the virtual machine you created in the previous steps to connect to the SQL server across the private endpoint.
 
 1. Select **Resource groups** in the left-hand navigation pane.
 
@@ -225,7 +225,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |Address|10.1.0.5|
    |Alias|mysqlserver.database.windows.net|
  
-    **Note:** A  private IP address of 10.1.0.5 is returned for the SQL server name. This address is in **mySubnet** subnet of **myVNet** virtual network you created previously.
+    >**Note**: A  private IP address of 10.1.0.5 is returned for the SQL server name. This address is in **mySubnet** subnet of **myVNet** virtual network you created previously.
 
 9. Install *SQL Server Management Studio* on **myVM.**
 
