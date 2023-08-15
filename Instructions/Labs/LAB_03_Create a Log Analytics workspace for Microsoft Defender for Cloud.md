@@ -12,6 +12,7 @@ When you collect logs and data, the information is stored in a workspace. A work
 
 - Create a Log Analytics workspace.
 - Associate the workspace with an existing resource group.
+- Specify a specific region to deploy the workspace.
 
 ## Exercise instructions 
 
