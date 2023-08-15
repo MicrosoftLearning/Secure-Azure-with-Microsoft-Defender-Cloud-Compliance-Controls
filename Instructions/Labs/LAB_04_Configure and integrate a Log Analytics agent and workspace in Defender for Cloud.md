@@ -39,6 +39,7 @@ Defender for Cloud collects data from your Azure virtual machines (VMs), Virtual
    	- Under Security events storage, click the dropdown menu and, select **All Events.**
    	- At the bottom of the Auto-provisioning template, click **Apply.**
    
-![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Cloud-Security-Benchmark/assets/91347931/1c83ea35-8e31-4764-afad-82326588ab9a)
+![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Cloud-Security-Benchmark/assets/91347931/821918dd-75cc-4ce6-8e07-779de6e5949b)
+
 
 > **Results**: You have configured the Log Analytics agent and workspace in Microsoft Defender for Cloud.
