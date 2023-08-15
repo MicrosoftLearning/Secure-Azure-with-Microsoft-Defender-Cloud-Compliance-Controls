@@ -1,7 +1,7 @@
 ---
 lab:
-    title: 'Exercise 08 - Deploy a virtual machine to test connectivity privately and securely to the SQL server across the private endpoint'
-    module: 'Module 08 - Connect to an Azure SQL server using an Azure Private Endpoint using the Azure portal'
+    title: 'Exercise 06 - Deploy a virtual machine to test connectivity privately and securely to the SQL server across the private endpoint'
+    module: 'Module 06 - Connect to an Azure SQL server using an Azure Private Endpoint using the Azure portal'
 ---
 
 Azure Private endpoint is the fundamental building block for Private Link in Azure. It enables Azure resources, like virtual machines (VMs), to privately and securely communicate with Private Link resources such as Azure SQL server.
