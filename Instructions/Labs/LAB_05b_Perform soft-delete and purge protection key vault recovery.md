@@ -1,7 +1,7 @@
 ---
 lab:
-    title: 'Exercise 06b - Configure Azure Key Vault recovery management with soft delete and purge protection'    
-    module: 'Module 06 - Perform soft-delete and purge protection key vault recovery'
+    title: 'Exercise 05b - Configure Azure Key Vault recovery management with soft delete and purge protection'    
+    module: 'Module 05 - Perform soft-delete and purge protection key vault recovery'
 ---
 
 You can use purge protection to prevent the deletion of your key vault, keys, secrets, and certificates by a malicious insider. Think of this as a recycle bin with a time based lock. You can recover items at any point during the configurable retention period. You will not be able to permanently delete or purge a key vault until the retention period elapses. Once the retention period elapses the key vault or key vault object will be purged automatically.use the Azue portal to configure the Azure Key Vault networking settings to work with other applications and Azure services. 
