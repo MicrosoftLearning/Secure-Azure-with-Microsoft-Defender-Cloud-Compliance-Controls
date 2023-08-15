@@ -20,6 +20,8 @@ Defender for Cloud collects data from your Azure virtual machines (VMs), Virtual
 
 ### Configure integration with the Log Analytics agent.
 
+>**Note**: When the Log Analytics agent is on, Defender for Cloud deploys the agent on all supported Azure VMs and any new ones created. 
+
 1. Start a browser session and sign-in to the Azure portal https://portal.azure.com/.
    
 2. From Defender for Cloud's menu, open **Environment settings.**
