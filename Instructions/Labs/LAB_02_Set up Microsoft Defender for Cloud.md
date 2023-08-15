@@ -16,7 +16,7 @@ The main goal of this exercise is to provide hands-on experience in configuring 
 
 ## Exercise instructions
 
-### Implement Microsoft Defender for Cloud
+### Upgrade Microsoft Defender for Cloud
 
 1. Sign-in to the Azure portal https://portal.azure.com/.
 
@@ -28,4 +28,4 @@ The main goal of this exercise is to provide hands-on experience in configuring 
 
 5. On the Microsoft Defender for Cloud | Getting started blade, in the Install agents tab, scroll down and **check** the box that is associated with the subscription on which agents will be installed and click **Install agents.**
 
-> Results: You have enabled Defender for Cloud on your Azure subscription.
+> Results: You have upgraded and enabled Defender for Cloud on your Azure subscription.
