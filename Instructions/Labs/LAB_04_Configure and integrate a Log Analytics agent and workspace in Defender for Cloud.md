@@ -33,11 +33,10 @@ Defender for Cloud collects data from your Azure virtual machines (VMs), Virtual
 7. From the Configuration options pane, click **Edit configuration.**
 
 8. In the Auto-provisioning configuration template complete the following actions:
-   
-   	- Under Workspace selection, click **Custom workspace.**
-   	- Click the dropdown menu and select your previously created workspace.
-   	- Under Security events storage, click the dropdown menu and, select **All Events.**
-   	- At the bottom of the Auto-provisioning template, click **Apply.**
+       - Under Workspace selection, click **Custom workspace.**
+       - Click the dropdown menu and select your previously created workspace.
+       - Under Security events storage, click the dropdown menu and, select **All Events.**
+       - At the bottom of the Auto-provisioning template, click **Apply.**
    
 ![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Cloud-Security-Benchmark/assets/91347931/821918dd-75cc-4ce6-8e07-779de6e5949b)
 
