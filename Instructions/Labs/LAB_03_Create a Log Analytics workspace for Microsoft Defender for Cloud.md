@@ -11,6 +11,7 @@ When you collect logs and data, the information is stored in a workspace. A work
 ## Skilling task
 
 - Create a Log Analytics workspace.
+- Associate the workspace with an existing resource group.
 
 ## Exercise instructions 
 
