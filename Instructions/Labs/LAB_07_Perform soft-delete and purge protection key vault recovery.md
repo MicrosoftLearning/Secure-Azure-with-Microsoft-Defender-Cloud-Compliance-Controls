@@ -32,7 +32,8 @@ You can use purge protection to prevent the deletion of your key vault, keys, se
 
 5. If soft-delete is not enabled on the key vault, click the radio button to enable soft delete and click **Save.**
 
-![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Cloud-Security-Benchmark/assets/91347931/25fe301a-cbc8-4630-89b0-b4f4122698a2)
+![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Cloud-Security-Benchmark/assets/91347931/07cb482e-aed2-451a-a62d-a33c03b198b0)
+
 
 ### List, recover, or purge a soft-deleted key vault.
 
@@ -46,7 +47,8 @@ You can use purge protection to prevent the deletion of your key vault, keys, se
 
 5. If soft-delete is not enabled on the key vault, click the radio button to enable soft delete and click **Save.**
 
-![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Cloud-Security-Benchmark/assets/91347931/2c0cc3b3-f746-4390-aa13-eed95250f0e5)
+![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Cloud-Security-Benchmark/assets/91347931/b0602e3a-e243-487d-90e8-01f9084783bc)
+
 
 ### List, recover, or purge soft-deleted secrets, keys, and certificates.
 
@@ -60,6 +62,6 @@ You can use purge protection to prevent the deletion of your key vault, keys, se
 
 5. If soft-delete is not enabled on the key vault, click the radio button to enable soft delete and click **Save.**
 
-![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Cloud-Security-Benchmark/assets/91347931/816c599f-070b-4842-9ea9-8f8dccb37cd6)
+![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Cloud-Security-Benchmark/assets/91347931/f10095de-5d70-4412-90cf-320a6eb935f9)
 
   > Results: You have performed Azure key Vault recovery management with soft delte and purge protection in the Azure portal.
