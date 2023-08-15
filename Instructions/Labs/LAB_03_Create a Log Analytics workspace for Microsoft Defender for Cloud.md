@@ -8,17 +8,9 @@ When you collect logs and data, the information is stored in a workspace. A work
 
 ---
 
-## Skilling tasks
+## Skilling task
 
-- Create a network security group and security rules
-  
-- Create application security groups
-  
-- Create a virtual network and associate a network security group to a subnet
-  
-- Deploy virtual machines and associate their network interfaces to the application security groups
-  
-- Test traffic filters
+- Create a Log Analytics workspace.
 
 ## Exercise instructions 
 
