@@ -39,13 +39,25 @@ You can use purge protection to prevent the deletion of your key vault, keys, se
 
 1. Start a browser session and sign-in to the Azure portal https://portal.azure.com/.
    
-2. Select your key vault.
+2. Click on the search bar at the top of the page.
 
-3. Click on the **Properties** blade.
+3. Search for the "Key Vault" service. Do not click an individual key vault.
 
-4. Verify if the radio button next to soft-delete is set to **Enable purge protection.**
+4. At the top of the screen click the option to "Manage deleted vaults"
 
-5. If soft-delete is not enabled on the key vault, click the radio button to enable soft delete and click **Save.**
+5. A context pane will open on the right side of your screen.
+
+6. Select your subscription.
+
+7. If your key vault has been soft deleted it will appear in the context pane on the right.
+
+8. If there are too many vaults, you can either click "Load More" at the bottom of the context pane or use CLI or PowerShell to get the results.
+
+9. Once you find the vault you wish to **recover** or **purge,** select the **checkbox** next to it.
+
+10. Select the recover option at the bottom of the context pane if you would like to recover the key vault.
+
+11. Select the purge option if you would like to permanently delete the key vault.
 
 ![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Cloud-Security-Benchmark/assets/91347931/b0602e3a-e243-487d-90e8-01f9084783bc)
 
@@ -56,11 +68,17 @@ You can use purge protection to prevent the deletion of your key vault, keys, se
    
 2. Select your key vault.
 
-3. Click on the **Properties** blade.
+3. Select the blade corresponding to the secret type you want to manage (keys, secrets, or certificates).
 
-4. Verify if the radio button next to soft-delete is set to **Enable purge protection.**
+4. At the top of the screen, click on "Manage deleted (keys, secrets, or certificates)
 
-5. If soft-delete is not enabled on the key vault, click the radio button to enable soft delete and click **Save.**
+5. A context pane will appear on the right side of your screen.
+
+6. If your secret, key, or certificate does not appear in the list, it is not in the soft-deleted state.
+
+7. Select the secret, key, or certificate you would like to manage.
+
+8. Select the option to recover or purge at the bottom of the context pane.
 
 ![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Cloud-Security-Benchmark/assets/91347931/f10095de-5d70-4412-90cf-320a6eb935f9)
 
