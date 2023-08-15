@@ -136,4 +136,4 @@ You can use Microsoft Defender for Cloud's just-in-time (JIT) access to protect 
 ![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Cloud-Security-Benchmark/assets/91347931/005a4a49-69ae-416e-abb8-3f2433823c03)
 
 
-> Results: You have explored various methods on how to enable JIT on your VMs and how to request access to VMs that have JIT enabled in Microsoft Defender for Cloud.
+> **Results**: You have explored various methods on how to enable JIT on your VMs and how to request access to VMs that have JIT enabled in Microsoft Defender for Cloud.
