@@ -26,6 +26,8 @@ Network security groups contain security rules that filter network traffic by IP
 
 ### Create a resource group and virtual network.
 
+>**Note**: The following task creates a virtual network with a resource subnet.
+
 1. Start a browser session and sign-in to the Azure portal https://portal.azure.com/.
    
 2. From the Azure portal menu, select + **Create a resource** > **Networking** > **Virtual network,** or search for Virtual Network in the portal search box.
@@ -48,6 +50,8 @@ Network security groups contain security rules that filter network traffic by IP
 6. Select **Create.**
 
 ### Create application security groups to enable you to group together servers with similar functions, such as web servers.
+
+>**Note**: An application security group (ASGs) enables you to group together servers with similar functions, such as web servers.
 
 1. From the Azure portal menu, select + **Create a resource** > **Networking** > **Application security group,** or search for Application security group in the portal search box.
    
@@ -85,6 +89,8 @@ Network security groups contain security rules that filter network traffic by IP
 
 ### Create a network security groug to secure network traffic in your virtual network.
 
+>**Note**: A network security group (NSG) secures network traffic in your virtual network.
+
 1. From the Azure portal menu, select + **Create a resource** > **Networking** > **Network security group,** or use the portal search box to search for **Network security group** (not Network security group (classic).
    
 2. Select **Create.**
@@ -104,7 +110,9 @@ Network security groups contain security rules that filter network traffic by IP
 
 5. Select **Create.**
 
-### Associate the network security group to the network security group with the subnet of the virtual network you created earlier.
+### Associate network security group to subnet
+
+>**Note**: In this task, you associate the network security group with the subnet of the virtual network you created earlier.
 
 1. From the Azure portal menu, search for *myNsg* in the portal search box.
    
@@ -202,7 +210,9 @@ Network security groups contain security rules that filter network traffic by IP
 
    - Wait for the VMs to complete deployment before advancing to the next section.
 
-### Associate the network interfaces of each VM to one of the application security groups you created previously:
+### Associate network interfaces to an application security group
+
+>**Note**: When you created the VMs, Azure created a network interface for each VM, and attached it to the VM. Add the network interface of each VM to one of the application security groups you created previously:
 
 1. Search for myVMWeb in the portal search box.
    
@@ -263,4 +273,4 @@ Network security groups contain security rules that filter network traffic by IP
 
     The network interface attached for **myVMWeb** is associated with the **myAsgWebServers** application security group and allows the connection.
 
-     > Results: You have created a created a virtual network infrastructure and filtered network traffic with a network security group using the Azure portal.
+> Results: You have created a created a virtual network infrastructure and filtered network traffic with a network security group using the Azure portal.
