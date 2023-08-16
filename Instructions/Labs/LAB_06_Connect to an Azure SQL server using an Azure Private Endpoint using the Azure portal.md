@@ -80,24 +80,28 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |Setting|Value|
    |---|---|
    |**Project details**|
-   |Subscription|Select your subscription.|
+   |Susbcription|Select your subscription|
    |Resource group|Select **CreateSQLEndpointTutorial.**|
    |**Instance details**|
-   |Virtual network name|Enter *myVM.*|
-   |Region|Select **(US) East US.**|  
-   |Availability Options|Select **No infrastructure redundancy required.**|
-   |Security type|Select **Standard.**|
-   |Image|Select **Windows Server 2019 Datacenter - Gen2.Standard.**|
-   |Azure Spot instance|Select **No.**|
-   |Size|Choose VM size or take default setting.|
+   |Virtual machine name|Enter *myVMWeb.*|
+   |Region|Select **(US) East US.**|
+   |Availability options|Leave the default of **No infrastructure redundancy required.**|
+   |Security type|Leave the default of **Standard.**|
+   |Image|Select **Windows Server 2022 Datacenter - x64 Gen2.**|
+   |VM architecture|Select **x64.**|
+   |Run with Azure Spot discount|Leave the default of unchecked|
+   |Size|Leave the default of **Standard_D2s_v3-2 vcpus, 8 GiB memory.**|
    |**Administrator account**|
-   |Username|Enter **Tenantadmin1.**|
-   |Password|Enter **Superuser#150.**|
-   |Confirm password|Enter **Superuser#150.**|
+   |Authentication type|Select **Password.**|
+   |Username|Enter **Tenantadmin2.**|
+   |Password|Enter **Superuser#170.**|
+   |Confirm password|Reenter **Superuser#170.**|
+   |**Inbound port rules**|
+   |Select inbound ports|Select **None.**|
 
-3. Select the **Networking** tab, or select **Next: Disks,** then **Next: Networking.**
+4. Select the **Networking** tab, or select **Next: Disks,** then **Next: Networking.**
   
-4. In the **Networking** tab, enter or select this information:
+5. In the **Networking** tab, enter or select this information:
 
    |Setting|Value|
    |---|---|
@@ -108,9 +112,9 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |NIC network security group|Select **Basic.**|
    |Public inbound ports|Select **None.**|
   
-5. Select **Review + create.**
+6. Select **Review + create.**
 
-6. Review the settings, and then select **Create.**
+7. Review the settings, and then select **Create.**
 
 ### Create an Azure SQL server and private endpoint
 
