@@ -91,9 +91,9 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |Azure Spot instance|Select **No.**|
    |Size|Choose VM size or take default setting.|
    |**Administrator account**|
-   |Username|Tenantadmin1.|
-   |Password|Superuser#150.|
-   |Confirm password|Superuser#150.|
+   |Username|Enter **Tenantadmin1.**|
+   |Password|Enter **Superuser#150.**|
+   |Confirm password|Enter **Superuser#150.**|
 
 3. Select the **Networking** tab, or select **Next: Disks,** then **Next: Networking.**
   
