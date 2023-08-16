@@ -142,7 +142,7 @@ You can use a network security group to filter inbound and outbound network traf
 
 ### Create security rules for the network security group with the subnet of the virtual network you created earlier.
 
-1. Select **Inbound security rules** from the **Settings** section of *myNSG.*
+1. Select **Inbound security rules** from the **Settings** section of *myNSG-1.*
    
 2. In **Inbound security rules** page, select + **Add:**
 
