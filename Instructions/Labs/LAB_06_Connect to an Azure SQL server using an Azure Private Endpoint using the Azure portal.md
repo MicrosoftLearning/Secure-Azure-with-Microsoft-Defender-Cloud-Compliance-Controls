@@ -91,9 +91,9 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |Azure Spot instance|Select **No.**|
    |Size|Choose VM size or take default setting.|
    |**Administrator account**|
-   |Username|Enter a username.|
-   |Password|Enter a Enter password.|
-   |Confirm password|Reenter a password.|
+   |Username|Tenantadmin1.|
+   |Password|Superuser#150.|
+   |Confirm password|Superuser#150.|
 
 3. Select the **Networking** tab, or select **Next: Disks,** then **Next: Networking.**
   
@@ -138,9 +138,9 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |Location|Select **(US) East US.**|
    |**Authentication**|
    |Authentication method|Select **Use SQL authentication.**|
-   |Server admin login|Enter an administrator name of your choosing.|
-   |Password|Enter an administrator name of your choosing. The password must be at least eight characters long and meet the defined requirements.|
-   |Confirm passowrd|Reenter password.|
+   |Server admin login|Enter **Tenantadmin1.**|
+   |Password|Enter **Superuser#150.**|
+   |Confirm passowrd|Enter **Superuser#150.**|
 
 4. Select **OK.**
    
@@ -207,7 +207,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
 
 4. On the overview page for **myVM,** select Connect then **Bastion.**
 
-5. Enter the username and password that you entered during the virtual machine creation.
+5. Enter the username **Tenantadmin1** and password **Superuser#150** that you entered during the virtual machine creation.
 
 6. Select **Connect** button.
 
@@ -238,8 +238,8 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
     |Server type|Select **Database Engine.**|
     |Server name|Enter **<sqlserver-name>.database.windows.net.**|
     |Authentication|Select **SQL Server Authentication.**|
-    |User name|Enter the username you entered during server creation.|
-    |Password|Enter the password you entered during server creation.|
+    |User name|Enter **Tenantadmin1**.|
+    |Password|Enter **Superuser#150**.|
     |Remember password|Select **Yes.**|
    
 12. Select **Connect.**
