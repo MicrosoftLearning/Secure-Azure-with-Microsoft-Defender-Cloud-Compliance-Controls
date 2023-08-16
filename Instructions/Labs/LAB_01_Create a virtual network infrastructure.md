@@ -171,24 +171,25 @@ You can use a network security group to filter inbound and outbound network traf
    |Setting|Value|
    |---|---|
    |**Project details**|
+   |Susbcription|Select your subscription|
    |Resource group|Select **myResourceGroup.**|
    |**Instance details**|
    |Virtual machine name|Enter *myVMWeb.*|
    |Region|Select **(US) East US.**|
    |Availability options|Leave the default of **No infrastructure redundancy required.**|
    |Security type|Leave the default of **Standard.**|
-   |Image|Select **Windows Server 2019 Datacenter - Gen2.**|
+   |Image|Select **Windows Server 2022 Datacenter - x64 Gen2.**|
    |Image|Select **Standard_DS2_V3.**|
    |**Administrator account**|
-   |Username|Enter a username.|
-   |Username|Enter a password.|
-   |Confirm password|Reenter password.|
+   |Username|Enter **Tenantadmin1.**|
+   |Password|Enter **Superuser#150.**|
+   |Confirm password|Reenter **Superuser#150.**|
    |**Inbound port rules**|
    |Select inbound ports|Select **None.**|
 
-3. Select the **Networking** tab.
+4. Select the **Networking** tab.
 
-4. In the **Networking** tab, enter or select the following information:
+5. In the **Networking** tab, enter or select the following information:
 
    |Setting|Value|
    |---|---|
@@ -198,9 +199,9 @@ You can use a network security group to filter inbound and outbound network traf
    |Public IP|Leave the default of a new public IP.|
    |NIC network security group|Select **None.**|
    
-5. Select the **Review + create** tab, or select the blue **Review + create** button at the bottom of the page.
+6. Select the **Review + create** tab, or select the blue **Review + create** button at the bottom of the page.
 
-6. Select **Create.** The VM may take a few minutes to deploy.
+7. Select **Create.** The VM may take a few minutes to deploy.
   
    - Create the second virtual machine
 
