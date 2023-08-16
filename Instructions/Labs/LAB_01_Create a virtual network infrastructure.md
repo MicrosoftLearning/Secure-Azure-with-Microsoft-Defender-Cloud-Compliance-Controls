@@ -10,7 +10,6 @@ You can use a network security group to filter inbound and outbound network traf
 
 ![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Cloud-Security-Benchmark/assets/91347931/1bfec315-129b-48a9-9c35-1f21c837068f)
 
-
 ---
 
 ## Skilling tasks
