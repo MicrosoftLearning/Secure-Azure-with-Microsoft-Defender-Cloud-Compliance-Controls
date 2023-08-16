@@ -190,7 +190,7 @@ You can use a network security group to filter inbound and outbound network traf
    |---|---|
    |**Project details**|
    |Susbcription|Select your subscription|
-   |Resource group|Select **myResourceGroup.**|
+   |Resource group|Select **myResourceGroup-1.**|
    |**Instance details**|
    |Virtual machine name|Enter **myVMWeb.**|
    |Region|Select **(US) East US 2.**|
