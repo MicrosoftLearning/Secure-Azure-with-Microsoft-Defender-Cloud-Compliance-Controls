@@ -179,8 +179,12 @@ You can use a network security group to filter inbound and outbound network traf
    |Availability options|Leave the default of **No infrastructure redundancy required.**|
    |Security type|Leave the default of **Standard.**|
    |Image|Select **Windows Server 2022 Datacenter - x64 Gen2.**|
+   |VM architecture|Select **x64.**|
+   |Run with Azure Spot discount|Leave the default of unchecked|
+   |Size|Leave the default of **Standard_D2s_v3-2 vcpus, 8 GiB memory.**|
    |Image|Select **Standard_DS2_V3.**|
    |**Administrator account**|
+   |Authentication type|Select **Password.**|
    |Username|Enter **Tenantadmin1.**|
    |Password|Enter **Superuser#150.**|
    |Confirm password|Reenter **Superuser#150.**|
