@@ -163,7 +163,7 @@ You can use a network security group to filter inbound and outbound network traf
 
 4. Select **Add.**
 
-5. Complete steps 3-4 again using this information:
+5. Complete previuos steps with the following information:
 
    |Setting|Value|
    |---|---|
@@ -224,7 +224,7 @@ You can use a network security group to filter inbound and outbound network traf
   
    - Create the second virtual machine
 
-   - Complete steps 1-6 again, but in step 2, enter **vm-2** for Virtual machine name.
+   - Repeat the previous steps to create a second virtual machine named **vm-2.**
 
    - Wait for the VMs to complete deployment before advancing to the next section.
 
@@ -236,7 +236,7 @@ You can use a network security group to filter inbound and outbound network traf
 
 2. Select **vm-1.**
  
-3. Select **Networking** from the **Settings** section of **myVMWeb.**
+3. Select **Networking** from the **Settings** section of **vm-1.**
 
 4. Select the **Application security groups** tab, then select **Configure the application security groups.**
 
@@ -246,7 +246,7 @@ You can use a network security group to filter inbound and outbound network traf
 
 6. Repeat previous steps for **vm-2**, selecting **asg-mgmt** in the **Application security groups** pull-down menu.
 
-### Test the test traffic filters for the previuosly created myVMWeb web server. 
+### Test test traffic filters
 
 1. In the search box at the top of the portal, enter **Virtual machine.** Select **Virtual machines** in the search results.
   
