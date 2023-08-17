@@ -18,7 +18,7 @@ You can use Microsoft Defender for Cloud's just-in-time (JIT) access to protect 
 
 ### Enable JIT on your VMs from Microsoft Defender for Cloud.
 
-1. Start a browser session and sign-in to the Azure portal https://portal.azure.com/.
+1. Start a browser session and sign-in to the [Azure portal menu.](https://portal.azure.com/).
    
 2. From Defender for Cloud's menu, open **Workload protections.**
 
