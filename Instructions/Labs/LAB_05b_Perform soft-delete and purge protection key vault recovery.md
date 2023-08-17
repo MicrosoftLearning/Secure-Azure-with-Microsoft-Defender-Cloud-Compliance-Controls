@@ -20,7 +20,7 @@ You can use purge protection to prevent the deletion of your key vault, keys, se
 
 ### Verify if soft delete is enabled on a key vault and enable soft delete
 
-1. Start a browser session and sign-in to the Azure portal https://portal.azure.com/.
+1. Start a browser session and sign-in to the [Azure portal menu.](https://portal.azure.com/)
    
 2. Select your key vault.
 
