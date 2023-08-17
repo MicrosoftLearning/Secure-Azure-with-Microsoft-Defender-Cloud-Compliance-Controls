@@ -36,8 +36,8 @@ You can use the Azue portal to configure the Azure Key Vault networking settings
    |Subscription|Select your subscription.|
    |Resource group|Enter **azure-rg-1.** Select **OK**|
    |**Instance details**|
-   |Key vault name|Enter **myAPLKeyVault.**|
-   |Region|Select **East US**|
+   |Key vault name|Enter **AZAPLKeyVault.**|
+   |Region|Select **(US) East US 2**|
    |Pricing tier|System default **Standard**|
    |Days to retain deleted vaults|System default **90**|
 
