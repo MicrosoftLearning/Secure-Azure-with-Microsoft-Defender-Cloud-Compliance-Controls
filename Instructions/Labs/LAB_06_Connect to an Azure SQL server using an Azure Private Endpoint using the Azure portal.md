@@ -83,7 +83,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |Susbcription|Select your subscription|
    |Resource group|Select **CreateSQLEndpointTutorial.**|
    |**Instance details**|
-   |Virtual machine name|Enter *myVMWeb.*|
+   |Virtual machine name|Enter **myVM.**|
    |Region|Select **(US) East US.**|
    |Availability options|Leave the default of **No infrastructure redundancy required.**|
    |Security type|Leave the default of **Standard.**|
@@ -106,8 +106,8 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |Setting|Value|
    |---|---|
    |**Network interface**|
-   |Virtual network|Select **myVnet.**|
-   |Subnet|Select **mySubnet.**|
+   |Virtual network|Select **myVnet1a.**|
+   |Subnet|Select **mySubnet1a.**|
    |Public IP|Select **None.**|
    |NIC network security group|Select **Basic.**|
    |Public inbound ports|Select **None.**|
@@ -138,13 +138,13 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |Setting|Value|
    |---|---|
    |**Server details**|
-   |Server name|Enter **mysqlserver.** If this name is taken, create a unique name.|
+   |Server name|Enter **mysqlserver1a.** If this name is taken, create a unique name.|
    |Location|Select **(US) East US.**|
    |**Authentication**|
    |Authentication method|Select **Use SQL authentication.**|
-   |Server admin login|Enter **Tenantadmin1.**|
-   |Password|Enter **Superuser#150.**|
-   |Confirm passowrd|Enter **Superuser#150.**|
+   |Server admin login|Enter **Tenantadmin2.**|
+   |Password|Enter **Superuser#170.**|
+   |Confirm passowrd|Enter **Superuser#170.**|
 
 4. Select **OK.**
    
@@ -175,10 +175,10 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |Resource group|Select **CreateSQLEndpointTutorial.**|
    |Location|Select **East US.**|
    |Name|Enter **myPrivateSQLendpoint.**|
-   |Target sub-resource|Select **SqlServer.**|
+   |Target sub-resource|Select **mysqlserver1a.**|
    |**Networking**|
-   |Virtual network|Select **myVNet.**|
-   |Subnet|Select **mySubnet.**|
+   |Virtual network|Select **myVNet1a.**|
+   |Subnet|Select **mySubnet1a.**|
    |**Private DNS integration**|
    |Intergrate with private DNS zone|Leave the default **Yes.**|
    |Private DNS Zone|Leave the default **(New) privatelink.database.windows.net.**|
@@ -211,7 +211,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
 
 4. On the overview page for **myVM,** select Connect then **Bastion.**
 
-5. Enter the username **Tenantadmin1** and password **Superuser#150** that you entered during the virtual machine creation.
+5. Enter the username **Tenantadmin2** and password **Superuser#170** that you entered during the virtual machine creation.
 
 6. Select **Connect** button.
 
@@ -225,11 +225,11 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |Server|UnKnown|
    |Address|168.63.129.16|
    |**Non-authoritative answer:**|
-   |Name:|mysqlserver.privatelink.database.windows.net|
+   |Name:|mysqlserver1a.privatelink.database.windows.net|
    |Address|10.1.0.5|
-   |Alias|mysqlserver.database.windows.net|
+   |Alias|mysqlserver1a.database.windows.net|
  
->**Note**: A  private IP address of 10.1.0.5 is returned for the SQL server name. This address is in **mySubnet** subnet of **myVNet** virtual network you created previously.
+>**Note**: A  private IP address of 10.1.0.5 is returned for the SQL server name. This address is in **mySubnet1a** subnet of **myVNet** virtual network you created previously.
 
 9. Install *SQL Server Management Studio* on **myVM.**
 
@@ -240,10 +240,10 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
     |Setting|Value|
     |---|---|
     |Server type|Select **Database Engine.**|
-    |Server name|Enter **<sqlserver-name>.database.windows.net.**|
+    |Server name|Enter **<sqlserver1a>.database.windows.net.**|
     |Authentication|Select **SQL Server Authentication.**|
-    |User name|Enter **Tenantadmin1**.|
-    |Password|Enter **Superuser#150**.|
+    |User name|Enter **Tenantadmin2**.|
+    |Password|Enter **Superuser#170**.|
     |Remember password|Select **Yes.**|
    
 12. Select **Connect.**
