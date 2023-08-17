@@ -44,7 +44,7 @@ You can use a network security group to filter inbound and outbound network traf
    |Subscription|Select your subscription.|
    |Resource group|Select **Create new.** Enter **myResourceGroup-1.** Select **OK**|
    |**Instance details**|
-   |Virtual network name|Enter **myVNet-1.**|
+   |Virtual network name|Enter **nsg-1.**|
    |Region|Select **(US) East US 2.**|  
     
 5. Select **Next: IP Addresses** at the bottom of the page.
