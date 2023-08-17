@@ -18,7 +18,7 @@ The main goal of this exercise is to provide hands-on experience in configuring 
 
 ### Upgrade Microsoft Defender for Cloud
 
-1. Sign-in to the [Azure portal menu.](https://portal.azure.com/).
+1. Sign-in to the [Azure portal menu.](https://portal.azure.com/)
 
 2. In the Azure portal, in the Search resources, services, and docs text box at the top of the Azure portal page, type Microsoft Defender for Cloud and press the Enter key.
 
