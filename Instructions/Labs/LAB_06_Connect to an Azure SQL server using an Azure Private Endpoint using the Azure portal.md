@@ -232,12 +232,10 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
 >**Note**: A  private IP address of 10.1.0.5 is returned for the SQL server name. This address is in **mySubnet1a** subnet of **myVNet** virtual network you created previously.
 
 9. Install [SQL Server Management Studio](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?preserve-view=true&view=sql-server-2017) on **myVM.**
+ 
+10. Open **SQL Server Management Studio.**
 
-10. Install SQL Server Management Studio      Download SQL Server Management Studio (SSMS) - SQL Server Management Studio (SSMS) | Microsoft Learn 
-    
-11. Open **SQL Server Management Studio.**
-
-12. In **Connect to server,** enter or select this information:
+11. In **Connect to server,** enter or select this information:
 
     |Setting|Value|
     |---|---|
@@ -248,12 +246,12 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
     |Password|Enter **Superuser#170**.|
     |Remember password|Select **Yes.**|
    
-13. Select **Connect.**
+12. Select **Connect.**
 
-14. Browse databases from left menu.
+13. Browse databases from left menu.
 
-15. (Optionally) Create or query information from mysqldatabase.
+14. (Optionally) Create or query information from mysqldatabase.
 
-16. Close the remote desktop connection to myVM.
+15. Close the remote desktop connection to myVM.
   
 > **Results**: You have connected to an Azure SQL server using an Azure Private Endpoint using the Azure portal.
