@@ -230,8 +230,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    Name:    mysqlserver.privatelink.database.windows.net
    Address:  10.1.0.5
    Aliases:  mysqlserver.database.windows.net
-   
-    ````
+   ````
     
 >**Note**: A  private IP address of 10.1.0.5 is returned for the SQL server name. This address is in **mySubnet1a** subnet of **myVNet1a** virtual network you created previously.
 
