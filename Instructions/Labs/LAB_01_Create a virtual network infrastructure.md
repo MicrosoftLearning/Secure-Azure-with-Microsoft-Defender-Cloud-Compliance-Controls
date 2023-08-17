@@ -269,7 +269,7 @@ You can use a network security group to filter inbound and outbound network traf
 8. Open a PowerShell session on **vm-2.** Connect to **vm-1** using the following:
 
     ```powershell
-    `mstsc /v:vm-1`
+    mstsc /v:vm-1
     ```
     
    The RDP connection from **vm-2** to **vm-1** succeeds because virtual machines in the same network can communicate with each other over any port by default.
