@@ -63,6 +63,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
 10. Select the **Security** tab.
 
 11. Under **Bastion host,** select **Enable.** Enter this information:
+    
     |Setting|Value|
     |---|---|
     |Bastion name|Enter **myBastionHost.**|
