@@ -24,7 +24,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
 
 >**Note**: The bastion host will be used to connect securely to the virtual machine for testing the private endpoint.
 
-1. Start a browser session and sign-in to the Azure portal https://portal.azure.com/.
+1. Start a browser session and sign-in to the Azure portal https://portal.azure.com/ 
    
 2. From the Azure portal menu, select + **Create a resource** > **Networking** > **Virtual network,** or search for Virtual Network in the portal search box.
 
