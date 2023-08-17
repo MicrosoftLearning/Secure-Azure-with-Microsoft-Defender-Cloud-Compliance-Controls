@@ -221,16 +221,16 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
 
 7. Open Windows PowerShell on the server after you connect.
 
-8. Enter nslookup <sqlserver-name>.database.windows.net. Replace <sqlserver-name> with the name of the SQL server you created in the previous steps. You'll receive a message similar to what is displayed below:
+8. Enter nslookup sqlserver-name.database.windows.net. Replace **sqlserver-name** with the name of the SQL server you created in the previous steps. You'll receive a message similar to what is displayed below:
 
    ````  
    Server:  UnKnown
    Address:  168.63.129.16
    
    Non-authoritative answer:
-   Name:    mysqlserver.privatelink.database.windows.net
+   Name:    mysqlserver1a.privatelink.database.windows.net
    Address:  10.1.0.5
-   Aliases:  mysqlserver.database.windows.net
+   Aliases:  mysqlserver1a.database.windows.net
    ````
     
 >**Note**: A  private IP address of 10.1.0.5 is returned for the SQL server name. This address is in **mySubnet1a** subnet of **myVNet1a** virtual network you created previously.
@@ -244,7 +244,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
     |Setting|Value|
     |---|---|
     |Server type|Select **Database Engine.**|
-    |Server name|Enter **<sqlserver1a>.database.windows.net.**|
+    |Server name|Enter **sqlserver1a.database.windows.net.**|
     |Authentication|Select **SQL Server Authentication.**|
     |User name|Enter **Tenantadmin2**.|
     |Password|Enter **Superuser#170**.|
