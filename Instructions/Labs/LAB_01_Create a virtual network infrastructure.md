@@ -136,9 +136,9 @@ You can use a network security group to filter inbound and outbound network traf
 
    ![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Cloud-Security-Benchmark/assets/91347931/3dd68bba-67f9-474f-8b94-98082bdec0b8)
 
-6. Under **Associate subnet,** select **vnet-1 (azure-rg-1)** for **Virtual network.**
+5. Under **Associate subnet,** select **vnet-1 (azure-rg-1)** for **Virtual network.**
 
-7. Select **subnet-1** for **Subnet,** and then select **OK.**
+6. Select **subnet-1** for **Subnet,** and then select **OK.**
 
 ### Create security rules for the network security group with the subnet of the virtual network you created earlier.
 
