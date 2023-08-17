@@ -198,7 +198,10 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
 
 2. On the **Networking** page, select **Public access** tab, then select **Disable** for **Public network access.**
 
-3. Select **Save.**
+   ![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Cloud-Security-Benchmark/assets/91347931/44ff5c24-70cf-49ed-b2ab-5e210c478b3a)
+
+
+4. Select **Save.**
 
 ### Test connectivity to private endpoint
 
