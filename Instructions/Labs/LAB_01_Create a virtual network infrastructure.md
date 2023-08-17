@@ -292,7 +292,7 @@ You can use a network security group to filter inbound and outbound network traf
 
     ![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Cloud-Security-Benchmark/assets/91347931/c32ef7df-306a-4b01-942d-da7325d8f10a)
 
-14. To confirm that you can access the **vm-1** web server from the internet, open an internet browser on your computer and browse to http://<public-ip-address-from-previous-step>.
+14. To confirm that you can access the **vm-1** web server from the internet, open an internet browser on your computer and browse to http://public-ip-address-from-previous-step.
 
     You see the IIS default page, because inbound traffic from the internet to the **asg-web** application security group is allowed through port 80.
 
