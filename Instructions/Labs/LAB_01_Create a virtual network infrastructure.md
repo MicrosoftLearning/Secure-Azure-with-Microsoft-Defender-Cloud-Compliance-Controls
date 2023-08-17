@@ -30,7 +30,7 @@ You can use a network security group to filter inbound and outbound network traf
 
 >**Note**: The following task creates a virtual network with a resource subnet.
 
-1. Start a browser session and sign-in to the [Azure portal menu](https://portal.azure.com/)             
+1. Start a browser session and sign-in to the [Azure portal menu.](https://portal.azure.com/)             
    
 2. From the Azure portal menu, select + **Create a resource** > **Networking** > **Virtual network,** or search for Virtual Network in the portal search box.
 
