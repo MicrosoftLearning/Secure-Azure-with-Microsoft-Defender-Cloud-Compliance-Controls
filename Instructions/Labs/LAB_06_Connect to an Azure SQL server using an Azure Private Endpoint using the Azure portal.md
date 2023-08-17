@@ -38,7 +38,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |Subscription|Select your subscription.|
    |Resource group|Select **Create new.** Enter **CreateSQLEndpointTutorial.** Select **OK**|
    |**Instance details**|
-   |Virtual network name|Enter *myVNet1a.*|
+   |Virtual network name|Enter **myVNet1a.**|
    |Region|Select **(US) East US.**|  
     
 5. Select the **IP Addresses** tab or select the **Next: IP Addresses** button at the bottom of the page.
@@ -107,7 +107,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |Setting|Value|
    |---|---|
    |**Network interface**|
-   |Virtual network|Select **myVnet1a.**|
+   |Virtual network|Select **myVNet1a.**|
    |Subnet|Select **mySubnet1a.**|
    |Public IP|Select **None.**|
    |NIC network security group|Select **Basic.**|
