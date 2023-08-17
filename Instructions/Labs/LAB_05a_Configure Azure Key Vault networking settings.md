@@ -20,7 +20,7 @@ You can use the Azue portal to configure the Azure Key Vault networking settings
 
 ### Use the Azure portal to create an Azure Key Vault.
 
-1. Start a browser session and sign-in to the Azure portal https://portal.azure.com/.
+1. Start a browser session and sign-in to the [Azure portal menu.](https://portal.azure.com/)
    
 2. In the Azure portal Search box, enter **Key Vault.**
 
