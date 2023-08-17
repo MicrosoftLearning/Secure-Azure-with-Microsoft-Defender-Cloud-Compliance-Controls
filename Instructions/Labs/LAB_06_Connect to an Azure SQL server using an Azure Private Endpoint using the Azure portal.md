@@ -219,6 +219,19 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
 
 8. Enter nslookup <sqlserver-name>.database.windows.net. Replace <sqlserver-name> with the name of the SQL server you created in the previous steps. You'll receive a message similar to what is displayed below:
 
+    ```powershell
+
+    Server:  UnKnown
+    Address:  168.63.129.16
+
+    Non-authoritative answer:
+    Name:    mysqlserver.privatelink.database.windows.net
+    Address:  10.1.0.5
+    Aliases:  mysqlserver.database.windows.net
+    
+    ```
+
+
    |Setting|Value|
    |---|---|
    |**PowerShell**|
