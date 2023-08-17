@@ -128,7 +128,7 @@ You can use a network security group to filter inbound and outbound network traf
 
 1. From the Azure portal menu, search for *myNsg* in the portal search box, enter **Network security group.** Select **Network security groups** in the search results.
    
-2. Select *myNSG-1.*
+2. Select **nsg-1.**
 
 3. Select **Subnets** from the **Settings** section of **nsg-1.**
 
