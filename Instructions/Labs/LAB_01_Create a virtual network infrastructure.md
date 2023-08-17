@@ -299,3 +299,5 @@ You can use a network security group to filter inbound and outbound network traf
     The network interface attached for **vm-1** is associated with the **asg-web** application security group and allows the connection.
 
 > **Results**: You have created a created a virtual network infrastructure and filtered network traffic with a network security group using the Azure portal.
+
+> **Note**: Do not remove the resources from this lab as they are needed for Exercise 05a - Configure Key Vault firewall and virtual networks.
