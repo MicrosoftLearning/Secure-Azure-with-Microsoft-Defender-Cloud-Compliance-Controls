@@ -18,7 +18,7 @@ You can use Microsoft Defender for Cloud's just-in-time (JIT) access to protect 
 
 ### Enable JIT on your VMs from Microsoft Defender for Cloud.
 
-1. Start a browser session and sign-in to the [Azure portal menu.](https://portal.azure.com/).
+1. Start a browser session and sign-in to the [Azure portal menu.](https://portal.azure.com/)
    
 2. From Defender for Cloud's menu, open **Workload protections.**
 
@@ -49,7 +49,7 @@ You can use Microsoft Defender for Cloud's just-in-time (JIT) access to protect 
 
 >**Note**: You can modify a VM's just-in-time configuration by adding and configuring a new port to protect for that VM, or by changing any other setting related to an already protected port.
 
-1. Start a browser session and sign-in to the [Azure portal menu.](https://portal.azure.com/).
+1. Start a browser session and sign-in to the [Azure portal menu.](https://portal.azure.com/)
    
 2. From Defender for Cloud's menu, open **Workload protections.**
 
@@ -63,7 +63,7 @@ You can use Microsoft Defender for Cloud's just-in-time (JIT) access to protect 
 
 >**Note**: When a VM has a JIT enabled, you have to request access to connect to it. You can request access in any of the supported ways, regardless of how you enabled JIT.
 
-1. Start a browser session and sign-in to the [Azure portal menu.](https://portal.azure.com/).
+1. Start a browser session and sign-in to the [Azure portal menu.](https://portal.azure.com/)
    
 2. From Defender for Cloud's menu, open **Workload protections.**
 
@@ -124,7 +124,7 @@ You can use Microsoft Defender for Cloud's just-in-time (JIT) access to protect 
 
 >**Note**: When a VM has a JIT enabled, you have to request access to connect to it. You can request access in any of the supported ways, regardless of how you enabled JIT.
 
-1. Start a browser session and sign-in to the [Azure portal menu.](https://portal.azure.com/).
+1. Start a browser session and sign-in to the [Azure portal menu.](https://portal.azure.com/)
    
 2. In the Azure portal, open the virtual machines pages.
 
