@@ -35,7 +35,7 @@ You can use purge protection to prevent the deletion of your key vault, keys, se
 
 ### List, recover, or purge a soft-deleted key vault.
 
-1. Start a browser session and sign-in to the Azure portal https://portal.azure.com/.
+1. Start a browser session and sign-in to the [Azure portal menu.](https://portal.azure.com/)
    
 2. Click on the search bar at the top of the page.
 
@@ -62,7 +62,7 @@ You can use purge protection to prevent the deletion of your key vault, keys, se
 
 ### List, recover, or purge soft-deleted secrets, keys, and certificates.
 
-1. Start a browser session and sign-in to the Azure portal https://portal.azure.com/.
+1. Start a browser session and sign-in to the [Azure portal menu.](https://portal.azure.com/)
    
 2. Select your key vault.
 
