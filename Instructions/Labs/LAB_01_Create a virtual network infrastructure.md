@@ -42,9 +42,9 @@ You can use a network security group to filter inbound and outbound network traf
    |---|---|
    |**Project details**|
    |Subscription|Select your subscription.|
-   |Resource group|Select **Create new.** Enter **myResourceGroup-1.** Select **OK**|
+   |Resource group|Select **Create new.** Enter **azure-rg-1.** Select **OK**|
    |**Instance details**|
-   |Virtual network name|Enter **nsg-1.**|
+   |Virtual network name|Enter **vnet-1.**|
    |Region|Select **(US) East US 2.**|  
     
 5. Select **Next: IP Addresses** at the bottom of the page.
@@ -75,9 +75,9 @@ You can use a network security group to filter inbound and outbound network traf
    |---|---|
    |**Project details**|
    |Subscription|Select your subscription.|
-   |Resource group|Select **myResourceGroup-1.**|
+   |Resource group|Select **azure-rg-1.**|
    |**Instance details**|
-   |Name|Enter **myAsgWebServers.**|
+   |Name|Enter **asg-web.**|
    |Region|Select **(US) East US 2.**|  
     
 4. Select **Review + create.**
@@ -90,9 +90,9 @@ You can use a network security group to filter inbound and outbound network traf
    |---|---|
    |**Project details**|
    |Subscription|Select your subscription.|
-   |Resource group|Select **myResourceGroup-1.**|
+   |Resource group|Select **azure-rg-1.**|
    |**Instance details**|
-   |Name|Enter **myAsgMgmtServers.**|
+   |Name|Enter **asg-mgmt.**|
    |Region|Select **(US) East US 2.**|
 
 4. Select **Review + create.**
@@ -113,9 +113,9 @@ You can use a network security group to filter inbound and outbound network traf
    |---|---|
    |**Project details**|
    |Subscription|Select your subscription.|
-   |Resource group|Select **myResourceGroup-1.**|
+   |Resource group|Select **azure-rg-1.**|
    |**Instance details**|
-   |Name|Enter **myNSG-1.**|
+   |Name|Enter **nsg-1.**|
    |Region|Select **(US) East US 2.**|  
     
 4. Select the **Review + create** tab, or select the blue **Review + create** button at the bottom of the page.
@@ -130,36 +130,36 @@ You can use a network security group to filter inbound and outbound network traf
    
 2. Select *myNSG-1.*
 
-3. Select **Subnets** from the **Settings** section of *myNSG-1.*
+3. Select **Subnets** from the **Settings** section of **nsg-1.**
 
 4. In the **Subnets** page, select + **Associate:**
 
    ![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Cloud-Security-Benchmark/assets/91347931/3dd68bba-67f9-474f-8b94-98082bdec0b8)
 
-6. Under **Associate subnet,** select **myVNet** for **Virtual network.**
+6. Under **Associate subnet,** select **vnet-1 (azure-rg-1)** for **Virtual network.**
 
-7. Select **default*** for **Subnet,** and then select **OK.**
+7. Select **subnet-1*** for **Subnet,** and then select **OK.**
 
 ### Create security rules for the network security group with the subnet of the virtual network you created earlier.
 
-1. Select **Inbound security rules** from the **Settings** section of *myNSG-1.*
+1. Select **Inbound security rules** from the **Settings** section of **nsg-1.**
    
 2. In **Inbound security rules** page, select + **Add:**
 
-3. Create a security rule that allows ports 80 and 443 to the **myAsgWebServers** application security group. In **Add inbound security rule page,** enter or select this information:
+3. Create a security rule that allows ports 80 and 443 to the **asg-web** application security group. In **Add inbound security rule** page, enter or select this information:
 
    |Setting|Value|
    |---|---|
    |Source|Leave the default of **Any.**|
    |Source port ranges|Leave the default of **(*).**|
-   |Destination|Enter myNSG-1.|
-   |Destination application security groups|Select **Application security group.**|
+   |Destination|Select **Application security group.**|
+   |Destination application security groups|Select **asg-web.**|
    |Service|Leave the default of **Custom.**|
-   |Destination port ranges|Enter *80,443.*|
+   |Destination port ranges|Enter **80,443.**|
    |Protocol|Select **TCP.**|
    |Action|Leave the default of **Allow.**|
    |Priority|Leave the default of **100.**|
-   |Name|Enter *Allow-Web-All.*|
+   |Name|Enter **allow-web-all.**|
 
 4. Select **Add.**
 
@@ -170,13 +170,11 @@ You can use a network security group to filter inbound and outbound network traf
    |Source|Leave the default of **Any.**|
    |Source port ranges|Leave the default of **(*).**|
    |Destination|Select **Application security group.**|
-   |Destination application security group|Select **myAsgMgmtServers.**|
-   |Service|Leave the default of **Custom.**|
-   |Destination port ranges|Enter 3389.|
-   |Protocol|Select **Any.**|
+   |Destination application security group|Select **asg-mgmt.**|
+   |Service|Select **RDP.**|
    |Action|Leave the default of **Allow.**|
    |Priority|Leave the default of **110.**|
-   |Name|Enter *Allow-RDP-All.*|
+   |Name|Enter *allow-rdp-all.*|
    
 6. Select **Add.**
 
@@ -190,9 +188,9 @@ You can use a network security group to filter inbound and outbound network traf
    |---|---|
    |**Project details**|
    |Susbcription|Select your subscription|
-   |Resource group|Select **myResourceGroup-1.**|
+   |Resource group|Select **azure-rg-1.**|
    |**Instance details**|
-   |Virtual machine name|Enter **myVMWeb.**|
+   |Virtual machine name|Enter **vm-1.**|
    |Region|Select **(US) East US 2.**|
    |Availability options|Leave the default of **No infrastructure redundancy required.**|
    |Security type|Leave the default of **Standard.**|
@@ -215,7 +213,7 @@ You can use a network security group to filter inbound and outbound network traf
    |Setting|Value|
    |---|---|
    |**Network interface**|
-   |Virtual network|Select **myVNet-1.**|
+   |Virtual network|Select **vnet-1.**|
    |Subnet|Select **default (10.0.0.0/24).**|
    |Public IP|Leave the default of a new public IP.|
    |NIC network security group|Select **None.**|
@@ -226,7 +224,7 @@ You can use a network security group to filter inbound and outbound network traf
   
    - Create the second virtual machine
 
-   - Complete steps 1-6 again, but in step 2, enter **myVMMgmt** for Virtual machine name.
+   - Complete steps 1-6 again, but in step 2, enter **vm-2** for Virtual machine name.
 
    - Wait for the VMs to complete deployment before advancing to the next section.
 
@@ -236,7 +234,7 @@ You can use a network security group to filter inbound and outbound network traf
 
 1. In the search box at the top of the portal, enter **Virtual machine.** Select **Virtual machines** in the search results.
 
-2. Select **myVMWeb.**
+2. Select **vm-1.**
  
 3. Select **Networking** from the **Settings** section of **myVMWeb.**
 
@@ -244,17 +242,17 @@ You can use a network security group to filter inbound and outbound network traf
 
    ![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Cloud-Security-Benchmark/assets/91347931/724130e0-6081-40ad-9864-16e28ad941d0)
 
-5. In **Configure the application security groups,** select **myAsgWebServers.** Select **Save.**
+5. In **Configure the application security groups,** select **asg-web.** in the **Application security groups** pull-down menu, then select **Save.**
 
-6. Complete steps 1 and 2 again, searching for the myVMMgmt virtual machine and selecting the **myAsgMgmtServers** ASG.
+6. Repeat previous steps for **vm-2**, selecting **asg-mgmt** in the **Application security groups** pull-down menu.
 
 ### Test the test traffic filters for the previuosly created myVMWeb web server. 
 
 1. In the search box at the top of the portal, enter **Virtual machine.** Select **Virtual machines** in the search results.
   
-2. Select **myVMMgmt.**
+2. Select **vm-2.**
    
-3. On the **Overview** page, select the **Connect** button and then select **RDP.**
+3. On the **Overview** page, select the **Connect** button and then select **Native RDP.**
 
 4. Select **Download RDP file.**
 
@@ -264,39 +262,40 @@ You can use a network security group to filter inbound and outbound network traf
 
 7. You may receive a certificate warning during the connection process. If you receive the warning, select **Yes** or **Continue,** to continue with the connection.
 
-   The connection succeeds, because inbound traffic from the internet to the **myAsgMgmtServers** application security group is allowed through port 3389.
+   The connection succeeds, because inbound traffic from the internet to the **asg-mgmt** application security group is allowed through port 3389.
 
-   The network interface for **myVMMgmt** is associated with the **myAsgMgmtServers** application security group and allows the connection.
+   The network interface for **vm-2** is associated with the **asg-mgmt** application security group and allows the connection.
 
-8. Open a PowerShell session on **myVMMgmt.** Connect to **myVMWeb** using the following:
+8. Open a PowerShell session on **vm-2.** Connect to **vm-1** using the following:
 
     ```powershell
-    mstsc /v:myVmWeb
+    mstsc /v:vm-1
     ```
     
-   The RDP connection from **myVMMgmt** to **myVMWeb** succeeds because virtual machines in the same network can communicate with each other over any port by default.
+   The RDP connection from **vm-2** to **vm-1** succeeds because virtual machines in the same network can communicate with each other over any port by default.
 
-   You can't create an RDP connection to the **myVMWeb** virtual machine from the internet. The security rule for the **myAsgWebServers** prevents connections to port 3389 inbound from the internet.
+   You can't create an RDP connection to the **vm-1** virtual machine from the internet. The security rule for the **asg-web** prevents connections to port 3389 inbound from the internet.
    Inbound traffic from the Internet is denied to all resources by default.
 
-10. To install Microsoft IIS on the **myVMWeb** virtual machine, enter the following command from a PowerShell session on the **myVMWeb** virtual machine:
+9. To install Microsoft Internet Information Services (IIS) on the **vm-1** virtual machine, enter the following command from a PowerShell session on the **vm-1** virtual machine:
 
       ```powershell
     Install-WindowsFeature -name Web-Server -IncludeManagementTools
     ```
+10. After the IIS installation is complete, disconnect from the **vm-1** virtual machine, which leaves you in the **vm-2** virtual machine remote desktop connection.
 
-11. After the IIS installation is complete, disconnect from the **myVMWeb** virtual machine, which leaves you in the **myVMMgmt** virtual machine remote desktop connection.
+11. Disconnect from the **vm-2** VM.
 
-12. Disconnect from the **myVMMgmt** VM.
+12. Search for **vm-1** in the portal search box.
+    
+13. On the **Overview** page of **vm-1**, note the **Public IP address** for your VM. The address shown in the following example is 20.230.55.178, your address is different:
 
-13. Search for *myVMWeb* in the portal search box.
+    ![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Cloud-Security-Benchmark/assets/91347931/c32ef7df-306a-4b01-942d-da7325d8f10a)
 
-14. On the **Overview** page of **myVMWeb,** note the **Public IP address** for your VM.
+14. To confirm that you can access the **vm-1** web server from the internet, open an internet browser on your computer and browse to http://<public-ip-address-from-previous-step>.
 
-15. To confirm that you can access the **myVMWeb** web server from the internet, open an internet browser on your computer and browse to http://<public-ip-address-from-previous-step>.
+    You see the IIS default page, because inbound traffic from the internet to the **asg-web** application security group is allowed through port 80.
 
-    You see the IIS default page, because inbound traffic from the internet to the **myAsgWebServers** application security group is allowed through port 80.
-
-    The network interface attached for **myVMWeb** is associated with the **myAsgWebServers** application security group and allows the connection.
+    The network interface attached for **vm-1** is associated with the **asg-web** application security group and allows the connection.
 
 > **Results**: You have created a created a virtual network infrastructure and filtered network traffic with a network security group using the Azure portal.
