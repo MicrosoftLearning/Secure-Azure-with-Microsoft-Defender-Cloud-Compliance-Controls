@@ -42,7 +42,8 @@ Defender for Cloud collects data from your Azure virtual machines (VMs), Virtual
 
    - At the bottom of the Auto-provisioning template, click **Apply.**
    
-![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Cloud-Security-Benchmark/assets/91347931/d79ffb8e-f64d-4831-ad94-eed22e381fca)
+![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Cloud-Security-Benchmark/assets/91347931/15b601fa-0426-4258-bdb1-8741107aa3a1)
+
 
 
 
