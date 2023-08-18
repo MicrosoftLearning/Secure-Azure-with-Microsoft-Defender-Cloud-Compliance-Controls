@@ -246,7 +246,7 @@ You can use a network security group to filter inbound and outbound network traf
 
 6. Repeat previous steps for **vm-2**, selecting **asg-mgmt** in the **Application security groups** pull-down menu.
 
-### Test test traffic filters
+### Test traffic filters
 
 1. In the search box at the top of the portal, enter **Virtual machine.** Select **Virtual machines** in the search results.
   
