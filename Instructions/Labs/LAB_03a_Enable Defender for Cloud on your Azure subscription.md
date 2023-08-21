@@ -22,7 +22,7 @@ The main goal of this exercise is to provide hands-on experience in configuring 
 
 2. In the Azure portal, in the Search resources, services, and docs text box at the top of the Azure portal page, type Microsoft Defender for Cloud and press the Enter key.
 
-3. On the Microsoft Defender for Cloud | Getting started blade, on the Upgrade tab >> scroll down until the **Select susbscriptions and workspaces to protect with enhanced security features** section is visible >> turn on the **Microsoft Defender plan** by selecting your your **Subscription** and the **Log Analytics Workspace** you created in Module 02, then click the large blue **Upgrade button.** at the bottom of the page.
+3. On the Microsoft Defender for Cloud | Getting Started blade, go to the Upgrade tab and scroll down until the 'Select subscriptions and workspaces to protect with enhanced security features' section is visible. Then, turn on the Microsoft Defender plan by selecting your Subscription and the Log Analytics Workspace you created in Module 02. Finally, click the large blue Upgrade button at the bottom of the page
 
 4. On the Microsoft Defender for Cloud | Getting started blade, in the Install agents tab, scroll down and **check** the box that is associated with the subscription on which agents will be installed and click **Install agents.**
 
