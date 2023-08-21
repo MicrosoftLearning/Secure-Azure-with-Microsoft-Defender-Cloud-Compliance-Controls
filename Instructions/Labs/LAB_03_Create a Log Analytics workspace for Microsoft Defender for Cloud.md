@@ -1,7 +1,7 @@
 ---
 lab:
-    title: 'Exercise 02 - Create a workspace'
-    module: 'Module 02 - Create a Log Analytics workspace for Microsoft Defender for Cloud'
+    title: 'Exercise 03 - Create a workspace'
+    module: 'Module 03 - Create a Log Analytics workspace for Microsoft Defender for Cloud'
 ---
 
 When you collect logs and data, the information is stored in a workspace. A workspace has a unique workspace ID and resource ID. The workspace name must be unique for a given resource group. After you've created a workspace, configure data sources and solutions to store their data there. 
