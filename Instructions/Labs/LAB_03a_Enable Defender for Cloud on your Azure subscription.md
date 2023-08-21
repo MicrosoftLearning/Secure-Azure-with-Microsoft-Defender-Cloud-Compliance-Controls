@@ -1,7 +1,7 @@
 ---
 lab:
-    title: 'Exercise 02a - Enable Defender for Cloud on your Azure subscription'
-    module: 'Module 02 - Set up Microsoft Defender for Cloud'
+    title: 'Exercise 03a - Enable Defender for Cloud on your Azure subscription'
+    module: 'Module 03 - Set up Microsoft Defender for Cloud'
 ---
 
 The main goal of this exercise is to provide hands-on experience in configuring and enabling Microsoft Defender for Cloud within an Azure subscription. This will allow you to monitor and protect your cloud resources against security threats. 
