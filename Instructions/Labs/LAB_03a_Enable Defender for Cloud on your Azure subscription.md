@@ -28,4 +28,6 @@ The main goal of this exercise is to provide hands-on experience in configuring 
 
 5. On the Microsoft Defender for Cloud | Getting started blade, in the Install agents tab, scroll down and **check** the box that is associated with the subscription on which agents will be installed and click **Install agents.**
 
+6. On the Microsoft Defender for Cloud | Getting started blade, on the Upgrade tab >> scroll down until the **Select workspaces with enhanced security features** section is visible >> turn on the **Microsoft Defender plan** by selecting your Log Analytics Workspace, then click the large Blue Upgrade button.
+
 > **Results**: You have upgraded and enabled Defender for Cloud on your Azure subscription.
