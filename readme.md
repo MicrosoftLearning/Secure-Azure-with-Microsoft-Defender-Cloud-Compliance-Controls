@@ -8,7 +8,7 @@
 
 - We hope this brings a sense of collaboration to the labs like we have never had before - when a Microsoft service such as Azure or Microsoft 365 changes and you find it first during a live delivery, go ahead and make an enhancement right in the lab source. Help your fellow MCTs.
 
-## How should I use this repository??
+## How should I use this repository?
 
 - The instructor materials are your primary source for teaching the course content.
 
