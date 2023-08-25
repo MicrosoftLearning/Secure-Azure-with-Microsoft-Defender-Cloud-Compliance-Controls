@@ -23,10 +23,10 @@ The main goal of this exercise is to provide hands-on experience in configuring 
 2. In the Azure portal, in the Search resources, services, and docs text box at the top of the Azure portal page, type Microsoft Defender for Cloud and press the Enter key.
 
 3. On the **Microsoft Defender for Cloud** | **Getting started blade**, go to the **Upgrade tab**. Scroll down until the **Select subscriptions and workspaces to protect with enhanced security features** section is visible.
-   
- ![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Cloud-Security-Benchmark/assets/91347931/ce586a46-fcac-4949-8b1c-3a581bd89217)
 
 4. Turn on the Microsoft Defender plan by selecting your **Subscription** and the **Log Analytics Workspace** you created in Module 02.
+   
+ ![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Cloud-Security-Benchmark/assets/91347931/ce586a46-fcac-4949-8b1c-3a581bd89217)
 
 5. Click the large blue **Upgrade** button at the bottom of the page.
 
