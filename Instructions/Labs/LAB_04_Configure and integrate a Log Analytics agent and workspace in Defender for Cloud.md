@@ -36,9 +36,9 @@ Defender for Cloud collects data from your Azure virtual machines (VMs), Virtual
 
    - Under Workspace selection, click **Custom workspace.**
 
-   - Click the dropdown menu and select your previously created workspace.
+   - Click the **dropdown menu** and **select** your previously created workspace.
 
-   - Under Security events storage, click the dropdown menu and, select **All Events.**
+   - Under **Security events storage**, click the **dropdown menu** and, select **All Events.**
 
    - At the bottom of the Auto-provisioning template, click **Apply.**
    
