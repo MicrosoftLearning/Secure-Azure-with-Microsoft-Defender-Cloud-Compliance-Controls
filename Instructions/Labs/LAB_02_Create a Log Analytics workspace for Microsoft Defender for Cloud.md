@@ -33,7 +33,7 @@ When you collect logs and data, the information is stored in a workspace. A work
    |Resource group|Enter **azure-rg-1.** Select **OK**|
    |**Instance details**|
    |Name|Enter **azwrkspc1a.**|
-   |Region|Select **(US) East US.**|
+   |Region|Select **East US.**|
 
 6. Select the **Review + create tab,** or select the blue Review + create button at the bottom of the page.
   
