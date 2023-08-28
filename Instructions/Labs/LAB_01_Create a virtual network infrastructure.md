@@ -78,7 +78,7 @@ You can use a network security group to filter inbound and outbound network traf
    |Resource group|Select **azure-rg-1.**|
    |**Instance details**|
    |Name|Enter **asg-web.**|
-   |Region|Select **(US) East US 2.**|  
+   |Region|Select **East US.**|  
     
 4. Select **Review + create.**
 
@@ -93,7 +93,7 @@ You can use a network security group to filter inbound and outbound network traf
    |Resource group|Select **azure-rg-1.**|
    |**Instance details**|
    |Name|Enter **asg-mgmt.**|
-   |Region|Select **(US) East US 2.**|
+   |Region|Select **East US.**|
 
 4. Select **Review + create.**
 
@@ -116,7 +116,7 @@ You can use a network security group to filter inbound and outbound network traf
    |Resource group|Select **azure-rg-1.**|
    |**Instance details**|
    |Name|Enter **nsg-1.**|
-   |Region|Select **(US) East US 2.**|  
+   |Region|Select **East US.**|  
     
 4. Select the **Review + create** tab, or select the blue **Review + create** button at the bottom of the page.
 
@@ -191,7 +191,7 @@ You can use a network security group to filter inbound and outbound network traf
    |Resource group|Select **azure-rg-1.**|
    |**Instance details**|
    |Virtual machine name|Enter **vm-1.**|
-   |Region|Select **(US) East US 2.**|
+   |Region|Select **(US) East US.**|
    |Availability options|Leave the default of **No infrastructure redundancy required.**|
    |Security type|Leave the default of **Standard.**|
    |Image|Select **Windows Server 2022 Datacenter - x64 Gen2.**|
