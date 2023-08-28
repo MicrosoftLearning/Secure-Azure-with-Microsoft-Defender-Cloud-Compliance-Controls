@@ -45,7 +45,7 @@ You can use a network security group to filter inbound and outbound network traf
    |Resource group|Select **Create new.** Enter **azure-rg-1.** Select **OK**|
    |**Instance details**|
    |Virtual network name|Enter **vnet-1.**|
-   |Region|Select **(US) East US 2.**|  
+   |Region|Select **East US 2.**|  
     
 5. Select **Next: IP Addresses** at the bottom of the page.
 
