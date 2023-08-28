@@ -36,6 +36,6 @@ The main goal of this exercise is to provide hands-on experience in configuring 
    
 ![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Cloud-Security-Benchmark/assets/91347931/1ea81720-a70b-46cc-9a7c-2cf9046bb4f5)
 
-
-
+7. Check the box that is associated with the subscription on which agents will be installed, and click **Install agents.**
+   
 > **Results**: You have upgraded and enabled Defender for Cloud on your Azure subscription.
