@@ -4,6 +4,10 @@ lab:
     module: 'Module 05 - Configure Azure Key Vault networking settings'
 ---
 
+
+>**Note**: To complete this lab, you will need an [Azure subscription.](https://azure.microsoft.com/en-us/free/?azure-portal=true) in which you have administrative access. 
+
+
 You can use the Azue portal to configure the Azure Key Vault networking settings to work with other applications and Azure services. 
 
 ---
