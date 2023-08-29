@@ -4,6 +4,10 @@ lab:
     module: 'Module 03 - Set up Microsoft Defender for Cloud'
 ---
 
+
+>**Note**: To complete this lab, you will need an [Azure subscription.](https://azure.microsoft.com/en-us/free/?azure-portal=true) in which you have administrative access. 
+
+
 The main goal of this exercise is to provide hands-on experience in configuring and enabling Microsoft Defender for Cloud within an Azure subscription. This will allow you to monitor and protect your cloud resources against security threats. 
 
 ---
