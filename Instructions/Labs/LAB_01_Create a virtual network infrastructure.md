@@ -4,6 +4,8 @@ lab:
     module: 'Module 01 - Filter network traffic with a network security group using the Azure portal'
 ---
 
+>**Note**: To complete this lab, you will need an Azure subscription in which you have administrative access. 
+
 You can use a network security group to filter inbound and outbound network traffic to and from Azure resources in an Azure virtual network. Network security groups contain security rules that filter network traffic by IP address, port, and protocol. When a network security group is associated with a subnet, security rules are applied to resources deployed in that subnet.
 
 ## Architecture diagram
