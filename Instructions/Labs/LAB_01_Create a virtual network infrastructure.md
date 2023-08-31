@@ -30,7 +30,7 @@ You can use a network security group to filter inbound and outbound network traf
 
 ## Exercise instructions 
 
-### Create a resource group and virtual network.
+### Create an azure resource group and virtual network.
 
 >**Note**: The following task creates a virtual network with a resource subnet.
 
