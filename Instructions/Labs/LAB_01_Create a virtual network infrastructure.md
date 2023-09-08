@@ -304,4 +304,4 @@ You can use a network security group to filter inbound and outbound network traf
 
 > **Results**: You have created a created a virtual network infrastructure and filtered network traffic with a network security group using the Azure portal.
 
-> **Note**: Do not remove the resources from this lab as they are needed for Exercise 05a - Configure Key Vault firewall and virtual networks.
+> **Note**: Please do not remove the resources from this lab, as they are necessary for the following exercises: Exercise 03b - Enabling Just-in-Time Access on VMs, Exercise 05a - Configuring Key Vault Firewall and Virtual Networks, and Exercise 05b - Configuring Azure Key Vault Recovery Management with Soft Delete and Purge Protection.
