@@ -36,11 +36,11 @@ You can use a network security group to filter inbound and outbound network traf
 
 1. Start a browser session and sign-in to the [Azure portal menu.](https://portal.azure.com/)             
    
-2. From the Azure portal menu, select + **Create a resource** > **Networking** > **Virtual network,** or search for Virtual Network in the portal search box.
+2. In the portal, search for and select **Virtual networks.**
 
-3. Select **Create.**
+3. On the Virtual networks page, select + **Create.**
 
-4. On the **Basics** tab of **Create virtual network,** enter or select this information:
+4. On the **Basics** tab of **Create virtual network,** enter or select the following information:
    
    |Setting|Value|
    |---|---|
@@ -51,17 +51,25 @@ You can use a network security group to filter inbound and outbound network traf
    |Virtual network name|Enter **vnet-1.**|
    |Region|Select **East US 2.**|  
     
-5. Select **Next: IP Addresses** at the bottom of the page.
+5. Select **Next** to proceed to the **Security** tab.
+  
+6. Select **Next** to proceed to the **IP Addresses** tab.
 
-6. In the **IP Addresses** tab, in **IPv4 address space,** select the garbage deletion icon to remove any address space that already appears, and then enter **10.0.0.0/16.**
+7. In the address space box in **Subnets,** select the default subnet.
 
-7. Select **+ Add subnet.**
+8. In **Edit subnet,** enter or select the following information:
 
-8. Enter or select the following information in **Add subnet:**
+   |Setting|Value|
+   |---|---|
+   |**Subnet details**|
+   |Subnet template|Leave the default **Default.**|
+   |Name|Enter **subnet-1.**|
+   |Starting address|Leave the default of **10.0.0.0**|
+   |Subnet size|Leave the default of /**24(256 addresses**).
 
   ![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Cloud-Security-Benchmark/assets/91347931/a9938432-5531-4f61-8d90-d8fb34823d8e)
 
-9. Select **Add.**
+9. Select **Save.**
 
 10. Select **Review + create** at the bottom of the screen, and when validation passes, select **Create.**
 
