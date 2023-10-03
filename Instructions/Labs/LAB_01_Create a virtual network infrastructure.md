@@ -36,7 +36,7 @@ You can use a network security group to filter inbound and outbound network traf
 
 1. Start a browser session and sign-in to the [Azure portal menu.](https://portal.azure.com/)             
    
-2. In the portal, search for and select **Virtual networks.**
+2. In the search box at the top of the portal, type **Virtual networks.** Select **Virtual networks** in the search results.
 
 3. On the Virtual networks page, select + **Create.**
 
