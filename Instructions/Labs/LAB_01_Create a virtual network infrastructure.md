@@ -77,9 +77,9 @@ You can use a network security group to filter inbound and outbound network traf
 
 ### Create application security groups to enable you to group together servers with similar functions, such as web servers.
 
->**Note**: An application security group (ASGs) enables you to group together servers with similar functions, such as web servers.
+An application security group (ASGs) enables you to group together servers with similar functions, such as web servers.
 
-1. From the Azure portal menu, select + **Create a resource** > **Networking** > **Application security group,** or search for Application security group in the portal search box.
+1. In the search box at the top of the portal, enter **Application security group**. Select **Application security groups** in the search results.
    
 2. Select **Create.**
 
@@ -115,11 +115,13 @@ You can use a network security group to filter inbound and outbound network traf
 
 ### Create a network security groug to secure network traffic in your virtual network.
 
->**Note**: A network security group (NSG) secures network traffic in your virtual network.
+A network security group (NSG) secures network traffic in your virtual network.
 
-1. From the Azure portal menu, select + **Create a resource** > **Networking** > **Network security group,** or use the portal search box to search for **Network security group** (not Network security group (classic).
+1. In the search box at the top of the portal, enter **Network security group**. Select **Network security groups** in the search results.
+
+>**Note**: In the search results for Network security groups, you may see Network security groups (classic). Select Network security groups.
    
-2. Select **Create.**
+2. Select + **Create.**
 
 3. On the **Basics** tab of **Create network security group,** enter or select this information:
    
@@ -132,9 +134,9 @@ You can use a network security group to filter inbound and outbound network traf
    |Name|Enter **nsg-1.**|
    |Region|Select **East US.**|  
     
-4. Select the **Review + create** tab, or select the blue **Review + create** button at the bottom of the page.
+4. Select **Review** + create**.
 
-5. Select **Create.**
+8. Select **Create.**
 
 ### Associate network security group to subnet
 
