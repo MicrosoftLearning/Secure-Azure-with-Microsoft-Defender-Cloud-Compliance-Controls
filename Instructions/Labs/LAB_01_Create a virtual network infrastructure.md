@@ -55,9 +55,11 @@ You can use a network security group to filter inbound and outbound network traf
   
 6. Select **Next** to proceed to the **IP Addresses** tab.
 
-7. In the address space box in **Subnets,** select the default subnet.
+7. In the address space box in **Subnets,** select the **default** subnet.
 
-8. In **Edit subnet,** enter or select the following information:
+8. In the address space box in **Subnets,** select the default subnet.
+
+9. In **Edit subnet,** enter or select the following information:
 
    |Setting|Value|
    |---|---|
