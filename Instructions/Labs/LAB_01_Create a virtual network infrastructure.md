@@ -167,16 +167,16 @@ A network security group (NSG) secures network traffic in your virtual network.
 
    |Setting|Value|
    |---|---|
-   |Source|Leave the default of **Any.**|
-   |Source port ranges|Leave the default of **(*).**|
-   |Destination|Select **Application security group.**|
-   |Destination application security groups|Select **asg-web.**|
+   |Source|Leave the default of **Any**|
+   |Source port ranges|Leave the default of **(*)**|
+   |Destination|Select **Application security group**|
+   |Destination application security groups|Select **asg-web**|
    |Service|Leave the default of **Custom.**|
-   |Destination port ranges|Enter **80,443.**|
+   |Destination port ranges|Enter **80,443**|
    |Protocol|Select **TCP.**|
    |Action|Leave the default of **Allow.**|
-   |Priority|Leave the default of **100.**|
-   |Name|Enter **allow-web-all.**|
+   |Priority|Leave the default of **100**|
+   |Name|Enter **allowweball**|
 
 4. Select **Add.**
 
@@ -184,14 +184,14 @@ A network security group (NSG) secures network traffic in your virtual network.
 
    |Setting|Value|
    |---|---|
-   |Source|Leave the default of **Any.**|
-   |Source port ranges|Leave the default of **(*).**|
-   |Destination|Select **Application security group.**|
-   |Destination application security group|Select **asg-mgmt.**|
-   |Service|Select **RDP.**|
-   |Action|Leave the default of **Allow.**|
-   |Priority|Leave the default of **110.**|
-   |Name|Enter *allow-rdp-all.*|
+   |Source|Leave the default of **Any**|
+   |Source port ranges|Leave the default of **(*)**|
+   |Destination|Select **Application security group**|
+   |Destination application security group|Select **asg-mgmt**|
+   |Service|Select **RDP**|
+   |Action|Leave the default of **Allow**|
+   |Priority|Leave the default of **110**|
+   |Name|Enter *allow-rdp-all*|
    
 6. Select **Add.**
 
@@ -207,23 +207,23 @@ A network security group (NSG) secures network traffic in your virtual network.
    |---|---|
    |**Project details**|
    |Susbcription|Select your subscription|
-   |Resource group|Select **azure-rg-1.**|
+   |Resource group|Select **azure-rg-1**|
    |**Instance details**|
-   |Virtual machine name|Enter **vm-1.**|
-   |Region|Select **(US) East US.**|
-   |Availability options|Leave the default of **No infrastructure redundancy required.**|
-   |Security type|Leave the default of **Standard.**|
-   |Image|Select **Windows Server 2022 Datacenter - x64 Gen2.**|
-   |VM architecture|Leave the default of **x64.**|
+   |Virtual machine name|Enter **vm-1**|
+   |Region|Select **(US) East US**|
+   |Availability options|Leave the default of **No infrastructure redundancy required**|
+   |Security type|Leave the default of **Standard**|
+   |Image|Select **Windows Server 2022 Datacenter - x64 Gen2**|
+   |VM architecture|Leave the default of **x64**|
    |Run with Azure Spot discount|Leave the default of unchecked|
-   |Size|Leave the default of **Standard_D2s_v3-2 vcpus, 8 GiB memory.**|
+   |Size|Leave the default of **Standard_D2s_v3-2 vcpus, 8 GiB memory**|
    |**Administrator account**|
    |Authentication type|Select **Password.**|
-   |Username|Enter **Tenantadmin1.**|
-   |Password|Enter **Superuser#150.**|
-   |Confirm password|Reenter **Superuser#150.**|
+   |Username|Enter **Tenantadmin1**|
+   |Password|Enter **Superuser#150**|
+   |Confirm password|Reenter **Superuser#150**|
    |**Inbound port rules**|
-   |Public inbound ports|Select **None.**|
+   |Public inbound ports|Select **None**|
  
 5. Select **Next: Disks** then **Next: Networking.
 
