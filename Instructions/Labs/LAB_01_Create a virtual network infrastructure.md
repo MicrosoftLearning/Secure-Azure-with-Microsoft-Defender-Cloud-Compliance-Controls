@@ -46,9 +46,9 @@ You can use a network security group to filter inbound and outbound network traf
    |---|---|
    |**Project details**|
    |Subscription|Select your subscription.|
-   |Resource group|Select **Create new.** Enter **az-rg-1.** Select **OK**|
+   |Resource group|Select **Create new** Enter **az-rg-1** Select **OK**|
    |**Instance details**|
-   |Virtual network name|Enter **vnet-1.**|
+   |Virtual network name|Enter **vnet-1**|
    |Region|Select **(US) East US**|  
     
 5. Select **Next** to proceed to the **Security** tab.
@@ -64,8 +64,8 @@ You can use a network security group to filter inbound and outbound network traf
    |Setting|Value|
    |---|---|
    |**Subnet details**|
-   |Subnet template|Leave the default **Default.**|
-   |Name|Enter **subnet-1.**|
+   |Subnet template|Leave the default **Default**|
+   |Name|Enter **subnet-1**|
    |Starting address|Leave the default of **10.0.0.0**|
    |Subnet size|Leave the default of /**24(256 addresses**).
 
@@ -90,9 +90,9 @@ An application security group (ASGs) enables you to group together servers with 
    |---|---|
    |**Project details**|
    |Subscription|Select your subscription.|
-   |Resource group|Select **az-rg-1.**|
+   |Resource group|Select **az-rg-1**|
    |**Instance details**|
-   |Name|Enter **asg-web.**|
+   |Name|Enter **asg-web**|
    |Region|Select **(US) East US**|  
     
 4. Select **Review + create.**
@@ -105,9 +105,9 @@ An application security group (ASGs) enables you to group together servers with 
    |---|---|
    |**Project details**|
    |Subscription|Select your subscription.|
-   |Resource group|Select **az-rg-1.**|
+   |Resource group|Select **az-rg-1**|
    |**Instance details**|
-   |Name|Enter **asg-mgmt.**|
+   |Name|Enter **asg-mgmt**|
    |Region|Select **(US) East US**|
 
 4. Select **Review + create.**
@@ -130,9 +130,9 @@ A network security group (NSG) secures network traffic in your virtual network.
    |---|---|
    |**Project details**|
    |Subscription|Select your subscription.|
-   |Resource group|Select **az-rg-1.**|
+   |Resource group|Select **az-rg-1**|
    |**Instance details**|
-   |Name|Enter **nsg-1.**|
+   |Name|Enter **nsg-1**|
    |Region|Select **(US) East US**|  
     
 4. Select **Review** + create**.
@@ -171,10 +171,10 @@ A network security group (NSG) secures network traffic in your virtual network.
    |Source port ranges|Leave the default of **(*)**|
    |Destination|Select **Application security group**|
    |Destination application security groups|Select **asg-web**|
-   |Service|Leave the default of **Custom.**|
+   |Service|Leave the default of **Custom**|
    |Destination port ranges|Enter **80,443**|
    |Protocol|Select **TCP.**|
-   |Action|Leave the default of **Allow.**|
+   |Action|Leave the default of **Allow**|
    |Priority|Leave the default of **100**|
    |Name|Enter **allowweball**|
 
@@ -220,7 +220,7 @@ A network security group (NSG) secures network traffic in your virtual network.
    |Run with Azure Spot discount|Leave the default of unchecked|
    |Size|Leave the default of **Standard_D2s_v3-2 vcpus, 8 GiB memory**|
    |**Administrator account**|
-   |Authentication type|Select **Password.**|
+   |Authentication type|Select **Password**|
    |Username|Enter **Tenantadmin1**|
    |Password|Enter **Superuser#150**|
    |Confirm password|Reenter **Superuser#150**|
@@ -234,10 +234,10 @@ A network security group (NSG) secures network traffic in your virtual network.
    |Setting|Value|
    |---|---|
    |**Network interface**|
-   |Virtual network|Select **vnet-1.**|
-   |Subnet|Select **default (10.0.0.0/24).**|
-   |Public IP|Leave the default of a new public IP.|
-   |NIC network security group|Select **None.**|
+   |Virtual network|Select **vnet-1**|
+   |Subnet|Select **default (10.0.0.0/24)**|
+   |Public IP|Leave the default of a new public IP|
+   |NIC network security group|Select **None**|
    
 7. Select the **Review + create** tab, or select the blue **Review + create** button at the bottom of the page.
 
@@ -255,11 +255,11 @@ A network security group (NSG) secures network traffic in your virtual network.
 
 1. In the search box at the top of the portal, enter **Virtual machine.** Select **Virtual machines** in the search results.
 
-2. Select **vm-1.**
+2. Select **vm-1**
  
-3. Select **Networking** from the **Settings** section of **vm-1.**
+3. Select **Networking** from the **Settings** section of **vm-1**
 
-4. Select the **Application security groups** tab, then select **Configure the application security groups.**
+4. Select the **Application security groups** tab, then select **Configure the application security groups**
 
    ![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Cloud-Security-Benchmark/assets/91347931/724130e0-6081-40ad-9864-16e28ad941d0)
 
@@ -271,15 +271,15 @@ A network security group (NSG) secures network traffic in your virtual network.
 
 1. In the search box at the top of the portal, enter **Virtual machine.** Select **Virtual machines** in the search results.
   
-2. Select **vm-2.**
+2. Select **vm-2**
    
 3. On the **Overview** page, select the **Connect** button and then select **Native RDP.**
 
-4. Select **Download RDP file.**
+4. Select **Download RDP file**
 
-5. Open the downloaded rdp file and select **Connect.** Enter the username and password you specified when creating the VM.
+5. Open the downloaded rdp file and select **Connect** Enter the username and password you specified when creating the VM.
 
-6. Select **OK.**
+6. Select **OK**
 
 7. You may receive a certificate warning during the connection process. If you receive the warning, select **Yes** or **Continue,** to continue with the connection.
 
