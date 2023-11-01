@@ -46,7 +46,7 @@ You can use a network security group to filter inbound and outbound network traf
    |---|---|
    |**Project details**|
    |Subscription|Select your subscription.|
-   |Resource group|Select **Create new.** Enter **azure-rg-1.** Select **OK**|
+   |Resource group|Select **Create new.** Enter **az-rg-1.** Select **OK**|
    |**Instance details**|
    |Virtual network name|Enter **vnet-1.**|
    |Region|Select **East US 2.**|  
@@ -189,11 +189,13 @@ A network security group (NSG) secures network traffic in your virtual network.
    |Destination|Select **Application security group**|
    |Destination application security group|Select **asg-mgmt**|
    |Service|Select **RDP**|
+   |Destination port ranges|Leave the default of **3389**|
+   |Protocol|Leave the default of **TCP**|
    |Action|Leave the default of **Allow**|
    |Priority|Leave the default of **110**|
-   |Name|Enter *allow-rdp-all*|
+   |Name|Enter *allowrdpall*|
    
-6. Select **Add.**
+7. Select **Add.**
 
 ### Create two virtual machines (VMs) in the virtual network you created earlier.
 
