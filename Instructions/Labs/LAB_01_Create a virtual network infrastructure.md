@@ -222,11 +222,12 @@ A network security group (NSG) secures network traffic in your virtual network.
    |Password|Enter **Superuser#150.**|
    |Confirm password|Reenter **Superuser#150.**|
    |**Inbound port rules**|
-   |Select inbound ports|Select **None.**|
+   |Public inbound ports|Select **None.**|
+   |Select inbound ports|Leave the default of **SSH (22)**|
 
-4. Select the **Networking** tab.
+5. Select **Next: Disks** then **Next: Networking.
 
-5. In the **Networking** tab, enter or select the following information:
+6. In the **Networking** tab, enter or select the following information:
 
    |Setting|Value|
    |---|---|
@@ -236,9 +237,9 @@ A network security group (NSG) secures network traffic in your virtual network.
    |Public IP|Leave the default of a new public IP.|
    |NIC network security group|Select **None.**|
    
-6. Select the **Review + create** tab, or select the blue **Review + create** button at the bottom of the page.
+7. Select the **Review + create** tab, or select the blue **Review + create** button at the bottom of the page.
 
-7. Select **Create.** The VM may take a few minutes to deploy.
+8. Select **Create.** The VM may take a few minutes to deploy.
   
    - Create the second virtual machine
 
