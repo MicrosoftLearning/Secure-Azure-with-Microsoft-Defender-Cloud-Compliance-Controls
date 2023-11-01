@@ -93,7 +93,7 @@ An application security group (ASGs) enables you to group together servers with 
    |Resource group|Select **azure-rg-1.**|
    |**Instance details**|
    |Name|Enter **asg-web.**|
-   |Region|Select **East US.**|  
+   |Region|Select **East US 2.**|  
     
 4. Select **Review + create.**
 
