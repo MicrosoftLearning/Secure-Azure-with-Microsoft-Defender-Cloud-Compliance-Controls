@@ -90,7 +90,7 @@ An application security group (ASGs) enables you to group together servers with 
    |---|---|
    |**Project details**|
    |Subscription|Select your subscription.|
-   |Resource group|Select **azure-rg-1.**|
+   |Resource group|Select **az-rg-1.**|
    |**Instance details**|
    |Name|Enter **asg-web.**|
    |Region|Select **East US 2.**|  
@@ -105,7 +105,7 @@ An application security group (ASGs) enables you to group together servers with 
    |---|---|
    |**Project details**|
    |Subscription|Select your subscription.|
-   |Resource group|Select **azure-rg-1.**|
+   |Resource group|Select **az-rg-1.**|
    |**Instance details**|
    |Name|Enter **asg-mgmt.**|
    |Region|Select **East US 2.**|
@@ -130,7 +130,7 @@ A network security group (NSG) secures network traffic in your virtual network.
    |---|---|
    |**Project details**|
    |Subscription|Select your subscription.|
-   |Resource group|Select **azure-rg-1.**|
+   |Resource group|Select **az-rg-1.**|
    |**Instance details**|
    |Name|Enter **nsg-1.**|
    |Region|Select **East US 2.**|  
@@ -209,7 +209,7 @@ A network security group (NSG) secures network traffic in your virtual network.
    |---|---|
    |**Project details**|
    |Susbcription|Select your subscription|
-   |Resource group|Select **azure-rg-1**|
+   |Resource group|Select **az-rg-1**|
    |**Instance details**|
    |Virtual machine name|Enter **vm-1**|
    |Region|Select **(US) East US**|
