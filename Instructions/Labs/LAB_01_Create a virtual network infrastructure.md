@@ -196,9 +196,11 @@ A network security group (NSG) secures network traffic in your virtual network.
 
 ### Create two virtual machines (VMs) in the virtual network you created earlier.
 
-1. From the Azure portal menu, select + **Create a resource** > **Compute** > **Virtual machine,** or search for Virtual machine in the portal search box.
+1. In the portal, search for and select **Virtual machines.**
+
+2. In **Virtual machines,** select + **Create,** then **Azure virtual machine.**
    
-2. In **Create a virtual machine,** enter or select this information in the **Basics** tab:
+3. In **Create a virtual machine,** enter or select this information in the **Basics** tab:
 
    |Setting|Value|
    |---|---|
@@ -211,7 +213,7 @@ A network security group (NSG) secures network traffic in your virtual network.
    |Availability options|Leave the default of **No infrastructure redundancy required.**|
    |Security type|Leave the default of **Standard.**|
    |Image|Select **Windows Server 2022 Datacenter - x64 Gen2.**|
-   |VM architecture|Select **x64.**|
+   |VM architecture|Leave the default of **x64.**|
    |Run with Azure Spot discount|Leave the default of unchecked|
    |Size|Leave the default of **Standard_D2s_v3-2 vcpus, 8 GiB memory.**|
    |**Administrator account**|
