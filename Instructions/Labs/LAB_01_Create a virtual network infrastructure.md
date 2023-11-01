@@ -223,8 +223,7 @@ A network security group (NSG) secures network traffic in your virtual network.
    |Confirm password|Reenter **Superuser#150.**|
    |**Inbound port rules**|
    |Public inbound ports|Select **None.**|
-   |Select inbound ports|Leave the default of **SSH (22)**|
-
+ 
 5. Select **Next: Disks** then **Next: Networking.
 
 6. In the **Networking** tab, enter or select the following information:
