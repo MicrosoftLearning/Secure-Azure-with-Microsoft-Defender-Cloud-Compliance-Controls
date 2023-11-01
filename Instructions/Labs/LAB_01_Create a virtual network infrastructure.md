@@ -69,7 +69,7 @@ You can use a network security group to filter inbound and outbound network traf
    |Starting address|Leave the default of **10.0.0.0**|
    |Subnet size|Leave the default of /**24(256 addresses**).
 
-  ![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Cloud-Security-Benchmark/assets/91347931/a9938432-5531-4f61-8d90-d8fb34823d8e)
+ 
 
 9. Select **Save.**
 
