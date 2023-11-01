@@ -93,7 +93,7 @@ An application security group (ASGs) enables you to group together servers with 
    |Resource group|Select **az-rg-1**|
    |**Instance details**|
    |Name|Enter **asg-web**|
-   |Region|Select **(US) East US**|  
+   |Region|Select **East US**|  
     
 4. Select **Review + create.**
 
@@ -108,7 +108,7 @@ An application security group (ASGs) enables you to group together servers with 
    |Resource group|Select **az-rg-1**|
    |**Instance details**|
    |Name|Enter **asg-mgmt**|
-   |Region|Select **(US) East US**|
+   |Region|Select **East US**|
 
 4. Select **Review + create.**
 
@@ -133,7 +133,7 @@ A network security group (NSG) secures network traffic in your virtual network.
    |Resource group|Select **az-rg-1**|
    |**Instance details**|
    |Name|Enter **nsg-1**|
-   |Region|Select **(US) East US**|  
+   |Region|Select **East US**|  
     
 4. Select **Review** + create**.
 
@@ -151,9 +151,9 @@ A network security group (NSG) secures network traffic in your virtual network.
 
 4. In the **Subnets** page, select + **Associate:**
 
-   ![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Cloud-Security-Benchmark/assets/91347931/3dd68bba-67f9-474f-8b94-98082bdec0b8)
+ ![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Defender-for-Cloud-regulatory-compliance-controls/assets/91347931/3b2004f6-963f-43df-9d05-3999d2e97d76)
 
-5. Under **Associate subnet,** select **vnet-1 (azure-rg-1)** for **Virtual network.**
+5. Under **Associate subnet,** select **vnet-1 (az-rg-1)** for **Virtual network.**
 
 6. Select **subnet-1** for **Subnet,** and then select **OK.**
 
