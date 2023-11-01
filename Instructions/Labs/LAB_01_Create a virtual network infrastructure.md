@@ -49,7 +49,7 @@ You can use a network security group to filter inbound and outbound network traf
    |Resource group|Select **Create new.** Enter **az-rg-1.** Select **OK**|
    |**Instance details**|
    |Virtual network name|Enter **vnet-1.**|
-   |Region|Select **East US**|  
+   |Region|Select **(US) East US**|  
     
 5. Select **Next** to proceed to the **Security** tab.
   
@@ -93,7 +93,7 @@ An application security group (ASGs) enables you to group together servers with 
    |Resource group|Select **az-rg-1.**|
    |**Instance details**|
    |Name|Enter **asg-web.**|
-   |Region|Select **East US 2.**|  
+   |Region|Select **(US) East US**|  
     
 4. Select **Review + create.**
 
@@ -108,7 +108,7 @@ An application security group (ASGs) enables you to group together servers with 
    |Resource group|Select **az-rg-1.**|
    |**Instance details**|
    |Name|Enter **asg-mgmt.**|
-   |Region|Select **East US 2.**|
+   |Region|Select **(US) East US**|
 
 4. Select **Review + create.**
 
@@ -133,7 +133,7 @@ A network security group (NSG) secures network traffic in your virtual network.
    |Resource group|Select **az-rg-1.**|
    |**Instance details**|
    |Name|Enter **nsg-1.**|
-   |Region|Select **East US 2.**|  
+   |Region|Select **(US) East US**|  
     
 4. Select **Review** + create**.
 
