@@ -38,7 +38,7 @@ You can use the Azue portal to configure the Azure Key Vault networking settings
    |---|---|
    |**Project details**|
    |Subscription|Select your subscription.|
-   |Resource group|Enter **azure-rg-1.** Select **OK**|
+   |Resource group|Enter **az-rg-1.** Select **OK**|
    |**Instance details**|
    |Key vault name|Enter **AZAPLKeyVault.**|
    |Region|Select **East US**|
