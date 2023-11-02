@@ -267,58 +267,6 @@ A network security group (NSG) secures network traffic in your virtual network.
 
 6. Repeat previous steps for **vm-2**, selecting **asg-mgmt** in the **Application security groups** pull-down menu.
 
-### Test traffic filters
-
-1. In the search box at the top of the portal, enter **Virtual machine.** Select **Virtual machines** in the search results.
-  
-2. Select **vm-2**
-   
-3. On the **Overview** page, select the **Connect** button and then select **Native RDP.**
-
-4. Select **Download RDP file**
-
-5. Open the downloaded rdp file and select **Connect** Enter the username and password you specified when creating the VM.
-
-6. Select **OK**
-
-7. You may receive a certificate warning during the connection process. If you receive the warning, select **Yes** or **Continue,** to continue with the connection.
-
-   The connection succeeds, because inbound traffic from the internet to the **asg-mgmt** application security group is allowed through port 3389.
-
-   The network interface for **vm-2** is associated with the **asg-mgmt** application security group and allows the connection.
-
-8. Open a PowerShell session on **vm-2.** Connect to **vm-1** using the following:
-
-    ```powershell
-    mstsc /v:vm-1
-    ```
-    
-   The RDP connection from **vm-2** to **vm-1** succeeds because virtual machines in the same network can communicate with each other over any port by default.
-
-   You can't create an RDP connection to the **vm-1** virtual machine from the internet. The security rule for the **asg-web** prevents connections to port 3389 inbound from the internet.
-   Inbound traffic from the Internet is denied to all resources by default.
-
-9. To install Microsoft Internet Information Services (IIS) on the **vm-1** virtual machine, enter the following command from a PowerShell session on the **vm-1** virtual machine:
-
-      ```powershell
-    Install-WindowsFeature -name Web-Server -IncludeManagementTools
-    ```
-10. After the IIS installation is complete, disconnect from the **vm-1** virtual machine, which leaves you in the **vm-2** virtual machine remote desktop connection.
-
-11. Disconnect from the **vm-2** VM.
-
-12. Search for **vm-1** in the portal search box.
-    
-13. On the **Overview** page of **vm-1**, note the **Public IP address** for your VM. The address shown in the following example is 20.230.55.178, your address is different:
-
-    ![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Cloud-Security-Benchmark/assets/91347931/c32ef7df-306a-4b01-942d-da7325d8f10a)
-
-14. To confirm that you can access the **vm-1** web server from the internet, open an internet browser on your computer and browse to `http://public-ip-address-from-previous-step>`.
-
-    You see the IIS default page, because inbound traffic from the internet to the **asg-web** application security group is allowed through port 80.
-
-    The network interface attached for **vm-1** is associated with the **asg-web** application security group and allows the connection.
-
 > **Results**: You have created a created a virtual network infrastructure and filtered network traffic with a network security group using the Azure portal.
 
 > **Note**: Please do not remove the resources from this lab, as they are necessary for the following exercises: Exercise 03b - Enabling Just-in-Time Access on VMs, Exercise 05a - Configuring Key Vault Firewall and Virtual Networks, and Exercise 05b - Configuring Azure Key Vault Recovery Management with Soft Delete and Purge Protection.
