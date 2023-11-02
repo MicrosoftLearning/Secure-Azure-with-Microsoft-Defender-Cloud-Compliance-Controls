@@ -72,9 +72,9 @@ You can use a network security group to filter inbound and outbound network traf
 ![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Defender-for-Cloud-regulatory-compliance-controls/assets/91347931/73c40ee1-1452-4b7d-8328-004c795a7b1e)
 
 
-9. Select **Save.**
+10. Select **Save.**
 
-10. Select **Review + create** at the bottom of the screen, and when validation passes, select **Create.**
+11. Select **Review + create** at the bottom of the screen, and when validation passes, select **Create.**
 
 ### Create application security groups to enable you to group together servers with similar functions, such as web servers.
 
@@ -99,7 +99,7 @@ An application security group (ASGs) enables you to group together servers with 
 
 5. Select **Create.**
 
-8. Repeat the previous steps, specifying the following values:
+6. Repeat the previous steps, specifying the following values:
     
    |Setting|Value|
    |---|---|
@@ -110,9 +110,9 @@ An application security group (ASGs) enables you to group together servers with 
    |Name|Enter **asg-mgmt**|
    |Region|Select **East US**|
 
-4. Select **Review + create.**
+7. Select **Review + create.**
 
-5. Select **Create.**
+8. Select **Create.**
 
 ### Create a network security groug to secure network traffic in your virtual network.
 
@@ -137,7 +137,7 @@ A network security group (NSG) secures network traffic in your virtual network.
     
 4. Select **Review** + create**.
 
-8. Select **Create.**
+5. Select **Create.**
 
 ### Associate network security group to subnet
 
@@ -195,7 +195,7 @@ A network security group (NSG) secures network traffic in your virtual network.
    |Priority|Leave the default of **110**|
    |Name|Enter *allowrdpall*|
    
-7. Select **Add.**
+6. Select **Add.**
 
 ### Create two virtual machines (VMs) in the virtual network you created earlier.
 
@@ -227,9 +227,9 @@ A network security group (NSG) secures network traffic in your virtual network.
    |**Inbound port rules**|
    |Public inbound ports|Select **None**|
  
-5. Select **Next: Disks** then **Next: Networking.
+4. Select **Next: Disks** then **Next: Networking.
 
-6. In the **Networking** tab, enter or select the following information:
+5. In the **Networking** tab, enter or select the following information:
 
    |Setting|Value|
    |---|---|
@@ -239,9 +239,9 @@ A network security group (NSG) secures network traffic in your virtual network.
    |Public IP|Leave the default of a new public IP|
    |NIC network security group|Select **None**|
    
-7. Select the **Review + create** tab, or select the blue **Review + create** button at the bottom of the page.
+6. Select the **Review + create** tab, or select the blue **Review + create** button at the bottom of the page.
 
-8. Select **Create.** The VM may take a few minutes to deploy.
+7. Select **Create.** The VM may take a few minutes to deploy.
   
    - Create the second virtual machine
 
