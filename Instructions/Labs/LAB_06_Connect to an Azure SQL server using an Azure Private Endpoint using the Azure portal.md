@@ -224,9 +224,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    **Important:** Go to the Edge settings/Pop-ups and redirects/and switch the Blocked switch to **off,** before selecting Connect.
 
 7. Select **Connect** button.
-
-   **Note:** go to Edge settings/Pop-ups and redirects/and switch the 'Blocked' switch to off, before selecting 'Connect'.
-
+  
 8. Open Windows PowerShell on the server after you connect.
 
 9. Enter `nslookup sqlserver-name.database.windows.net.` Replace **sqlserver-name** with the name of the SQL server you created in the previous steps. You'll receive a message similar to what is displayed below:
