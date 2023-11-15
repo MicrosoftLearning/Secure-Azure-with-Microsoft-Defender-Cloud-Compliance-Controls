@@ -34,7 +34,7 @@ Defender for Cloud collects data from your Azure virtual machines (VMs), Virtual
 
 5. In the Settings & monitoring Coverage column of the Defender plans, select **Settings & monitoring.**
 
-7. From the Configuration options pane, click **Edit configuration.**
+7. In the Log Analytics list, in the Configuration column, click **Edit configuration.**
 
 8. In the Auto-provisioning configuration template complete the following actions:
 
