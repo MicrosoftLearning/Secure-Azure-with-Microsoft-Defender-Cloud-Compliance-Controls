@@ -221,7 +221,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
 
 5. Enter the username **Tenantadmin2** and password **Superuser#170** that you entered during the virtual machine creation.
 
-   **Note:** Go to the Edge settings/Pop-ups and redirects/and switch the Blocked switch to **off,** before selecting Connect.
+   **Important:** Go to the Edge settings/Pop-ups and redirects/and switch the Blocked switch to **off,** before selecting Connect.
 
 7. Select **Connect** button.
 
