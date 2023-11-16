@@ -46,7 +46,7 @@ The main goal of this exercise is to provide hands-on experience in configuring 
    
 2. On the **Microsoft Defender for Cloud, Environment settings** blade, click **Expand all,** scroll down until your subscription appears, and click the relevant subscription.
 
-3. On the **Settings, Defender plans** blade, select **Enable all plans** and, click **Save.**
+3. On the **Settings, Defender plans** blade, select **Enable all plans** and click **Save.**
 
    ![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Defender-for-Cloud-regulatory-compliance-controls/assets/91347931/4b684851-98ae-4720-a3e3-afa99aab8c43)
 
