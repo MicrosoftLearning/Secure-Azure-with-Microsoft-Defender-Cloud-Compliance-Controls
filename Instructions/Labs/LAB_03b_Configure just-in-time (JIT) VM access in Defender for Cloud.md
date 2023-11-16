@@ -51,7 +51,7 @@ You can use Microsoft Defender for Cloud's just-in-time (JIT) access to protect 
 
    - From the **Configured** tab, right-click on the VM to which you want to add a port, and select edit.
   
- ![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Cloud-Security-Benchmark/assets/91347931/9034dc74-b865-4743-bcd6-8f0ae71a6d43)
+ 
 
 
 
