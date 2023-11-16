@@ -1,4 +1,4 @@
-# APL-5002: Secure Azure services and workloads with Microsoft Defender for Cloud regulatory compliance controls
+# Secure Azure services and workloads with Microsoft Defender for Cloud regulatory compliance controls
 
 **Are you an MCT?** - Have a look at our [GitHub User Guide for MCTs](https://microsoftlearning.github.io/MCT-User-Guide/)
 
