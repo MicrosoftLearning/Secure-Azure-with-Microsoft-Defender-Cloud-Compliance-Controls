@@ -72,7 +72,7 @@ You can use Microsoft Defender for Cloud's just-in-time (JIT) access to protect 
     
         - If JIT is enabled, select **Request access** to pass an access request with the requesting IP, time range, and ports that were configured for that VM.
 
-![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Cloud-Security-Benchmark/assets/91347931/948811f6-64d9-4454-ae84-d951ca01cbbf)
+
 
 
 
