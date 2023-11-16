@@ -39,5 +39,14 @@ The main goal of this exercise is to provide hands-on experience in configuring 
     ![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Cloud-Security-Benchmark/assets/91347931/8120ec8f-23dc-4636-bc45-b415c7894b8c)
 
 7. Check the box that is associated with the subscription on which agents will be installed, and click **Install agents.**
+
+### Alternative actions to upgrade your subscription for Microsoft Defender for Cloud.
+
+1. Navigate to **Microsoft Defender for Cloud** and, in the left navigation panel under the Management section, click **Environment Settings.**
+
+2. On the **Microsoft Defender for Cloud | Environment settings blade,** scroll down, expand until your subscription appears and click the relevant subscription.
+
+3, On the **Settings | Defender plans** blade, select **Enable all plans** and, click **Save.**
+
    
 > **Results**: You have upgraded and enabled Defender for Cloud on your Azure subscription.
