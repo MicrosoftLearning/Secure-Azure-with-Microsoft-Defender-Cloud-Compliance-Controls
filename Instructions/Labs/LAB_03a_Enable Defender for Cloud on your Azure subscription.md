@@ -48,7 +48,6 @@ The main goal of this exercise is to provide hands-on experience in configuring 
 
 4. On the **Settings | Defender plans** blade, select **Enable all plans** and, click **Save.**
 
-   ![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Defender-for-Cloud-regulatory-compliance-controls/assets/91347931/76f1b9c1-030b-4f65-a237-75b32d04fcea)
 
 
    
