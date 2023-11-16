@@ -32,7 +32,9 @@ You can use Microsoft Defender for Cloud's just-in-time (JIT) access to protect 
 
 4. Under **Just-in-time access,** select **Enable just-in-time.**
 
-5. By default, just-in-time access for the VM uses these settings:
+5. Under **Just-in-time VM access,** click on the link that reads **Open Microsoft Defender for Cloud.**
+
+6. By default, just-in-time access for the VM uses these settings:
 
    - Windows machines
    
@@ -45,7 +47,7 @@ You can use Microsoft Defender for Cloud's just-in-time (JIT) access to protect 
      - Maximum allowed access: Three hours
      - Allowed source IP addresses: Any
    
-6. By default, just-in-time access for the VM uses these settings:
+7. By default, just-in-time access for the VM uses these settings:
 
    - From Defender for Cloud's menu, select **Just-in-time VM access.**
    - From the **Configured** tab, right-click on the VM to which you want to add a port, and select edit.
