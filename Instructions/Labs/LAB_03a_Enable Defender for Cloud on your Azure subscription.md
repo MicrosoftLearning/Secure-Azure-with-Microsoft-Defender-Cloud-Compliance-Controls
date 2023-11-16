@@ -44,7 +44,7 @@ The main goal of this exercise is to provide hands-on experience in configuring 
 
 1. Navigate to **Microsoft Defender for Cloud** and, in the left navigation panel under the Management section, click **Environment Settings.**
    
-2. On the **Microsoft Defender for Cloud, Environment settings blade,** click **Expand all,** scroll down until your subscription appears, and click the relevant subscription.
+2. On the **Microsoft Defender for Cloud, Environment settings** blade, click **Expand all,** scroll down until your subscription appears, and click the relevant subscription.
 
 3. On the **Settings, Defender plans** blade, select **Enable all plans** and, click **Save.**
 
