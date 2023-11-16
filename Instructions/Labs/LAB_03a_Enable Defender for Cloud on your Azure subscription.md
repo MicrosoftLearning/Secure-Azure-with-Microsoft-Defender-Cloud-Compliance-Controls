@@ -49,4 +49,6 @@ The main goal of this exercise is to provide hands-on experience in configuring 
 3. On the **Settings | Defender plans** blade, select **Enable all plans** and, click **Save.**
 
    
+
+   
 > **Results**: You have upgraded and enabled Defender for Cloud on your Azure subscription.
