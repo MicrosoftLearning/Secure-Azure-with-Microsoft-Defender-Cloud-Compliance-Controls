@@ -265,7 +265,7 @@ A network security group (NSG) secures network traffic in your virtual network.
 
 ![image](https://github.com/MicrosoftLearning/Secure-Azure-with-Microsoft-Defender-Cloud-Compliance-Controls/assets/91347931/dd17aeba-8e16-431b-b921-527367fea484)
 
-6. Repeat previous steps for **vm-2**, selecting **asg-mgmt** in the **Application security groups** pull-down menu.
+6. Repeat previous steps for **vm-2**, selecting **asg-web** in the **Application security groups** pull-down menu.
 
 > **Results**: You have created a created a virtual network infrastructure and filtered network traffic with a network security group using the Azure portal.
 
