@@ -213,9 +213,9 @@ A network security group (NSG) secures network traffic in your virtual network.
    |**Instance details**|
    |Virtual machine name|Enter **vm-1**|
    |Region|Select **(US) East US**|
-   |Availability options|Leave the default of **No infrastructure redundancy required**|
-   |Security type|Leave the default of **Standard**|
-   |Image|Select **Windows Server 2022 Datacenter - x64 Gen2**|
+   |Availability options|From the Availability Zone drop-down menu, select **No infrastructure redundancy required**|
+   |Security type|From the Security type drop-down menu, select **Standard**|
+   |Image|From the Image drop-down menu, select **Windows Server 2022 Datacenter: Azure Edition - x64 Gen2**|
    |VM architecture|Leave the default of **x64**|
    |Run with Azure Spot discount|Leave the default of unchecked|
    |Size|Leave the default of **Standard_D2s_v3-2 vcpus, 8 GiB memory**|
