@@ -43,7 +43,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |Resource group|Select **Create new.** Enter **CreateSQLEndpointTutorial.** Select **OK**|
    |**Instance details**|
    |Virtual network name|Enter **myVNet1a.**|
-   |Region|Select **(US)East US.**|  
+   |Region|Select **(US) East US.**|  
     
 5. Select **Next** to proceed to the **Security** tab.
   
