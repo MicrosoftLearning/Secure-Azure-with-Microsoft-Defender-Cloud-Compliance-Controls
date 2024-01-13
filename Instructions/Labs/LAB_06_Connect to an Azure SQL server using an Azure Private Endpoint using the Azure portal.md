@@ -43,36 +43,45 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |Resource group|Select **Create new.** Enter **CreateSQLEndpointTutorial.** Select **OK**|
    |**Instance details**|
    |Virtual network name|Enter **myVNet1a.**|
-   |Region|Select **East US.**|  
+   |Region|Select **(US)East US.**|  
     
-5. Select the **IP Addresses** tab or select the **Next: IP Addresses** button at the bottom of the page.
+5. Select **Next** to proceed to the **Security** tab.
+  
+6. Select **Enable Azure Bastion** in the Azure Bastion section of the Security tab.
 
-6. In the **IP Addresses** tab, enter this information:
+   >**Note**: Azure Bastion uses your browser to connect to VMs in your virtual network over secure shell (SSH) or remote desktop protocol (RDP) by using their private IP addresses. The VMs don't need public IP addresses, client software, or special configuration.
+
+7. Enter or select the following information in the **Azure Bastion host name** field:
 
    |Setting|Value|
    |---|---|
-   |IPv4 address space|Enter **10.1.0.0/16.**|
+   |Azure Bastion host name|Enter **mybastionhost**|
+   |Azure Bastion public IP address name|Select **Create a public IP address**|
+   |Add a public IP maddress|Enter **my-bstn-public-ip**|
+   |SKU|Leave the default **Standard**|
+   
+8. Select **OK.**
 
-7. Under **Subnet name,** select the word **default.**
+9. Select **Next** to proceed to the **Security** tab.
 
-8. In **Edit subnet,** enter this information:
+10. Select **Next** to proceed to the **IP addresses** tab.
+
+11. In the address space box in the Subnets column, select the word **default** subnet.
+
+12. In **Edit subnet** template, enter or select the following information:
 
    |Setting|Value|
    |---|---|
-   |Subnet name|Enter **mySubnet1a.**|
-   |Subnet address range|Enter **10.1.0.0/24.**|
+   |Subnet purpose|Leave the default of **Default.**|
+   |Name|Enter **mysubnet1a**|
+   |IPv4 address range|Leave the default of **10.0.0/16**|
+   |Starting address|Leave the default of **/24 (256 addresses**|
 
-9. Select **Save.**
+13. Select **Save.**
 
-10. Select the **Security** tab.
+14. Select **Review + create** at the bottom of the screen, and when validation passes, select **Create.**
 
-11. Under **Bastion host,** select **Enable.** Enter this information:
-    
-    |Setting|Value|
-    |---|---|
-    |Bastion name|Enter **myBastionHost.**|
-    |AzureBstionSubnet address space|Enter **10.1.1.0/24.**|
-    |Public IP Address|Select **Create new.** For **Name,** enter **My BastionIP.** Select **OK.**| 
+    >**Note**: Bastion deployment may take up to 15 minutes for complete instantiation.
  
 ### Create a virtual machine.
 
