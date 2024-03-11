@@ -189,7 +189,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |Resource group|Select **CreateSQLEndpointTutorial.**|
    |Location|Select **East US.**|
    |Name|Enter **myPrivateSQLendpoint.**|
-   |Target sub-resource|Select **mysqlserver1a.**|
+   |Target sub-resource|Leave the default Default **SqlServer.**|
    |**Networking**|
    |Virtual network|Select **myVNet1a.**|
    |Subnet|Select **mySubnet1a.**|
