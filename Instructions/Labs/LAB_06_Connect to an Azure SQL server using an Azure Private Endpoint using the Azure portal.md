@@ -99,8 +99,8 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |**Instance details**|
    |Virtual machine name|Enter **myVM.**|
    |Region|Select **(US) East US.**|
-   |Availability options|Leave the default of **No infrastructure redundancy required.**|
-   |Security type|Leave the default of **Standard.**|
+   |Availability options|From the Availability Zone drop-down menu, select **No infrastructure redundancy required.**|
+   |Security type|From the Security type drop-down menu, select **Standard.**|
    |Image|Select **Windows Server 2022 Datacenter - x64 Gen2.**|
    |VM architecture|Select **x64.**|
    |Run with Azure Spot discount|Leave the default of unchecked|
