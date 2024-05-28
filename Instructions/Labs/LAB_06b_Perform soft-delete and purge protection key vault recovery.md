@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Exercise 06b - Configure Azure Key Vault recovery management with soft delete and purge protection'    
+    title: 'Exercise 07 - Configure Azure Key Vault recovery management with soft delete and purge protection'    
     module: 'Module 07 - Perform soft-delete and purge protection key vault recovery'
 ---
 
