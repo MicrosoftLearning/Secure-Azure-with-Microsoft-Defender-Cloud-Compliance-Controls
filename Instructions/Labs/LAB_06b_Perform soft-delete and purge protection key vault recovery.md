@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Exercise 07 - Perform soft-delete and purge protection key vault recovery'    
+    title: 'Exercise 06b - Perform soft-delete and purge protection key vault recovery'    
     module: 'Module 07 - Configure Azure Key Vault networking settings'
 ---
 
