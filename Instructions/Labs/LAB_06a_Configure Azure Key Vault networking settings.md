@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Exercise 06a - Configure Key Vault firewall and virtual networks'    
+    title: 'Exercise 06a - Configure Azure Key Vault networking settings'    
     module: 'Module 07 - Configure Azure Key Vault networking settings'
 ---
 
