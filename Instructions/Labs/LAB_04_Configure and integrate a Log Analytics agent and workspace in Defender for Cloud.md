@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Exercise 04 - Collect data from your workloads with the Log Analytics agent'    
-    module: 'Module 04 - Configure and integrate a Log Analytics agent and workspace in Defender for Cloud'
+    module: 'Module 05 - Configure and integrate a Log Analytics agent and workspace in Defender for Cloud'
 ---
 
 
