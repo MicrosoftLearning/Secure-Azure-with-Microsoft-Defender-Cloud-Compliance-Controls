@@ -1,7 +1,7 @@
 ---
 lab:
-    title: 'Exercise 06 - Deploy a virtual machine to test connectivity privately and securely to the SQL server across the private endpoint'
-    module: 'Module 06 - Connect to an Azure SQL server using an Azure Private Endpoint using the Azure portal'
+    title: 'Exercise 07 - Deploy a virtual machine to test connectivity privately and securely to the SQL server across the private endpoint'
+    module: 'Module 08 - Connect to an Azure SQL server using an Azure Private Endpoint using the Azure portal'
 ---
 
 
