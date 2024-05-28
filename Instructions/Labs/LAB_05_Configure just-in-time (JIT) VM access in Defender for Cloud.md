@@ -1,7 +1,7 @@
 ---
 lab:
-    title: 'Exercise 03b - Enable just-in-time access on VMs'    
-    module: 'Module 03 - Configure just-in-time (JIT) VM access in Defender for Cloud'
+    title: 'Exercise 05 - Enable just-in-time access on VMs'    
+    module: 'Module 06 - Explore Just-in-time access'
 ---
 
 
