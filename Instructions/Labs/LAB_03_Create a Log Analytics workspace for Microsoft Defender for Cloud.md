@@ -1,7 +1,7 @@
 ---
 lab:
-    title: 'Exercise 02 - Create a workspace'
-    module: 'Module 02 - Create a Log Analytics workspace for Microsoft Defender for Cloud'
+    title: 'Exercise 03 - Create a workspace'
+    module: 'Module 04 - Create a Log Analytics workspace for Microsoft Defender for Cloud'
 ---
 
 
