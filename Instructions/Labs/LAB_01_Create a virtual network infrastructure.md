@@ -1,7 +1,7 @@
 ---
 lab:
-    title: 'Exercise 01 - Create a virtual network infrastructure'
-    module: 'Module 01 - Filter network traffic with a network security group using the Azure portal'
+    title: 'Exercise 02 - Create a virtual network infrastructure'
+    module: 'Module 03 - Filter network traffic with a network security group using the Azure portal'
 ---
 
 
