@@ -180,7 +180,7 @@ A network security group (NSG) secures network traffic in your virtual network.
 
 4. Select **Add.**
 
-5. Complete previuos steps with the following information:
+5. Complete previous steps with the following information:
 
    |Setting|Value|
    |---|---|
