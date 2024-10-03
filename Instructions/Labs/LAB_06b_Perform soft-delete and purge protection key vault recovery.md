@@ -28,7 +28,7 @@ You can use purge protection to prevent the deletion of your key vault, keys, se
    
 2. Select your key vault.
 
-3. Within the **Essentials** field, verify that **Soft-delete** is set to **Enable.**
+3. From the **Settings blade,** select **Properties.**
 
 ![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Cloud-Security-Benchmark/assets/91347931/06131a60-7f00-4764-a424-87ea41a78394)
 
