@@ -55,8 +55,8 @@ You can use the Azure portal to configure the Azure Key Vault networking setting
 
 2. Browse to the key vault you previously created.
 
-3. Select **Networking,** and then select the **Firewalls and virtual networks** tab.
-
+3. Select **Settings,** then **Networking,** and then the **Firewalls and virtual networks** tab.
+   
 4. Under Allow access from, select **Allow public access from specific virtual networks and IP addresses.**
 
 5. Under the Virtual networks section, select + **Add a virtual network,** then select + **Add existing virtual networks.**
