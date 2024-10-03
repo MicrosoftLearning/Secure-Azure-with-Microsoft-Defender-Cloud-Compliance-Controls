@@ -57,9 +57,7 @@ You can use a network security group to filter inbound and outbound network traf
 
 7. In the address space box in **Subnets,** select the **default** subnet.
 
-8. In the address space box in **Subnets,** select the default subnet.
-
-9. In **Edit subnet,** enter or select the following information:
+8. In **Edit subnet,** enter or select the following information:
 
    |Setting|Value|
    |---|---|
@@ -72,9 +70,9 @@ You can use a network security group to filter inbound and outbound network traf
 ![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Defender-for-Cloud-regulatory-compliance-controls/assets/91347931/73c40ee1-1452-4b7d-8328-004c795a7b1e)
 
 
-10. Select **Save.**
+9. Select **Save.**
 
-11. Select **Review + create** at the bottom of the screen, and when validation passes, select **Create.**
+10. Select **Review + create** at the bottom of the screen, and when validation passes, select **Create.**
 
 ### Create application security groups to enable you to group together servers with similar functions, such as web servers.
 
