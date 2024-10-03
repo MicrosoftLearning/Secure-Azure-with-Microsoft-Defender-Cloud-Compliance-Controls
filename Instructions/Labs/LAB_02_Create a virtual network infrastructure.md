@@ -226,7 +226,7 @@ A network security group (NSG) secures network traffic in your virtual network.
  
 4. Select **Next: Disks** then **Next: Networking.
 
-5. In the **Networking** tab, enter or select the following information:
+5. In the **Networking** tab, verify or enter the following information:
 
    |Setting|Value|
    |---|---|
