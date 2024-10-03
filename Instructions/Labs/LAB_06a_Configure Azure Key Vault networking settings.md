@@ -65,7 +65,7 @@ You can use the Azure portal to configure the Azure Key Vault networking setting
 
 7. Select the **box** labeled **Do not configure 'Microsoft.KeyVault' service endpoint(s) at this time.**
 
-8. At the bottom of the Add networks template, click **Enable.**
+8. At the bottom of the **Add networks template,** click **Enable.**
 
 9. At the bottom of the **Firewalls and virtual networks** tab, select **Apply.**
 
