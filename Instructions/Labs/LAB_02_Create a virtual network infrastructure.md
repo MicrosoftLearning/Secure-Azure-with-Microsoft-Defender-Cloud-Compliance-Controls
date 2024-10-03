@@ -55,9 +55,9 @@ You can use a network security group to filter inbound and outbound network traf
   
 6. Select **Next** to proceed to the **IP Addresses** tab.
 
-7. In the address space box in **Subnets,** select the **default** subnet.
+7. In the address space box under **Subnets,** select the **default** subnet.
 
-8. In **Edit subnet,** enter or select the following information:
+8. In **Edit subnet template,** enter or select the following information:
 
    |Setting|Value|
    |---|---|
@@ -68,7 +68,6 @@ You can use a network security group to filter inbound and outbound network traf
    |Subnet size|Leave the default of /**24(256 addresses**).
 
 ![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Defender-for-Cloud-regulatory-compliance-controls/assets/91347931/73c40ee1-1452-4b7d-8328-004c795a7b1e)
-
 
 9. Select **Save.**
 
@@ -147,7 +146,7 @@ A network security group (NSG) secures network traffic in your virtual network.
 
 3. Select **Subnets** from the **Settings** section of **nsg-1.**
 
-4. In the **Subnets** page, select + **Associate:**
+4. In the **nsg-1 | Subnets** page, select + **Associate:**
 
  ![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Defender-for-Cloud-regulatory-compliance-controls/assets/91347931/3b2004f6-963f-43df-9d05-3999d2e97d76)
 
