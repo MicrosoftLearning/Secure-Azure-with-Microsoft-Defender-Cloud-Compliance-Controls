@@ -158,7 +158,7 @@ A network security group (NSG) secures network traffic in your virtual network.
 
 1. Select **Inbound security rules** from the **Settings** section of **nsg-1.**
    
-2. In **Inbound security rules** page, select + **Add:**
+2. In **nsg-1 | Inbound security rules** page, select + **Add:**
 
 3. Create a security rule that allows ports 80 and 443 to the **asg-web** application security group. In **Add inbound security rule** page, enter or select this information:
 
