@@ -30,6 +30,10 @@ You can use purge protection to prevent the deletion of your key vault, keys, se
 
 3. From the **Settings blade,** select **Properties.**
 
+4. Verify if the radio button next to soft-delete is set to **Enable purge protection (enforce a mandatory retention period for deleted vaults and vault objects).**
+
+5. If soft-delete is not enabled on the key vault, click the **Enable purge protection (enforce a mandatory retention period for deleted vaults and vault objects)** radio button to enable soft delete and click **Save.**
+
 ![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Cloud-Security-Benchmark/assets/91347931/06131a60-7f00-4764-a424-87ea41a78394)
 
 
