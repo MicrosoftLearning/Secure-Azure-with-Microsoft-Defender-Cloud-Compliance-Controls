@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Exercise 04 - Create a data collection rule and install the Azure Monitor Agent'    
-    module: 'Module 05 - CCreate a data collection rule and install the Azure Monitor Agent'
+    module: 'Module 05 - Create a data collection rule and install the Azure Monitor Agent'
 ---
 
 
