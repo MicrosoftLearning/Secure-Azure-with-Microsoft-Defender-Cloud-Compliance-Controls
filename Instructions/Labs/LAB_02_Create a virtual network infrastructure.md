@@ -132,7 +132,7 @@ A network security group (NSG) secures network traffic in your virtual network.
    |Name|Enter **nsg-1**|
    |Region|Select **East US**|  
     
-4. Select **Review** + create**.
+4. Select **Review + create**.
 
 5. Select **Create.**
 
