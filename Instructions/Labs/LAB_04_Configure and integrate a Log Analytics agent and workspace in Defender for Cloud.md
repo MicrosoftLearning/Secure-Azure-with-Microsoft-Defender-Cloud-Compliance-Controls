@@ -1,7 +1,7 @@
 ---
 lab:
-    title: 'Exercise 04 - Configure and integrate a Log Analytics agent and workspace in Defender for Cloud'    
-    module: 'Module 05 - Configure and integrate a Log Analytics agent and workspace in Defender for Cloud'
+    title: 'Exercise 04 - Create a data collection rule and install the Azure Monitor Agent'    
+    module: 'Module 05 - CCreate a data collection rule and install the Azure Monitor Agent'
 ---
 
 
