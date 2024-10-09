@@ -14,17 +14,21 @@ Data Collection Rules (DCRs) specify the data to be collected, while the Azure M
 
 ## Skilling tasks
 
-- Use Log Analytics Agent defaults for your agent type.
+- Create and define a Data Collection Rule.
 
-- Select your workspace.
+- Select target resources for data collection.
   
-- Define the level of security event data to store at the workspace level.
+- Configure data sources and destinations.
+
+- Select data source types and data to collect.
+
+- Choose a data delivery destination.
 
 ## Exercise instructions 
 
-### Configure integration with the Log Analytics agent.
+### CCreate and define a Data Collection Rule.
 
->**Note**: When the Log Analytics agent is on, Defender for Cloud deploys the agent on all supported Azure VMs and any new ones created. 
+>**Note**: Create your data collection rule in the same region as your destination Log Analytics workspace or Azure Monitor workspace. You can associate the data collection rule to machines or containers from any subscription or resource group in the tenant. 
 
 1. Start a browser session and sign-in to the [Azure portal menu.](https://portal.azure.com/)
    
