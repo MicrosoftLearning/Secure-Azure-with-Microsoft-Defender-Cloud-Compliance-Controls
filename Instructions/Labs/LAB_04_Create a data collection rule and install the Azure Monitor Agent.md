@@ -29,18 +29,44 @@ Data Collection Rules (DCRs) specify the data to be collected, while the Azure M
 ### Create and define a Data Collection Rule.
 
 >**Note**: Create your data collection rule in the same region as your destination Log Analytics workspace or Azure Monitor workspace. You can associate the data collection rule to machines or containers from any subscription or resource group in the tenant. 
-
-1. Start a browser session and sign-in to the [Azure portal menu.](https://portal.azure.com/)
    
-2. From Defender for Cloud's menu, open **Environment settings.**
+1. In the search box at the top of the portal, enter Data collection rules. Select Data collection rules in the search results.
 
-4. Select the your subscription.
+2. Select Create.
 
-5. In the Settings & monitoring Coverage column of the Defender plans, select **Settings & monitoring.**
+3. On the **Basics** tab of the **Create Data Collection Rule** blade, specify the following settings (leave others with their default values):
 
-7. In the Log Analytics row, in the Configuration column, click **Edit configuration.**
+    |Setting|Value|
+    |---|---|
+    |**Rule details**|
+    |Rule Name|**dcr-1**|
+    |Subscription|the name of the Azure subscription you are using in this lab|
+    |Resource group|**az-rg-1**|
+    |Region|**East US**|
+    |Platform Type|**Windows**|
+    |Data Collection Endpoint|**Windows**|
 
-8. In the Auto-provisioning configuration template complete the following actions:
+   
+
+5. Select **Review + create**.
+
+6. On the **Review + create** tab of the **Create Log Analytics workspace** blade, select **Create**.
+
+
+
+
+3.
+4. Start a browser session and sign-in to the [Azure portal menu.](https://portal.azure.com/)
+   
+5. From Defender for Cloud's menu, open **Environment settings.**
+
+6. Select the your subscription.
+
+7. In the Settings & monitoring Coverage column of the Defender plans, select **Settings & monitoring.**
+
+8. In the Log Analytics row, in the Configuration column, click **Edit configuration.**
+
+9. In the Auto-provisioning configuration template complete the following actions:
 
    - Under Workspace selection, click **Custom workspace.**
 
