@@ -32,9 +32,11 @@ Data Collection Rules (DCRs) specify the data to be collected, while the Azure M
    
 1. In the search box at the top of the portal, enter Data collection rules. Select Data collection rules in the search results.
 
-2. Select Create.
+2. Select **+ Create**.
 
-3. On the **Basics** tab of the **Create Data Collection Rule** blade, specify the following settings (leave others with their default values):
+   
+
+4. On the **Basics** tab of the **Create Data Collection Rule** blade, specify the following settings (leave others with their default values):
 
     |Setting|Value|
     |---|---|
