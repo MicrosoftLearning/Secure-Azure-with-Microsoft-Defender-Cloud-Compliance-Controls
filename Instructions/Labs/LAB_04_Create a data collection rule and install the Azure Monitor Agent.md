@@ -54,7 +54,7 @@ Data Collection Rules (DCRs) specify the data to be collected, while the Azure M
 
 
 
-5. On the Resources tab, select **+ Add resources**. Click the **Next: Collect and deliver >** button to proceed.
+5. On the Resources tab, select **+ Add resources**.
 
 
 
