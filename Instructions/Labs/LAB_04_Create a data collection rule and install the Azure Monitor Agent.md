@@ -51,6 +51,11 @@ Data Collection Rules (DCRs) specify the data to be collected, while the Azure M
 ![image](https://github.com/user-attachments/assets/eee884f6-b20f-4d51-9310-6e755746ed9a)   
 
 4. Click on the button labeled **Next: Resources >** to proceed.
+
+
+
+
+
 7.
 8.
 9.
