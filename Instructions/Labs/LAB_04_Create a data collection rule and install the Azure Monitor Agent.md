@@ -34,7 +34,8 @@ Data Collection Rules (DCRs) specify the data to be collected, while the Azure M
 
 2. Select **+ Create**.
 
- 
+ ![image](https://github.com/user-attachments/assets/206b49d3-0b02-4447-bfd7-0e5a8a28667f)
+
 
 
 4. On the **Basics** tab of the **Create Data Collection Rule** blade, specify the following settings (leave others with their default values):
