@@ -36,10 +36,6 @@ Data Collection Rules (DCRs) specify the data to be collected, while the Azure M
 
 ![image](https://github.com/user-attachments/assets/e428c441-9d8d-4460-acd9-a97e2aa2b5af)
 
-
-
-
-
 4. On the **Basics** tab of the **Create Data Collection Rule** blade, specify the following settings (leave others with their default values):
 
     |Setting|Value|
@@ -52,7 +48,7 @@ Data Collection Rules (DCRs) specify the data to be collected, while the Azure M
     |Platform Type|**Windows**|
     |Data Collection Endpoint|*Leave the default of none*|
 
-   ![image](https://github.com/user-attachments/assets/eee884f6-b20f-4d51-9310-6e755746ed9a)
+![image](https://github.com/user-attachments/assets/eee884f6-b20f-4d51-9310-6e755746ed9a)
 
    
 
