@@ -59,12 +59,15 @@ Data Collection Rules (DCRs) specify the data to be collected, while the Azure M
 ![image](https://github.com/user-attachments/assets/619106b4-7f5e-44dd-98c7-129689ab89c0)
 
 
-7.
-8.
-9.
-10. Select **Review + create**.
+![image](https://github.com/user-attachments/assets/c95b76cd-1515-47a5-b07b-02dcb28c0bf3)
 
-11. On the **Review + create** tab of the **Create Log Analytics workspace** blade, select **Create**.
+
+7.
+
+
+8. Select **Review + create**.
+
+9. On the **Review + create** tab of the **Create Log Analytics workspace** blade, select **Create**.
 
 
 
