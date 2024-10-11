@@ -8,15 +8,15 @@ lab:
 >**Note**: To complete this lab, you will need an [Azure subscription.](https://azure.microsoft.com/en-us/free/?azure-portal=true) in which you have administrative access. 
 
 
-The main goal of this exercise is to provide hands-on experience in configuring and enabling Microsoft Defender for Cloud within an Azure subscription. This will allow you to monitor and protect your cloud resources against security threats. 
+The main goal of this exercise is to provide hands-on experience in configuring and enabling Microsoft Defender for Servers Plan 2 within an Azure subscription. This will allow you to monitor and protect your cloud resources against security threats. 
 
 ---
 
 ## Skilling tasks
 
-- Upgrade your subscription for Microsoft Defender for Cloud.
+- Enable Microsoft Defender for Cloud Defender for Servers Plan 2.
   
-- Deploy the Microsoft Monitoring Agent to necessary machines for comprehensive coverage.
+- Review the ehanced features for servers.
 
 ## Exercise instructions
 
@@ -26,7 +26,7 @@ The main goal of this exercise is to provide hands-on experience in configuring 
 
 2. In the Azure portal, in the Search resources, services, and docs text box at the top of the Azure portal page, type Microsoft Defender for Cloud and press the Enter key.
 
-3. On the **Microsoft Defender for Cloud**, **Getting started blade**, go to the **Upgrade tab**. Scroll down until the **Select subscriptions and workspaces to protect with enhanced security features** section is visible.
+3. On the **Microsoft Defender for Cloud**, **Management blade**, go to the **Environment settings**. Expand the environment settings folders until the **Ignite subscription** section is displayed, then click the **Ignite subscription** to view details.
 
 4. Turn on the Microsoft Defender plan by selecting your **Subscription** and the **Log Analytics Workspace** you created in Module 02.
 
