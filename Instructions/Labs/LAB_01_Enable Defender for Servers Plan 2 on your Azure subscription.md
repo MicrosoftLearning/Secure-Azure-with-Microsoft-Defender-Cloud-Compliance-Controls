@@ -40,4 +40,4 @@ The main goal of this exercise is to provide hands-on experience in configuring 
 
    ![image](https://github.com/user-attachments/assets/869a38e4-464e-4be0-b02e-ce1b96f02978)
    
-> **Results**: You have enabled Microsoft Defender for Servers Plan 2 on your Azure subscription.
+> **Results**: You have enabled Microsoft Defender for Servers Plan 2 on your subscription.
