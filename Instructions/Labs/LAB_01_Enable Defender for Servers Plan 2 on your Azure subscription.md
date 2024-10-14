@@ -36,8 +36,6 @@ The main goal of this exercise is to provide hands-on experience in configuring 
    
 7. On the **Microsoft Defender for Cloud**, **Getting started** blade, go to the **Install agents** tab, and scroll down.
 
-    ![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Cloud-Security-Benchmark/assets/91347931/8120ec8f-23dc-4636-bc45-b415c7894b8c)
-
 8. Check the box that is associated with the subscription on which agents will be installed, and click **Install agents.**
 
 ### Alternative actions to upgrade your subscription for Microsoft Defender for Cloud.
