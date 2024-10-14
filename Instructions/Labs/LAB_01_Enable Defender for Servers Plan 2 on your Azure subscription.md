@@ -30,16 +30,6 @@ The main goal of this exercise is to provide hands-on experience in configuring 
 
    ![image](https://github.com/user-attachments/assets/32d2168e-458f-4872-9bf8-e8f050f24751)
    
-7. On the **Microsoft Defender for Cloud**, **Getting started** blade, go to the **Install agents** tab, and scroll down.
-
-8. Check the box that is associated with the subscription on which agents will be installed, and click **Install agents.**
-
-### Alternative actions to upgrade your subscription for Microsoft Defender for Cloud.
-
-1. Navigate to **Microsoft Defender for Cloud** and, in the left navigation panel under the Management section, click **Environment Settings.**
-   
-2. On the **Microsoft Defender for Cloud, Environment settings** blade, click **Expand all,** scroll down until your subscription appears, and click the relevant subscription.
-
 3. On the **Settings, Defender plans** blade, select **Enable all plans** and click **Save.**
 
    ![image](https://github.com/user-attachments/assets/869a38e4-464e-4be0-b02e-ce1b96f02978)
