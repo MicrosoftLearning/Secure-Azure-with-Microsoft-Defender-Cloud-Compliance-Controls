@@ -48,7 +48,7 @@ Data Collection Rules (DCRs) specify the data to be collected, while the Azure M
     |Platform Type|**Windows**|
     |Data Collection Endpoint|*Leave the default of none*|
 
-![image](https://github.com/user-attachments/assets/eee884f6-b20f-4d51-9310-6e755746ed9a)   
+![image](https://github.com/user-attachments/assets/baa85bfb-c008-4d75-a45f-d1f6de28f238)
 
 4. Click on the button labeled **Next: Resources >** to proceed.
 
