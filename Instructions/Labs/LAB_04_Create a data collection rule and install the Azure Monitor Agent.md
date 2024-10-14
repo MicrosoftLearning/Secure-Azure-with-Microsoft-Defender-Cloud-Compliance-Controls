@@ -76,7 +76,7 @@ Data Collection Rules (DCRs) specify the data to be collected, while the Azure M
     |---|---|
     |**Add data source**|
     |Select which data source type and the data to collect for your resource(s)|
-    |Data source type*****|**Windows Event Logs**|
+    |Data source type*|**Windows Event Logs**|
     |Configure the event logs and levels to collect|
     |Application|**Critical**, **Error**, **Warning**|
     |Security|**Audit**, **Audit failure**|
