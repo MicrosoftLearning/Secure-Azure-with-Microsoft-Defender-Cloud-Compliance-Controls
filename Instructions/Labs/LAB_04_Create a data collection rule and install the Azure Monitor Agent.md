@@ -42,7 +42,7 @@ Data Collection Rules (DCRs) specify the data to be collected, while the Azure M
     |---|---|
     |**Rule details**|
     |Rule Name|**dcr-1**|
-    |Subscription|the name of the Iginte subscription you are using in this lab|
+    |Subscription|the name of the Subscription you are using in this lab|
     |Resource group|**az-rg-1**|
     |Region|**East US**|
     |Platform Type|**Windows**|
@@ -58,7 +58,7 @@ Data Collection Rules (DCRs) specify the data to be collected, while the Azure M
 
 ![image](https://github.com/user-attachments/assets/47174eb4-4343-49a2-b49d-e9dee76787e4)
 
-6. In the Select a scope template, check the **Ignite-subscription** box in the Scope selection, and click **Apply.**
+6. In the Select a scope template, check the **Subscription** box in the Scope selection, and click **Apply.**
 
 ![image](https://github.com/user-attachments/assets/2215e8cd-5047-4fc6-91ba-b2c645571bbd)
 
