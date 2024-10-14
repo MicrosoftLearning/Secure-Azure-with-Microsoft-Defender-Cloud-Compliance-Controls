@@ -95,7 +95,7 @@ Data Collection Rules (DCRs) specify the data to be collected, while the Azure M
     |Setting|Value|
     |---|---|
     |**Add data source**|
-    |+ Add destination|
+    |Destination|**+ Add destination**|
     |Destination type|**Azure Monitor Logs**|
     |Subscription|Select your Subscription|
     |Destination Details|**azwrkspc1a (az-rg-1**)
