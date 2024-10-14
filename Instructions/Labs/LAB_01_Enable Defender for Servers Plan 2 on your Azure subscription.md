@@ -32,7 +32,7 @@ The main goal of this exercise is to provide hands-on experience in configuring 
    
 3. In the **Settings** blade, under **Defender plans**, expand **Cloud Workload Protection (CWP)**.
 
-4. From the **Cloud Workload Protection (CWP) Pla** list, select **Servers**. On the right side of the page, change the **Status** from **Off** to **On**, then click **Save**.
+4. From the **Cloud Workload Protection (CWP) Plan** list, select **Servers**. On the right side of the page, change the **Status** from **Off** to **On**, then click **Save**.
 
 5. To review the details of **Server Plan 2**, select **Change plan >**.
 
