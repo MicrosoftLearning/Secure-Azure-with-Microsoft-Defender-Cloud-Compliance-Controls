@@ -28,10 +28,6 @@ The main goal of this exercise is to provide hands-on experience in configuring 
 
 3. On the **Microsoft Defender for Cloud**, **Management blade**, go to the **Environment settings**. Expand the environment settings folders until the **Ignite subscription** section is displayed, then click the **Ignite subscription** to view details.
 
-4. Turn on the Microsoft Defender plan by selecting your **Subscription** and the **Log Analytics Workspace** you created in Module 02.
-
-5. Click the large blue **Upgrade** button at the bottom of the page.
-
    ![image](https://github.com/user-attachments/assets/32d2168e-458f-4872-9bf8-e8f050f24751)
    
 7. On the **Microsoft Defender for Cloud**, **Getting started** blade, go to the **Install agents** tab, and scroll down.
