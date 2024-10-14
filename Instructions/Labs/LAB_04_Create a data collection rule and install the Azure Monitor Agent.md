@@ -91,28 +91,17 @@ Data Collection Rules (DCRs) specify the data to be collected, while the Azure M
     |Setting|Value|
     |---|---|
     |**Add data source**|
-    |Select which data source type and the data to collect for your resource(s)|
-    |Data source type*|**Windows Event Logs**|
-    |Configure the event logs and levels to collect|
-    |Application|**Critical**, **Error**, **Warning**|
-    |Security|**Audit success**, **Audit failure**|
-    |System|**Critical**, **Error**, **Warning**|
+    |Destination|
+    |+ Add destination|
+    |Destination type|**Azure Monitor Logs**|
+    |Subscription|**select your Subscription**|
+    |Destination Details|**azwrkspc1a (az-rg-1**)
 
 ![image](https://github.com/user-attachments/assets/e00c17c8-5a70-4caa-8504-92f482cc5e57)
 
 11. At the bottom of the **Add data source** template, select **Add data source**.
 
 ![image](https://github.com/user-attachments/assets/4277089c-971c-4334-a49d-6ac6bfe93ff4)
-
-12. On the **Add data source** template, select the following settings.
-    
-    |Setting|Value|
-    |---|---|
-    |**Destination**|
-    |+ Add destination|
-    |Destination type|**Azure Monitor Logs**|
-    |Subscription|select your **Subscription**|
-    |Destination Details|**azwrkspc1a (az-rg-1**|
 
 
 
