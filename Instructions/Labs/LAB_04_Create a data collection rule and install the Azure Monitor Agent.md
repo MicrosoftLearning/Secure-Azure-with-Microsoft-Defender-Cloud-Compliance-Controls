@@ -70,7 +70,7 @@ Data Collection Rules (DCRs) specify the data to be collected, while the Azure M
 
 ![image](https://github.com/user-attachments/assets/0809cf5b-a460-40d1-8508-e42ba7ce78c1)
 
-9. On the **Add data source** template, under **Data source type**, select **Windows Event Logs**. In the **Configure the event logs and levels to collect** section, choose the following settings.
+9. On the **Add data source** template, under **Data source type**, select the following settings.
     
     |Setting|Value|
     |---|---|
