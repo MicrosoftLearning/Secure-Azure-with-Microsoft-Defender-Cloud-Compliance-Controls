@@ -58,11 +58,11 @@ Data Collection Rules (DCRs) specify the data to be collected, while the Azure M
 
 ![image](https://github.com/user-attachments/assets/47174eb4-4343-49a2-b49d-e9dee76787e4)
 
-6. In the Select a scope template, check the **Subscription** box in the Scope selection, and click **Apply.**
+6. In the **Select a scope** template, check the **Subscription** box in the **Scope** selection, and click **Apply.**
 
 ![image](https://github.com/user-attachments/assets/2215e8cd-5047-4fc6-91ba-b2c645571bbd)
 
-7. At the bottom of the **Resources** page, select **Next: Collect and deliver**. 
+7. At the bottom of the **Resources** page, select **Next: Collect and deliver >**. 
 
 ![image](https://github.com/user-attachments/assets/717226c3-5ce0-454f-93a4-11b0e67d5a23)
 
@@ -84,9 +84,9 @@ Data Collection Rules (DCRs) specify the data to be collected, while the Azure M
 
 ![image](https://github.com/user-attachments/assets/5bc891ea-8cef-4baa-95c4-a432364179b1)
 
-10. At the bottom of the **Add data source** template, select **Next: Destination**.
+10. At the bottom of the **Add data source** template, select **Next: Destination >**.
 
-11. On the **Add data source** template, under **Data source type**, select the following settings.
+11. In the **Add data source** template, under the **Destination** tab, select the following settings.
     
     |Setting|Value|
     |---|---|
