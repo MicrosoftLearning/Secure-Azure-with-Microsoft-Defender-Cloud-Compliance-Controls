@@ -75,7 +75,7 @@ Data Collection Rules (DCRs) specify the data to be collected, while the Azure M
     |Setting|Value|
     |---|---|
     |**Configure the event logs and levels to collect:**|
-    |Application|**Critical**|**Error**|**Warning**|
+    |Application|**Critical** **Error** **Warning**|
     |Subscription|the name of the Subscription you are using in this lab|
     |Resource group|**az-rg-1**|
     |Region|**East US**|
