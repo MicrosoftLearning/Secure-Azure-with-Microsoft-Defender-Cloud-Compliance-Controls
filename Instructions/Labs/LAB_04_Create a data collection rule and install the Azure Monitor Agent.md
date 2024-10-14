@@ -55,8 +55,8 @@ Data Collection Rules (DCRs) specify the data to be collected, while the Azure M
 5. On the Resources tab, select **+ Add resources**.
   
 >**Note**: The Azure Monitor Agent will automatically be installed on the virtual machines (resources) selected to collect data.
-   
-![image](https://github.com/user-attachments/assets/619106b4-7f5e-44dd-98c7-129689ab89c0)
+
+![image](https://github.com/user-attachments/assets/47174eb4-4343-49a2-b49d-e9dee76787e4)
 
 6. In the Select a scope template, check the **Ignite-subscription** box in the Scope selection, and click **Apply.**
 
