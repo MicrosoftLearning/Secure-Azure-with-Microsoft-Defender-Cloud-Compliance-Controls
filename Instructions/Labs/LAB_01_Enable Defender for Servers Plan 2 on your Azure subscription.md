@@ -30,7 +30,9 @@ The main goal of this exercise is to provide hands-on experience in configuring 
 
    ![image](https://github.com/user-attachments/assets/32d2168e-458f-4872-9bf8-e8f050f24751)
    
-3. On the **Settings, Defender plans** blade, select **Enable all plans** and click **Save.**
+3. On the **Settings, Defender plans** blade, expand **Cloud Workload Protection (CWP)**.
+
+4. Expand 
 
    ![image](https://github.com/user-attachments/assets/869a38e4-464e-4be0-b02e-ce1b96f02978)
 
