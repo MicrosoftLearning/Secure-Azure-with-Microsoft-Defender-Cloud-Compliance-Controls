@@ -43,4 +43,4 @@ When you collect logs and data, the information is stored in a workspace. A work
   
 8. Select **Create.**
 
-> **Results:** You have created a Log Analytics workspace, to collect data from Azure reources, and diagnostics or log data from Azure Storage.
+> **Results:** You have created a Log Analytics workspace, to collect data from Azure reources.
