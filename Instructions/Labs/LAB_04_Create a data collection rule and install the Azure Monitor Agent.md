@@ -75,6 +75,10 @@ Data Collection Rules (DCRs) specify the data to be collected, while the Azure M
 ![image](https://github.com/user-attachments/assets/4277089c-971c-4334-a49d-6ac6bfe93ff4)
 
 
+![image](https://github.com/user-attachments/assets/4a54278c-2bee-4717-98a6-136f4c4d41e2)
+
+
+
 
 
 
