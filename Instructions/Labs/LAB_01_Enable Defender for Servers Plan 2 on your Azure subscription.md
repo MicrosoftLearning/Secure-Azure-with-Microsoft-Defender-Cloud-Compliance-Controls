@@ -30,13 +30,14 @@ The main goal of this exercise is to provide hands-on experience in configuring 
 
    ![image](https://github.com/user-attachments/assets/32d2168e-458f-4872-9bf8-e8f050f24751)
    
-3. On the **Settings, Defender plans** blade, expand **Cloud Workload Protection (CWP)**.
+3. In the **Settings** blade, under **Defender plans**, expand **Cloud Workload Protection (CWP)**.
 
-4. Expand 
+4. From the **Cloud Workload Protection (CWP) Pla** list, select **Servers**. On the right side of the page, change the **Status** from **Off** to **On**, then click **Save**.
+
+5. To review the details of **Server Plan 2**, select **Change plan >**.
+
+   Note: Enabling the Cloud Workload Protection (CWP) Servers plan from Off to On enables Microsoft Defender for Servers Plan 2.
 
    ![image](https://github.com/user-attachments/assets/869a38e4-464e-4be0-b02e-ce1b96f02978)
-
    
-
-   
-> **Results**: You have upgraded and enabled Defender for Cloud on your Azure subscription.
+> **Results**: You have enabled Microsoft Defender for Servers Plan 2 on your Azure subscription.
