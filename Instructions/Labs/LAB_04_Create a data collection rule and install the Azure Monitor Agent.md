@@ -60,8 +60,7 @@ Data Collection Rules (DCRs) specify the data to be collected, while the Azure M
 
 6. In the Select a scope template, check the **Ignite-subscription** box in the Scope selection, and click **Apply.**
 
-![image](https://github.com/user-attachments/assets/c95b76cd-1515-47a5-b07b-02dcb28c0bf3)
-
+![image](https://github.com/user-attachments/assets/2215e8cd-5047-4fc6-91ba-b2c645571bbd)
 
 8. Select **Review + create**.
 
