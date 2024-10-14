@@ -1,7 +1,7 @@
 ---
 lab:
-    title: 'Exercise 01 - Enable Defender for Servers Plan 2 on your Azure subscription'
-    module: 'Module 02 - Enable Defender for Servers Plan 2 on your Azure subscription'
+    title: 'Exercise 01 - Enable Defender for Servers Plan 2 on your subscription'
+    module: 'Module 02 - Enable Defender for Servers Plan 2 on your subscription'
 ---
 
 
@@ -26,7 +26,7 @@ The main goal of this exercise is to provide hands-on experience in configuring 
 
 2. In the Azure portal, in the Search resources, services, and docs text box at the top of the Azure portal page, type Microsoft Defender for Cloud and press the Enter key.
 
-3. On the **Microsoft Defender for Cloud**, **Management blade**, go to the **Environment settings**. Expand the environment settings folders until the **Ignite subscription** section is displayed, then click the **Azure subscription** to view details.
+3. On the **Microsoft Defender for Cloud**, **Management blade**, go to the **Environment settings**. Expand the environment settings folders until the **subscription** section is displayed, then click the **subscription** to view details.
 
    ![image](https://github.com/user-attachments/assets/32d2168e-458f-4872-9bf8-e8f050f24751)
    
