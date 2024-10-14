@@ -84,7 +84,7 @@ Data Collection Rules (DCRs) specify the data to be collected, while the Azure M
 
 ![image](https://github.com/user-attachments/assets/5bc891ea-8cef-4baa-95c4-a432364179b1)
 
-10. At the bottom of the **Add data source** page, select **Next: Destination**.
+10. At the bottom of the **Add data source** template, select **Next: Destination**.
 
 11. On the **Add data source** template, under **Data source type**, select the following settings.
     
