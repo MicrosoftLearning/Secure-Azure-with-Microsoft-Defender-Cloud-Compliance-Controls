@@ -86,6 +86,18 @@ Data Collection Rules (DCRs) specify the data to be collected, while the Azure M
 
 10. At the bottom of the **Add data source** page, select **Next: Destination**.
 
+11. On the **Add data source** template, under **Data source type**, select the following settings.
+    
+    |Setting|Value|
+    |---|---|
+    |**Add data source**|
+    |Select which data source type and the data to collect for your resource(s)|
+    |Data source type*|**Windows Event Logs**|
+    |Configure the event logs and levels to collect|
+    |Application|**Critical**, **Error**, **Warning**|
+    |Security|**Audit success**, **Audit failure**|
+    |System|**Critical**, **Error**, **Warning**|
+
 ![image](https://github.com/user-attachments/assets/e00c17c8-5a70-4caa-8504-92f482cc5e57)
 
 
