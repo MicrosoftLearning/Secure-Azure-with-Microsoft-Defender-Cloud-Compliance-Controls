@@ -206,7 +206,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
 
 ### Disable public access to Azure SQL logical server
 
->**Note**: For this task, assume you would like to disable all public access to your Azure SQL server, and only allow connections from your virtual network.
+>**Note**: For this task, assume you would like to disable all public access to your Azure SQL server, and only allow connections from your virtual network. The **Public access** setting may default to **Disable.**
 
 1. In the Azure portal search box, enter **az-sql-svr1a** or the server name you entered in the previous steps.
 
