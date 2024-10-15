@@ -40,7 +40,7 @@ You can use the Azure portal to configure the Azure Key Vault networking setting
    |Subscription|Select your subscription.|
    |Resource group|Enter **az-rg-1.** Select **OK**|
    |**Instance details**|
-   |Key vault name|**az-securevault150**|
+   |Key vault name|*example: az-securevault150*|
    |Region|Select **East US**|
    |Pricing tier|System default **Standard**|
    |Days to retain deleted vaults|System default **90**|
