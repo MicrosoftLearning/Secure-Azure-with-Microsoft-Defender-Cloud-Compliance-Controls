@@ -49,37 +49,31 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
   
 6. Select **Enable Azure Bastion** in the Azure Bastion section of the Security tab.
 
-   >**Note**: Azure Bastion uses your browser to connect to VMs in your virtual network over secure shell (SSH) or remote desktop protocol (RDP) by using their private IP addresses. The VMs don't need public IP addresses, client software, or special configuration.
+   >**Note**: Azure Bastion is a paid service that provides secure RDP/SSH connectivity to your virtual machines over TLS. When you connect via Azure Bastion, your virtual machines do not need a public IP address. 
 
-7. Enter or select the following information in the **Azure Bastion host name** field:
+7. Enter or select the following information in the **Azure Bastion** field:
 
    |Setting|Value|
    |---|---|
    |Azure Bastion host name|Enter **mybastionhost**|
    |Azure Bastion public IP address name|Select **Create a public IP address**|
-   |Add a public IP maddress|Enter **my-bstn-public-ip**|
-   |SKU|Leave the default **Standard**|
-   
-8. Select **OK.**
 
-9. Select **Next** to proceed to the **Security** tab.
+8. Select **Next** to proceed to the **IP addresses** tab.
 
-10. Select **Next** to proceed to the **IP addresses** tab.
+9. In the enabled **IPv4 Address space** box under the **Subnets** column, click the **default** entry.
 
-11. In the address space box in the Subnets column, select the word **default** subnet.
-
-12. In **Edit subnet** template, enter or select the following information:
+10. In **Edit subnet** template, enter or select the following information:
 
    |Setting|Value|
    |---|---|
    |Subnet purpose|Leave the default of **Default.**|
    |Name|Enter **mysubnet1a**|
-   |IPv4 address range|Leave the default of **10.0.0.0**|
-   |Starting address|Leave the default of **/24 (256 addresses**|
+   |IPv4 address range|Leave the default of **10.0.0.0/16**|
+   |Starting address|Leave the default of **/24 (256 addresses)**|
 
-13. Select **Save.**
+11. Select **Save.**
 
-14. Select **Review + create** at the bottom of the screen, and when validation passes, select **Create.**
+12. Select **Review + create** at the bottom of the screen, and when validation passes, select **Create.**
 
     >**Note**: Bastion deployment may take up to 15 minutes for complete instantiation.
  
