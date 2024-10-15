@@ -40,7 +40,7 @@ You can use a network security group to filter inbound and outbound network traf
 
 3. On the Virtual networks page, select + **Create.**
 
-4. On the **Basics** tab of **Create virtual network,** enter or select the following information:
+4. On the **Basics** tab of **Create virtual network**, enter or select the following information:
    
    |Setting|Value|
    |---|---|
@@ -152,7 +152,7 @@ A network security group (NSG) secures network traffic in your virtual network.
 
 5. Under **Associate subnet,** select **vnet-1 (az-rg-1)** for **Virtual network.**
 
-6. Select **subnet-1** for **Subnet,** and then select **OK.**
+6. Select **subnet-1** for **Subnet**, and then select **OK.**
 
 ### Create security rules for the network security group with the subnet of the virtual network you created earlier.
 
@@ -198,7 +198,7 @@ A network security group (NSG) secures network traffic in your virtual network.
 
 1. In the portal, search for and select **Virtual machines.**
 
-2. In **Virtual machines,** select + **Create,** then **Azure virtual machine.**
+2. In **Virtual machines,** select + **Create**, then **Azure virtual machine.**
    
 3. In **Create a virtual machine,** enter or select this information in the **Basics** page:
 
@@ -266,4 +266,4 @@ A network security group (NSG) secures network traffic in your virtual network.
 
 > **Results**: You have created a created a virtual network infrastructure and filtered network traffic with a network security group using the Azure portal.
 
-> **Note**: Please do not remove the resources from this lab, as they are necessary for the following exercises: Exercise 03b - Enabling Just-in-Time Access on VMs, Exercise 05a - Configuring Key Vault Firewall and Virtual Networks, and Exercise 05b - Configuring Azure Key Vault Recovery Management with Soft Delete and Purge Protection.
+> **Note**: Please do not remove the resources from this lab, as they are necessary for the following exercises: Exercise 05 - Enabling Just-in-Time Access on VMs, Exercise 06a - Configuring Key Vault Firewall and Virtual Networks.
