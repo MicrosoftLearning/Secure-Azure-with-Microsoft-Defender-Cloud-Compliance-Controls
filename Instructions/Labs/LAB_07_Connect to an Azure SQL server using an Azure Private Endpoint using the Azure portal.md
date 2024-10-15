@@ -191,11 +191,11 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |Intergrate with private DNS zone|Leave the default **Yes.**|
    |Private DNS Zone|Leave the default **(New) privatelink.database.windows.net.**|
 
- 9. Select **OK.**
+9. Select **OK.**
 
- 10. Select **Review + create.**
+10. Select **Review + create.**
 
- 11. Select **Create.**
+11. Select **Create.**
 
 ### Disable public access to Azure SQL logical server
 
