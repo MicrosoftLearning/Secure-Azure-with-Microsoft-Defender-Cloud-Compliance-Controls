@@ -55,14 +55,15 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
 
    |Setting|Value|
    |---|---|
-   |Azure Bastion host name|Enter **mybastionhost**|
+   |**Project details**|
+   |Azure Bastion host |Enter **mybastionhost.**|
    |Azure Bastion public IP address name|Select **Create a public IP address**|
 
-8. Select **Next** to proceed to the **IP addresses** tab.
+9. Select **Next** to proceed to the **IP addresses** tab.
 
-9. In the enabled **IPv4 Address space** box under the **Subnets** column, click the **default** entry.
+10. In the enabled **IPv4 Address space** box under the **Subnets** column, click the **default** entry.
 
-10. In **Edit subnet** template, enter or select the following information:
+11. In **Edit subnet** template, enter or select the following information:
 
    |Setting|Value|
    |---|---|
