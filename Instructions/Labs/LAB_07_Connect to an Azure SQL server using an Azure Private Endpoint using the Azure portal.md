@@ -40,7 +40,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |---|---|
    |**Project details**|
    |Subscription|Select your subscription.|
-   |Resource group|Enter **az-rg-1.**|
+   |Resource group|Select **az-rg-1.**|
    |**Instance details**|
    |Virtual network name|Enter **myVNet1a.**|
    |Region|Select **(US) East US.**|  
