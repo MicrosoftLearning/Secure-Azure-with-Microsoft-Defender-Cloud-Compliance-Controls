@@ -256,9 +256,9 @@ A network security group (NSG) secures network traffic in your virtual network.
  
 3. Select **Networking** from the section of **vm-1**
 
-4. Select the **Application security groups** tab, then select **+ Add application security groups**
+4. Select **Application security groups** from the **Networking** section of **vm-1. Select **+ Add application security groups**
 
-5. From the **Add application security groups** template, select **asg-mgmt** from the **Application Security Groups** template, and then click the **Add** icon at the bottom of the template page.
+5. From the **Add application security groups** template, select **asg-mgmt** from the **Application Security Groups** template, and then click the **Add** button at the bottom of the template page.
 
 ![image](https://github.com/MicrosoftLearning/Secure-Azure-with-Microsoft-Defender-Cloud-Compliance-Controls/assets/91347931/dd17aeba-8e16-431b-b921-527367fea484)
 
