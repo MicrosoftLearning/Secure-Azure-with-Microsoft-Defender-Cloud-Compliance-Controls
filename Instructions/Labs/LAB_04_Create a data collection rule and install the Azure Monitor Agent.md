@@ -31,9 +31,9 @@ Data Collection Rules (DCRs) specify the data to be collected, while the Azure M
 ### Create and define a Data Collection Rule.
 
 >**Note**: Create your data collection rule in the same region as your destination Log Analytics workspace or Azure Monitor workspace. You can associate the data collection rule to machines or containers from any subscription or resource group in the tenant. 
-   
-1. In the search box at the top of the portal, enter **data collection rules**. Select **Data collection rules** in the search results.
 
+1. In the search box at the top of the portal, enter **data collection rules**. Select **Data collection rules** in the search results.
+   
 2. Select **+ Create**.
 
 ![image](https://github.com/user-attachments/assets/99b9ac51-f2f4-466f-80bb-79d74874b573)
@@ -53,7 +53,7 @@ Data Collection Rules (DCRs) specify the data to be collected, while the Azure M
 ![image](https://github.com/user-attachments/assets/35c527cf-499d-44b9-966f-0114b8643ef2)
 
 4. Click on the button labeled **Next: Resources >** to proceed.
-
+  
 5. On the **Resources** page, select **+ Add resources**.
   
 >**Note**: The Azure Monitor Agent will automatically be installed on the virtual machines (resources) selected to collect data.
@@ -65,7 +65,7 @@ Data Collection Rules (DCRs) specify the data to be collected, while the Azure M
 ![image](https://github.com/user-attachments/assets/2215e8cd-5047-4fc6-91ba-b2c645571bbd)
 
 7. At the bottom of the **Select a scope** template, click **Apply**.
-
+  
 8. At the bottom of the **Resources** page, select **Next: Collect and deliver >**. 
 
 ![image](https://github.com/user-attachments/assets/717226c3-5ce0-454f-93a4-11b0e67d5a23)
@@ -89,7 +89,7 @@ Data Collection Rules (DCRs) specify the data to be collected, while the Azure M
 ![image](https://github.com/user-attachments/assets/5bc891ea-8cef-4baa-95c4-a432364179b1)
 
 11. At the bottom of the **Add data source** template, select **Next: Destination >**.
-
+   
 12. In the **Add data source** template, under the **Destination** tab, select the following settings.
     
     |Setting|Value|
