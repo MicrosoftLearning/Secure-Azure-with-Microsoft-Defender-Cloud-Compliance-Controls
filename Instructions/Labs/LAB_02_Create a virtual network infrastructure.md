@@ -165,14 +165,14 @@ A network security group (NSG) secures network traffic in your virtual network.
    |Setting|Value|
    |---|---|
    |Source|Leave the default of **Any**|
-   |Source port ranges|Leave the default of **(*)**|
+   |Source port ranges|Leave the default **(*)**|
    |Destination|Select **Application security group**|
    |Destination application security groups|Select **asg-web**|
-   |Service|Leave the default of **Custom**|
+   |Service|Leave the default *Custom*|
    |Destination port ranges|Enter **80,443**|
    |Protocol|Select **TCP.**|
    |Action|Leave the default of **Allow**|
-   |Priority|Leave the default of **100**|
+   |Priority|Leave the default of *100*|
    |Name|Enter **allowweball**|
 
 4. Select **Add.**
@@ -213,9 +213,9 @@ A network security group (NSG) secures network traffic in your virtual network.
    |Availability options|From the Availability Zone drop-down menu, select **No infrastructure redundancy required**|
    |Security type|From the Security type drop-down menu, select **Standard**|
    |Image|From the Image drop-down menu, select **Windows Server 2022 Datacenter: Azure Edition - x64 Gen2**|
-   |VM architecture|Leave the default of **x64**|
+   |VM architecture|Leave the default of *x64*|
    |Run with Azure Spot discount|Leave the default of unchecked|
-   |Size|Leave the default of **Standard_D2s_v3-2 vcpus, 8 GiB memory**|
+   |Size|Leave the default of *Standard_D2s_v3-2 vcpus, 8 GiB memory*|
    |**Administrator account**|
    |Authentication type|Select **Password**|
    |Username|Enter **Tenantadmin1**|
@@ -224,19 +224,19 @@ A network security group (NSG) secures network traffic in your virtual network.
    |**Inbound port rules**|
    |Public inbound ports|Select **None**|
  
-4. Select **Next: Disks** then **Next: Networking.
+4. Select **Next: Disks** then **Next: Networking.**
 
-5. In the **Networking** tab, verify or enter the following information:
+5. In the **Networking** page, verify or enter the following information:
 
    |Setting|Value|
    |---|---|
    |**Network interface**|
    |Virtual network|Select **vnet-1**|
    |Subnet|Select **default (10.0.0.0/24)**|
-   |Public IP|Leave the default of a new public IP|
+   |Public IP|Leave the default of a *new public IP8|
    |NIC network security group|Select **None**|
    
-6. Select the **Review + create** tab, or select the blue **Review + create** button at the bottom of the page.
+6. Select the **Review + create** tab, or select the **Review + create** button at the bottom of the page.
 
 7. Select **Create.** The VM may take a few minutes to deploy.
   
