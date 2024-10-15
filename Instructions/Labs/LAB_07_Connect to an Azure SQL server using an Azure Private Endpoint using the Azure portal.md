@@ -97,7 +97,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |Susbcription|Select your subscription|
    |Resource group|Select **az-rg-1.**|
    |**Instance details**|
-   |Virtual machine name|Enter **myVM.**|
+   |Virtual machine name|Enter **myVM1a.**|
    |Region|Select **(US) East US.**|
    |Availability options|From the Availability Zone drop-down menu, select **No infrastructure redundancy required.**|
    |Security type|From the Security type drop-down menu, select **Standard.**|
@@ -106,7 +106,6 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |Run with Azure Spot discount|Leave the default of unchecked|
    |Size|Leave the default of **Standard_D2s_v3-2 vcpus, 8 GiB memory.**|
    |**Administrator account**|
-   |Authentication type|Select **Password.**|
    |Username|Enter **Tenantadmin2.**|
    |Password|Enter **Superuser#170.**|
    |Confirm password|Reenter **Superuser#170.**|
@@ -121,7 +120,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |---|---|
    |**Network interface**|
    |Virtual network|Select **myVNet1a.**|
-   |Subnet|Select **mySubnet1a.**|
+   |Subnet|Select **mysubnet1a (10.0.0.0/24).**|
    |Public IP|Select **None.**|
    |NIC network security group|Select **Basic.**|
    |Public inbound ports|Select **None.**|
@@ -142,9 +141,9 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |---|---|
    |**Project details**|
    |Subscription|Select your subscription.|
-   |Resource group|Select **CreateSQLEndpointTutorial.**|
+   |Resource group|Select **az-rg-1**|
    |**Database details**|
-   |Database name|Enter **mysqldatabase.**|
+   |Database name|Enter **mysqldatabase**|
    |Server|Select **Create new.**|  
 
 3. In **Create SQL Database Server,** enter or select this information:
