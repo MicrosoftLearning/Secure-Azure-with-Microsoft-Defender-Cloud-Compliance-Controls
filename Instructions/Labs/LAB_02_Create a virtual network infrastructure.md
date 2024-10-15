@@ -46,7 +46,7 @@ You can use a network security group to filter inbound and outbound network traf
    |---|---|
    |**Project details**|
    |Subscription|Select your subscription|
-   |Resource group|Select **Create new** Enter **az-rg-1** Select **OK**|
+   |Resource group|Enter **az-rg-1** Select **OK**|
    |**Instance details**|
    |Virtual network name|Enter **vnet-1**|
    |Region|Select **(US) East US**|  
