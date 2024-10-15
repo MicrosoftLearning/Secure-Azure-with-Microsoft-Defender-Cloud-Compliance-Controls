@@ -266,7 +266,6 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
     |Remember password|Select **Yes.**|
     |Connectivity Security|
     |Encryption|Leave the default *Mandatory*|
-    |Trust server certificate|**Check the box**|
    
 13. Select **Connect.**
 
