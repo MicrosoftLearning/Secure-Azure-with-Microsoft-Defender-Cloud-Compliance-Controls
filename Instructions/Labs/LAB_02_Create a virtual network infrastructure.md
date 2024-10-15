@@ -190,7 +190,7 @@ A network security group (NSG) secures network traffic in your virtual network.
    |Protocol|Leave the default of **TCP**|
    |Action|Leave the default of **Allow**|
    |Priority|Leave the default of **110**|
-   |Name|Enter *allowrdpall*|
+   |Name|Enter **allowrdpall**|
    
 6. Select **Add.**
 
