@@ -58,8 +58,6 @@ Data Collection Rules (DCRs) specify the data to be collected, while the Azure M
 
     ![image](https://github.com/user-attachments/assets/6aabf2c9-bea2-47c1-9b0b-bf131cdec4e3)
 
->**Note**: The Azure Monitor Agent will automatically be installed on Azure virtual resources.
-
 6. In the **Select a scope** template, check the **Subscription** box in the **Scope**.
 
     ![image](https://github.com/user-attachments/assets/2215e8cd-5047-4fc6-91ba-b2c645571bbd)
