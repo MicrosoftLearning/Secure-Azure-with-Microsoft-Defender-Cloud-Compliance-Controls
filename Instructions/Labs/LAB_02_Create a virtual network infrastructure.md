@@ -81,7 +81,7 @@ An application security group (ASGs) enables you to group together servers with 
 
 2. On the **Application security groups** page, select **+ Create.**
 
-3. On the **Basics** tab of **Create an application security group,** enter or select this information:
+3. On the **Basics** page of **Create an application security group**, enter or select the following information:
    
    |Setting|Value|
    |---|---|
@@ -118,8 +118,8 @@ A network security group (NSG) secures network traffic in your virtual network.
 1. In the search box at the top of the portal, enter **Network security group**. Select **Network security groups** in the search results.
 
 >**Note**: In the search results for Network security groups, you may see Network security groups (classic). Select Network security groups.
-   
-2. Select + **Create.**
+
+2. On the **Network security groups page**, select **+ Create.**
 
 3. On the **Basics** tab of **Create network security group,** enter or select this information:
    
