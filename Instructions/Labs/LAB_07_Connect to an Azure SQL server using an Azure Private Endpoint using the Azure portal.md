@@ -248,9 +248,9 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    Aliases:  az-sql-svr1a.database.windows.net
    ````
     
->**Note**: A  private IP address of 10.1.0.5 is returned for the SQL server name. This address is in **mySubnet1a** subnet of **myVNet1a** virtual network you created previously.
+>**Note**: A  private IP address of 10.1.0.5 is returned for the SQL server name. This address is in **az-sql-svr1a** subnet of **vnet-2** virtual network you created previously.
 
-9. Install [SQL Server Management Studio](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?preserve-view=true&view=sql-server-2017) on **myVM.**
+9. Install [SQL Server Management Studio](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?preserve-view=true&view=sql-server-2017) on **vm-3.**
  
 10. Open **SQL Server Management Studio.**
 
@@ -259,18 +259,21 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
     |Setting|Value|
     |---|---|
     |Server type|Select **Database Engine.**|
-    |Server name|Enter **sqlserver1a.database.windows.net.**|
+    |Server name|Enter **az-sql-svr1a.database.windows.net.**|
     |Authentication|Select **SQL Server Authentication.**|
     |User name|Enter **Tenantadmin2**.|
     |Password|Enter **Superuser#170**.|
     |Remember password|Select **Yes.**|
+    |Connectivity Security|
+    |Encryption|Leave the default *Mandatory*|
+    |Trust server certificate|**Check the box**|
    
-12. Select **Connect.**
+13. Select **Connect.**
 
-13. Browse databases from left menu.
+14. Browse databases from left menu.
 
-14. (Optionally) Create or query information from mysqldatabase.
+15. (Optionally) Create or query information from mysqldatabase.
 
-15. Close the remote desktop connection to myVM.
+16. Close the remote desktop connection to myVM.
   
 > **Results**: You have connected to an Azure SQL server using an Azure Private Endpoint using the Azure portal.
