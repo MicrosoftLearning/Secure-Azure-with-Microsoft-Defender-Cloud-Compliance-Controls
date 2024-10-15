@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Exercise 06b - Enable soft-delete in Azure key vault'    
+    title: 'Exercise 06b - Enable soft delete in Azure Key Vault'    
     module: 'Module 07 - Configure Azure Key Vault networking settings'
 ---
 
