@@ -78,8 +78,8 @@ You can use a network security group to filter inbound and outbound network traf
 An application security group (ASGs) enables you to group together servers with similar functions, such as web servers.
 
 1. In the search box at the top of the portal, enter **Application security group**. Select **Application security groups** in the search results.
-   
-2. Select **Create.**
+
+2. On the **Application security groups** page, select **+ Create.**
 
 3. On the **Basics** tab of **Create an application security group,** enter or select this information:
    
