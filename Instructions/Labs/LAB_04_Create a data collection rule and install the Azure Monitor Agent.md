@@ -36,7 +36,7 @@ Data Collection Rules (DCRs) specify the data to be collected, while the Azure M
   
 2. Select **+ Create**.
 
-![image](https://github.com/user-attachments/assets/99b9ac51-f2f4-466f-80bb-79d74874b573)
+    ![image](https://github.com/user-attachments/assets/99b9ac51-f2f4-466f-80bb-79d74874b573)
 
 3. On the **Basics** page of the **Create Data Collection Rule** blade, specify the following settings (leave others with their default values):
 
@@ -50,7 +50,7 @@ Data Collection Rules (DCRs) specify the data to be collected, while the Azure M
     |Platform Type|**Windows**|
     |Data Collection Endpoint|*Leave the default of none*|
 
-![image](https://github.com/user-attachments/assets/35c527cf-499d-44b9-966f-0114b8643ef2)
+    ![image](https://github.com/user-attachments/assets/35c527cf-499d-44b9-966f-0114b8643ef2)
 
 4. Click on the button labeled **Next: Resources >** to proceed.
    
@@ -58,21 +58,21 @@ Data Collection Rules (DCRs) specify the data to be collected, while the Azure M
   
 >**Note**: The Azure Monitor Agent will automatically be installed on the virtual machines (resources) selected to collect data.
 
-![image](https://github.com/user-attachments/assets/47174eb4-4343-49a2-b49d-e9dee76787e4)
+    ![image](https://github.com/user-attachments/assets/47174eb4-4343-49a2-b49d-e9dee76787e4)
 
 6. In the **Select a scope** template, check the **Subscription** box in the **Scope**.
 
-![image](https://github.com/user-attachments/assets/2215e8cd-5047-4fc6-91ba-b2c645571bbd)
+    ![image](https://github.com/user-attachments/assets/2215e8cd-5047-4fc6-91ba-b2c645571bbd)
 
 7. At the bottom of the **Select a scope** template, click **Apply**.
   
 8. At the bottom of the **Resources** page, select **Next: Collect and deliver >**. 
 
-![image](https://github.com/user-attachments/assets/717226c3-5ce0-454f-93a4-11b0e67d5a23)
+    ![image](https://github.com/user-attachments/assets/717226c3-5ce0-454f-93a4-11b0e67d5a23)
 
 9. On the **Collect and deliver page**, click **+ Add data source**.
 
-![image](https://github.com/user-attachments/assets/0809cf5b-a460-40d1-8508-e42ba7ce78c1)
+    ![image](https://github.com/user-attachments/assets/0809cf5b-a460-40d1-8508-e42ba7ce78c1)
 
 10. On the **Add data source** template, under **Data source type**, select the following settings.
     
@@ -86,7 +86,7 @@ Data Collection Rules (DCRs) specify the data to be collected, while the Azure M
     |Security|**Audit success**, **Audit failure**|
     |System|**Critical**, **Error**, **Warning**|
 
-![image](https://github.com/user-attachments/assets/5bc891ea-8cef-4baa-95c4-a432364179b1)
+    ![image](https://github.com/user-attachments/assets/5bc891ea-8cef-4baa-95c4-a432364179b1)
 
 11. At the bottom of the **Add data source** template, select **Next: Destination >**.
    
@@ -100,15 +100,15 @@ Data Collection Rules (DCRs) specify the data to be collected, while the Azure M
     |Subscription|Select your Subscription|
     |Destination Details|**azwrkspc1a (az-rg-1**)
 
-![image](https://github.com/user-attachments/assets/e00c17c8-5a70-4caa-8504-92f482cc5e57)
+    ![image](https://github.com/user-attachments/assets/e00c17c8-5a70-4caa-8504-92f482cc5e57)
 
 13. At the bottom of the **Add data source** template, select **Add data source**.
 
-![image](https://github.com/user-attachments/assets/4277089c-971c-4334-a49d-6ac6bfe93ff4)
+    ![image](https://github.com/user-attachments/assets/4277089c-971c-4334-a49d-6ac6bfe93ff4)
 
 14. At the bottom of the **Collect and deliver** page, select **Review + create**.
 
-![image](https://github.com/user-attachments/assets/0235fed9-6309-444c-9269-b9dbd1118b63)
+    ![image](https://github.com/user-attachments/assets/0235fed9-6309-444c-9269-b9dbd1118b63)
 
 15. At the bottom of the **Review + create** page, select **Create**.
 
