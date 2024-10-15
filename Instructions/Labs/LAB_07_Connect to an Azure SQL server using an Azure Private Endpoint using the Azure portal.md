@@ -134,8 +134,10 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
 >**Note**: In this task, you'll create a SQL server in Azure.
 
 1. In the search box at the top of the portal, enter **sql database.** Select **SQL databases** in the search results.
+
+2. On the **SQL databases** page, select **+ Create.**
    
-2. In the **Basics** tab of **Create SQL database,** enter or select this information:
+3. In the **Basics** tab of **Create SQL database,** enter or select this information:
 
    |Setting|Value|
    |---|---|
@@ -144,13 +146,6 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |Resource group|Select **az-rg-1**|
    |**Database details**|
    |Database name|Enter **mysqldatabase**|
-   |Server|Select **Create new.**|  
-
-3. In **Create SQL Database Server,** enter or select this information:
-  
-   |Setting|Value|
-   |---|---|
-   |**Server details**|
    |Server name|Enter **mysqlserver1a.** If this name is taken, create a unique name.|
    |Location|Select **(US) East US.**|
    |**Authentication**|
@@ -159,7 +154,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |Password|Enter **Superuser#170.**|
    |Confirm passowrd|Enter **Superuser#170.**|
 
-4. Select **OK.**
+5. Select **OK.**
    
    |Setting|Value|
    |---|---|
@@ -169,18 +164,18 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |**Backup storage redundancy**|
    |Backup storage redundancy|Select **Locally-redundant backup storage.**|
    
-5. Select the **Networking** tab or select the **Next: Networking** button.
+6. Select the **Networking** tab or select the **Next: Networking** button.
 
-6. In the **Networking** tab, enter or select this information:
+7. In the **Networking** tab, enter or select this information:
 
    |Setting|Value|
    |---|---|
    |**Network connnectivity**|
    |Connectivity method|Select **Private endpoint.**|
 
-7. Select + **Add private endpoint** in **Private endpoints.**
+8. Select + **Add private endpoint** in **Private endpoints.**
 
-8. In **Create private endpoint,** enter or select this information:
+9. In **Create private endpoint,** enter or select this information:
 
    |Setting|Value|
    |---|---|
@@ -196,11 +191,11 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |Intergrate with private DNS zone|Leave the default **Yes.**|
    |Private DNS Zone|Leave the default **(New) privatelink.database.windows.net.**|
 
-9. Select **OK.**
+10. Select **OK.**
 
-10. Select **Review + create.**
+11. Select **Review + create.**
 
-11. Select **Create.**
+12. Select **Create.**
 
 ### Disable public access to Azure SQL logical server
 
