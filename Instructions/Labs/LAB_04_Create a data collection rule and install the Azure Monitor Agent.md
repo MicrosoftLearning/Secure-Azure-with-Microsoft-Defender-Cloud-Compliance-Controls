@@ -54,7 +54,7 @@ Data Collection Rules (DCRs) specify the data to be collected, while the Azure M
 
 4. Click on the button labeled **Next: Resources >** to proceed.
 
-    >**Note**: The Azure Monitor Agent will automaticlly be installed on Azure virtual resources.
+    >**Note**: The Azure Monitor Agent will automatically be installed on Azure virtual resources.
    
 5. On the **Resources** page, select **+ Add resources**.
 
