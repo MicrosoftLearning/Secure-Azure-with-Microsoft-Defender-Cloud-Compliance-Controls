@@ -43,7 +43,7 @@ You can use purge protection to prevent the deletion of your key vault, keys, se
    
 2. Click on the search bar at the top of the page.
 
-3. Search for the **Key vaults.**. Do not click an individual key vault.
+3. Search for **Key vaults.** Do not click an individual key vault.
 
 4. At the top of the screen click the option to **Manage deleted vaults.**
 
