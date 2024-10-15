@@ -70,8 +70,8 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
     |**Project details**|
     |Subnet purpose|Leave the default|
     |Name|**subnet-2**|
-    |IPv4 address range|Leave the default of **10.0.0.0/16**|
-    |Starting address|Leave the default of **/24 (256 addresses)**|
+    |IPv4 address range|Leave the default of *10.0.0.0/16*|
+    |Starting address|Leave the default of */24 (256 addresses)*|
 
 13. At the bottom of the **Edit subnet** page, select **Save.**
 
@@ -103,7 +103,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |Security type|From the Security type drop-down menu, select **Standard.**|
    |Image|Select **Windows Server 2022 Datacenter - x64 Gen2.**|
    |VM architecture|Select **x64.**|
-   |Run with Azure Spot discount|Leave the default of unchecked|
+   |Run with Azure Spot discount|Leave the default of *unchecked*|
    |Size|Leave the default of **Standard_D2s_v3-2 vcpus, 8 GiB memory.**|
    |**Administrator account**|
    |Username|Enter **Tenantadmin2.**|
