@@ -34,7 +34,7 @@ When you collect logs and data, the information is stored in a workspace. A work
    |---|---|
    |**Project details**|
    |Subscription|Select your subscription.|
-   |Resource group|Enter **az-rg-1.** Select **OK**|
+   |Resource group|Enter **az-rg-1.**|
    |**Instance details**|
    |Name|Enter **azwrkspc1a.**|
    |Region|Select **East US.**|
