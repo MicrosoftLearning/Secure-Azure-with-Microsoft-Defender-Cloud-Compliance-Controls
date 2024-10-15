@@ -243,9 +243,9 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    Address:  168.63.129.16
    
    Non-authoritative answer:
-   Name:    mysqlserver1a.privatelink.database.windows.net
+   Name:    az-sql-svr1a.privatelink.database.windows.net
    Address:  10.1.0.5
-   Aliases:  mysqlserver1a.database.windows.net
+   Aliases:  az-sql-svr1a.database.windows.net
    ````
     
 >**Note**: A  private IP address of 10.1.0.5 is returned for the SQL server name. This address is in **mySubnet1a** subnet of **myVNet1a** virtual network you created previously.
