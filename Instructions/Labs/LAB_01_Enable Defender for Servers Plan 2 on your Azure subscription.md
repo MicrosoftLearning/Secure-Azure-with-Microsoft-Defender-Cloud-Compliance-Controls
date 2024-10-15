@@ -24,7 +24,7 @@ The main goal of this exercise is to provide hands-on experience in configuring 
 
 1. Sign-in to the [Azure portal menu.](https://portal.azure.com/)
 
-2. In the Azure portal, in the Search resources, services, and docs text box at the top of the Azure portal page, type Microsoft Defender for Cloud and press the Enter key.
+2. In the Azure portal, in the Search resources, services, and docs text box at the top of the Azure portal page, type **Microsoft Defender for Cloud** and press the **Enter** key.
 
 3. On the **Microsoft Defender for Cloud**, **Management blade**, go to the **Environment settings**. Expand the environment settings folders until the **subscription** section is displayed, then click the **subscription** to view details.
 
