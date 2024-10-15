@@ -36,6 +36,7 @@ You can use purge protection to prevent the deletion of your key vault, keys, se
 
 ![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Cloud-Security-Benchmark/assets/91347931/06131a60-7f00-4764-a424-87ea41a78394)
 
+## Additional Azure key Vault recovery management with soft delte and purge protection examples
 
 ### List, recover, or purge a soft-deleted key vault.
 
