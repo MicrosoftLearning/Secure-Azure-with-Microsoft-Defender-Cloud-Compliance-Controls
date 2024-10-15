@@ -65,16 +65,16 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
 
 11. In **Edit subnet** template, enter or select the following information:
 
-   |Setting|Value|
-   |---|---|
-   |**Project details**|
-   |Subnet purpose|Leave the default of **Default.**|
-   |IPv4 address range|Leave the default of **10.0.0.0/16**|
-   |Starting address|Leave the default of **/24 (256 addresses)**|
+    |Setting|Value|
+    |---|---|
+    |**Project details**|
+    |Subnet purpose|Leave the default of **Default.**|
+    |IPv4 address range|Leave the default of **10.0.0.0/16**|
+    |Starting address|Leave the default of **/24 (256 addresses)**|
 
-12. At the bottom of the **Edit subnet** page, select **Save.**
+13. At the bottom of the **Edit subnet** page, select **Save.**
 
-13. At the bottom of the **IP addresses** page, select **Review + create.**
+14. At the bottom of the **IP addresses** page, select **Review + create.**
 
     >**Note**: Bastion deployment may take up to 15 minutes for complete instantiation.
  
