@@ -30,10 +30,10 @@ Data Collection Rules (DCRs) specify the data to be collected, while the Azure M
 
 ### Create and define a Data Collection Rule.
 
->**Note**: Create your data collection rule in the same region as your destination Log Analytics workspace or Azure Monitor workspace. You can associate the data collection rule to machines or containers from any subscription or resource group in the tenant. 
+>**Note**: Create your data collection rule in the same region as your destination Log Analytics workspace or Azure Monitor workspace. You can associate the data collection rule to machines or containers from any subscription or resource group in the tenant.
 
 1. In the search box at the top of the portal, enter **data collection rules**. Select **Data collection rules** in the search results.
-   
+  
 2. Select **+ Create**.
 
 ![image](https://github.com/user-attachments/assets/99b9ac51-f2f4-466f-80bb-79d74874b573)
