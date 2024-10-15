@@ -24,12 +24,12 @@ You can use Microsoft Defender for Cloud's just-in-time (JIT) access to protect 
 
 >**Note**: You can enable JIT on a VM from the Azure virtual machines pages of the Azure portal.
 
-1. From the Azure portal, search for and select **Virtual machines.**
+1. In the search box at the top of the portal, enter **Virtual machine.** Select **Virtual machines** in the search results.
+
+2. Select **vm-1.**
+ 
+3. Select **Configuration** from the **Settings** section of vm-1.
    
-2. Select the virtual machine you want to protect with JIT.
-
-3. In the menu, select **Configuration.**
-
 4. Under **Just-in-time access,** select **Enable just-in-time.**
 
 5. Under **Just-in-time VM access,** click on the link that reads **Open Microsoft Defender for Cloud.**
