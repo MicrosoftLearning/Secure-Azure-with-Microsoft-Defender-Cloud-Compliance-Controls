@@ -77,18 +77,19 @@ Data Collection Rules (DCRs) specify the data to be collected, while the Azure M
     |Setting|Value|
     |---|---|
     |**Add data source**|
-    |Select which data source type and the data to collect for your resource(s)|
+    |Select which data source type and the data to collect for your resource(s).|
     |Data source type*|**Windows Event Logs**|
-    |Configure the event logs and levels to collect|
+    |Choose Basic to to enable collection of event logs.|
+    |Configure the event logs and levels to collect:|
     |Application|**Critical**, **Error**, **Warning**|
     |Security|**Audit success**, **Audit failure**|
     |System|**Critical**, **Error**, **Warning**|
 
     ![image](https://github.com/user-attachments/assets/5bc891ea-8cef-4baa-95c4-a432364179b1)
 
-11. At the bottom of the **Add data source** template, select **Next: Destination >**.
+12. At the bottom of the **Add data source** template, select **Next: Destination >**.
    
-12. In the **Add data source** template, under the **Destination** tab, select the following settings.
+13. In the **Add data source** template, under the **Destination** tab, select the following settings.
     
     |Setting|Value|
     |---|---|
@@ -100,14 +101,14 @@ Data Collection Rules (DCRs) specify the data to be collected, while the Azure M
 
     ![image](https://github.com/user-attachments/assets/e00c17c8-5a70-4caa-8504-92f482cc5e57)
 
-13. At the bottom of the **Add data source** template, select **Add data source**.
+14. At the bottom of the **Add data source** template, select **Add data source**.
 
     ![image](https://github.com/user-attachments/assets/4277089c-971c-4334-a49d-6ac6bfe93ff4)
 
-14. At the bottom of the **Collect and deliver** page, select **Review + create**.
+15. At the bottom of the **Collect and deliver** page, select **Review + create**.
 
     ![image](https://github.com/user-attachments/assets/0235fed9-6309-444c-9269-b9dbd1118b63)
 
-15. At the bottom of the **Review + create** page, select **Create**.
+16. At the bottom of the **Review + create** page, select **Create**.
 
 > **Results**: You have created a data collection rule and installed the Azure Monitor Agent.
