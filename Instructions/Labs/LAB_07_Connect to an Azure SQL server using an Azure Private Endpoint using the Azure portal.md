@@ -133,7 +133,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
 
 >**Note**: In this task, you'll create a SQL server in Azure.
 
-1. From the Azure portal menu, select + **Create a resource** > **Databases** > **SQL database.**
+1. In the search box at the top of the portal, enter **sql database.** Select **SQL databases** in the search results.
    
 2. In the **Basics** tab of **Create SQL database,** enter or select this information:
 
