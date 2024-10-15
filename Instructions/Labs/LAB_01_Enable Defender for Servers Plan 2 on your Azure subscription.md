@@ -1,14 +1,14 @@
 ---
 lab:
-    title: 'Exercise 01 - Enable Defender for Servers Plan 2 on your subscription'
-    module: 'Module 02 - Enable Defender for Servers Plan 2 on your subscription'
+    title: 'Exercise 01 - Enable Defender for Servers Plan 2 on your Azure subscription'
+    module: 'Module 02 - Enable Defender for Servers Plan 2 on your Azure subscription'
 ---
 
 
->**Note**: To complete this lab, you will need a [subscription.](https://azure.microsoft.com/en-us/free/?azure-portal=true) in which you have administrative access. 
+>**Note**: To complete this lab, you will need an [Azure subscription.](https://azure.microsoft.com/en-us/free/?azure-portal=true) in which you have administrative access. 
 
 
-The main goal of this exercise is to provide hands-on experience in configuring and enabling Microsoft Defender for Servers Plan 2 within an subscription. This will allow you to monitor and protect your cloud resources against security threats. 
+The main goal of this exercise is to provide hands-on experience in configuring and enabling Microsoft Defender for Servers Plan 2 within an Azure subscription. This will allow you to monitor and protect your cloud resources against security threats. 
 
 ---
 
