@@ -104,7 +104,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |Security type|From the Security type drop-down menu, select **Standard.**|
    |Image|Select **Windows Server 2022 Datacenter - x64 Gen2.**|
    |VM architecture|Select **x64.**|
-   |Run with Azure Spot discount|Leave the default of *unchecked*|
+   |Run with Azure Spot discount|Leave the default *unchecked*|
    |Size|Leave the default of **Standard_D2s_v3-2 vcpus, 8 GiB memory.**|
    |**Administrator account**|
    |Username|Enter **Tenantadmin2.**|
@@ -158,20 +158,20 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |Password|Enter **Superuser#170.**|
    |Confirm passowrd|Enter **Superuser#170.**|
 
-5. Select **OK.**
+4. Select **OK.**
    
    |Setting|Value|
    |---|---|
    |**Database details**|
    |Want to use SQL elastic pool|Leave the default *No.*|
    |Workload environment|Leave the default *Development.*|
-   |Compute + Storage|Take default settings or select **Configure database** to configure compute and storage settings.|
+   |Compute + Storage|Leave the default *General Purpose - Serverless*|
    |**Backup storage redundancy**|
    |Backup storage redundancy|Select **Locally-redundant backup storage.**|
    
-7. Select the **Networking** tab or select the **Next: Networking** button.
+5. Select the **Networking** tab or select the **Next: Networking** button.
 
-8. In the **Networking** tab, enter or select this information:
+6. In the **Networking** tab, enter or select this information:
 
    |Setting|Value|
    |---|---|
@@ -180,33 +180,29 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |Connection policy|Leave the Default - *Uses Redirect policy for all client connections originating inside of Azure (except Private Endpoint connections) and Proxy for all client connections originating outside Azure*|
    |Encryption connections|Leave the default *TLS.12*|
 
-9. At the bottom of the **Networking** page, select **Next: Security >.**
+7. Select + **Add private endpoint** in **Private endpoints.**
 
-10. At the bottom of the **Security** page, select **Review + create.**
-
-11. Select + **Add private endpoint** in **Private endpoints.**
-
-12. In **Create private endpoint,** enter or select this information:
+8. In **Create private endpoint,** enter or select this information:
 
    |Setting|Value|
    |---|---|
    |Subscription|Select your subscription.|
-   |Resource group|Select **CreateSQLEndpointTutorial.**|
+   |Resource group|Select **az-rg-1.**|
    |Location|Select **East US.**|
-   |Name|Enter **myPrivateSQLendpoint.**|
-   |Target sub-resource|Leave the default Default **SqlServer.**|
+   |Name|Enter **az-pe-1a.**|
+   |Target sub-resource|Leave the default Default *SqlServer.*|
    |**Networking**|
    |Virtual network|Select **vnet-2.**|
    |Subnet|Select **subnet-2.**|
    |**Private DNS integration**|
-   |Intergrate with private DNS zone|Leave the default **Yes.**|
-   |Private DNS Zone|Leave the default **(New) privatelink.database.windows.net.**|
+   |Intergrate with private DNS zone|Leave the default *Yes.*|
+   |Private DNS Zone|Leave the default *(New) privatelink.database.windows.net.*|
 
-11. Select **OK.**
+9. Select **OK.**
 
-12. Select **Review + create.**
+10. Select **Review + create.**
 
-13. Select **Create.**
+11. Select **Create.**
 
 ### Disable public access to Azure SQL logical server
 
@@ -218,8 +214,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
 
    ![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Cloud-Security-Benchmark/assets/91347931/44ff5c24-70cf-49ed-b2ab-5e210c478b3a)
 
-
-4. Select **Save.**
+3. Select **Save.**
 
 ### Test connectivity to private endpoint
 
