@@ -58,10 +58,11 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |**Project details**|
    |Azure Bastion host |Enter **az-bastionhost-1a.**|
    |Azure Bastion public IP address name|Select **Create a public IP address**|
+   |Add a public IP address|Select **OK**|
 
 9. Select **Next** to proceed to the **IP addresses** tab.
 
-10. In the enabled **IPv4 Address space** box under the **Subnets** column, click the **default** entry.
+10. In the existing configured **IPv4 Address space** box under the **Subnets** column, click the **default** entry.
 
 11. In **Edit subnet** template, enter or select the following information:
 
@@ -89,7 +90,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
 
 2. In **Virtual machines,** select **+ Create,** then **Azure virtual machine.**
 
-3. In Create a virtual machine, enter or select this information in the Basics tab:
+3. In Create a virtual machine, enter or select this information in the **Basics** page:
 
    |Setting|Value|
    |---|---|
@@ -112,9 +113,9 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |**Inbound port rules**|
    |Select inbound ports|Select **None.**|
 
-5. Select the **Networking** tab, or select **Next: Disks,** then **Next: Networking.**
+5. Select **Next: Disks,** then **Next: Networking.**
   
-6. In the **Networking** tab, enter or select this information:
+6. In the **Networking** page, enter or select this information:
 
    |Setting|Value|
    |---|---|
@@ -124,6 +125,9 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |Public IP|Select **None.**|
    |NIC network security group|Select **Basic.**|
    |Public inbound ports|Select **None.**|
+   |Select inbound ports|Leave blank|
+   |Delete NIC when VM is deleted|Leave the default option *Enable accelerated networking* *checked.*|
+   |Load balancing|Leave the default of *None*|
   
 6. Select **Review + create.**
 
