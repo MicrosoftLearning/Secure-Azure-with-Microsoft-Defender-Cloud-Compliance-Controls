@@ -62,7 +62,7 @@ You can use a network security group to filter inbound and outbound network traf
    |Setting|Value|
    |---|---|
    |**Subnet details**|
-   |Subnet template|Leave the default|
+   |Subnet template|Leave the default setting|
    |Name|Enter **subnet-1**|
    |Starting address|Leave the default of **10.0.0.0**|
    |Subnet size|Leave the default of /**24(256 addresses**).
@@ -165,14 +165,14 @@ A network security group (NSG) secures network traffic in your virtual network.
    |Setting|Value|
    |---|---|
    |Source|Leave the default of **Any**|
-   |Source port ranges|Leave the default **(*)**|
+   |Source port ranges|Leave the default setting|
    |Destination|Select **Application security group**|
    |Destination application security groups|Select **asg-web**|
-   |Service|Leave the default *Custom*|
+   |Service|Leave the default setting as Custom|
    |Destination port ranges|Enter **80,443**|
    |Protocol|Select **TCP.**|
-   |Action|Leave the default of **Allow**|
-   |Priority|Leave the default of *100*|
+   |Action|Leave the default settings as Allow|
+   |Priority|Leave the default setting as 100|
    |Name|Enter **allowweball**|
 
 4. Select **Add.**
@@ -182,14 +182,14 @@ A network security group (NSG) secures network traffic in your virtual network.
    |Setting|Value|
    |---|---|
    |Source|Leave the default of **Any**|
-   |Source port ranges|Leave the default of **(*)**|
+   |Source port ranges|Leave the default setting port ranges|
    |Destination|Select **Application security group**|
    |Destination application security group|Select **asg-mgmt**|
    |Service|Select **RDP**|
-   |Destination port ranges|Leave the default of **3389**|
-   |Protocol|Leave the default of **TCP**|
-   |Action|Leave the default of **Allow**|
-   |Priority|Leave the default of **110**|
+   |Destination port ranges|Leave the default setting as 3389|
+   |Protocol|Leave the default setting as TCP|
+   |Action|Leave the default setting as Allow|
+   |Priority|Leave the default setting as 110|
    |Name|Enter **allowrdpall**|
    
 6. Select **Add.**
@@ -213,9 +213,9 @@ A network security group (NSG) secures network traffic in your virtual network.
    |Availability options|From the Availability Zone drop-down menu, select **No infrastructure redundancy required**|
    |Security type|From the Security type drop-down menu, select **Standard**|
    |Image|From the Image drop-down menu, select **Windows Server 2022 Datacenter: Azure Edition - x64 Gen2**|
-   |VM architecture|Leave the default of *x64*|
-   |Run with Azure Spot discount|Leave the default of unchecked|
-   |Size|Leave the default of *Standard_D2s_v3-2 vcpus, 8 GiB memory*|
+   |VM architecture|Leave the default setting as x64|
+   |Run with Azure Spot discount|Leave the default setting as unchecked|
+   |Size|Leave the default setting as Standard_D2s_v3-2 vcpus, 8 GiB memory|
    |**Administrator account**|
    |Authentication type|Select **Password**|
    |Username|Enter **Tenantadmin1**|
@@ -233,7 +233,7 @@ A network security group (NSG) secures network traffic in your virtual network.
    |**Network interface**|
    |Virtual network|Select **vnet-1**|
    |Subnet|Select **default (10.0.0.0/24)**|
-   |Public IP|Leave the default of a *new public IP8|
+   |Public IP|Leave the default setting as new public IP|
    |NIC network security group|Select **None**|
    
 6. Select the **Review + create** tab, or select the **Review + create** button at the bottom of the page.
@@ -252,9 +252,9 @@ A network security group (NSG) secures network traffic in your virtual network.
 
 1. In the search box at the top of the portal, enter **Virtual machine.** Select **Virtual machines** in the search results.
 
-2. Select **vm-1**
+2. Select **vm-1.**
  
-3. Select **Networking** from the section of **vm-1**
+3. Select **Networking** from the section of **vm-1.**
 
 4. Select **Application security groups** from the **Networking** section of **vm-1. Select **+ Add application security groups**
 
