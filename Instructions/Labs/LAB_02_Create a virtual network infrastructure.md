@@ -38,7 +38,7 @@ You can use a network security group to filter inbound and outbound network traf
    
 2. In the search box at the top of the portal, type **Virtual networks.** Select **Virtual networks** in the search results.
 
-3. On the Virtual networks page, select + **Create.**
+3. On the **Virtual networks** page, select + **Create.**
 
 4. On the **Basics** tab of **Create virtual network**, enter or select the following information:
    
