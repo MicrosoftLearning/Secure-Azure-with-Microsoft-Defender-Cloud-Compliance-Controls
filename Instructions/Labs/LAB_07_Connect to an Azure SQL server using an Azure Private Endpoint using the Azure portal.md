@@ -69,10 +69,10 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
     |Setting|Value|
     |---|---|
     |**Project details**|
-    |Subnet purpose|Leave the default setting|
+    |Subnet purpose|Leave the default setting.|
     |Name|**subnet-2**|
-    |IPv4 address range|Leave the default setting as 10.0.0.0/16|
-    |Starting address|Leave the default setting as /24 (256 addresses)|
+    |IPv4 address range|Leave the default setting as 10.0.0.0/16.|
+    |Starting address|Leave the default setting as /24 (256 addresses).|
 
 13. At the bottom of the **Edit subnet** page, select **Save.**
 
@@ -95,7 +95,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |Setting|Value|
    |---|---|
    |**Project details**|
-   |Susbcription|Select your subscription|
+   |Susbcription|Select your subscription.|
    |Resource group|Select **az-rg-1.**|
    |**Instance details**|
    |Virtual machine name|Enter **vm-3.**|
@@ -104,7 +104,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |Security type|From the Security type drop-down menu, select **Standard.**|
    |Image|Select **Windows Server 2022 Datacenter - x64 Gen2.**|
    |VM architecture|Select **x64.**|
-   |Run with Azure Spot discount|Leave the default setting as unchecked|
+   |Run with Azure Spot discount|Leave the default setting as unchecked.|
    |Size|Leave the default setting as Standard_D2s_v3-2 vcpus, 8 GiB memory.|
    |**Administrator account**|
    |Username|Enter **Tenantadmin2.**|
@@ -125,9 +125,9 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |Public IP|Select **None.**|
    |NIC network security group|Select **Basic.**|
    |Public inbound ports|Select **None.**|
-   |Select inbound ports|Leave the default setting as blank|
+   |Select inbound ports|Leave the default setting as blank.|
    |Delete NIC when VM is deleted|Leave the default setting as Enable accelerated networking checked.|
-   |Load balancing|Leave the default setting as None|
+   |Load balancing|Leave the default setting as None.|
   
 6. Select **Review + create.**
 
@@ -165,7 +165,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |**Database details**|
    |Want to use SQL elastic pool|Leave the default setting as No.|
    |Workload environment|Leave the default setting as Development.|
-   |Compute + Storage|Leave the default setting as General Purpose - Serverless|
+   |Compute + Storage|Leave the default setting as General Purpose - Serverless.|
    |**Backup storage redundancy**|
    |Backup storage redundancy|Select **Locally-redundant backup storage.**|
    
@@ -265,7 +265,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
     |Password|Enter **Superuser#170**.|
     |Remember password|Select **Yes.**|
     |Connectivity Security|
-    |Encryption|Leave the default setting as Mandatory|
+    |Encryption|Leave the default setting as Mandatory.|
    
 13. Select **Connect.**
 
