@@ -38,7 +38,7 @@ Data Collection Rules (DCRs) specify the data to be collected, while the Azure M
   
    ![image](https://github.com/user-attachments/assets/99b9ac51-f2f4-466f-80bb-79d74874b573)
 
-3. On the **Basics** page of the **Create Data Collection Rule** blade, specify the following settings (Leave the others at their default values):
+3. On the **Basics** page of the **Create Data Collection Rule blade**, specify the following settings (leave the others at their default values):
 
     |Setting|Value|
     |---|---|
