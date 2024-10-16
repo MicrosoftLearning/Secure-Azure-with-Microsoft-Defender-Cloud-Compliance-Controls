@@ -42,8 +42,8 @@ You can use the Azure portal to configure the Azure Key Vault networking setting
    |**Instance details**|
    |Key vault name|The vault name must contain only alphanumeric characters and dashes, and it cannot start with a number. *Example: az-securevault150*|
    |Region|Select **East US**|
-   |Pricing tier|System default **Standard**|
-   |Days to retain deleted vaults|System default **90**|
+   |Pricing tier|Leave the default setting as Standard|
+   |Days to retain deleted vaults|Leave the default setting as 90|
 
 7. Select the **Review + create tab,** or select the blue Review + create button at the bottom of the page.
   
