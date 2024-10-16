@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Exercise 04 - Create a data collection rule and install the Azure Monitor Agent'    
-    module: 'Module 05 - Create a data collection rule and install the Azure Monitor Agent'
+    module: 'Module 05 - Collect guest operating system monitoring data from Azure and hybrid virtual machines using Azure Monitor Agent'
 ---
 
 
