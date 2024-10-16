@@ -34,7 +34,7 @@ Data Collection Rules (DCRs) specify the data to be collected, while the Azure M
 
 1. In the search box at the top of the portal, enter **data collection rules**. Select **Data collection rules** in the search results.
   
-2. Select **+ Create**.
+2. On the **Data collection rules** page, select **+ Create.**
   
    ![image](https://github.com/user-attachments/assets/99b9ac51-f2f4-466f-80bb-79d74874b573)
 
