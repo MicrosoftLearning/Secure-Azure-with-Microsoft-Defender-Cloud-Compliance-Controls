@@ -105,7 +105,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |Image|Select **Windows Server 2022 Datacenter - x64 Gen2.**|
    |VM architecture|Select **x64.**|
    |Run with Azure Spot discount|Leave the default setting as unchecked|
-   |Size|Leave the default of **Standard_D2s_v3-2 vcpus, 8 GiB memory.**|
+   |Size|Leave the default setting as Standard_D2s_v3-2 vcpus, 8 GiB memory.|
    |**Administrator account**|
    |Username|Enter **Tenantadmin2.**|
    |Password|Enter **Superuser#170.**|
