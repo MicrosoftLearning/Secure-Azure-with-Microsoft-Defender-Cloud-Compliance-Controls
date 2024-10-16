@@ -34,7 +34,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
 
 3. On the **Virtual networks** page, select **+ Create.**
 
-4. On the **Basics** tab of **Create virtual network,** enter or select this information:
+4. On the **Basics** tab of **Create virtual network**, enter or select this information:
    
    |Setting|Value|
    |---|---|
@@ -62,17 +62,17 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
 
 9. Select **Next** to proceed to the **IP addresses** tab.
 
-10. In the existing configured **IPv4 Address space** box under the **Subnets** column, click the **default** entry.
+10. In the existing configured **IPv4 address space** box under the **Subnets** column, click the **default** entry.
 
 11. In **Edit subnet** template, enter or select the following information:
 
     |Setting|Value|
     |---|---|
     |**Project details**|
-    |Subnet purpose|Leave the default|
+    |Subnet purpose|Leave the default setting|
     |Name|**subnet-2**|
-    |IPv4 address range|Leave the default of *10.0.0.0/16*|
-    |Starting address|Leave the default of */24 (256 addresses)*|
+    |IPv4 address range|Leave the default setting as 10.0.0.0/16|
+    |Starting address|Leave the default setting as /24 (256 addresses)|
 
 13. At the bottom of the **Edit subnet** page, select **Save.**
 
@@ -88,7 +88,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
 
 1. In the portal, search for and select **Virtual machines.**
 
-2. In **Virtual machines,** select **+ Create,** then **Azure virtual machine.**
+2. In **Virtual machines,** select **+ Create**, then **Azure virtual machine.**
 
 3. In Create a virtual machine, enter or select this information in the **Basics** page:
 
@@ -104,7 +104,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |Security type|From the Security type drop-down menu, select **Standard.**|
    |Image|Select **Windows Server 2022 Datacenter - x64 Gen2.**|
    |VM architecture|Select **x64.**|
-   |Run with Azure Spot discount|Leave the default *unchecked*|
+   |Run with Azure Spot discount|Leave the default setting as unchecked|
    |Size|Leave the default of **Standard_D2s_v3-2 vcpus, 8 GiB memory.**|
    |**Administrator account**|
    |Username|Enter **Tenantadmin2.**|
@@ -125,9 +125,9 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |Public IP|Select **None.**|
    |NIC network security group|Select **Basic.**|
    |Public inbound ports|Select **None.**|
-   |Select inbound ports|Leave blank|
-   |Delete NIC when VM is deleted|Leave the default option *Enable accelerated networking* *checked.*|
-   |Load balancing|Leave the default of *None*|
+   |Select inbound ports|Leave the default setting as blank|
+   |Delete NIC when VM is deleted|Leave the default setting as Enable accelerated networking checked.|
+   |Load balancing|Leave the default setting as None|
   
 6. Select **Review + create.**
 
@@ -141,7 +141,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
 
 2. On the **SQL databases** page, select **+ Create.**
    
-3. In the **Basics** tab of **Create SQL database,** enter or select this information:
+3. In the **Basics** tab of **Create SQL database**, enter or select this information:
 
    |Setting|Value|
    |---|---|
@@ -163,9 +163,9 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |Setting|Value|
    |---|---|
    |**Database details**|
-   |Want to use SQL elastic pool|Leave the default *No.*|
-   |Workload environment|Leave the default *Development.*|
-   |Compute + Storage|Leave the default *General Purpose - Serverless*|
+   |Want to use SQL elastic pool|Leave the default setting as No.|
+   |Workload environment|Leave the default setting as Development.|
+   |Compute + Storage|Leave the default setting as General Purpose - Serverless|
    |**Backup storage redundancy**|
    |Backup storage redundancy|Select **Locally-redundant backup storage.**|
    
@@ -177,12 +177,12 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |---|---|
    |**Network connnectivity**|
    |Connectivity method|Select **Private endpoint.**|
-   |Connection policy|Leave the Default - *Uses Redirect policy for all client connections originating inside of Azure (except Private Endpoint connections) and Proxy for all client connections originating outside Azure*|
-   |Encryption connections|Leave the default *TLS.12*|
+   |Connection policy|Leave the default setting as Default - Uses Redirect policy for all client connections originating inside of Azure (except Private Endpoint connections) and Proxy for all client connections originating outside Azure|
+   |Encryption connections|Leave the default setting as TLS.12|
 
 7. Select + **Add private endpoint** in **Private endpoints.**
 
-8. In **Create private endpoint,** enter or select this information:
+8. In **Create private endpoint**, enter or select this information:
 
    |Setting|Value|
    |---|---|
@@ -190,13 +190,13 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |Resource group|Select **az-rg-1.**|
    |Location|Select **East US.**|
    |Name|Enter **az-pe-1a.**|
-   |Target sub-resource|Leave the default *SqlServer.*|
+   |Target sub-resource|Leave the default setting as SqlServer.|
    |**Networking**|
    |Virtual network|Select **vnet-2.**|
    |Subnet|Select **subnet-2.**|
    |**Private DNS integration**|
-   |Intergrate with private DNS zone|Leave the default *Yes.*|
-   |Private DNS Zone|Leave the default *(New) privatelink.database.windows.net.*|
+   |Intergrate with private DNS zone|Leave the default setting as Yes.|
+   |Private DNS Zone|Leave the default setting as (New) privatelink.database.windows.net.|
 
 9. Select **OK.**
 
@@ -226,7 +226,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
 
 3. Select **vm-3.**
 
-4. On the overview page for **vm-3,** select Connect then **Bastion.**
+4. On the overview page for **vm-3**, select Connect then **Bastion.**
 
 5. Enter the username **Tenantadmin2** and password **Superuser#170** that you entered during the virtual machine creation.
 
@@ -265,7 +265,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
     |Password|Enter **Superuser#170**.|
     |Remember password|Select **Yes.**|
     |Connectivity Security|
-    |Encryption|Leave the default *Mandatory*|
+    |Encryption|Leave the default setting as Mandatory|
    
 13. Select **Connect.**
 
@@ -273,6 +273,6 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
 
 15. (Optionally) Create or query information from mysqldatabase.
 
-16. Close the remote desktop connection to myVM.
+16. Close the remote desktop connection to vm-3.
   
 > **Results**: You have connected to an Azure SQL server using an Azure Private Endpoint using the Azure portal.
