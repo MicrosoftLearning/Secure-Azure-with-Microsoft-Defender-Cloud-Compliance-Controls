@@ -62,7 +62,7 @@ You can use a network security group to filter inbound and outbound network traf
    |Setting|Value|
    |---|---|
    |**Subnet details**|
-   |Subnet template|Leave the default setting|
+   |Subnet template|Leave the default setting as Default|
    |Name|Enter **subnet-1**|
    |Starting address|Leave the default of **10.0.0.0**|
    |Subnet size|Leave the default of /**24(256 addresses**).
@@ -165,7 +165,7 @@ A network security group (NSG) secures network traffic in your virtual network.
    |Setting|Value|
    |---|---|
    |Source|Leave the default of **Any**|
-   |Source port ranges|Leave the default setting|
+   |Source port ranges|Leave the default setting port ranges|
    |Destination|Select **Application security group**|
    |Destination application security groups|Select **asg-web**|
    |Service|Leave the default setting as Custom|
@@ -198,7 +198,7 @@ A network security group (NSG) secures network traffic in your virtual network.
 
 1. In the portal, search for and select **Virtual machines.**
 
-2. In **Virtual machines,** select + **Create**, then **Azure virtual machine.**
+2. In **Virtual machines**, select + **Create**, then **Azure virtual machine.**
    
 3. In **Create a virtual machine,** enter or select this information in the **Basics** page:
 
