@@ -28,7 +28,7 @@ When you collect logs and data, the information is stored in a workspace. A work
 
 4. Select **Create.**
 
-5. On the **Basics** tab of **Create Log Analytics workspace,** enter or select this information:
+5. On the **Basics** page of **Create Log Analytics workspace,** enter or select this information:
    
    |Setting|Value|
    |---|---|
@@ -39,7 +39,7 @@ When you collect logs and data, the information is stored in a workspace. A work
    |Name|Enter **azwrkspc1a.**|
    |Region|Select **East US.**|
 
-6. Select the **Review + create tab,** or select the blue Review + create button at the bottom of the page.
+6. Select the **Review + create** tab at the bottom of the page.
   
 8. Select **Create.**
 
