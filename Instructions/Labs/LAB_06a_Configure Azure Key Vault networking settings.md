@@ -41,9 +41,9 @@ You can use the Azure portal to configure the Azure Key Vault networking setting
    |Resource group|Enter **az-rg-1.** Select **OK**|
    |**Instance details**|
    |Key vault name|The vault name must contain only alphanumeric characters and dashes, and it cannot start with a number. *Example: az-securevault150*|
-   |Region|Select **East US**|
-   |Pricing tier|Leave the default setting as Standard|
-   |Days to retain deleted vaults|Leave the default setting as 90|
+   |Region|Select **East US.**|
+   |Pricing tier|Leave the default setting as Standard.|
+   |Days to retain deleted vaults|Leave the default setting as 90.|
 
 7. Select the **Review + create tab,** or select the blue Review + create button at the bottom of the page.
   
@@ -55,11 +55,11 @@ You can use the Azure portal to configure the Azure Key Vault networking setting
 
 2. Browse to the key vault you previously created.
 
-3. Select **Settings,** then **Networking,** and then the **Firewalls and virtual networks** tab.
+3. Select **Settings**, then **Networking**, and then the **Firewalls and virtual networks** tab.
    
 4. Under Allow access from, select **Allow public access from specific virtual networks and IP addresses.**
 
-5. Under the Virtual networks section, select + **Add a virtual network,** then select + **Add existing virtual networks.**
+5. Under the Virtual networks section, select + **Add a virtual network**, then select + **Add existing virtual networks.**
 
 6. In the **Add networks** template, select your previously created virtual network from the **Virtual networks** dropdown list, and **Subnets** dropdown list.
 
