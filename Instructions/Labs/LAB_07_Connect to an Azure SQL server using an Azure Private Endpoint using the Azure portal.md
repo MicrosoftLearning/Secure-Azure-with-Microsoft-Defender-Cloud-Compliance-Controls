@@ -271,8 +271,6 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
 
 14. Browse databases from left menu.
 
-15. (Optionally) Create or query information from mysqldatabase.
-
-16. Close the remote desktop connection to vm-3.
+15. Close the remote desktop connection to vm-3.
   
 > **Results**: You have connected to an Azure SQL server using an Azure Private Endpoint using the Azure portal.
