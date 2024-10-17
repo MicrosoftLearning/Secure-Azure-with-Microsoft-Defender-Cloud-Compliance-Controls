@@ -105,7 +105,7 @@ An application security group (ASGs) enables you to group together servers with 
    |Resource group|Select **az-rg-1.**|
    |**Instance details**|
    |Name|Enter **asg-mgmt.**|
-   |Region|Select **East US.**|
+   |Region|Select **(US) East US.**|
 
 7. Select **Review + create.**
 
