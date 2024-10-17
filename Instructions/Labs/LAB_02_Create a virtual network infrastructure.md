@@ -25,8 +25,6 @@ You can use a network security group to filter inbound and outbound network traf
 - Create a virtual network and associate a network security group to a subnet.
   
 - Deploy virtual machines and associate their network interfaces to the application security groups.
-  
-- Test traffic filters.
 
 ## Exercise instructions 
 
@@ -217,7 +215,7 @@ A network security group (NSG) secures network traffic in your virtual network.
    |Run with Azure Spot discount|Leave the default setting as unchecked.|
    |Size|Leave the default setting as Standard_D2s_v3-2 vcpus, 8 GiB memory.|
    |**Administrator account**|
-   |Authentication type|Select **Password*.*|
+   |Authentication type|Select **Password.**|
    |Username|Enter **Tenantadmin1.**|
    |Password|Enter **Superuser#150.**|
    |Confirm password|Reenter **Superuser#150.**|
@@ -240,7 +238,7 @@ A network security group (NSG) secures network traffic in your virtual network.
 
 7. Select **Create.** The VM may take a few minutes to deploy.
   
-   - Create the second virtual machine
+   - Create the second virtual machine.
 
    - Repeat the previous steps to create a second virtual machine named **vm-2.**
 
