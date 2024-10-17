@@ -69,7 +69,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
     |Setting|Value|
     |---|---|
     |**Project details**|
-    |Subnet purpose|Leave the default setting.|
+    |Subnet purpose|Leave the default setting as Default.|
     |Name|**subnet-2**|
     |IPv4 address range|Leave the default setting as 10.0.0.0/16.|
     |Starting address|Leave the default setting as /24 (256 addresses).|
