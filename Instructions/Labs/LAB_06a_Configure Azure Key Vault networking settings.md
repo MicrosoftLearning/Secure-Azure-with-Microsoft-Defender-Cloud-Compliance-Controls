@@ -38,7 +38,7 @@ You can use the Azure portal to configure the Azure Key Vault networking setting
    |---|---|
    |**Project details**|
    |Subscription|Select your subscription.|
-   |Resource group|Enter **az-rg-1.** Select **OK**|
+   |Resource group|Enter **az-rg-1.**|
    |**Instance details**|
    |Key vault name|The vault name must contain only alphanumeric characters and dashes, and it cannot start with a number. *Example: az-securevault150*|
    |Region|Select **East US.**|
