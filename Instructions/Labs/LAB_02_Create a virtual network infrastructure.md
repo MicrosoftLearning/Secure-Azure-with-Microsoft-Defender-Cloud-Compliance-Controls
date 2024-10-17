@@ -45,11 +45,11 @@ You can use a network security group to filter inbound and outbound network traf
    |Setting|Value|
    |---|---|
    |**Project details**|
-   |Subscription|Select your subscription|
+   |Subscription|Select your subscription.|
    |Resource group|Enter **az-rg-1** Select **OK**|
    |**Instance details**|
-   |Virtual network name|Enter **vnet-1**|
-   |Region|Select **(US) East US**|  
+   |Virtual network name|Enter **vnet-1.**|
+   |Region|Select **(US) East US.**|  
     
 5. Select **Next** to proceed to the **Security** tab.
   
@@ -62,10 +62,10 @@ You can use a network security group to filter inbound and outbound network traf
    |Setting|Value|
    |---|---|
    |**Subnet details**|
-   |Subnet template|Leave the default setting as Default|
-   |Name|Enter **subnet-1**|
-   |Starting address|Leave the default setting as 10.0.0.0|
-   |Subnet size|Leave the default settings as /24(256 addresses).
+   |Subnet template|Leave the default setting as Default.|
+   |Name|Enter **subnet-1.**|
+   |Starting address|Leave the default setting as 10.0.0.0.|
+   |Subnet size|Leave the default settings as /24(256 addresses.).
 
 ![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Defender-for-Cloud-regulatory-compliance-controls/assets/91347931/73c40ee1-1452-4b7d-8328-004c795a7b1e)
 
@@ -86,11 +86,11 @@ An application security group (ASGs) enables you to group together servers with 
    |Setting|Value|
    |---|---|
    |**Project details**|
-   |Subscription|Select your subscription|
-   |Resource group|Select **az-rg-1**|
+   |Subscription|Select your subscription.|
+   |Resource group|Select **az-rg-1.**|
    |**Instance details**|
-   |Name|Enter **asg-web**|
-   |Region|Select **East US**|  
+   |Name|Enter **asg-web.**|
+   |Region|Select **East US.**|  
     
 4. Select **Review + create.**
 
@@ -101,11 +101,11 @@ An application security group (ASGs) enables you to group together servers with 
    |Setting|Value|
    |---|---|
    |**Project details**|
-   |Subscription|Select your subscription|
-   |Resource group|Select **az-rg-1**|
+   |Subscription|Select your subscription.|
+   |Resource group|Select **az-rg-1.**|
    |**Instance details**|
-   |Name|Enter **asg-mgmt**|
-   |Region|Select **East US**|
+   |Name|Enter **asg-mgmt.**|
+   |Region|Select **East US.**|
 
 7. Select **Review + create.**
 
@@ -126,11 +126,11 @@ A network security group (NSG) secures network traffic in your virtual network.
    |Setting|Value|
    |---|---|
    |**Project details**|
-   |Subscription|Select your subscription|
-   |Resource group|Select **az-rg-1**|
+   |Subscription|Select your subscription.|
+   |Resource group|Select **az-rg-1.**|
    |**Instance details**|
-   |Name|Enter **nsg-1**|
-   |Region|Select **East US**|  
+   |Name|Enter **nsg-1.**|
+   |Region|Select **East US.**|  
     
 4. Select **Review + create**.
 
@@ -169,7 +169,7 @@ A network security group (NSG) secures network traffic in your virtual network.
    |Destination|Select **Application security group.**|
    |Destination application security groups|Select **asg-web.**|
    |Service|Leave the default setting as Custom.|
-   |Destination port ranges|Enter **80,443**|
+   |Destination port ranges|Enter **80,443.**|
    |Protocol|Select **TCP.**|
    |Action|Leave the default settings as Allow.|
    |Priority|Leave the default setting as 100.|
@@ -190,7 +190,7 @@ A network security group (NSG) secures network traffic in your virtual network.
    |Protocol|Leave the default setting as TCP.|
    |Action|Leave the default setting as Allow.|
    |Priority|Leave the default setting as 110.|
-   |Name|Enter **allowrdpall**|.
+   |Name|Enter **allowrdpall.**|
    
 6. Select **Add.**
 
@@ -206,7 +206,7 @@ A network security group (NSG) secures network traffic in your virtual network.
    |---|---|
    |**Project details**|
    |Susbcription|Select your subscription.|
-   |Resource group|Select **az-rg-1**|
+   |Resource group|Select **az-rg-1.**|
    |**Instance details**|
    |Virtual machine name|Enter **vm-1.**|
    |Region|Select **(US) East US.**|
@@ -219,7 +219,7 @@ A network security group (NSG) secures network traffic in your virtual network.
    |**Administrator account**|
    |Authentication type|Select **Password*.*|
    |Username|Enter **Tenantadmin1.**|
-   |Password|Enter **Superuser#150**|
+   |Password|Enter **Superuser#150.**|
    |Confirm password|Reenter **Superuser#150.**|
    |**Inbound port rules**|
    |Public inbound ports|Select **None.**|
