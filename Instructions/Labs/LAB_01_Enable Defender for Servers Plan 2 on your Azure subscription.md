@@ -16,7 +16,7 @@ The main goal of this exercise is to provide hands-on experience in configuring 
 
 - Configuring Microsoft Defender for Cloud for Enhanced Protection
   
-- Review the ehanced features for Servers Plan 2
+- Review the ehanced security features for Defender for Servers Plan 2
 
 ## Exercise instructions
 
