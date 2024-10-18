@@ -14,13 +14,13 @@ The main goal of this exercise is to provide hands-on experience in configuring 
 
 ## Skilling tasks
 
-- Enable Microsoft Defender for Cloud Defender for Servers Plan 2.
+- Enable Defender for Servers Plan 2.
   
 - Review the ehanced features for servers.
 
 ## Exercise instructions
 
-### Enable Microsoft Defender for Cloud Defender for Servers Plan 2
+### Enable Defender for Servers Plan 2
 
 1. Sign-in to the [Azure portal menu.](https://portal.azure.com/)
 
