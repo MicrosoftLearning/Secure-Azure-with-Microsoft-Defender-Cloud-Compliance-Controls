@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Exercise 01 - Enable Defender for Servers Plan 2 on your Azure subscription'
-    module: 'Module 02 - Collect guest operating system monitoring data from Azure and hybrid virtual machines using Azure Monitor Agent'
+    module: 'Module 02 - Enable Defender for Cloud on your Azure subscription'
 ---
 
 
