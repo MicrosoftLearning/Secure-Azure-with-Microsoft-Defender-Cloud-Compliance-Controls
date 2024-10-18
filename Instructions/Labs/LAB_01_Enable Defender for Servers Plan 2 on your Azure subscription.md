@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Exercise 01 - Enable Defender for Servers Plan 2 on your Azure subscription'
+    title: 'Exercise 01 - Configuring Microsoft Defender for Cloud for Enhanced Protection'
     module: 'Module 02 - Enable Defender for Cloud on your Azure subscription'
 ---
 
@@ -14,13 +14,13 @@ The main goal of this exercise is to provide hands-on experience in configuring 
 
 ## Skilling tasks
 
-- Enable Defender for Servers Plan 2 on your Azure subscription
+- Configuring Microsoft Defender for Cloud for Enhanced Protection
   
 - Review the ehanced features for Servers Plan 2
 
 ## Exercise instructions
 
-### Enable Defender for Servers Plan 2
+### Configuring Microsoft Defender for Cloud for Enhanced Protection
 
 1. Sign-in to the [Azure portal menu.](https://portal.azure.com/)
 
