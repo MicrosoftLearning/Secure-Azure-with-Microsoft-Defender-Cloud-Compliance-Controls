@@ -14,9 +14,9 @@ The main goal of this exercise is to provide hands-on experience in configuring 
 
 ## Skilling tasks
 
-- Enable Defender for Servers Plan 2.
+- Enable Defender for Servers Plan 2 on your Azure subscription
   
-- Review the ehanced features for servers.
+- Review the ehanced features for Servers Plan 2
 
 ## Exercise instructions
 
