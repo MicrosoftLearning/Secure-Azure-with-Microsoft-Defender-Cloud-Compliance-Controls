@@ -20,7 +20,7 @@ The main goal of this exercise is to provide hands-on experience in configuring 
 
 ## Exercise instructions
 
-### Upgrade Microsoft Defender for Cloud
+### Enable Microsoft Defender for Cloud Defender for Servers Plan 2
 
 1. Sign-in to the [Azure portal menu.](https://portal.azure.com/)
 
