@@ -1,6 +1,6 @@
 ---
 lab:
-    title: 'Exercise 01 - Configuring Microsoft Defender for Cloud for Enhanced Security Features for Servers'
+    title: 'Exercise 01 - Configuring Microsoft Defender for Cloud's Enhanced Security Features for Servers'
     module: 'Module 02 - Enable Defender for Cloud on Your Azure Subscription'
 ---
 
@@ -14,13 +14,13 @@ The main goal of this exercise is to provide hands-on experience in configuring 
 
 ## Skilling tasks
 
-- Configuring Microsoft Defender for Cloud for Enhanced Security Features for Servers
+- Configuring Microsoft Defender for Cloud's Enhanced Security Features for Servers
   
 - Review the ehanced security features for Defender for Servers Plan 2
 
 ## Exercise instructions
 
-### Configuring Microsoft Defender for Cloud for Enhanced Security Features for Servers
+### Configuring Microsoft Defender for Cloud's Enhanced Security Features for Servers
 
 1. Sign-in to the [Azure portal menu.](https://portal.azure.com/)
 
