@@ -38,6 +38,6 @@ The main goal of this exercise is to provide hands-on experience in configuring 
 
    Note: Enabling the Cloud Workload Protection (CWP) Servers plan from Off to On enables Microsoft Defender for Servers Plan 2.
 
-   ![image](https://github.com/user-attachments/assets/869a38e4-464e-4be0-b02e-ce1b96f02978)
+   ![image](https://github.com/user-attachments/assets/6cd58cd3-3d66-4eb9-a245-0a46de4edf62)
    
 > **Results**: You have enabled Microsoft Defender for Servers Plan 2 on your subscription.
