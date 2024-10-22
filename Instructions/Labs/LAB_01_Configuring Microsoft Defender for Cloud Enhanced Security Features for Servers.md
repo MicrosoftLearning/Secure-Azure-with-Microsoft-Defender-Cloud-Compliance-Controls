@@ -28,7 +28,7 @@ The main goal of this exercise is to provide hands-on experience in configuring 
 
 3. On the **Microsoft Defender for Cloud**, **Management blade**, go to the **Environment settings**. Expand the environment settings folders until the **subscription** section is displayed, then click the **subscription** to view details.
 
-   ![image](https://github.com/user-attachments/assets/32d2168e-458f-4872-9bf8-e8f050f24751)
+   ![image](https://github.com/user-attachments/assets/3b25dd82-e09e-4f8a-b85e-c9bc6c4bd488)
    
 3. In the **Settings** blade, under **Defender plans**, expand **Cloud Workload Protection (CWP)**.
 
