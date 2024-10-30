@@ -208,7 +208,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
 
 11. Select **Create.**
 
-    Note: Azure SQL server and private endpoint deployment may take up to 15 minutes for complete instantiation.
+    Note: Azure SQL server and private endpoint deployment may take up to 10 minutes for complete instantiation.
 
 ### Disable public access to Azure SQL logical server
 
