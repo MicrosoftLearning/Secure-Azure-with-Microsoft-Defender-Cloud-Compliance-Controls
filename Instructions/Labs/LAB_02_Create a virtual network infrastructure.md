@@ -144,7 +144,7 @@ A network security group (NSG) secures network traffic in your virtual network.
 
 3. Select **Subnets** from the **Settings** section of **nsg-1.**
 
-4. In the **nsg-1 | Subnets** page, select + **Associate:**
+4. In the **nsg-1 Subnets** page, select + **Associate:**
 
  ![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Defender-for-Cloud-regulatory-compliance-controls/assets/91347931/3b2004f6-963f-43df-9d05-3999d2e97d76)
 
