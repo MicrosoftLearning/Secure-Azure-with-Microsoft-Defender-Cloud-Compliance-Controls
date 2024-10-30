@@ -209,9 +209,9 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
 
 >**Note**: For this task, assume you would like to disable all public access to your Azure SQL server, and only allow connections from your virtual network. The **Public access** setting may default to **Disable.**
 
-1. In the Azure portal search box, enter **az-sql-svr1a** or the server name you entered in the previous steps.
+1. In the Azure portal search box, enter **az-sql-srv1a** or the server name you entered in the previous steps.
 
-2. Select **Networking** from the **Security** section of **az-sql-svr1a.** On the **Networking** page, select **Public access** tab, then select **Disable** for **Public network access.**
+2. Select **Networking** from the **Security** section of **az-sql-srv1a.** On the **Networking** page, select **Public access** tab, then select **Disable** for **Public network access.**
 
    ![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Cloud-Security-Benchmark/assets/91347931/44ff5c24-70cf-49ed-b2ab-5e210c478b3a)
 
