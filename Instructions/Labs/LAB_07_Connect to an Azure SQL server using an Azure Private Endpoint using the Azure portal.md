@@ -246,9 +246,9 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    Address:  168.63.129.16
    
    Non-authoritative answer:
-   Name:    az-sql-svr1a.privatelink.database.windows.net
+   Name:    az-sql-srv1a.privatelink.database.windows.net
    Address:  10.1.0.5
-   Aliases:  az-sql-svr1a.database.windows.net
+   Aliases:  az-sql-srv1a.database.windows.net
    ````
     
 >**Note**: A  private IP address of 10.1.0.5 is returned for the SQL server name. This address is in **az-sql-svr1a** subnet of **vnet-2** virtual network you created previously.
@@ -262,7 +262,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
     |Setting|Value|
     |---|---|
     |Server type|Select **Database Engine.**|
-    |Server name|Enter **az-sql-svr1a.database.windows.net.**|
+    |Server name|Enter **az-sql-srv1a.database.windows.net.**|
     |Authentication|Select **SQL Server Authentication.**|
     |User name|Enter **Tenantadmin2**.|
     |Password|Enter **Superuser#170**.|
