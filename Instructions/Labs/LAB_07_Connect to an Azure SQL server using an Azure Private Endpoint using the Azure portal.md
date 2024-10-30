@@ -227,7 +227,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
 
 3. Select **vm-3.**
 
-4. On the overview page for **vm-3**, select Connect then **Bastion.**
+4. On the overview page for **vm-3**, select **Connect** then **Connect via Bastion.**
 
 5. Enter the username **Tenantadmin2** and password **Superuser#170** that you entered during the virtual machine creation.
 
