@@ -163,6 +163,9 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |Server admin login|Enter **Tenantadmin2.**|
    |Password|Enter **Superuser#170.**|
    |Confirm passowrd|Enter **Superuser#170.**|
+
+4. Select **OK.**
+    
    |**Database details**|
    |Want to use SQL elastic pool|Leave the default setting as No.|
    |Workload environment|Leave the default setting as Development.|
@@ -170,9 +173,9 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |**Backup storage redundancy**|
    |Backup storage redundancy|Select **Locally-redundant backup storage.**|
    
-4. Select the **Networking** tab or select the **Next: Networking** button.
+5. Select the **Networking** tab or select the **Next: Networking** button.
 
-5. In the **Networking** tab, enter or select this information:
+6. In the **Networking** tab, enter or select this information:
 
    |Setting|Value|
    |---|---|
@@ -181,9 +184,9 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |Connection policy|Leave the default setting as Default - Uses Redirect policy for all client connections originating inside of Azure (except Private Endpoint connections) and Proxy for all client connections originating outside Azure|
    |Encryption connections|Leave the default setting as TLS.12|
 
-6. Select + **Add private endpoint** in **Private endpoints.**
+7. Select + **Add private endpoint** in **Private endpoints.**
 
-7. In **Create private endpoint**, enter or select this information:
+8. In **Create private endpoint**, enter or select this information:
 
    |Setting|Value|
    |---|---|
@@ -199,11 +202,13 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |Intergrate with private DNS zone|Leave the default setting as Yes.|
    |Private DNS Zone|Leave the default setting as (New) privatelink.database.windows.net.|
 
-8. Select **OK.**
+9. Select **OK.**
 
-9. Select **Review + create.**
+10. Select **Review + create.**
 
-10. Select **Create.**
+11. Select **Create.**
+
+    Note: Azure SQL server and private endpoint deployment may take up to 15 minutes for complete instantiation.
 
 ### Disable public access to Azure SQL logical server
 
