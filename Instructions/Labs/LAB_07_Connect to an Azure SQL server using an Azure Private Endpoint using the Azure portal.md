@@ -181,7 +181,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |Connection policy|Leave the default setting as Default - Uses Redirect policy for all client connections originating inside of Azure (except Private Endpoint connections) and Proxy for all client connections originating outside Azure|
    |Encryption connections|Leave the default setting as TLS.12|
 
-8. Select + **Add private endpoint** in **Private endpoints.**
+8. In the **Private endpoints** section, select **+ Add private endpoint.**
 
 9. In **Create private endpoint**, enter or select this information:
 
