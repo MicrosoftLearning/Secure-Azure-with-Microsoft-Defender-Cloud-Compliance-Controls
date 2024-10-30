@@ -168,7 +168,6 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
     
    |Setting|Value|
    |---|---|
-   |**Project details**|
    |**Database details**|
    |Want to use SQL elastic pool|Leave the default setting as No.|
    |Workload environment|Leave the default setting as Development.|
