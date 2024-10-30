@@ -190,7 +190,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |Subscription|Select your subscription.|
    |Resource group|Select **az-rg-1.**|
    |Location|Select **East US.**|
-   |Name|Enter **az-pe-1a.**|
+   |Name|Enter **az-pe1a.**|
    |Target sub-resource|Leave the default setting as SqlServer.|
    |**Networking**|
    |Virtual network|Select **vnet-2.**|
