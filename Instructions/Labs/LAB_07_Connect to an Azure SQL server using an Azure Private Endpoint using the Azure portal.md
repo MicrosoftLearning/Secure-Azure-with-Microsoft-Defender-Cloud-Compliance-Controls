@@ -230,23 +230,19 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
 
 >**Note**: In this task, you'll use the virtual machine you created in the previous steps to connect to the SQL server across the private endpoint.
 
-1. Select **Resource groups** in the left-hand navigation pane.
+1. In the Azure portal search box, type **vm-3,** and select it from the Resources drop-down list.
 
-2. Select **az-rg-1.**
+2. On the overview page for **vm-3**, select **Connect** then **Connect via Bastion.**
 
-3. Select **vm-3.**
-
-4. On the overview page for **vm-3**, select **Connect** then **Connect via Bastion.**
-
-5. Enter the username **Tenantadmin2** and password **Superuser#170** that you entered during the virtual machine creation.
+3. Enter the username **Tenantadmin2** and password **Superuser#170** that you entered during the virtual machine creation.
 
    **Important:** Go to the Edge settings/Pop-ups and redirects/and switch the Blocked switch to **off,** before selecting Connect.
 
-7. Select **Connect** button.
+4. Select **Connect** button.
   
-8. Open Windows PowerShell on the server after you connect.
+5. Open Windows PowerShell on the server after you connect.
 
-9. Enter `nslookup sqlserver-name.database.windows.net.` Replace **sqlserver-name** with the name of the SQL server you created in the previous steps. You'll receive a message similar to what is displayed below:
+6. Enter `nslookup sqlserver-name.database.windows.net.` Replace **sqlserver-name** with the name of the SQL server you created in the previous steps. You'll receive a message similar to what is displayed below:
 
    ````  
    Server:  UnKnown
@@ -260,11 +256,11 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
     
 >**Note**: A  private IP address of 10.1.0.5 is returned for the SQL server name. This address is in **az-sql-svr1a** subnet of **vnet-2** virtual network you created previously.
 
-9. Install [SQL Server Management Studio](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?preserve-view=true&view=sql-server-2017) on **vm-3.**
+7. Install [SQL Server Management Studio](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?preserve-view=true&view=sql-server-2017) on **vm-3.**
  
-10. Open **SQL Server Management Studio.**
+8. Open **SQL Server Management Studio.**
 
-11. In **Connect to server,** enter or select this information:
+9. In **Connect to server,** enter or select this information:
 
     |Setting|Value|
     |---|---|
@@ -277,10 +273,10 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
     |Connectivity Security|
     |Encryption|Leave the default setting as Mandatory.|
    
-13. Select **Connect.**
+10. Select **Connect.**
 
-14. Browse databases from left menu.
+11. Browse databases from left menu.
 
-15. Close the remote desktop connection to vm-3.
+12. Close the remote desktop connection to vm-3.
   
 > **Results**: You have connected to an Azure SQL server using an Azure Private Endpoint using the Azure portal.
