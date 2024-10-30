@@ -129,7 +129,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |Public IP|Select **None.**|
    |NIC network security group|Select **Basic.**|
    |Public inbound ports|Select **None.**|
-   |Select inbound ports|Leave the default setting as blank.|
+   |Select inbound ports|The default setting is greyed out.|
    |Delete NIC when VM is deleted|Leave the default setting as Enable accelerated networking checked.|
    |Load balancing|Leave the default setting as None.|
   
