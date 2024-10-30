@@ -114,7 +114,8 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |Password|Enter **Superuser#170.**|
    |Confirm password|Reenter **Superuser#170.**|
    |**Inbound port rules**|
-   |Select inbound ports|Select **None.**|
+   |Public inbound ports|Select **None.**|
+   |Select inbound ports|**The default setting is greyed out.|
 
 5. Select **Next: Disks,** then **Next: Networking.**
   
