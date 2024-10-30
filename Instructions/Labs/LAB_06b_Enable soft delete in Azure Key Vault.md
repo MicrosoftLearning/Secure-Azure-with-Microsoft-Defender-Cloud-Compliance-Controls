@@ -24,7 +24,7 @@ Deleting a key vault without soft delete enabled permanently deletes all secrets
    
 2. Select your key vault.
 
-3. From the **Settings blade,** select **Properties.**
+3. From the **Settings** blade, select **Properties.**
 
 4. Verify if the radio button next to soft-delete is set to **Enable purge protection (enforce a mandatory retention period for deleted vaults and vault objects).**
 
