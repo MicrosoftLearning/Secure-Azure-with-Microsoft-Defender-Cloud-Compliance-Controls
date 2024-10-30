@@ -166,6 +166,9 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
 
 4. Select **OK.**
     
+   |Setting|Value|
+   |---|---|
+   |**Project details**|
    |**Database details**|
    |Want to use SQL elastic pool|Leave the default setting as No.|
    |Workload environment|Leave the default setting as Development.|
@@ -173,9 +176,9 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |**Backup storage redundancy**|
    |Backup storage redundancy|Select **Locally-redundant backup storage.**|
    
-5. Select the **Networking** tab or select the **Next: Networking** button.
+6. Select the **Networking** tab or select the **Next: Networking** button.
 
-6. In the **Networking** tab, enter or select this information:
+7. In the **Networking** tab, enter or select this information:
 
    |Setting|Value|
    |---|---|
@@ -184,9 +187,9 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |Connection policy|Leave the default setting as Default - Uses Redirect policy for all client connections originating inside of Azure (except Private Endpoint connections) and Proxy for all client connections originating outside Azure|
    |Encryption connections|Leave the default setting as TLS.12|
 
-7. Select + **Add private endpoint** in **Private endpoints.**
+8. Select + **Add private endpoint** in **Private endpoints.**
 
-8. In **Create private endpoint**, enter or select this information:
+9. In **Create private endpoint**, enter or select this information:
 
    |Setting|Value|
    |---|---|
@@ -202,11 +205,11 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |Intergrate with private DNS zone|Leave the default setting as Yes.|
    |Private DNS Zone|Leave the default setting as (New) privatelink.database.windows.net.|
 
-9. Select **OK.**
+10. Select **OK.**
 
-10. Select **Review + create.**
+11. Select **Review + create.**
 
-11. Select **Create.**
+12. Select **Create.**
 
 >**Note**: Azure SQL server and private endpoint deployment may take up to 10 minutes for complete instantiation.
 
