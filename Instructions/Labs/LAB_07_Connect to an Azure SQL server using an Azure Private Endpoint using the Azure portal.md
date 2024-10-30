@@ -156,7 +156,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |Database name|Enter **az-sql-db1a.**|
    |Server|Select **Create new.**|
    |**Server details**|
-   |Server name|**az-sqsrv1a**|
+   |Server name|**az-sqlsrv1a**|
    |Location|Leave the default setting as (US) East US|
    |**Authentication**|
    |Authentication method|Select **Use SQL authentication.**|  
