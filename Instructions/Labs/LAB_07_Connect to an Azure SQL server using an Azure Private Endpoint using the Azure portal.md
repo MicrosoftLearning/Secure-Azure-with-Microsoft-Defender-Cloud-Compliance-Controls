@@ -257,11 +257,15 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
     
 >**Note**: A  private IP address of 10.1.0.5 is returned for the SQL server name. This address is in **az-sql-svr1a** subnet of **vnet-2** virtual network you created previously.
 
-7. Install [SQL Server Management Studio](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?preserve-view=true&view=sql-server-2017) on **vm-3.**
- 
-8. Open **SQL Server Management Studio.**
+7. Install the SQL server command line tools from Install the SQL Server command-line tools sqlcmd and bcp on Linux. Proceed with the next steps after the installation is complete.
 
-9. In **Connect to server,** enter or select this information:
+7. Install [https://learn.microsoft.com/en-us/sql/linux/sql-server-linux-setup-tools?view=sql-server-ver16&tabs=redhat-install) on **vm-3.**  
+8.
+9. [SQL Server Management Studio](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?preserve-view=true&view=sql-server-2017) on **vm-3.**
+ 
+10. Open **SQL Server Management Studio.**
+
+11. In **Connect to server,** enter or select this information:
 
     |Setting|Value|
     |---|---|
@@ -274,10 +278,10 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
     |Connectivity Security|
     |Encryption|Leave the default setting as Mandatory.|
    
-10. Select **Connect.**
+12. Select **Connect.**
 
-11. Browse databases from left menu.
+13. Browse databases from left menu.
 
-12. Close the remote desktop connection to vm-3.
+14. Close the remote desktop connection to vm-3.
   
 > **Results**: You have connected to an Azure SQL server using an Azure Private Endpoint using the Azure portal.
