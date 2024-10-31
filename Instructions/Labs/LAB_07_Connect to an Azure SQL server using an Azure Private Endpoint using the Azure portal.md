@@ -78,9 +78,9 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
 
 12. At the bottom of the **IP addresses** page, select **Review + create.**
 
->**Note**: Bastion deployment may take up to 15 minutes for complete instantiation.
-
 13. At the bottom of the **Review + create** page, select **Create.**
+
+>**Note**: Bastion deployment may take up to 15 minutes for complete instantiation.
  
 ### Create a virtual machine.
 
