@@ -58,11 +58,11 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |Azure Bastion public IP address name|Select **Create a public IP address**|
    |Add a public IP address|Select **OK**|
 
-9. Select **Next** to proceed to the **IP addresses** tab.
+8. Select **Next** to proceed to the **IP addresses** tab.
 
-10. In the existing configured **IPv4 address space** box under the **Subnets** column, click the **default** entry.
+9. In the existing configured **IPv4 address space** box under the **Subnets** column, click the **default** entry.
 
-11. In **Edit subnet** template, enter or select the following information:
+10. In **Edit subnet** template, enter or select the following information:
 
     |Setting|Value|
     |---|---|
@@ -74,13 +74,13 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
     |Size|Leave the default setting as /24 (256 addresses).|
     |Subnet address range|10.0.0.0-10.0.0.255.|
 
-13. At the bottom of the **Edit subnet** page, select **Save.**
+11. At the bottom of the **Edit subnet** page, select **Save.**
 
-14. At the bottom of the **IP addresses** page, select **Review + create.**
+12. At the bottom of the **IP addresses** page, select **Review + create.**
 
     >**Note**: Bastion deployment may take up to 15 minutes for complete instantiation.
 
-15. At the bottom of the **Review + create** page, select **Create.**
+13. At the bottom of the **Review + create** page, select **Create.**
  
 ### Create a virtual machine.
 
@@ -113,9 +113,9 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |Public inbound ports|Select **None.**|
    |Select inbound ports|The default setting is greyed out.|
 
-5. Select **Next: Disks,** then **Next: Networking.**
+4. Select **Next: Disks,** then **Next: Networking.**
   
-6. In the **Networking** page, enter or select this information:
+5. In the **Networking** page, enter or select this information:
 
    |Setting|Value|
    |---|---|
@@ -229,7 +229,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
     
      ![image](https://github.com/user-attachments/assets/dfdeffca-d33f-44e1-81db-9f68a51f89df)
 
-7. If required select **Save.**
+6. If required select **Save.**
 
 ### Test connectivity to private endpoint
 
@@ -264,9 +264,9 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
 
 7. Install [SQL Server Management Studio (SSMS)](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?preserve-view=true&amp;view=sql-server-2017) on **vm-3.**
  
-10. Open **SQL Server Management Studio.**
+8. Open **SQL Server Management Studio.**
 
-11. In **Connect to server,** enter or select this information:
+9. In **Connect to server,** enter or select this information:
 
     |Setting|Value|
     |---|---|
@@ -279,10 +279,10 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
     |Connectivity Security|
     |Encryption|Leave the default setting as Mandatory.|
    
-12. Select **Connect.**
+10. Select **Connect.**
 
-13. Browse databases from left menu.
+11. Browse databases from left menu.
 
-14. Close the remote desktop connection to vm-3.
+12. Close the remote desktop connection to vm-3.
   
 > **Results**: You have connected to an Azure SQL server using an Azure Private Endpoint using the Azure portal.
