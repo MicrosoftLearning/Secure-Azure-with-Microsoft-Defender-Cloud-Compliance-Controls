@@ -170,9 +170,9 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |**Backup storage redundancy**|
    |Backup storage redundancy|Select **Locally-redundant backup storage.**|
    
-6. Select the **Networking** tab or select the **Next: Networking** button.
+5. Select the **Networking** tab or select the **Next: Networking** button.
 
-7. In the **Networking** tab, enter or select this information:
+6. In the **Networking** tab, enter or select this information:
 
    |Setting|Value|
    |---|---|
@@ -181,9 +181,13 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |Connection policy|Leave the default setting as Default - Uses Redirect policy for all client connections originating inside of Azure (except Private Endpoint connections) and Proxy for all client connections originating outside Azure|
    |Encryption connections|Leave the default setting as TLS.12|
 
-8. In the **Private endpoints** section, select **+ Add private endpoint.**
+7. In the **Private endpoints** section, select **+ Add private endpoint.**
 
-9. In **Create private endpoint**, enter or select this information:
+8. Select **Review + create.**
+
+9. Select **Create.**
+
+10. In **Create private endpoint**, enter or select this information:
 
    |Setting|Value|
    |---|---|
@@ -199,11 +203,11 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |Intergrate with private DNS zone|Leave the default setting as Yes.|
    |Private DNS Zone|Leave the default setting as (New) privatelink.database.windows.net.|
 
-10. Select **OK.**
+11. Select **OK.**
 
-11. Select **Review + create.**
+12. Select **Review + create.**
 
-12. Select **Create.**
+13. Select **Create.**
 
 >**Note**: Azure SQL server and private endpoint deployment may take up to 10 minutes for complete instantiation.
 
@@ -221,7 +225,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
 
    ![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Cloud-Security-Benchmark/assets/91347931/44ff5c24-70cf-49ed-b2ab-5e210c478b3a)
 
-6. Select **Save.**
+6. If required select **Save.**
 
 ### Test connectivity to private endpoint
 
