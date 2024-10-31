@@ -71,6 +71,8 @@ You can use a network security group to filter inbound and outbound network traf
 
 11. Select **Review + create** at the bottom of the screen, and when validation passes, select **Create.**
 
+    ![image](https://github.com/user-attachments/assets/4fd02061-2349-42c4-8582-c7178f9b7eb6)
+
 ### Create application security groups to enable you to group together servers with similar functions, such as web servers.
 
 An application security group (ASGs) enables you to group together servers with similar functions, such as web servers.
