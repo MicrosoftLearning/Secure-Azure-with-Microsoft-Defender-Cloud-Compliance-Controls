@@ -243,7 +243,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
   
 5. Open Windows PowerShell on the server after you connect.
 
-6. Enter `nslookup sqlserver-name.database.windows.net.` Replace **sqlserver-name** with the name of the SQL server you created in the previous steps. You'll receive a message similar to what is displayed below:
+6. Enter nslookup az-sql-srv1a.database.windows.net. Replace **sqlserver-name** with the name of the SQL server you created in the previous steps. You'll receive a message similar to what is displayed below:
 
    ````  
    Server:  UnKnown
