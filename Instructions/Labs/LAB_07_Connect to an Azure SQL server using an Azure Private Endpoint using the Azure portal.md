@@ -48,7 +48,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
   
 6. Select **Enable Azure Bastion** in the Azure Bastion section of the Security tab.
 
-   >**Note**: Azure Bastion is a paid service that provides secure RDP/SSH connectivity to your virtual machines over TLS. When you connect via Azure Bastion, your virtual machines do not need a public IP address. 
+>**Note**: Azure Bastion is a paid service that provides secure RDP/SSH connectivity to your virtual machines over TLS. When you connect via Azure Bastion, your virtual machines do not need a public IP address. 
 
 7. Enter or select the following information in the **Azure Bastion** field:
 
@@ -78,7 +78,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
 
 12. At the bottom of the **IP addresses** page, select **Review + create.**
 
-    >**Note**: Bastion deployment may take up to 15 minutes for complete instantiation.
+>**Note**: Bastion deployment may take up to 15 minutes for complete instantiation.
 
 13. At the bottom of the **Review + create** page, select **Create.**
  
