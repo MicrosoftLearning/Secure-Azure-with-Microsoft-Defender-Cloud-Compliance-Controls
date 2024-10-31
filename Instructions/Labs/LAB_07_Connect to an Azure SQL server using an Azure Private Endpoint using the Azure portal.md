@@ -260,7 +260,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    Aliases:  az-sql-srv1a.database.windows.net
    ````
    
->**Note**: A  private IP address of 10.1.0.5 is returned for the SQL server name. This address is in **az-sql-svr1a** subnet of **vnet-2** virtual network you created previously.
+>**Note**: A  private IP address of 10.1.0.5 is returned for the SQL server name. This address is in **az-sql-srv1a** subnet of **vnet-2** virtual network you created previously.
 
 7. Install [SQL Server Management Studio (SSMS)](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?preserve-view=true&amp;view=sql-server-2017) on **vm-3.**
  
