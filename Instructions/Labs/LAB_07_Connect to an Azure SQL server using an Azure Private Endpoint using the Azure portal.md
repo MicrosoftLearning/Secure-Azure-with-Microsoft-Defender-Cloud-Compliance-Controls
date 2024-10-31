@@ -221,7 +221,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
   
 3. On the **Networking** page, go to the **Public access** tab.
   
-4. Check if **Public network access** is disabled. If it is disabled, select Selected networks for Public network access.
+4. Check if **Public network access** is disabled. If it is disabled, select **Selected networks** for Public network access.
 
 >**Note**: Connections from the IP addresses configured in the Firewall rules section below will have access to this database. By default, no public IP addresses are allowed.
 
