@@ -262,9 +262,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    
 >**Note**: A  private IP address of 10.1.0.5 is returned for the SQL server name. This address is in **az-sql-svr1a** subnet of **vnet-2** virtual network you created previously.
 
-7. Install the SQL server command line tools from Install the SQL Server command-line tools sqlcmd and bcp on Linux. Proceed with the next steps after the installation is complete.
-
-7. Install [Install the SQL Server command-line tools sqlcmd and bcp on Linux](https://learn.microsoft.com/en-us/sql/linux/sql-server-linux-setup-tools?view=sql-server-ver16&tabs=redhat-install) on **vm-3.**  
+7. Install [Download SQL Server Management Studio (SSMS)](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?preserve-view=true&amp;view=sql-server-2017) on **vm-3.**
  
 10. Open **SQL Server Management Studio.**
 
