@@ -211,9 +211,9 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
 
 >**Note**: Azure SQL server and private endpoint deployment may take up to 10 minutes for complete instantiation.
 
-### Disable public access to Azure SQL logical server
+### Allow certain public internet IP addresses to access your Azure SQL logical server
 
->**Note**: For this task, assume you would like to disable all public access to your Azure SQL server, and only allow connections from your virtual network. The **Public access** setting may default to **Disable.**
+>**Note**: For this task, assume you want to enable public access to your Azure SQL server and allow connections only from your virtual network. The Public access setting may default to **Disabled.**
 
 1. In the Azure portal search box, enter **az-sql-srv1a** or the server name you entered in the previous steps.
    
@@ -221,11 +221,15 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
   
 3. On the **Networking** page, go to the **Public access** tab.
   
-4. Check if **Public network access** is disabled. If it is not disabled, select **Disable** for Public network access.
+4. Check if **Public network access** is disabled. If it is disabled, select Selected networks for Public network access.
 
+>**Note**: Connections from the IP addresses configured in the Firewall rules section below will have access to this database. By default, no public IP addresses are allowed.
+
+5. If required, go to the **Firewall rules** section on the **Networking** page, and select **+ Add your client IPv4 address** if your client IP address is not already populated in the **Firewall rule name,** **Starting IPv4 address,** and **End IPv4 address** fields.
+    
    ![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Cloud-Security-Benchmark/assets/91347931/44ff5c24-70cf-49ed-b2ab-5e210c478b3a)
 
-6. If required select **Save.**
+7. If required select **Save.**
 
 ### Test connectivity to private endpoint
 
@@ -245,7 +249,8 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
 
 6. Replace **sqlserver-name** with the name of the SQL server you created in the previous steps. For example, enter **nslookup az-sql-srv1a.database.windows.net** You’ll receive a message similar to the one shown below:
 
-   ````  
+   ````
+   
    Server:  UnKnown
    Address:  168.63.129.16
    
@@ -254,7 +259,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    Address:  10.1.0.5
    Aliases:  az-sql-srv1a.database.windows.net
    ````
-    
+   
 >**Note**: A  private IP address of 10.1.0.5 is returned for the SQL server name. This address is in **az-sql-svr1a** subnet of **vnet-2** virtual network you created previously.
 
 7. Install the SQL server command line tools from Install the SQL Server command-line tools sqlcmd and bcp on Linux. Proceed with the next steps after the installation is complete.
