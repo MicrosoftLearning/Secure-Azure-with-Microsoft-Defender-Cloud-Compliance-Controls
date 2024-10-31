@@ -259,7 +259,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
 
 7. Install the SQL server command line tools from Install the SQL Server command-line tools sqlcmd and bcp on Linux. Proceed with the next steps after the installation is complete.
 
-7. Install [https://learn.microsoft.com/en-us/sql/linux/sql-server-linux-setup-tools?view=sql-server-ver16&tabs=redhat-install) on **vm-3.**  
+7. Install [Install the SQL Server command-line tools sqlcmd and bcp on Linux) on **vm-3.**  
 8.
 9. [SQL Server Management Studio](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?preserve-view=true&view=sql-server-2017) on **vm-3.**
  
