@@ -63,13 +63,15 @@ You can use a network security group to filter inbound and outbound network traf
    |Subnet purpose|Leave the default setting as Default.|
    |Name|Enter **subnet-1.**|
    |Starting address|Leave the default setting as 10.0.0.0/16.|
-   |Subnet size|Leave the default settings as /24(256 addresses.)
+   |Subnet size|Leave the default settings as /24(256 addresses.
 
-   ![image](https://github.com/user-attachments/assets/6fe9ee24-2189-4f60-933d-63192926a9cc)
+   ![image](https://github.com/user-attachments/assets/4c5834f8-459f-4063-bd82-3e65237c6b1d)
 
-9. Select **Save.**
+    ![image](https://github.com/user-attachments/assets/ba49fc1b-5a0e-42e0-b4f9-9c882f859f72)
 
-10. Select **Review + create** at the bottom of the screen, and when validation passes, select **Create.**
+10. Select **Save.**
+
+11. Select **Review + create** at the bottom of the screen, and when validation passes, select **Create.**
 
 ### Create application security groups to enable you to group together servers with similar functions, such as web servers.
 
