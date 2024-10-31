@@ -227,7 +227,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
 
 5. If required, go to the **Firewall rules** section on the **Networking** page, and select **+ Add your client IPv4 address** if your client IP address is not already populated in the **Rule name,** **Starting IPv4 address,** and **End IPv4 address** fields.
     
-   ![image](https://github.com/MicrosoftLearning/Secure-Azure-services-and-workloads-with-Microsoft-Cloud-Security-Benchmark/assets/91347931/44ff5c24-70cf-49ed-b2ab-5e210c478b3a)
+    ![image](https://github.com/user-attachments/assets/3d126af3-28e3-4949-8182-588328527161)
 
 7. If required select **Save.**
 
