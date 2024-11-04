@@ -24,15 +24,13 @@ You can use the Azure portal to configure the Azure Key Vault networking setting
 
 ### Use the Azure portal to create an Azure Key Vault.
 
-1. In the search box at the top of the portal, enter **Key Vault.** Select **Key Vault** in the search results.
-   
-2. In the Azure portal Search box, enter **Key Vault.**
+1. In the search box at the top of the portal, enter **Key vaults.** Select **Key vaults** in the search results.
 
-3. From the results list, choose **Key Vault.**
+2. From the results list, choose **Key vaults.**
 
-4. On the Key vaults section, choose **Create.**
+3. On the Key vaults section, choose **Create.**
 
-5. On the **Basics** tab of **Create a key vault,** enter or select this information:
+4. On the **Basics** tab of **Create a key vault,** enter or select this information:
    
    |Setting|Value|
    |---|---|
@@ -45,7 +43,7 @@ You can use the Azure portal to configure the Azure Key Vault networking setting
    |Pricing tier|Leave the default setting as Standard.|
    |Days to retain deleted vaults|Leave the default setting as 90.|
 
-7. Select the **Review + create tab,** or select the blue Review + create button at the bottom of the page.
+5. Select the **Review + create tab,** or select the blue Review + create button at the bottom of the page.
   
 8. Select **Create.**
 
