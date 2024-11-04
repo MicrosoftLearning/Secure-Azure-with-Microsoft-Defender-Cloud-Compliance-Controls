@@ -63,7 +63,7 @@ You can use a network security group to filter inbound and outbound network traf
    |Subnet purpose|Leave the default setting as Default.|
    |Name|Enter **subnet-1.**|
    |Starting address|Leave the default setting as 10.0.0.0/16.|
-   |Subnet size|Leave the default settings as /24(256 addresses.
+   |Subnet size|Leave the default settings as /24(256 addresses).|
 
    ![image](https://github.com/user-attachments/assets/4c5834f8-459f-4063-bd82-3e65237c6b1d)
 
