@@ -217,7 +217,6 @@ A network security group (NSG) secures network traffic in your virtual network.
    |Run with Azure Spot discount|Leave the default setting as unchecked.|
    |Size|Leave the default setting as Standard_D2s_v3-2 vcpus, 8 GiB memory.|
    |**Administrator account**|
-   |Authentication type|Select **Password.**|
    |Username|Enter **Tenantadmin1.**|
    |Password|Enter **Superuser#150.**|
    |Confirm password|Reenter **Superuser#150.**|
