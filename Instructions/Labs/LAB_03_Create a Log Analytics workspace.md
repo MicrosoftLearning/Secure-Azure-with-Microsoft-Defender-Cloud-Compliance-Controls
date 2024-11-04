@@ -22,13 +22,11 @@ When you collect logs and data, the information is stored in a workspace. A work
 
 ### Use the Log Analytics workspaces menu to create a workspace.
 
-1. Start a browser session and sign-in to the [Azure portal menu.](https://portal.azure.com/)
-   
-2. From the Azure portal menu, enter **Log Analytics workspaces** in the search box. As you begin typing, the list filters based on your input. Select **Log Analytics workspaces.**
+1. In the search box at the top of the portal, enter **Log Analytics workspaces.** Select **Log Analytics workspaces** in the search results.
 
-4. On the **Log Analytics workspaces** page, select **+ Create.**
+5. On the **Log Analytics workspaces** page, select **+ Create.**
 
-5. On the **Basics** page of **Create Log Analytics workspace,** enter or select this information:
+6. On the **Basics** page of **Create Log Analytics workspace,** enter or select this information:
    
    |Setting|Value|
    |---|---|
@@ -39,7 +37,7 @@ When you collect logs and data, the information is stored in a workspace. A work
    |Name|Enter **azwrkspc1a.**|
    |Region|Select **East US.**|
 
-6. Select the **Review + create** tab at the bottom of the page.
+7. Select the **Review + create** tab at the bottom of the page.
   
 8. Select **Create.**
 
