@@ -232,7 +232,7 @@ A network security group (NSG) secures network traffic in your virtual network.
    |---|---|
    |**Network interface**|
    |Virtual network|Select **vnet-1.**|
-   |Subnet|Select **default (10.0.0.0/24).**|
+   |Subnet|Leave the default setting as subnet-1 (10.0.0.0/24).|
    |Public IP|Leave the default setting as (new) vm-1-ip.|
    |NIC network security group|Select **None.**|
    
