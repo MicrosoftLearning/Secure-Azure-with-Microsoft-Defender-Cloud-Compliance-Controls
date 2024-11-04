@@ -22,7 +22,7 @@ Deleting a key vault without soft delete enabled permanently deletes all secrets
 
 1. In the search box at the top of the portal, enter **Key vaults.** Select **Key vaults** in the search results.
    
-2. Select your key vault.
+2. Browse to the key vault you previously created.
 
 3. From the **Settings** blade, select **Properties.**
 
