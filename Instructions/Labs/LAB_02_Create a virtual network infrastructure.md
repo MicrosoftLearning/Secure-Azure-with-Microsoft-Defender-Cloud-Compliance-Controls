@@ -150,9 +150,12 @@ A network security group (NSG) secures network traffic in your virtual network.
   
    ![image](https://github.com/user-attachments/assets/48337f5f-b2a3-46e4-b2fb-8fad8e9aa55e)
 
-5. Under **Associate subnet,** select **vnet-1 (az-rg-1)** for **Virtual network.**
+   ![image](https://github.com/user-attachments/assets/bfc18dd3-3345-4c05-9981-4f479d5f7c7e)
 
-6. Select **subnet-1** for **Subnet**, and then select **OK.**
+
+6. Under **Associate subnet,** select **vnet-1 (az-rg-1)** for **Virtual network.**
+
+7. Select **subnet-1** for **Subnet**, and then select **OK.**
 
 ### Create security rules for the network security group with the subnet of the virtual network you created earlier.
 
