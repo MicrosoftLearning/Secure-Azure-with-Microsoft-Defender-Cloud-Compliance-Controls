@@ -235,7 +235,7 @@ A network security group (NSG) secures network traffic in your virtual network.
    |Public IP|Leave the default setting as (new) vm-1-ip.|
    |NIC network security group|Select **None.**|
    
-6. Select the **Review + create** tab, or select the **Review + create** button at the bottom of the page.
+6. Select the **Review + create** button at the bottom of the page to proceed.
 
 7. Select **Create.** The VM may take a few minutes to deploy.
   
