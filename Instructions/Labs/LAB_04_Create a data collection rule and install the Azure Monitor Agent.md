@@ -74,7 +74,7 @@ Data Collection Rules (DCRs) specify the data to be collected, while the Azure M
 
     ![image](https://github.com/user-attachments/assets/8274b0c1-8617-4889-9aef-78e050f2bd00)
 
-13. On the **Add data source** template, under **Data source type**, select the following settings:
+12. On the **Add data source** template, under **Data source type**, select the following settings:
     
     |Setting|Value|
     |---|---|
@@ -89,9 +89,9 @@ Data Collection Rules (DCRs) specify the data to be collected, while the Azure M
 
     ![image](https://github.com/user-attachments/assets/33039994-0613-40f4-9c55-03f795b38b9b)
 
-14. At the bottom of the **Add data source** template, select **Next: Destination >.**
+13. At the bottom of the **Add data source** template, select **Next: Destination >.**
 
-15. In the **Add data source** template, under the **Destination** tab, select the following settings.
+14. In the **Add data source** template, under the **Destination** tab, select the following settings.
     
     |Setting|Value|
     |---|---|
@@ -103,13 +103,13 @@ Data Collection Rules (DCRs) specify the data to be collected, while the Azure M
 
      ![image](https://github.com/user-attachments/assets/dc2d2906-4a57-4df9-a33c-fd6ae34a8457)
 
-16. At the bottom of the **Add data source** template, select **Add data source.**
+15. At the bottom of the **Add data source** template, select **Add data source.**
 
-17. At the bottom of the **Collect and deliver** page, select **Review + create.**
+16. At the bottom of the **Collect and deliver** page, select **Review + create.**
 
     ![image](https://github.com/user-attachments/assets/4277089c-971c-4334-a49d-6ac6bfe93ff4)
 
-18. At the bottom of the **Review + create** page, select **Create.**
+17. At the bottom of the **Review + create** page, select **Create.**
 
     ![image](https://github.com/user-attachments/assets/b532f92e-af10-4b4d-bb52-10d15ad38d4a)
 
