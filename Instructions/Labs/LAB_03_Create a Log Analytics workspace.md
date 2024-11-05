@@ -22,7 +22,7 @@ When you collect logs and data, the information is stored in a workspace. A work
 
 ### Use the Log Analytics workspaces menu to create a workspace.
 
-1. In the search box at the top of the portal, enter **Log Analytics workspaces.** Select **Log Analytics workspaces** in the search results.
+1. In the search box at the top of the portal, enter **log analytics workspaces.** Select **Log Analytics workspaces** in the search results.
 
 5. On the **Log Analytics workspaces** page, select **+ Create.**
 
