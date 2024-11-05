@@ -273,7 +273,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
 
     |Setting|Value|
     |---|---|
-    |Server type|Select **Database Engine.**|
+    |Server type|Leave the default setting as Database Engine.|
     |Server name|Enter **az-sql-srv1a.database.windows.net.**|
     |Authentication|Select **SQL Server Authentication.**|
     |User name|Enter **Tenantadmin2**.|
