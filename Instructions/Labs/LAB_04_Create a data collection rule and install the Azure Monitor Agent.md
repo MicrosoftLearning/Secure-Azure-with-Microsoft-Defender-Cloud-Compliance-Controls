@@ -111,4 +111,7 @@ Data Collection Rules (DCRs) specify the data to be collected, while the Azure M
 
 21. At the bottom of the **Review + create** page, select **Create.**
 
+    ![image](https://github.com/user-attachments/assets/b532f92e-af10-4b4d-bb52-10d15ad38d4a)
+
+
 > **Results**: You have created a data collection rule and installed the Azure Monitor Agent.
