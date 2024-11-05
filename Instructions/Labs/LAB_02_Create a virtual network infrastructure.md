@@ -65,7 +65,7 @@ You can use a network security group to filter inbound and outbound network traf
    |Starting address|Leave the default setting as 10.0.0.0/16.|
    |Size|Leave the default settings as /24 (256 addresses).|
 
-   ![image](https://github.com/user-attachments/assets/4c5834f8-459f-4063-bd82-3e65237c6b1d)
+    ![image](https://github.com/user-attachments/assets/82076f64-6a7f-4235-942d-d83e32ed6ea1)
 
 10. Select **Save.**
 
