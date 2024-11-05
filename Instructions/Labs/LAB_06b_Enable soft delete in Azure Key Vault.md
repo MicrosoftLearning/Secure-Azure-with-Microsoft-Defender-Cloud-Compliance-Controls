@@ -32,4 +32,7 @@ Deleting a key vault without soft delete enabled permanently deletes all secrets
 
    ![image](https://github.com/user-attachments/assets/b2d5380b-5625-40de-9df6-e1c512dec973)
 
+   ![image](https://github.com/user-attachments/assets/6b7ac76a-6f00-4c87-8d36-3fb17578a041)
+
+
 > **Results**: You have successfully enabled soft delete, ensuring that deleted resources are retained for 90 days (by default) and can be recovered, effectively undoing the deletion through the Azure portal.
