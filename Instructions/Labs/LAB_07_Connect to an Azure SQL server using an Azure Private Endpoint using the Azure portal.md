@@ -97,7 +97,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |Susbcription|Select your subscription.|
    |Resource group|Select **az-rg-1.**|
    |**Instance details**|
-   |Virtual machine name|Enter **vm-4.**|
+   |Virtual machine name|Enter **vm-3.**|
    |Region|Select **(US) East US.**|
    |Availability options|From the Availability Zone drop-down menu, select **No infrastructure redundancy required.**|
    |Security type|From the Security type drop-down menu, select **Standard.**|
