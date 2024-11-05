@@ -34,7 +34,7 @@ You can use a network security group to filter inbound and outbound network traf
 
 1. Start a browser session and sign-in to the [Azure portal menu.](https://portal.azure.com/)             
    
-2. In the search box at the top of the portal, type **Virtual networks.** Select **Virtual networks** in the search results.
+2. In the search box at the top of the portal, type **virtual networks.** Select **Virtual networks** in the search results.
 
 3. On the **Virtual networks** page, select + **Create.**
 
@@ -77,7 +77,7 @@ You can use a network security group to filter inbound and outbound network traf
 
 An application security group (ASGs) enables you to group together servers with similar functions, such as web servers.
 
-1. In the search box at the top of the portal, enter **Application security groups**. Select **Application security groups** in the search results.
+1. In the search box at the top of the portal, enter **application security groups**. Select **Application security groups** in the search results.
 
 2. On the **Application security groups** page, select **+ Create.**
 
@@ -115,7 +115,7 @@ An application security group (ASGs) enables you to group together servers with 
 
 A network security group (NSG) secures network traffic in your virtual network.
 
-1. In the search box at the top of the portal, enter **Network security group**. Select **Network security groups** in the search results.
+1. In the search box at the top of the portal, enter **network security groups**. Select **Network security groups** in the search results.
 
 >**Note**: In the search results for Network security groups, you may see Network security groups (classic). Select Network security groups.
 
@@ -140,7 +140,7 @@ A network security group (NSG) secures network traffic in your virtual network.
 
 >**Note**: In this task, you associate the network security group with the subnet of the virtual network you created earlier.
 
-1. In the search box at the top of the portal, enter **Network security group**. Select **Network security groups** in the search results.
+1. In the search box at the top of the portal, enter **network security groups**. Select **Network security groups** in the search results.
    
 2. Select **nsg-1.**
 
@@ -196,7 +196,7 @@ A network security group (NSG) secures network traffic in your virtual network.
 
 ### Create two virtual machines (VMs) in the virtual network you created earlier.
 
-1. In the portal, search for and select **Virtual machines.**
+1. In the portal, search for and select **virtual machines.**
 
 2. In **Virtual machines**, select + **Create**, then **Azure virtual machine.**
    
@@ -249,7 +249,7 @@ A network security group (NSG) secures network traffic in your virtual network.
 
 >**Note**: When you created the VMs, Azure created a network interface for each VM, and attached it to the VM. Add the network interface of each VM to one of the application security groups you created previously:
 
-1. In the search box at the top of the portal, enter **Virtual machine.** Select **Virtual machines** in the search results.
+1. In the search box at the top of the portal, enter **virtual machines.** Select **Virtual machines** in the search results.
 
 2. Select **vm-1.**
  
