@@ -20,7 +20,7 @@ Deleting a key vault without soft delete enabled permanently deletes all secrets
 
 ### Verify if soft delete is enabled on a key vault and enable soft delete
 
-1. In the search box at the top of the portal, enter **Key vaults.** Select **Key vaults** in the search results.
+1. In the search box at the top of the portal, enter **key vaults.** Select **Key vaults** in the search results.
    
 2. Browse to the key vault you previously created.
 
