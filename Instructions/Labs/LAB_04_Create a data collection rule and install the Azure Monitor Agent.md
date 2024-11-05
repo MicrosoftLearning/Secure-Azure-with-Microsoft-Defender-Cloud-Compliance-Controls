@@ -32,7 +32,7 @@ Data Collection Rules (DCRs) specify the data to be collected, while the Azure M
 
 >**Note**: Create the data collection rule in the same region as your Log Analytics or Azure Monitor workspace. You can associate it with machines or containers from any subscription or resource group within the tenant. The Azure Monitor Agent will be automatically installed on Azure virtual resources.
 
-1. Start a browser session and sign-in to the Azure portal menu.
+1. Start a browser session and sign-in to the [Azure portal menu.](https://portal.azure.com/)
   
 3. In the search box at the top of the portal, enter **data collection rules.** Select **Data collection rules** in the search results.
   
