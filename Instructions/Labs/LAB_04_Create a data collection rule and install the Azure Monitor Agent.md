@@ -64,6 +64,9 @@ Data Collection Rules (DCRs) specify the data to be collected, while the Azure M
 
    ![image](https://github.com/user-attachments/assets/6449a591-de3d-4cb1-a05a-90240bfb73ef)
 
+   ![image](https://github.com/user-attachments/assets/0d228e47-039e-4418-ae66-025957e368bc)
+
+
 
 8. At the bottom of the **Select a scope** template, click **Apply.**
   
