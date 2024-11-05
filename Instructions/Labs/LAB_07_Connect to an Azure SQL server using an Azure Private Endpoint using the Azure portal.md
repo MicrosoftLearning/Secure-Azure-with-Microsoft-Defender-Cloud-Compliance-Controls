@@ -30,7 +30,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
 
 1. Start a browser session and sign-in to the [Azure portal menu.](https://portal.azure.com/)
    
-2. In the search box at the top of the portal, type **Virtual networks.** Select **Virtual networks** in the search results.
+2. In the search box at the top of the portal, type **virtual networks.** Select **Virtual networks** in the search results.
 
 3. On the **Virtual networks** page, select **+ Create.**
 
