@@ -224,13 +224,8 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
 >**Note**: Connections from the IP addresses configured in the Firewall rules section below will have access to this database. By default, no public IP addresses are allowed.
 
 5. If required, go to the **Firewall rules** section on the **Networking** page, and select **+ Add your client IPv4 address** if your client IP address is not already populated in the **Rule name,** **Starting IPv4 address,** and **End IPv4 address** fields.
-    
-     ![image](https://github.com/user-attachments/assets/dfdeffca-d33f-44e1-81db-9f68a51f89df)
 
-   ![image](https://github.com/user-attachments/assets/fff5bfb1-53fd-40ea-9a31-5a095e7f3dbc)
-
-
-   
+   ![image](https://github.com/user-attachments/assets/fff5bfb1-53fd-40ea-9a31-5a095e7f3dbc) 
 
 7. If required select **Save.**
 
