@@ -70,10 +70,7 @@ Data Collection Rules (DCRs) specify the data to be collected, while the Azure M
 
 11. On the **Collect and deliver page**, click **+ Add data source.**
 
-    ![image](https://github.com/user-attachments/assets/0809cf5b-a460-40d1-8508-e42ba7ce78c1)
-
     ![image](https://github.com/user-attachments/assets/8274b0c1-8617-4889-9aef-78e050f2bd00)
-
 
 13. On the **Add data source** template, under **Data source type**, select the following settings.
     
