@@ -24,7 +24,7 @@ When you collect logs and data, the information is stored in a workspace. A work
 
 1. Start a browser session and sign-in to the [Azure portal menu.](https://portal.azure.com/)
    
-2. In the search box at the top of the portal, type **log analytics workspaces.**. Select **Log Analytics workspaces** in the search results.
+2. In the search box at the top of the portal, type **log analytics workspaces.** Select **Log Analytics workspaces** in the search results.
 
 3. On the **Log Analytics workspaces** page, select **+ Create.**
 
