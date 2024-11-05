@@ -68,7 +68,7 @@ Data Collection Rules (DCRs) specify the data to be collected, while the Azure M
   
 10. At the bottom of the **Resources** page, select **Next: Collect and deliver >.**
 
-   ![image](https://github.com/user-attachments/assets/95556211-654f-4810-98a0-5cd8fac13bff)  
+    ![image](https://github.com/user-attachments/assets/95556211-654f-4810-98a0-5cd8fac13bff)  
 
 11. On the **Collect and deliver page**, click **+ Add data source.**
 
