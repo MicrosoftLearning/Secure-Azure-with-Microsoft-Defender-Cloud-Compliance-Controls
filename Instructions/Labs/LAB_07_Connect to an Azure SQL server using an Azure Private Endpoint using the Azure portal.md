@@ -227,7 +227,12 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
     
      ![image](https://github.com/user-attachments/assets/dfdeffca-d33f-44e1-81db-9f68a51f89df)
 
-6. If required select **Save.**
+   ![image](https://github.com/user-attachments/assets/fff5bfb1-53fd-40ea-9a31-5a095e7f3dbc)
+
+
+   
+
+7. If required select **Save.**
 
 ### Test connectivity to private endpoint
 
