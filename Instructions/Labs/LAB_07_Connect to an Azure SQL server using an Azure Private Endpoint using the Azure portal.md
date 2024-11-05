@@ -187,19 +187,19 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
 
 10. In **Create private endpoint**, enter or select this information:
 
-   |Setting|Value|
-   |---|---|
-   |Subscription|Select your subscription.|
-   |Resource group|Select **az-rg-1.**|
-   |Location|Select **East US.**|
-   |Name|Enter **az-pe1a.**|
-   |Target sub-resource|Leave the default setting as SqlServer.|
-   |**Networking**|
-   |Virtual network|Select **vnet-2.**|
-   |Subnet|Select **subnet-2.**|
-   |**Private DNS integration**|
-   |Intergrate with private DNS zone|Leave the default setting as Yes.|
-   |Private DNS Zone|Leave the default setting as (New) privatelink.database.windows.net.|
+       |Setting|Value|
+       |---|---|
+       |Subscription|Select your subscription.|
+       |Resource group|Select **az-rg-1.**|
+       |Location|Select **East US.**|
+       |Name|Enter **az-pe1a.**|
+       |Target sub-resource|Leave the default setting as SqlServer.|
+       |**Networking**|
+       |Virtual network|Select **vnet-2.**|
+       |Subnet|Select **subnet-2.**|
+       |**Private DNS integration**|
+       |Intergrate with private DNS zone|Leave the default setting as Yes.|
+       |Private DNS Zone|Leave the default setting as (New) privatelink.database.windows.net.|
 
 12. Select **OK.**
 
