@@ -36,7 +36,7 @@ Data Collection Rules (DCRs) specify the data to be collected, while the Azure M
   
 2. On the **Data collection rules** page, select **+ Create.**
   
-   ![image](https://github.com/user-attachments/assets/99b9ac51-f2f4-466f-80bb-79d74874b573)
+    ![image](https://github.com/user-attachments/assets/a472bc6f-fa96-4615-a67c-c99e8b9ce7a4)
 
 3. On the **Basics** page of the **Create Data Collection Rule blade**, specify the following settings (leave the others at their default values):
 
@@ -87,9 +87,9 @@ Data Collection Rules (DCRs) specify the data to be collected, while the Azure M
 
     ![image](https://github.com/user-attachments/assets/5bc891ea-8cef-4baa-95c4-a432364179b1)
 
-12. At the bottom of the **Add data source** template, select **Next: Destination >.**
+11. At the bottom of the **Add data source** template, select **Next: Destination >.**
    
-13. In the **Add data source** template, under the **Destination** tab, select the following settings.
+12. In the **Add data source** template, under the **Destination** tab, select the following settings.
     
     |Setting|Value|
     |---|---|
@@ -101,14 +101,14 @@ Data Collection Rules (DCRs) specify the data to be collected, while the Azure M
 
     ![image](https://github.com/user-attachments/assets/e00c17c8-5a70-4caa-8504-92f482cc5e57)
 
-14. At the bottom of the **Add data source** template, select **Add data source.**
+13. At the bottom of the **Add data source** template, select **Add data source.**
 
     ![image](https://github.com/user-attachments/assets/4277089c-971c-4334-a49d-6ac6bfe93ff4)
 
-15. At the bottom of the **Collect and deliver** page, select **Review + create.**
+14. At the bottom of the **Collect and deliver** page, select **Review + create.**
 
     ![image](https://github.com/user-attachments/assets/0235fed9-6309-444c-9269-b9dbd1118b63)
 
-16. At the bottom of the **Review + create** page, select **Create.**
+15. At the bottom of the **Review + create** page, select **Create.**
 
 > **Results**: You have created a data collection rule and installed the Azure Monitor Agent.
