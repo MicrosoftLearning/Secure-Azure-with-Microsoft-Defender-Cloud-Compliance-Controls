@@ -247,6 +247,7 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
 
 6. To verify name resolution of the private endpoint, enter the following command in the terminal window:
 
+   ```bash
    nslookup server-name.database.windows.net
 
 >**Note**: Replace **sqlserver-name** with the name of the SQL server you created in the previous steps. For example, enter **nslookup az-sql-srv1a.database.windows.net** You’ll receive a message similar to the one shown below:
