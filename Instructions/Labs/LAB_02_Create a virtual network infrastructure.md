@@ -255,7 +255,7 @@ A network security group (NSG) secures network traffic in your virtual network.
  
 3. Select **Networking** from the section of **vm-1.**
 
-4. Select **Application security groups** from the **Networking** section of **vm-1. Select **+ Add application security groups**
+4. Select **Application security groups** from the **Networking** section of **vm-1. Select **+ Add application security groups.**
 
 5. From the **Add application security groups** template, select **asg-mgmt** from the **Application Security Groups** template, and then click the **Add** button at the bottom of the template page.
 
