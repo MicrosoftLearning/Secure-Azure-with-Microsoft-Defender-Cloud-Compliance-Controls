@@ -85,10 +85,10 @@ Data Collection Rules (DCRs) specify the data to be collected, while the Azure M
     |Security|**Audit success**, **Audit failure**|
     |System|**Critical**, **Error**, **Warning**|
 
+15. At the bottom of the **Add data source** template, select **Next: Destination >.**
+
     ![image](https://github.com/user-attachments/assets/33039994-0613-40f4-9c55-03f795b38b9b)
 
-15. At the bottom of the **Add data source** template, select **Next: Destination >.**
-   
 16. In the **Add data source** template, under the **Destination** tab, select the following settings.
     
     |Setting|Value|
