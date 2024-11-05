@@ -67,14 +67,11 @@ You can use a network security group to filter inbound and outbound network traf
 
     ![image](https://github.com/user-attachments/assets/82076f64-6a7f-4235-942d-d83e32ed6ea1)
 
-   ![image](https://github.com/user-attachments/assets/2d114d32-2a63-4b21-8ef5-72d0a89aa92c)
-
-
 10. Select **Save.**
 
 11. Select **Review + create** at the bottom of the screen, and when validation passes, select **Create.**
 
-    ![image](https://github.com/user-attachments/assets/4fd02061-2349-42c4-8582-c7178f9b7eb6)
+     ![image](https://github.com/user-attachments/assets/c53a04e4-d760-4e28-b998-1d48a56702f1)
 
 ### Create application security groups to enable you to group together servers with similar functions, such as web servers.
 
