@@ -67,6 +67,9 @@ You can use a network security group to filter inbound and outbound network traf
 
     ![image](https://github.com/user-attachments/assets/82076f64-6a7f-4235-942d-d83e32ed6ea1)
 
+   ![image](https://github.com/user-attachments/assets/2d114d32-2a63-4b21-8ef5-72d0a89aa92c)
+
+
 10. Select **Save.**
 
 11. Select **Review + create** at the bottom of the screen, and when validation passes, select **Create.**
