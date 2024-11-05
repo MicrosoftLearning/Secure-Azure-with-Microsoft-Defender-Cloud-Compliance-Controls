@@ -32,13 +32,15 @@ Data Collection Rules (DCRs) specify the data to be collected, while the Azure M
 
 >**Note**: Create the data collection rule in the same region as your Log Analytics or Azure Monitor workspace. You can associate it with machines or containers from any subscription or resource group within the tenant. The Azure Monitor Agent will be automatically installed on Azure virtual resources.
 
-1. In the search box at the top of the portal, enter **data collection rules.** Select **Data collection rules** in the search results.
+1. Start a browser session and sign-in to the Azure portal menu.
   
-2. On the **Data collection rules** page, select **+ Create.**
+3. In the search box at the top of the portal, enter **data collection rules.** Select **Data collection rules** in the search results.
+  
+4. On the **Data collection rules** page, select **+ Create.**
   
     ![image](https://github.com/user-attachments/assets/a472bc6f-fa96-4615-a67c-c99e8b9ce7a4)
 
-3. On the **Basics** page of the **Create Data Collection Rule blade**, specify the following settings (leave the others at their default values):
+5. On the **Basics** page of the **Create Data Collection Rule blade**, specify the following settings (leave the others at their default values):
 
     |Setting|Value|
     |---|---|
@@ -52,19 +54,19 @@ Data Collection Rules (DCRs) specify the data to be collected, while the Azure M
 
    ![image](https://github.com/user-attachments/assets/6c63c48f-f7a9-4fb2-8fc0-e22084cd5013)
 
-4. Click the button at the bottom of the **Basics** page labeled **Next: Resources >** to proceed.
+6. Click the button at the bottom of the **Basics** page labeled **Next: Resources >** to proceed.
    
-5. On the **Resources** page, select **+ Add resources.**
+7. On the **Resources** page, select **+ Add resources.**
 
    ![image](https://github.com/user-attachments/assets/7e45996b-478b-4be4-9df3-df6127da6cb4)
 
-6. In the **Select a scope** template, check the **Subscription** box in the **Scope.**
+8. In the **Select a scope** template, check the **Subscription** box in the **Scope.**
 
    ![image](https://github.com/user-attachments/assets/0d228e47-039e-4418-ae66-025957e368bc)
 
-8. At the bottom of the **Select a scope** template, click **Apply.**
+9. At the bottom of the **Select a scope** template, click **Apply.**
   
-9. At the bottom of the **Resources** page, select **Next: Collect and deliver >.**
+10. At the bottom of the **Resources** page, select **Next: Collect and deliver >.**
 
    ![image](https://github.com/user-attachments/assets/95556211-654f-4810-98a0-5cd8fac13bff)  
 
