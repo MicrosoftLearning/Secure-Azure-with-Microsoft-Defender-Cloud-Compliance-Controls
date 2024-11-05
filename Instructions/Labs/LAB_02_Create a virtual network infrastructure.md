@@ -233,7 +233,7 @@ A network security group (NSG) secures network traffic in your virtual network.
    |Virtual network|Select **vnet-1.**|
    |Subnet|Leave the default setting as subnet-1 (10.0.0.0/24).|
    |Public IP|Leave the default setting as (new) vm-1-ip.|
-   |NIC network security group|Leave the default setting as None.|
+   |NIC network security group|Select **None.**|
    
 6. Select the **Review + create** button at the bottom of the page to proceed.
 
