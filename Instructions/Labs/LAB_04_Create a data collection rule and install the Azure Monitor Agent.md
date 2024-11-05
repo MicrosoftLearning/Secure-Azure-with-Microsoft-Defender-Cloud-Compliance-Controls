@@ -60,13 +60,7 @@ Data Collection Rules (DCRs) specify the data to be collected, while the Azure M
 
 6. In the **Select a scope** template, check the **Subscription** box in the **Scope.**
 
-    ![image](https://github.com/user-attachments/assets/2215e8cd-5047-4fc6-91ba-b2c645571bbd)
-
-   ![image](https://github.com/user-attachments/assets/6449a591-de3d-4cb1-a05a-90240bfb73ef)
-
    ![image](https://github.com/user-attachments/assets/0d228e47-039e-4418-ae66-025957e368bc)
-
-
 
 8. At the bottom of the **Select a scope** template, click **Apply.**
   
