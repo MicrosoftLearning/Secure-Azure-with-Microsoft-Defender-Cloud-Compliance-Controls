@@ -121,11 +121,9 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |---|---|
    |**Network interface**|
    |Virtual network|Select **vnet-2.**|
-   |Subnet|Select **subnet-2 (10.0.0.0/24).**|
-   |Public IP|Select **None.**|
-   |NIC network security group|Select **Basic.**|
-   |Public inbound ports|Select **None.**|
-   |Select inbound ports|The default setting is greyed out.|
+   |Subnet|Leave the default setting as subnet-2 (10.0.0.0/24).|
+   |Public IP|Leave the default setting as (new) vm-3-ip.|
+   |NIC network security group|Leave the default setting as None.|
    |Delete NIC when VM is deleted|Leave the default setting as Enable accelerated networking checked.|
    |Load balancing|Leave the default setting as None.|
   
