@@ -201,11 +201,11 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
    |Intergrate with private DNS zone|Leave the default setting as Yes.|
    |Private DNS Zone|Leave the default setting as (New) privatelink.database.windows.net.|
 
-11. Select **OK.**
+12. Select **OK.**
 
-12. Select **Review + create.**
+13. Select **Review + create.**
 
-13. Select **Create.**
+14. Select **Create.**
 
 >**Note**: Azure SQL server and private endpoint deployment may take up to 10 minutes for complete instantiation.
 
