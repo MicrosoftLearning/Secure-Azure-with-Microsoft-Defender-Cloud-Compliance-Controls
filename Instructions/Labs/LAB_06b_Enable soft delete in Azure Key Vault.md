@@ -29,10 +29,7 @@ Deleting a key vault without soft delete enabled permanently deletes all secrets
 4. Verify if the radio button next to soft-delete is set to **Enable purge protection (enforce a mandatory retention period for deleted vaults and vault objects).**
 
 5. If soft-delete is not enabled on the key vault, click the **Enable purge protection (enforce a mandatory retention period for deleted vaults and vault objects)** radio button to enable soft delete and click **Save.**
-
-   ![image](https://github.com/user-attachments/assets/b2d5380b-5625-40de-9df6-e1c512dec973)
-
+  
    ![image](https://github.com/user-attachments/assets/6b7ac76a-6f00-4c87-8d36-3fb17578a041)
-
 
 > **Results**: You have successfully enabled soft delete, ensuring that deleted resources are retained for 90 days (by default) and can be recovered, effectively undoing the deletion through the Azure portal.
