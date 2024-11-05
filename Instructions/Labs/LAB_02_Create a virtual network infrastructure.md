@@ -196,13 +196,11 @@ A network security group (NSG) secures network traffic in your virtual network.
 
 ### Create two virtual machines (VMs) in the virtual network you created earlier.
 
-1. In the portal, search for and select **virtual machines.**
+1. In the search box at the top of the portal, enter **virtual machines.** Select **Virtual machines** in the search results.
 
-2. In the search box at the top of the portal, enter **virtual machines.** Select **Virtual machines** in the search results.
-
-3. In **Virtual machines**, select **+ Create**, then **Azure virtual machine.**
+2. In **Virtual machines**, select **+ Create**, then **Azure virtual machine.**
    
-4. In **Create a virtual machine,** enter or select this information in the **Basics** page:
+3. In **Create a virtual machine,** enter or select this information in the **Basics** page:
 
    |Setting|Value|
    |---|---|
@@ -225,9 +223,9 @@ A network security group (NSG) secures network traffic in your virtual network.
    |**Inbound port rules**|
    |Public inbound ports|Select **None.**|
  
-5. Select **Next: Disks** then **Next: Networking.**
+4. Select **Next: Disks** then **Next: Networking.**
 
-6. In the **Networking** page, verify or enter the following information:
+5. In the **Networking** page, verify or enter the following information:
 
    |Setting|Value|
    |---|---|
@@ -237,9 +235,9 @@ A network security group (NSG) secures network traffic in your virtual network.
    |Public IP|Leave the default setting as (new) vm-1-ip.|
    |NIC network security group|Select **None.**|
    
-7. Select the **Review + create** button at the bottom of the page to proceed.
+6. Select the **Review + create** button at the bottom of the page to proceed.
 
-8. Select **Create.** The VM may take a few minutes to deploy.
+7. Select **Create.** The VM may take a few minutes to deploy.
   
    - Create the second virtual machine.
 
