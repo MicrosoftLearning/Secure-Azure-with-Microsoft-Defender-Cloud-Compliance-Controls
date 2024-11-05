@@ -99,9 +99,11 @@ Data Collection Rules (DCRs) specify the data to be collected, while the Azure M
     |Subscription|Select your Subscription.|
     |Destination Details|**azwrkspc1a (az-rg-1**)|
    
-    ![image](https://github.com/user-attachments/assets/dc2d2906-4a57-4df9-a33c-fd6ae34a8457)
-
 18. At the bottom of the **Add data source** template, select **Add data source.**
+
+     ![image](https://github.com/user-attachments/assets/dc2d2906-4a57-4df9-a33c-fd6ae34a8457)
+
+
 
     ![image](https://github.com/user-attachments/assets/4277089c-971c-4334-a49d-6ac6bfe93ff4)
 
