@@ -19,12 +19,11 @@ You can use a network security group to filter inbound and outbound network traf
 ## Skilling tasks
 
 - Create a network security group and security rules.
-  
 - Create application security groups.
-  
 - Create a virtual network and associate a network security group to a subnet.
-  
 - Deploy virtual machines and associate their network interfaces to the application security groups.
+
+### Estimated Lab Duration: 20 minutes
 
 ## Exercise instructions 
 

@@ -18,6 +18,8 @@ When you collect logs and data, the information is stored in a workspace. A work
 - Associate the workspace with an existing resource group.
 - Specify a specific region to deploy the workspace.
 
+### Estimated Lab Duration: 5 minutes
+
 ## Exercise instructions 
 
 ### Use the Log Analytics workspaces menu to create a workspace.

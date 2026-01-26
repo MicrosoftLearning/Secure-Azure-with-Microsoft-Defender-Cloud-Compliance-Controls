@@ -15,12 +15,11 @@ Azure Private endpoint is the fundamental building block for Private Link in Azu
 ## Skilling tasks
 
 - Create a virtual network and bastion host.
-  
 - Create a virtual machine.
-  
 - Create an Azure SQL server and private endpoint.
-  
 - Test connectivity to the SQL server private endpoint.
+
+### Estimated Lab Duration: 20 minutes
 
 ## Exercise instructions 
 

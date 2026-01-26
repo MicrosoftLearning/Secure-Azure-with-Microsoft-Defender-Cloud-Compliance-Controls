@@ -15,10 +15,10 @@ You can use the Azure portal to configure the Azure Key Vault networking setting
 ## Skilling tasks
 
 - Create a key vault using the Azure portal.
-
 - Add an exsiting virtual network to a firewall and virtual network rules.
-
 - Configure a virtual network and subnet to allow access to a key vault.
+
+### Estimated Lab Duration: 10 minutes
 
 ## Exercise instructions 
 

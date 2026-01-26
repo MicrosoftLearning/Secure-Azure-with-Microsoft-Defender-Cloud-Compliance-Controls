@@ -16,6 +16,8 @@ Deleting a key vault without soft delete enabled permanently deletes all secrets
 
 - Verify if soft delete is enabled on a key vault and enable soft delete.
 
+### Estimated Lab Duration: 5 minutes
+
 ## Exercise instructions 
 
 ### Verify if soft delete is enabled on a key vault and enable soft delete

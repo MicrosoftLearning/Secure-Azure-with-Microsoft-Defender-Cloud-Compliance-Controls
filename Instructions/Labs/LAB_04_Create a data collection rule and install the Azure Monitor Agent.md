@@ -15,16 +15,13 @@ Data Collection Rules (DCRs) specify the data to be collected, while the Azure M
 ## Skilling tasks
 
 - Create and define a Data Collection Rule.
-
 - Select target resources for data collection.
-
 - Install the Azure Monitor Agent.
-  
 - Configure data sources and destinations.
-
 - Select data source types and data to collect.
-
 - Choose a data delivery destination.
+
+### Estimated Lab Duration: 10 minutes
 
 ## Exercise instructions 
 

@@ -15,8 +15,9 @@ You can use Microsoft Defender for Cloud's just-in-time (JIT) access to protect 
 ## Skilling tasks
 
 - Enable JIT on your VMs from the Azure portal.
-
 - Request access to a VM that has JIT enabled from the Azure portal.
+
+### Estimated Lab Duration: 7 minutes
 
 ## Exercise instructions 
 
