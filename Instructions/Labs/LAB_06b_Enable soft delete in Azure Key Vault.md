@@ -1,9 +1,18 @@
 ---
 lab:
-    title: 'Exercise 06b - Enable soft delete in Azure Key Vault'    
-    module: 'Module 07 - Configure Azure Key Vault networking settings'
+  title: Exercise 06b - Enable soft delete in Azure Key Vault
+  module: Module 07 - Configure Azure Key Vault networking settings
+  description: Deleting a key vault without soft delete enabled permanently deletes
+    all secrets, keys, and certificates stored in the key vault. Accidental deletion
+    of a key vault can lead to permanent data loss. Soft delete allows you to recover
+    an accidentally deleted key vault for a configurable retention period.
+  duration: 5 minutes
+  level: 200
+  islab: true
+  primarytopics:
+  - Azure
+  - Azure Key Vault
 ---
-
 
 >**Note**: To complete this lab, you will need an [Azure subscription.](https://azure.microsoft.com/en-us/free/?azure-portal=true) in which you have administrative access. 
 
