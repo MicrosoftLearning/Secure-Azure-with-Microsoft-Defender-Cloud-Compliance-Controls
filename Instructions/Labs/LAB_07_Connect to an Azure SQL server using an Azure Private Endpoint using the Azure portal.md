@@ -2,9 +2,9 @@
 lab:
   title: Exercise 07 - Connect to an Azure SQL server using an Azure Private Endpoint using the Azure portal
   module: Module 08 - Connect to an Azure SQL server using an Azure Private Endpoint using the Azure portal
-  description: Azure Private endpoint is the fundamental building block for Private Link in Azure. It enables Azure resources, like virtual machines (VMs), to privately and securely communicate with Private Link resources such as Azure SQL server.
+  description: In this lab you use Azure Private endpoint for a Private Link in Azure for SQL server. It enables Azure resources, like virtual machines (VMs), to privately and securely communicate with Private Link resources such as Azure SQL server.
   duration: 20 minutes
-  level: 500
+  level: 200
   islab: true
   primarytopics:
     - Azure
