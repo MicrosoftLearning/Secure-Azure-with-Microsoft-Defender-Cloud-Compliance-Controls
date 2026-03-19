@@ -2,9 +2,9 @@
 lab:
   title: Exercise 03 - Create a Log Analytics workspace
   module: Module 04 - Create a Log Analytics workspace
-  description: When you collect logs and data, the information is stored in a workspace. A workspace has a unique workspace ID and resource ID. The workspace name must be unique for a given resource group. After you've created a workspace, configure data sources and solutions to store their data there.
+  description: In this lab you collect logs and data, the information and store it in a workspace. A workspace has a unique workspace ID and resource ID. After you've created a workspace, configure data sources and solutions to store their data there.
   duration: 5 minutes
-  level: 300
+  level: 200
   islab: true
 ---
 
