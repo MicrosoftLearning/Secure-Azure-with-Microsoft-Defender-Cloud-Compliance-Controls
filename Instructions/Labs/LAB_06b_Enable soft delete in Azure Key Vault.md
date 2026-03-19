@@ -1,9 +1,15 @@
 ---
 lab:
-    title: 'Exercise 06b - Enable soft delete in Azure Key Vault'    
-    module: 'Module 07 - Configure Azure Key Vault networking settings'
+  title: Exercise 06b - Enable soft delete in Azure Key Vault
+  module: Module 07 - Configure Azure Key Vault networking settings
+  description: In this lab you will use the settings in Azure Key Vault to ensure that soft-delete is enabled for Azure Key Vault.
+  duration: 5 minutes
+  level: 200
+  islab: true
+  primarytopics:
+    - Azure
+    - Azure Key Vault
 ---
-
 
 >**Note**: To complete this lab, you will need an [Azure subscription.](https://azure.microsoft.com/en-us/free/?azure-portal=true) in which you have administrative access. 
 

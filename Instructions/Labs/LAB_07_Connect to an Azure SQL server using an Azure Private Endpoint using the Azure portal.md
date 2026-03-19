@@ -1,9 +1,16 @@
 ---
 lab:
-    title: 'Exercise 07 - Connect to an Azure SQL server using an Azure Private Endpoint using the Azure portal'
-    module: 'Module 08 - Connect to an Azure SQL server using an Azure Private Endpoint using the Azure portal'
+  title: Exercise 07 - Connect to an Azure SQL server using an Azure Private Endpoint using the Azure portal
+  module: Module 08 - Connect to an Azure SQL server using an Azure Private Endpoint using the Azure portal
+  description: In this lab you use Azure Private endpoint for a Private Link in Azure for SQL server. It enables Azure resources, like virtual machines (VMs), to privately and securely communicate with Private Link resources such as Azure SQL server.
+  duration: 20 minutes
+  level: 200
+  islab: true
+  primarytopics:
+    - Azure
+    - Azure Portal
+    - SQL Server
 ---
-
 
 >**Note**: To complete this lab, you will need an [Azure subscription.](https://azure.microsoft.com/en-us/free/?azure-portal=true) in which you have administrative access. 
 

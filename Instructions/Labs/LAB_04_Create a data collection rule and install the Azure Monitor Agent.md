@@ -1,9 +1,14 @@
 ---
 lab:
-    title: 'Exercise 04 - Create a data collection rule and install the Azure Monitor Agent'    
-    module: 'Module 05 - Collect guest operating system monitoring data from Azure and hybrid virtual machines using Azure Monitor Agent'
+  title: Exercise 04 - Create a data collection rule and install the Azure Monitor Agent
+  module: Module 05 - In this lab you will collect guest operating system monitoring data from Azure and hybrid virtual machines using Azure Monitor Agent. You use Data Collection Rules (DCRs) to specify the data to be collected, while the Azure Monitor Agent applies these rules to gather logs and metrics from virtual machines in Azure, other clouds, or on-premises.
+  duration: 12 minutes
+  level: 200
+  islab: true
+  primarytopics:
+    - Azure
+    - Azure Monitor
 ---
-
 
 >**Note**: To complete this lab, you will need an [Azure subscription.](https://azure.microsoft.com/en-us/free/?azure-portal=true) in which you have administrative access. 
 

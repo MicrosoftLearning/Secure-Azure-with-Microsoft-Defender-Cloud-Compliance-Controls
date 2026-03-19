@@ -1,9 +1,12 @@
 ---
 lab:
-    title: 'Exercise 03 - Create a Log Analytics workspace'
-    module: 'Module 04 - Create a Log Analytics workspace'
+  title: Exercise 03 - Create a Log Analytics workspace
+  module: Module 04 - Create a Log Analytics workspace
+  description: In this lab you collect logs and data, the information and store it in a workspace. A workspace has a unique workspace ID and resource ID. After you've created a workspace, configure data sources and solutions to store their data there.
+  duration: 5 minutes
+  level: 200
+  islab: true
 ---
-
 
 >**Note**: To complete this lab, you will need an [Azure subscription.](https://azure.microsoft.com/en-us/free/?azure-portal=true) in which you have administrative access. 
 
