@@ -2,9 +2,9 @@
 lab:
   title: Exercise 06a - Configure Azure Key Vault networking settings
   module: Module 07 - Configure Azure Key Vault networking settings
-  description: You can use the Azure portal to configure the Azure Key Vault networking settings to work with other applications and Azure services.
+  description: In this lab you use the Azure portal to configure the Azure Key Vault networking settings to work with other applications and Azure services.
   duration: 10 minutes
-  level: 300
+  level: 200
   islab: true
   primarytopics:
     - Azure
